@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
-public class PauseManager : MonoBehaviour
+public class PausePanelManager : MonoBehaviour
 {
     [SerializeField] private Button exitButton;
     [SerializeField] private Button pauseButton;
