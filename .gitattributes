@@ -1,2 +1,14 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*.cs text diff=csharp
+*.shader text
+*.cginc text
+*.compute text
+*.txt text
+*.json text
+*.asmdef text
+*.meta text
+*.unity text
+*.mat text
+*.prefab text
+
