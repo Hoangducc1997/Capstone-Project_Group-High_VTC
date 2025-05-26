@@ -23,7 +23,6 @@ public class GameManager : MonoBehaviour
     void GameLoading()
     {
         this.StartCoroutine(Ultilities.DoActionAfterSeconds(() => {
-            Debug.Log("Fuckkkkk");
             UIManager.Instance.ShowPopup(PopupName.StartGamePopup);
         }, 1));
         
