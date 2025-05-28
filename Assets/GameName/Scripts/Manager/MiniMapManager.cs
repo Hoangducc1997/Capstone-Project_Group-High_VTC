@@ -1,17 +1,36 @@
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.UI;
 
 public class MinimapManager : MonoBehaviour
 {
-    public Transform target;
-    public Vector3 offset = new Vector3(0, 50, 0);
+    public RectTransform minimapRect;
+    public RectTransform playerIcon;
 
-    void LateUpdate()
+    public Transform player;
+
+    public Vector2 mapSize = new Vector2(100, 100); // kích thước thật của map
+    public Vector2 minimapSize = new Vector2(200, 200); // pixel UI minimap
+
+    void Update()
     {
-        if (target != null)
-        {
-            Vector3 newPos = target.position + offset;
-            transform.position = newPos;
-            transform.rotation = Quaternion.Euler(90f, target.eulerAngles.y, 0f);
-        }
+        UpdateIconPosition(player, playerIcon);
+    }
+
+    void UpdateIconPosition(Transform target, RectTransform icon)
+    {
+        Vector2 normalizedPos = new Vector2(
+            target.position.x / mapSize.x,
+            target.position.z / mapSize.y
+        );
+
+        Vector2 anchoredPos = new Vector2(
+            normalizedPos.x * minimapSize.x,
+            normalizedPos.y * minimapSize.y
+        );
+
+        // Căn giữa minimap
+        anchoredPos -= minimapSize / 2f;
+
+        icon.anchoredPosition = anchoredPos;
     }
 }
