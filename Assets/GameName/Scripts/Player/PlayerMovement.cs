@@ -3,47 +3,62 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
+     [Header("Movement Settings")]
+    public float walkSpeed = 2f;
+    public float runSpeed = 5f;
+    public float rotationSpeed = 10f;
+    public float gravity = -9.81f;
+    public float jumpHeight = 1.5f;
+    private float turnSmoothVelocity;
 
-    [SerializeField] float controlSpeed = 1.0f;
-    [SerializeField] float xClampRange = 1.0f;
-    [SerializeField] float yClampRange = 1.0f;
-    [SerializeField] float controlRollFactor = 1.0f; // Rotate z
-    [SerializeField] float controlPitchFactor = 1.0f; // Rotate y
-    [SerializeField] float controlYawFactor = 1.0f; // Rotate x
-    [SerializeField] float rotationSpeed = 1.0f;
-    Vector2 movement; // x & y of Player
-    public bool IsPlayingTutorial { get; set; }
+    [Header("Camera")]
+    public Transform cameraTransform;
+
+    private CharacterController controller;
+    private Vector3 velocity;
+    private bool isGrounded;
+
+    void Start()
+    {
+        controller = GetComponent<CharacterController>();
+        if (cameraTransform == null && Camera.main != null)
+            cameraTransform = Camera.main.transform;
+    }
+
     void Update()
     {
-       
-        if (IsPlayingTutorial)
-            return;
-        ProcessTranslation();
-        ProcessRotation();
-    }
-    public void OnMove(InputValue value)
-    {
-        movement = value.Get<Vector2>();
+        HandleMovement();
     }
 
-    void ProcessTranslation()
+    void HandleMovement()
     {
-        float xOffset = movement.x * controlSpeed * Time.deltaTime;
-        float rawXPos = transform.localPosition.x + xOffset;
-        float clampedXPos = Mathf.Clamp(rawXPos, -xClampRange, xClampRange);
+        isGrounded = controller.isGrounded;
+        if (isGrounded && velocity.y < 0)
+            velocity.y = -2f;
 
-        float yOffset = movement.y * controlSpeed * Time.deltaTime;
-        float rawYPos = transform.localPosition.y + yOffset;
-        float ClampedYPos = Mathf.Clamp(rawYPos, -yClampRange, yClampRange);
-        transform.localPosition = new Vector3(clampedXPos, ClampedYPos, 0f);
-    }
+        float horizontal = Input.GetAxis("Horizontal");
+        float vertical = Input.GetAxis("Vertical");
+        bool isRunning = Input.GetKey(KeyCode.LeftShift);
+        bool jump = Input.GetButtonDown("Jump");
 
-    void ProcessRotation()
-    {
-        float roll = -controlRollFactor * movement.x;
-        float pitch = -controlPitchFactor * movement.y;
-        float yaw = -controlYawFactor * movement.x;
-        Quaternion targetRotation = Quaternion.Euler(pitch ,yaw , roll);
-        transform.localRotation = Quaternion.Lerp(transform.localRotation, targetRotation, rotationSpeed * Time.deltaTime);
+        Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
+
+        if (direction.magnitude >= 0.1f)
+        {
+            float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cameraTransform.eulerAngles.y;
+            Quaternion targetRotation = Quaternion.Euler(0f, targetAngle, 0f);
+            transform.rotation = Quaternion.RotateTowards(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
+
+
+            Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
+            float speed = isRunning ? runSpeed : walkSpeed;
+            controller.Move(moveDir.normalized * speed * Time.deltaTime);
+        }
+
+        if (jump && isGrounded)
+            velocity.y = Mathf.Sqrt(jumpHeight * -2f * PlayerConst.Gravity);
+
+        velocity.y += PlayerConst.Gravity * Time.deltaTime;
+        controller.Move(velocity * Time.deltaTime);
     }
 }
