@@ -1,16 +1,29 @@
+using System.Security.Cryptography.X509Certificates;
 using UnityEngine;
 
 public class PlayerAnimation : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+
+    [SerializeField] Animator playerAnimator;
+
+    void PlayAnimation()
     {
-        
+        /* playerAnimator.set*/
     }
 
-    // Update is called once per frame
-    void Update()
+    public void PlayAnimation(string AnimationName, bool isActive)
     {
-        
+        playerAnimator.SetBool(AnimationName, isActive);
+    }
+
+    public bool CheckCurrentAnimation(string animtionName)
+    {
+        return playerAnimator.GetCurrentAnimatorStateInfo(0).IsName(animtionName);
+    }
+
+    public float GetAnimationTimeNormalize()
+    {
+        return playerAnimator.GetCurrentAnimatorStateInfo(0).normalizedTime;
     }
 }

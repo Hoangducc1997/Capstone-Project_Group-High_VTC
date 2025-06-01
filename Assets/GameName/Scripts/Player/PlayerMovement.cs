@@ -1,12 +1,12 @@
 ﻿using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerMovement
 {
      [Header("Movement Settings")]
     public float walkSpeed = 2f;
     public float runSpeed = 5f;
-    public float rotationSpeed = 10f;
+    public float rotationSpeed = 30f;
     public float gravity = -9.81f;
     public float jumpHeight = 1.5f;
     private float turnSmoothVelocity;
@@ -17,20 +17,19 @@ public class PlayerMovement : MonoBehaviour
     private CharacterController controller;
     private Vector3 velocity;
     private bool isGrounded;
-
-    void Start()
+    private Transform _playerTransform;
+    private PlayerController PlayerController;
+    public PlayerMovement(PlayerController playerController)
     {
-        controller = GetComponent<CharacterController>();
+        controller = PlayerController.GetCharacterController();
         if (cameraTransform == null && Camera.main != null)
+        {
             cameraTransform = Camera.main.transform;
+        }
+        _playerTransform = playerController.transform;
     }
 
-    void Update()
-    {
-        HandleMovement();
-    }
-
-    void HandleMovement()
+    public void HandleMovement()
     {
         isGrounded = controller.isGrounded;
         if (isGrounded && velocity.y < 0)
@@ -47,7 +46,7 @@ public class PlayerMovement : MonoBehaviour
         {
             float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cameraTransform.eulerAngles.y;
             Quaternion targetRotation = Quaternion.Euler(0f, targetAngle, 0f);
-            transform.rotation = Quaternion.RotateTowards(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
+            _playerTransform.rotation = Quaternion.RotateTowards(_playerTransform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
 
 
             Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
