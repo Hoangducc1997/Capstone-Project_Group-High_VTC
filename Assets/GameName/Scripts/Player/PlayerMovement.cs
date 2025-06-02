@@ -21,12 +21,13 @@ public class PlayerMovement
     private PlayerController PlayerController;
     public PlayerMovement(PlayerController playerController)
     {
-        controller = PlayerController.GetCharacterController();
         if (cameraTransform == null && Camera.main != null)
         {
             cameraTransform = Camera.main.transform;
         }
         _playerTransform = playerController.transform;
+        controller = playerController.GetCharacterController();
+        PlayerController = playerController;
     }
 
     public void HandleMovement()

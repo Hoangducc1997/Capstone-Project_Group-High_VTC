@@ -3,23 +3,27 @@ using UnityEngine;
 
 public class ComboAttack
 {
-    int comboStep = 0;
     float lastAttackTime;
-    public float comboDelay = 1.2f;
+    public float comboDelay = 1f;
     bool inputBuffered = false;
+    private int MaxCombo = 4;
+    int comboStep = 0;
+    private int currentActiveStep = 0;
+    private string lastAnimation = "";
     PlayerController playerController;
     PlayerAnimation playerAnimation;
     public ComboAttack(PlayerController playerController)
     {
         this.playerController = playerController;
+        this.playerController.GetPlayerAnimation().SetActionComboReset(this.ResetCombo);
     }
 
     public void ComboUpdate()
     {
-        if (Time.time - lastAttackTime > comboDelay)
+        /*if (Time.time - lastAttackTime > comboDelay)
         {
             ResetCombo();
-        }
+        }*/
 
         HandleBufferedCombo();
         CheckAndStopCurrentAttack();
@@ -30,10 +34,11 @@ public class ComboAttack
         if (comboStep == 0)
         {
             comboStep = 1;
+            playerController.GetPlayerAnimation().SetAnimationType("isAttack", true);
             PlayComboAnimation(comboStep);
             lastAttackTime = Time.time;
         }
-        else
+        else if (comboStep < MaxCombo)
         {
             inputBuffered = true;
         }
@@ -43,59 +48,94 @@ public class ComboAttack
     {
         if (!inputBuffered) return;
 
-        string currentState = $"Anim_Attack{comboStep}";
+        string currentState = $"Attack_0{comboStep}";
+        if (comboStep >= MaxCombo)
+        {
+            ResetCombo();
+            return;
+        }
         if (playerController.GetPlayerAnimation().CheckCurrentAnimation(currentState) &&
-                playerController.GetPlayerAnimation().GetAnimationTimeNormalize() > 0.3f)
+                playerController.GetPlayerAnimation().GetCurrentAnimatorStateInfo().normalizedTime > 0.7f)
         {
             comboStep++;
-            if (comboStep > 3)
+            if (comboStep > MaxCombo)
             {
                 ResetCombo();
                 return;
             }
-
+            inputBuffered = false;
             PlayComboAnimation(comboStep);
             lastAttackTime = Time.time;
+        }
+
+        if (playerController.GetPlayerAnimation().GetCurrentAnimatorStateInfo().normalizedTime >= 1)
+        {
             inputBuffered = false;
         }
     }
 
     void PlayComboAnimation(int step)
     {
-        /*this.playerController.playerWeapon.isAttacking = true;*/
-        playerController.GetPlayerAnimation().PlayAnimation("Attack" + step, true);
+        currentActiveStep = step;
+        playerController.GetPlayerAnimation().SetAnimationType("isAttack_0" + step, true);
         if (step > 1)
         {
-            playerController.GetPlayerAnimation().PlayAnimation("Attack" + (step - 1), false);
+            playerController.GetPlayerAnimation().SetAnimationType("isAttack_0" + (step - 1), false);
         }
+
+        this.lastAnimation = "Attack_0" + step;
     }
+
+
 
     void CheckAndStopCurrentAttack()
     {
-        for (int i = 1; i <= 3; i++)
+        for (int i = 1; i <= MaxCombo; i++)
         {
-            string stateName = $"Attack0{i}";
+            string stateName = $"Attack_0{i}";
             if (playerController.GetPlayerAnimation().CheckCurrentAnimation(stateName) &&
-                playerController.GetPlayerAnimation().GetAnimationTimeNormalize() > 0.5f)
+                playerController.GetPlayerAnimation().GetCurrentAnimatorStateInfo().normalizedTime > 0.95f)
             {
                 StopComboAnimation(i);
+
+                if (i == MaxCombo)
+                {
+                    ResetCombo(); // Ensures it doesn’t get stuck
+                }
             }
         }
     }
 
+
     void StopComboAnimation(int step)
     {
-        playerController.GetPlayerAnimation().PlayAnimation("Attack" + step, false);
+        playerController.GetPlayerAnimation().SetAnimationType("isAttack_0" + step, false);
     }
 
     public void ResetCombo()
     {
-        comboStep = 0;
-        inputBuffered = false;
-        for (int i = 1; i <= 3; i++)
+        AnimatorStateInfo stateInfo = playerController.GetPlayerAnimation().GetCurrentAnimatorStateInfo();
+
+        bool isCorrectState = stateInfo.IsName("Attack_0" + currentActiveStep);
+        bool isFinished = stateInfo.normalizedTime >= 1f;
+
+        // If we're at the last combo and animation has finished, force reset
+        if ((comboStep >= MaxCombo && isCorrectState && isFinished) || (!inputBuffered && isCorrectState && isFinished))
         {
-            playerController.GetPlayerAnimation().PlayAnimation("Attack" + i, false);
+            Debug.Log("Resetting Combo");
+
+            comboStep = 0;
+            currentActiveStep = 0;
+            inputBuffered = false;
+
+            for (int i = 1; i <= MaxCombo; i++)
+            {
+                playerController.GetPlayerAnimation().SetAnimationType("isAttack_0" + i, false);
+            }
+
+            playerController.GetPlayerAnimation().SetAnimationType("isAttack", false);
         }
-        /*this.playerController.playerWeapon.isAttacking = false;*/
     }
+
+
 }

@@ -4,7 +4,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     private CharacterController characterController;
-    private PlayerMovement playerMovement;
+    private PlayerMovement playerMovement = null;
     private ComboAttack comboAttack;
 
     [SerializeField] PlayerAnimation playerAnimation;
@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        playerMovement.HandleMovement();
+        this.PlayerMovementUpdate();
         if (Input.GetMouseButtonDown(0))
         {
             comboAttack.OnAttackInput();
@@ -35,6 +35,17 @@ public class PlayerController : MonoBehaviour
     public PlayerAnimation GetPlayerAnimation()
     {
         return playerAnimation;
+    }
+    #endregion
+
+
+    #region Player update
+    private void PlayerMovementUpdate()
+    {
+        if (playerMovement != null)
+        {
+            playerMovement.HandleMovement();
+        }
     }
 
     #endregion
