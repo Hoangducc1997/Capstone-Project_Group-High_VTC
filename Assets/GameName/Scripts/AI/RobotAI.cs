@@ -1,177 +1,124 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using Pathfinding;
 
 public class RobotAI : MonoBehaviour
 {
-    public NavMeshAgent agent;
     public Transform playerTransform;
     public Transform[] patrolPoints;
     public GameObject allyPrefab;
     public Transform summonPoint;
+    public Transform healingPoint;
+    public Transform enemyRangeMapPoint;
 
     public float fleeHealthThreshold = 20f;
     public float summonHealthThreshold = 60f;
-    public Transform healingPoint;
     public float buffCooldown = 15f;
+    public float maxFleeRange = 10f;
 
     private float lastBuffTime = -Mathf.Infinity;
     private Node rootNode;
     private bool hasSummoned = false;
 
     private EnemyHealth enemyHealth;
- 
     public EnemyAttack enemyAttack;
 
-    public Transform enemyRangeMapPoint; // Gán trong Inspector
-    public float maxFleeRange = 10f;
-
+    private AIPath aiPath;
+    private AIDestinationSetter destinationSetter;
     private Animator animator;
+
     void Start()
     {
         animator = GetComponent<Animator>();
-        if (animator == null)
-        {
-            Debug.LogError("Không tìm thấy Animator trên RobotAI!");
-        }
-
-        enemyHealth = GetComponent<EnemyHealth>(); // <- Gán đúng lúc đầu
+        enemyHealth = GetComponent<EnemyHealth>();
+        aiPath = GetComponent<AIPath>();
+        destinationSetter = GetComponent<AIDestinationSetter>();
 
         rootNode = new Selector(new List<Node>
         {
-            // 1. Nếu máu < 20 → chạy trốn
-            new FleeIfLowHealth(
-            () => enemyHealth.CurrentHealth,
-            fleeHealthThreshold,
-            agent,
-            playerTransform,
-            enemyRangeMapPoint,         // 👈 vị trí trung tâm
-            maxFleeRange        // 👈 bán kính tối đa
-            ),
-
-
-            // 2. Nếu máu < 50 → chạy đến điểm hồi máu
-            new BuffSelf(
-                transform,
-                agent,
-                healingPoint,
-                buffCooldown,
-                () => lastBuffTime,
-                t => lastBuffTime = t,
-                enemyHealth,
-                allyPrefab,          // 👈 truyền thêm prefab đồng minh
-                summonPoint          // 👈 và vị trí spawn ally
-            ),
-
-
-            // 4. Nếu máu < 50 → gọi đồng minh (nằm sau attack để tránh gọi sớm)
+            new FleeIfLowHealth(() => enemyHealth.CurrentHealth, fleeHealthThreshold, playerTransform, enemyRangeMapPoint, maxFleeRange, aiPath, animator),
+            new BuffSelf(transform, healingPoint, buffCooldown, () => lastBuffTime, t => lastBuffTime = t, enemyHealth, allyPrefab, summonPoint, aiPath, animator),
             new SummonAllies(summonPoint, allyPrefab, () => enemyHealth.CurrentHealth, summonHealthThreshold, () => hasSummoned, v => hasSummoned = v),
-
-            // 3. Nếu gần player → tấn công
             new Sequence(new List<Node>
             {
                 new CheckPlayerDistance(playerTransform, transform),
-                new AttackPlayer(playerTransform, transform, enemyAttack)
+                new AttackPlayer(playerTransform, transform, enemyAttack, animator, aiPath)
             }),
-
-            // 4. Nếu máu < 50 → gọi đồng minh (nằm sau attack để tránh gọi sớm)
-            new SummonAllies(summonPoint, allyPrefab, () => enemyHealth.CurrentHealth, summonHealthThreshold, () => hasSummoned, v => hasSummoned = v),
-
-            // 5. Mặc định → tuần tra
-            new Patrol(agent, patrolPoints)
+            new Patrol(transform, patrolPoints, aiPath, animator)
         });
-
     }
 
     void Update()
     {
         rootNode.Evaluate();
-        Debug.Log("Máu hiện tại của boss: " + enemyHealth.CurrentHealth);
     }
 
-
-    // --- Flee if low health ---
+    // --- FleeIfLowHealth Node ---
     public class FleeIfLowHealth : Node
     {
         private System.Func<float> getHealth;
         private float threshold;
-        private NavMeshAgent agent;
         private Transform player;
-        private Transform spawnPoint;
-        private float maxFleeRange;
-
-        private float normalSpeed;
-        private float fleeSpeed = 3.9f;
-        private bool speedBoosted = false;
+        private Transform centerPoint;
+        private float maxRange;
+        private AIPath aiPath;
         private Animator animator;
+        private float fleeSpeed = 4f;
+        private float normalSpeed;
+        private bool isFleeing = false;
 
-        public FleeIfLowHealth(System.Func<float> getHealth, float threshold, NavMeshAgent agent,
-                               Transform player, Transform spawnPoint, float maxFleeRange)
+        public FleeIfLowHealth(System.Func<float> getHealth, float threshold, Transform player, Transform centerPoint, float maxRange, AIPath aiPath, Animator animator)
         {
             this.getHealth = getHealth;
             this.threshold = threshold;
-            this.agent = agent;
             this.player = player;
-            this.spawnPoint = spawnPoint;
-            this.maxFleeRange = maxFleeRange;
-            this.normalSpeed = agent.speed;
-            this.animator = agent.GetComponent<Animator>();
+            this.centerPoint = centerPoint;
+            this.maxRange = maxRange;
+            this.aiPath = aiPath;
+            this.animator = animator;
+            this.normalSpeed = aiPath.maxSpeed;
         }
 
         public override NodeState Evaluate()
         {
-            // Nếu cần trốn
             if (getHealth() < threshold)
             {
-                // tăng tốc khi mới bắt đầu trốn
-                if (!speedBoosted)
+                if (!isFleeing)
                 {
-                    agent.speed = fleeSpeed;
-                    speedBoosted = true;
+                    aiPath.maxSpeed = fleeSpeed;
+                    isFleeing = true;
+                    if (animator != null) animator.SetBool("Run", true);
                 }
 
-                // tính hướng trốn
-                Vector3 fleeDir = (agent.transform.position - player.position).normalized;
-                Vector3 rawTarget = agent.transform.position + fleeDir * 10f;
-                Vector3 offset = rawTarget - spawnPoint.position;
-                if (offset.magnitude > maxFleeRange)
+                Vector3 fleeDir = (aiPath.transform.position - player.position).normalized;
+                Vector3 target = aiPath.transform.position + fleeDir * 10f;
+                Vector3 offset = target - centerPoint.position;
+                if (offset.magnitude > maxRange)
                 {
-                    offset = offset.normalized * maxFleeRange;
-                    rawTarget = spawnPoint.position + offset;
+                    offset = offset.normalized * maxRange;
+                    target = centerPoint.position + offset;
                 }
 
-                agent.SetDestination(rawTarget);
-                Debug.Log("Fleeing to: " + rawTarget);
-
-                // 🔥 Bật Run animation
-                if (animator != null)
-                {
-                    animator.SetBool("Run", true);
-                    animator.SetBool("Walk", false);
-                }
-
+                aiPath.destination = target;
                 return NodeState.RUNNING;
             }
 
-            // Khi không còn sức trốn, reset speed và anim
-            if (speedBoosted)
+            if (isFleeing)
             {
-                agent.speed = normalSpeed;
-                speedBoosted = false;
-
+                aiPath.maxSpeed = normalSpeed;
+                isFleeing = false;
                 if (animator != null)
                 {
                     animator.SetBool("Run", false);
-                    animator.SetTrigger("Common"); // trở về Idle/Common
+                    animator.SetTrigger("Common");
                 }
             }
 
             return NodeState.FAILURE;
         }
     }
-
-    // --- Summon Allies ---
-    public class SummonAllies : Node //gọi đồng minh
+    public class SummonAllies : Node
     {
         private Transform summonPoint;
         private GameObject allyPrefab;
@@ -179,8 +126,16 @@ public class RobotAI : MonoBehaviour
         private float healthThreshold;
         private System.Func<bool> getSummonState;
         private System.Action<bool> setSummonState;
+        private Animator animator;
 
-        public SummonAllies(Transform summonPoint, GameObject allyPrefab, System.Func<float> getCurrentHealth, float healthThreshold, System.Func<bool> getSummonState, System.Action<bool> setSummonState)
+        public SummonAllies(
+            Transform summonPoint,
+            GameObject allyPrefab,
+            System.Func<float> getCurrentHealth,
+            float healthThreshold,
+            System.Func<bool> getSummonState,
+            System.Action<bool> setSummonState,
+            Animator animator = null) // optional
         {
             this.summonPoint = summonPoint;
             this.allyPrefab = allyPrefab;
@@ -188,6 +143,7 @@ public class RobotAI : MonoBehaviour
             this.healthThreshold = healthThreshold;
             this.getSummonState = getSummonState;
             this.setSummonState = setSummonState;
+            this.animator = animator;
         }
 
         public override NodeState Evaluate()
@@ -208,125 +164,88 @@ public class RobotAI : MonoBehaviour
 
                 GameObject.Instantiate(allyPrefab, summonPoint.position, Quaternion.identity);
                 Debug.Log("✅ Ally đã được triệu hồi!");
+
+                if (animator != null)
+                {
+                    animator.SetTrigger("Summon"); // nếu có animation
+                }
+
                 setSummonState(true);
                 return NodeState.SUCCESS;
             }
 
             return NodeState.FAILURE;
         }
-
-
     }
 
-    // --- Buff Self --- //Bơm máu
+    // --- BuffSelf Node ---
     public class BuffSelf : Node
     {
-        private Transform boss;
-        private NavMeshAgent agent;
-        private Transform healingPoint;
+        private Transform self;
+        private Transform healPoint;
         private float cooldown;
         private System.Func<float> getLastTime;
         private System.Action<float> setLastTime;
         private EnemyHealth enemyHealth;
-
-        private float healAmountPerTick = 10f;
-        private float healInterval = 1f;
-        private float nextHealTime;
-        private bool isHealing = false;
-
-        private float normalSpeed;
-        private float runToHealSpeed = 4f;
-        private bool speedBoosted = false;
-
+        private AIPath aiPath;
         private Animator animator;
 
-        // 👇 Ally spawn
+        private float healPerTick = 10f;
+        private float interval = 1f;
+        private float nextHealTime;
+        private bool isHealing = false;
+        private float normalSpeed;
+        private float runSpeed = 4f;
+
         private GameObject allyPrefab;
         private Transform summonPoint;
-        private bool hasSummonedAlly = false;
+        private bool hasSummoned = false;
 
-        public BuffSelf(
-            Transform boss,
-            NavMeshAgent agent,
-            Transform healingPoint,
-            float cooldown,
-            System.Func<float> getLastTime,
-            System.Action<float> setLastTime,
-            EnemyHealth enemyHealth,
-            GameObject allyPrefab,
-            Transform summonPoint)
+        public BuffSelf(Transform self, Transform healPoint, float cooldown, System.Func<float> getLastTime, System.Action<float> setLastTime,
+                        EnemyHealth enemyHealth, GameObject allyPrefab, Transform summonPoint, AIPath aiPath, Animator animator)
         {
-            this.boss = boss;
-            this.agent = agent;
-            this.healingPoint = healingPoint;
+            this.self = self;
+            this.healPoint = healPoint;
             this.cooldown = cooldown;
             this.getLastTime = getLastTime;
             this.setLastTime = setLastTime;
             this.enemyHealth = enemyHealth;
-
             this.allyPrefab = allyPrefab;
             this.summonPoint = summonPoint;
-
-            normalSpeed = agent.speed;
-            animator = agent.GetComponent<Animator>();
+            this.aiPath = aiPath;
+            this.animator = animator;
+            this.normalSpeed = aiPath.maxSpeed;
         }
 
         public override NodeState Evaluate()
         {
-            if (Time.time - getLastTime() < cooldown)
+            if (Time.time - getLastTime() < cooldown || (!isHealing && enemyHealth.CurrentHealth >= 50))
                 return NodeState.FAILURE;
 
-            if (!isHealing && enemyHealth.CurrentHealth >= 50)
-                return NodeState.FAILURE;
+            float dist = Vector3.Distance(self.position, healPoint.position);
 
-            float distance = Vector3.Distance(boss.position, healingPoint.position);
-
-            // --- Đang trên đường đến điểm hồi máu ---
-            if (distance > 1f)
+            if (dist > 1f)
             {
-                if (!speedBoosted)
+                if (!isHealing)
                 {
-                    agent.speed = runToHealSpeed;
-                    speedBoosted = true;
-
-                    if (animator != null)
-                    {
-                        animator.SetBool("Run", true);
-                        animator.SetBool("Walk", false);
-                    }
+                    aiPath.maxSpeed = runSpeed;
+                    animator?.SetBool("Run", true);
                 }
-
-                agent.SetDestination(healingPoint.position);
-                Debug.Log("🏃‍♂️ Đang chạy nhanh đến điểm hồi máu...");
-                isHealing = false;
+                aiPath.destination = healPoint.position;
                 return NodeState.RUNNING;
-            }
-
-            // --- Đã đến điểm hồi máu ---
-            if (speedBoosted)
-            {
-                agent.speed = normalSpeed;
-                speedBoosted = false;
-
-                if (animator != null)
-                {
-                    animator.SetBool("Run", false);
-                    animator.SetTrigger("Common");
-                }
             }
 
             if (!isHealing)
             {
                 isHealing = true;
-                nextHealTime = Time.time + healInterval;
-                Debug.Log("❤️ Bắt đầu hồi máu...");
-
-                // 👇 Spawn đồng minh nếu chưa gọi lần nào
-                if (!hasSummonedAlly && allyPrefab != null && summonPoint != null)
+                nextHealTime = Time.time + interval;
+                aiPath.maxSpeed = normalSpeed;
+                animator?.SetBool("Run", false);
+                animator?.SetTrigger("Common");
+                if (!hasSummoned && allyPrefab && summonPoint)
                 {
                     GameObject.Instantiate(allyPrefab, summonPoint.position, Quaternion.identity);
-                    Debug.Log("✅ Ally được gọi khi hồi máu!");
-                    hasSummonedAlly = true;
+                    hasSummoned = true;
                 }
             }
 
@@ -334,21 +253,14 @@ public class RobotAI : MonoBehaviour
             {
                 if (enemyHealth.CurrentHealth < enemyHealth.maxHealth)
                 {
-                    enemyHealth.Heal((int)healAmountPerTick);
-                    nextHealTime = Time.time + healInterval;
+                    enemyHealth.Heal((int)healPerTick);
+                    nextHealTime = Time.time + interval;
                     return NodeState.RUNNING;
                 }
                 else
                 {
-                    Debug.Log("✅ Đã hồi đầy máu!");
                     setLastTime(Time.time);
                     isHealing = false;
-
-                    if (animator != null)
-                    {
-                        animator.SetTrigger("Common");
-                    }
-
                     return NodeState.SUCCESS;
                 }
             }
@@ -357,94 +269,72 @@ public class RobotAI : MonoBehaviour
         }
     }
 
-    // --- Patrol ---
+    // --- Patrol Node ---
     public class Patrol : Node
     {
-        private NavMeshAgent agent;
-        private Transform[] patrolPoints;
-        private int currentIndex = 0;
+        private Transform self;
+        private Transform[] points;
+        private int index = 0;
+        private AIPath aiPath;
         private Animator animator;
 
-        public Patrol(NavMeshAgent agent, Transform[] patrolPoints)
+        public Patrol(Transform self, Transform[] points, AIPath aiPath, Animator animator)
         {
-            this.agent = agent;
-            this.patrolPoints = patrolPoints;
-            this.animator = agent.GetComponent<Animator>();
+            this.self = self;
+            this.points = points;
+            this.aiPath = aiPath;
+            this.animator = animator;
         }
 
         public override NodeState Evaluate()
         {
-            if (patrolPoints.Length == 0)
-                return NodeState.FAILURE;
+            if (points.Length == 0) return NodeState.FAILURE;
 
-            if (!agent.hasPath || agent.remainingDistance < 0.5f)
+            if (aiPath.reachedDestination)
             {
-                currentIndex = (currentIndex + 1) % patrolPoints.Length;
-                agent.SetDestination(patrolPoints[currentIndex].position);
+                index = (index + 1) % points.Length;
+                aiPath.destination = points[index].position;
             }
 
-            if (animator != null)
-            {
-                animator.SetBool("Walk", true); // 👣 play walk anim
-            }
-
+            animator?.SetBool("Walk", true);
             return NodeState.RUNNING;
         }
     }
 
-    // --- Attack ---
-    // --- Attack ---
+    // --- AttackPlayer Node ---
     public class AttackPlayer : Node
     {
-        private Transform playerTransform;
-        private Transform robotTransform;
+        private Transform player;
+        private Transform self;
         private float attackRange = 2.6f;
         private EnemyAttack enemyAttack;
         private Animator animator;
-        private NavMeshAgent agent;
+        private AIPath aiPath;
 
-        public AttackPlayer(Transform playerTransform, Transform robotTransform, EnemyAttack enemyAttack)
+        public AttackPlayer(Transform player, Transform self, EnemyAttack enemyAttack, Animator animator, AIPath aiPath)
         {
-            this.playerTransform = playerTransform;
-            this.robotTransform = robotTransform;
+            this.player = player;
+            this.self = self;
             this.enemyAttack = enemyAttack;
-            this.animator = robotTransform.GetComponent<Animator>();
-            this.agent = robotTransform.GetComponent<NavMeshAgent>();
+            this.animator = animator;
+            this.aiPath = aiPath;
         }
 
         public override NodeState Evaluate()
         {
-            float distance = Vector3.Distance(playerTransform.position, robotTransform.position);
+            float dist = Vector3.Distance(player.position, self.position);
 
-            if (distance > attackRange)
+            if (dist > attackRange)
             {
-                // 👣 Di chuyển đến gần player
-                if (agent != null)
-                {
-                    agent.SetDestination(playerTransform.position);
-
-                    if (animator != null)
-                    {
-                        animator.SetBool("Walk", true);
-                    }
-                }
-
+                aiPath.destination = player.position;
+                animator?.SetBool("Walk", true);
                 return NodeState.RUNNING;
             }
-            else
-            {
-                // 🔥 Tấn công
-                if (animator != null)
-                {
-                    animator.SetTrigger("Attack");
-           
-                    animator.SetBool("Walk", false);
-                }
 
-                enemyAttack.TryAttack(playerTransform);
-            
-                return NodeState.SUCCESS;
-            }
+            animator?.SetTrigger("Attack");
+            animator?.SetBool("Walk", false);
+            enemyAttack.TryAttack(player);
+            return NodeState.SUCCESS;
         }
     }
 
