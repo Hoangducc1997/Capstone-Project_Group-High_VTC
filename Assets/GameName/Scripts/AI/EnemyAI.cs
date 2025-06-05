@@ -16,24 +16,29 @@ public class EnemyAI : MonoBehaviour
 
     void Start()
     {
-        // Trong Start()
         var setter = GetComponent<AIDestinationSetter>();
         if (setter != null)
-            setter.enabled = false; // hoặc Destroy(setter);
+            setter.enabled = false;
 
         aiPath = GetComponent<AIPath>();
         animator = GetComponent<Animator>();
 
-        rootNode = new Selector(new List<Node>
+        // Đảm bảo có ít nhất 1 patrol point và gán điểm đầu tiên
+        if (patrolPoints != null && patrolPoints.Length > 0)
         {
-            new Sequence(new List<Node>
-            {
-                new CheckPlayerDistance(playerTransform, transform), // Chỉ thành công nếu gần
-                new AttackPlayer(playerTransform, transform, enemyAttack, animator, aiPath)
-            }),
+            aiPath.destination = patrolPoints[0].position;
+        }
 
-            new Patrol(transform, patrolPoints, aiPath, animator)
-        });
+        rootNode = new Selector(new List<Node>
+    {
+        new Sequence(new List<Node>
+        {
+            new CheckPlayerDistance(playerTransform, transform),
+            new AttackPlayer(playerTransform, transform, enemyAttack, animator, aiPath)
+        }),
+
+        new Patrol(transform, patrolPoints, aiPath, animator)
+    });
     }
 
     void Update()

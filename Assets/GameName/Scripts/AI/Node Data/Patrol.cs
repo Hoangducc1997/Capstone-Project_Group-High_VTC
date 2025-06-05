@@ -23,13 +23,14 @@ public class Patrol : Node
     {
         if (points.Length == 0) return NodeState.FAILURE;
 
-        if (aiPath.reachedDestination)
+        if (aiPath.reachedDestination || aiPath.destination == Vector3.zero)
         {
             index = (index + 1) % points.Length;
             aiPath.destination = points[index].position;
+            Debug.Log($"Moving to patrol point {index}: {aiPath.destination}");
         }
 
-        //animator?.SetBool("Walk", true);
         return NodeState.RUNNING;
     }
+
 }
