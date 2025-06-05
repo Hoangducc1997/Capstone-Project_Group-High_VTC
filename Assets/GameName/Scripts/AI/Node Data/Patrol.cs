@@ -8,14 +8,15 @@ public class Patrol : Node
     private Transform[] points;
     private int index = 0;
     private AIPath aiPath;
-    private Animator animator;
+    //private Animator animator;
 
     public Patrol(Transform self, Transform[] points, AIPath aiPath, Animator animator)
     {
         this.self = self;
         this.points = points;
         this.aiPath = aiPath;
-        this.animator = animator;
+        //this.animator = animator;
+        Debug.Log($"Patrol initialized with {points.Length} points.");
     }
 
     public override NodeState Evaluate()
@@ -28,7 +29,7 @@ public class Patrol : Node
             aiPath.destination = points[index].position;
         }
 
-        animator?.SetBool("Walk", true);
+        //animator?.SetBool("Walk", true);
         return NodeState.RUNNING;
     }
 }

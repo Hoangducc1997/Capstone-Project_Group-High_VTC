@@ -18,6 +18,7 @@ public class AttackPlayer : Node
         this.enemyAttack = enemyAttack;
         this.animator = animator;
         this.aiPath = aiPath;
+        Debug.Log($"AttackPlayer initialized with player: {player.name}, self: {self.name}");
     }
 
     public override NodeState Evaluate()
@@ -27,12 +28,12 @@ public class AttackPlayer : Node
         if (dist > attackRange)
         {
             aiPath.destination = player.position;
-            animator?.SetBool("Walk", true);
+            //animator?.SetBool("Walk", true);
             return NodeState.RUNNING;
         }
 
-        animator?.SetTrigger("Attack");
-        animator?.SetBool("Walk", false);
+        //animator?.SetTrigger("Attack");
+        //animator?.SetBool("Walk", false);
         enemyAttack.TryAttack(player);
         return NodeState.SUCCESS;
     }
