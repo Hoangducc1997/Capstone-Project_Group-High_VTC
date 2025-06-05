@@ -18,6 +18,11 @@ public class PlayerAnimation : MonoBehaviour
         playerAnimator.SetBool(AnimationName, isActive);
     }
 
+    public void SetAnimationType(string AnimationName, float animationValue)
+    {
+        playerAnimator.SetFloat(AnimationName, animationValue);
+    }
+
     public bool CheckCurrentAnimation(string animtionName)
     {
         return playerAnimator.GetCurrentAnimatorStateInfo(0).IsName(animtionName);
