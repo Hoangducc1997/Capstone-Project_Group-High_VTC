@@ -1,7 +1,7 @@
 ﻿// --- SummonAllies.cs ---
 using UnityEngine;
 
-public class SummonAllies : Node
+public class SummonAllies : AINode
 {
     private Transform summonPoint;
     private GameObject allyPrefab;

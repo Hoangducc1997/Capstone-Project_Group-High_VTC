@@ -6,8 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/GameName/Scenes/Map/Map1.unity
-    guid: 6c2c0e60b31abc34780df9554dd56c10
+    path: Assets/Blink/Tools/RPGBuilder/Scenes/MainMenu.unity
+    guid: 59589b435ddfedf48ac45ca0aab6638b
+  - enabled: 1
+    path: Assets/Blink/Tools/RPGBuilder/Scenes/DEMO_RPGBuilder2.0.unity
+    guid: 1f6bc91b6f0af0e4d9d9848d3c0323fa
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

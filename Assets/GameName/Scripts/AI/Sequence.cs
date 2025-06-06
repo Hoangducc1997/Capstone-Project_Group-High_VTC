@@ -1,13 +1,13 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-public class Sequence : Node
+public class Sequence : AINode
 {
     public Sequence() : base()
     {
 
     }
-    public Sequence(List<Node> children) : base(children)
+    public Sequence(List<AINode> children) : base(children)
     {
 
     }

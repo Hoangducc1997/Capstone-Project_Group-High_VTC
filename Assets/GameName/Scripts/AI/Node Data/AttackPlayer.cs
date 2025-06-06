@@ -2,7 +2,7 @@
 using UnityEngine;
 using Pathfinding;
 
-public class AttackPlayer : Node
+public class AttackPlayer : AINode
 {
     private Transform player;
     private Transform self;

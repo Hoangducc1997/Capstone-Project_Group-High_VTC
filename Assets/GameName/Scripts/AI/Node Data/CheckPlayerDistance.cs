@@ -1,7 +1,7 @@
 using Pathfinding;
 using UnityEngine;
 
-public class CheckPlayerDistance : Node
+public class CheckPlayerDistance : AINode
 {
     private Transform playerTransform;
     private Transform robotTransform;

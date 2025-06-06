@@ -2,7 +2,7 @@
 using Pathfinding;
 using UnityEngine;
 
-public class Patrol : Node
+public class Patrol : AINode
 {
     private Transform self;
     private Transform[] points;

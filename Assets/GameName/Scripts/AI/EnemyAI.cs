@@ -12,7 +12,7 @@ public class EnemyAI : MonoBehaviour
 
     private AIPath aiPath;
     private Animator animator;
-    private Node rootNode;
+    private AINode rootNode;
 
     void Start()
     {
@@ -29,9 +29,9 @@ public class EnemyAI : MonoBehaviour
             aiPath.destination = patrolPoints[0].position;
         }
 
-        rootNode = new Selector(new List<Node>
+        rootNode = new Selector(new List<AINode>
     {
-        new Sequence(new List<Node>
+        new Sequence(new List<AINode>
         {
             new CheckPlayerDistance(playerTransform, transform),
             new AttackPlayer(playerTransform, transform, enemyAttack, animator, aiPath)

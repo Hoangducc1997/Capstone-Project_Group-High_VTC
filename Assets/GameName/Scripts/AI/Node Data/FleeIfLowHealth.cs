@@ -2,7 +2,7 @@
 using UnityEngine;
 using Pathfinding;
 
-public class FleeIfLowHealth : Node
+public class FleeIfLowHealth : AINode
 {
     private System.Func<float> getHealth;
     private float threshold;

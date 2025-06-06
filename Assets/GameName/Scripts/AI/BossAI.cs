@@ -26,7 +26,7 @@ public class BossAI : MonoBehaviour
 
     private AIPath aiPath;
     private Animator animator;
-    private Node rootNode;
+    private AINode rootNode;
 
     void Start()
     {
@@ -34,7 +34,7 @@ public class BossAI : MonoBehaviour
         animator = GetComponent<Animator>();
         enemyHealth = GetComponent<EnemyHealth>();
 
-        rootNode = new Selector(new List<Node>
+        rootNode = new Selector(new List<AINode>
         {
             new FleeIfLowHealth(
                 () => enemyHealth.CurrentHealth,
@@ -66,7 +66,7 @@ public class BossAI : MonoBehaviour
                 v => hasSummoned = v,
                 animator
             ),
-            new Sequence(new List<Node>
+            new Sequence(new List<AINode>
             {
                 new CheckPlayerDistance(playerTransform, transform),
                 new AttackPlayer(playerTransform, transform, enemyAttack, animator, aiPath)

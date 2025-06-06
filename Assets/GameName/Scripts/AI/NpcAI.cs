@@ -17,7 +17,7 @@ public class NpcAI : MonoBehaviour
     public TMP_Text dialogueText;
     public List<string> dialogueLines;
 
-    private Node rootNode;
+    private AINode rootNode;
     private Animator animator;
 
     private bool hasTalked = false;
@@ -48,9 +48,9 @@ public class NpcAI : MonoBehaviour
     void Start()
     {
         dialogueUI.SetActive(false);
-        rootNode = new Selector(new List<Node>
+        rootNode = new Selector(new List<AINode>
         {
-            new Sequence(new List<Node>
+            new Sequence(new List<AINode>
             {
                 new CheckPlayerDistance(playerTransform, transform, talkRange, () => !hasTalked),
                 new ApproachPlayer(transform, playerTransform, agent, () => isPlayerInRange = true),
@@ -107,7 +107,7 @@ public class NpcAI : MonoBehaviour
     }
 
     // --------------------------
-    public class WaitForPlayerInput : Node
+    public class WaitForPlayerInput : AINode
     {
         private System.Action markInRange;
 
@@ -124,7 +124,7 @@ public class NpcAI : MonoBehaviour
     }
 
     // --------------------------
-    public class Patrol : Node
+    public class Patrol : AINode
     {
         private NavMeshAgent agent;
         private Transform[] patrolPoints;
@@ -151,7 +151,7 @@ public class NpcAI : MonoBehaviour
     }
 
     // --------------------------
-    public class ApproachPlayer : Node
+    public class ApproachPlayer : AINode
     {
         private Transform npc;
         private Transform player;
@@ -199,7 +199,7 @@ public class NpcAI : MonoBehaviour
     }
 
     // --------------------------
-    public class CheckPlayerDistance : Node
+    public class CheckPlayerDistance : AINode
     {
         private Transform player;
         private Transform npc;
