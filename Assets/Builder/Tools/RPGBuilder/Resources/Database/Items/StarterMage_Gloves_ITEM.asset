@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: StarterMage_Gloves_ITEM
   m_EditorClassIdentifier: 
   ID: 7
-  entryName: StarterMage_Gloves
-  entryFileName: StarterMage_Gloves_ITEM
-  entryDisplayName: Starter Gloves
-  entryIcon: {fileID: 21300000, guid: faac1ea4770742b4992f84ea9b050df7, type: 3}
+  entryName: 
+  entryFileName: _ITEM
+  entryDisplayName: 
+  entryIcon: {fileID: 0}
   entryDescription: 
   _name: 
   _fileName: 
@@ -56,6 +56,7 @@ MonoBehaviour:
   randomStats: []
   randomStatsMax: 0
   sellPrice: 0
+  convertToCurrency: -1
   sellCurrencyID: -1
   buyPrice: 0
   buyCurrencyID: -1

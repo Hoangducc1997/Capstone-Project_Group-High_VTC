@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Cloth Hat_ITEM
   m_EditorClassIdentifier: 
   ID: 25
-  entryName: Cloth Hat
-  entryFileName: Cloth Hat_ITEM
-  entryDisplayName: Cloth Hat
-  entryIcon: {fileID: 21300000, guid: 271dd2f797542d44db867fb12cc66ab9, type: 3}
+  entryName: 
+  entryFileName: _ITEM
+  entryDisplayName: 
+  entryIcon: {fileID: 0}
   entryDescription: 
   _name: 
   _fileName: 
@@ -59,6 +59,7 @@ MonoBehaviour:
   randomStats: []
   randomStatsMax: 0
   sellPrice: 1
+  convertToCurrency: -1
   sellCurrencyID: 0
   buyPrice: 0
   buyCurrencyID: -1
@@ -82,5 +83,4 @@ MonoBehaviour:
   GameActions: []
   UseGameActionsTemplate: 0
   GameActionsTemplate: {fileID: 0}
-  BodyCullingTemplate: {fileID: 11400000, guid: d52ee5c76aeb6d9458e7fc043976ecc8,
-    type: 2}
+  BodyCullingTemplate: {fileID: 11400000, guid: d52ee5c76aeb6d9458e7fc043976ecc8, type: 2}

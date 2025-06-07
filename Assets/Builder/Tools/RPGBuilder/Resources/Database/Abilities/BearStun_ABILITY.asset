@@ -13,21 +13,21 @@ MonoBehaviour:
   m_Name: BearStun_ABILITY
   m_EditorClassIdentifier: 
   ID: 10
-  entryName: BearStun
-  entryFileName: BearStun_ABILITY
-  entryDisplayName: BearStun
-  entryIcon: {fileID: 21300000, guid: 8a529c7656ac48b4e8c234772ad2ef7e, type: 3}
+  entryName: 
+  entryFileName: _ABILITY
+  entryDisplayName: 
+  entryIcon: {fileID: 0}
   entryDescription: 
   _name: 
   _fileName: 
   displayName: 
   icon: {fileID: 0}
   learnedByDefault: 0
-  TooltipText: 
   abilityType: 0
   ranks:
   - ShowedInEditor: 1
     unlockCost: 0
+    TooltipText: 
     activationType: 1
     castTime: 0.8
     castInRun: 1
@@ -69,6 +69,7 @@ MonoBehaviour:
     projectileDistance: 0
     projectileAngleSpread: 0
     projectileCount: 1
+    firstProjectileDelay: 0
     projectileDelay: 0
     projectileDuration: 5
     projectileComeBackTime: 0
@@ -137,6 +138,8 @@ MonoBehaviour:
     groundLeapBlockLayers:
       serializedVersion: 2
       m_Bits: 0
+    isAttackSpeedCooldown: 0
+    isAttackSpeedGCD: 0
     cooldown: 15
     isGCD: 1
     startCDOnActivate: 1

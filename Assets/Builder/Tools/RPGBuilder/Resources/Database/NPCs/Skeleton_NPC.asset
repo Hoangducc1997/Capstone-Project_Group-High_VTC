@@ -13,18 +13,17 @@ MonoBehaviour:
   m_Name: Skeleton_NPC
   m_EditorClassIdentifier: 
   ID: 5
-  entryName: Skeleton
-  entryFileName: Skeleton_NPC
-  entryDisplayName: Skeleton
-  entryIcon: {fileID: 21300000, guid: adc8453ec969db045801db1246fbb310, type: 3}
+  entryName: 
+  entryFileName: _NPC
+  entryDisplayName: 
+  entryIcon: {fileID: 0}
   entryDescription: 
   _name: 
   _fileName: 
   displayName: 
   icon: {fileID: 0}
   npcType: 0
-  AILogicTemplate: {fileID: 262611205548413635, guid: 42a8b97728201df44ba95376d46032e3,
-    type: 3}
+  AILogicTemplate: {fileID: 262611205548413635, guid: 42a8b97728201df44ba95376d46032e3, type: 3}
   Phases:
   - PhaseTemplate: {fileID: 11400000, guid: bb11388be06569140beda4b401ddeeee, type: 2}
     Preset: {fileID: 11400000, guid: 4e718ae583637c4418db2ba0d05f6e0c, type: 2}

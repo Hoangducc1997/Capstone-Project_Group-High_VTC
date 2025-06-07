@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Rusty Axe_ITEM
   m_EditorClassIdentifier: 
   ID: 12
-  entryName: Rusty Axe
-  entryFileName: Rusty Axe_ITEM
-  entryDisplayName: Rusty Axe
-  entryIcon: {fileID: 21300000, guid: 05cd9fd0e46674548b58d64ce05ef097, type: 3}
+  entryName: 
+  entryFileName: _ITEM
+  entryDisplayName: 
+  entryIcon: {fileID: 0}
   entryDescription: 
   _name: 
   _fileName: 
@@ -35,15 +35,13 @@ MonoBehaviour:
   rarity: 
   ItemRarity: {fileID: 11400000, guid: 9fe2887c3181d5146a74e57b1a55a22d, type: 2}
   itemModelName: 
-  weaponModel: {fileID: 991772141375400263, guid: a821353c6e9508646aeab10299bff878,
-    type: 3}
+  weaponModel: {fileID: 991772141375400263, guid: a821353c6e9508646aeab10299bff878, type: 3}
   modelMaterial: {fileID: 0}
   weaponPositionDatas: []
   showWeaponPositionData: 0
   WeaponTransforms: []
   UseWeaponTransformTemplate: 1
-  WeaponTransformTemplate: {fileID: 11400000, guid: 3fa2f3ac93609564b8952540a233d029,
-    type: 2}
+  WeaponTransformTemplate: {fileID: 11400000, guid: 3fa2f3ac93609564b8952540a233d029, type: 2}
   AttackSpeed: 1.25
   minDamage: 5
   maxDamage: 8
@@ -71,8 +69,7 @@ MonoBehaviour:
     gemStats: []
   Requirements: []
   UseRequirementsTemplate: 1
-  RequirementsTemplate: {fileID: 11400000, guid: 4b3f3d5f228ac3444865bbb19a18d4de,
-    type: 2}
+  RequirementsTemplate: {fileID: 11400000, guid: 4b3f3d5f228ac3444865bbb19a18d4de, type: 2}
   actionAbilities: []
   GameActions: []
   UseGameActionsTemplate: 0

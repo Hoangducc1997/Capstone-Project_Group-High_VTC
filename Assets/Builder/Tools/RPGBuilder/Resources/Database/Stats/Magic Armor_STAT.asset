@@ -46,7 +46,9 @@ MonoBehaviour:
     modifyValue: 1
     MainDamageType: 0
     CustomDamageType: {fileID: 0}
-    OppositeStatID: 22
+    CustomHealingType: {fileID: 0}
+    ResistanceStatID: -1
+    PenetrationStatID: -1
     statID: -1
   StatUICategory: Defense
   StatCategory: {fileID: 11400000, guid: 65085eec65bccc4428f6e4ad399de6db, type: 2}

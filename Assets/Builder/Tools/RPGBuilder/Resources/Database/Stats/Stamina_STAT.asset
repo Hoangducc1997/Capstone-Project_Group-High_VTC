@@ -42,8 +42,7 @@ MonoBehaviour:
   - value: 0
     valueType: 1
     isPercent: 0
-    GameActionsTemplate: {fileID: 11400000, guid: a37fe998f776f9149908f1315c69b506,
-      type: 2}
+    GameActionsTemplate: {fileID: 11400000, guid: a37fe998f776f9149908f1315c69b506, type: 2}
   onHitEffectsData: []
   isVitalityStat: 1
   statBonuses: []

@@ -13,18 +13,17 @@ MonoBehaviour:
   m_Name: BearBoss_NPC
   m_EditorClassIdentifier: 
   ID: 3
-  entryName: BearBoss
-  entryFileName: BearBoss_NPC
-  entryDisplayName: Blink's Guard Bear
-  entryIcon: {fileID: 21300000, guid: e1a44b80e3b98504c99ea07a2fc6244e, type: 3}
+  entryName: 
+  entryFileName: _NPC
+  entryDisplayName: 
+  entryIcon: {fileID: 0}
   entryDescription: 
   _name: 
   _fileName: 
   displayName: 
   icon: {fileID: 0}
   npcType: 0
-  AILogicTemplate: {fileID: 262611205548413635, guid: 42a8b97728201df44ba95376d46032e3,
-    type: 3}
+  AILogicTemplate: {fileID: 262611205548413635, guid: 42a8b97728201df44ba95376d46032e3, type: 3}
   Phases:
   - PhaseTemplate: {fileID: 11400000, guid: 6fe7708c687703e4ab88a9aa376e699c, type: 2}
     Preset: {fileID: 11400000, guid: 82178f79734977f4d809ba2b0b451bcf, type: 2}

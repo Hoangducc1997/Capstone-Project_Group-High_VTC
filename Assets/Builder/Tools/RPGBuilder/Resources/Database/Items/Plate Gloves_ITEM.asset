@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Plate Gloves_ITEM
   m_EditorClassIdentifier: 
   ID: 17
-  entryName: Plate Gloves
-  entryFileName: Plate Gloves_ITEM
-  entryDisplayName: Plate Gloves
-  entryIcon: {fileID: 21300000, guid: 01b5c73c564c27444bfcec7ce36d41be, type: 3}
+  entryName: 
+  entryFileName: _ITEM
+  entryDisplayName: 
+  entryIcon: {fileID: 0}
   entryDescription: 
   _name: 
   _fileName: 
@@ -59,6 +59,7 @@ MonoBehaviour:
   randomStats: []
   randomStatsMax: 0
   sellPrice: 1
+  convertToCurrency: -1
   sellCurrencyID: 0
   buyPrice: 0
   buyCurrencyID: -1
@@ -82,5 +83,4 @@ MonoBehaviour:
   GameActions: []
   UseGameActionsTemplate: 0
   GameActionsTemplate: {fileID: 0}
-  BodyCullingTemplate: {fileID: 11400000, guid: f7b5b9bb0453b2440bc3cf7bbe7f68aa,
-    type: 2}
+  BodyCullingTemplate: {fileID: 11400000, guid: f7b5b9bb0453b2440bc3cf7bbe7f68aa, type: 2}

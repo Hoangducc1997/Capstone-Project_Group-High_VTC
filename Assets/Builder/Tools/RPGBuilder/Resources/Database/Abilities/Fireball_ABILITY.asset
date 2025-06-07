@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Fireball_ABILITY
   m_EditorClassIdentifier: 
   ID: 11
-  entryName: Fireball
-  entryFileName: Fireball_ABILITY
-  entryDisplayName: Fireball
-  entryIcon: {fileID: 21300000, guid: dc3de7035054ae941871e862c33e0581, type: 3}
+  entryName: 
+  entryFileName: _ABILITY
+  entryDisplayName: 
+  entryIcon: {fileID: 0}
   entryDescription: 
   _name: 
   _fileName: 
@@ -105,13 +105,11 @@ MonoBehaviour:
     UsedOnALly: 0
     LookAtTargetDuringCombatAction: 0
     LookAtTargetOnCombatAction: 0
-    projectileEffect: {fileID: 1714274598519724, guid: 46f837efd030e1844bc2d60f88994d6a,
-      type: 3}
+    projectileEffect: {fileID: 1714274598519724, guid: 46f837efd030e1844bc2d60f88994d6a, type: 3}
     projectileSocketName: 
     projectileTargetSocketName: 
     projectileNodeSocket: {fileID: 0}
-    projectileTargetNodeSocket: {fileID: 11400000, guid: ce9910f9467705446a02fec763985733,
-      type: 2}
+    projectileTargetNodeSocket: {fileID: 11400000, guid: ce9910f9467705446a02fec763985733, type: 2}
     projectileUseNodeSocket: 0
     projectileTargetUseNodeSocket: 0
     projectileParentedToCaster: 0
@@ -128,8 +126,7 @@ MonoBehaviour:
     effectPositionOffset: {x: 0, y: 1, z: 0.5}
     groundVisualEffectDuration: 5
     hitEffectUseSocket: 0
-    hitEffect: {fileID: 1814361462553474, guid: b24d86eef3cf9d74ca645a82ee838035,
-      type: 3}
+    hitEffect: {fileID: 1814361462553474, guid: b24d86eef3cf9d74ca645a82ee838035, type: 3}
     hitEffectDuration: 3
     hitEffectSocketName: 
     hitEffectNodeSocket: {fileID: 0}

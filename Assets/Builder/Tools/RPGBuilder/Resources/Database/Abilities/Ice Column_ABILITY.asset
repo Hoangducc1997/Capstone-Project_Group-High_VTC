@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Ice Column_ABILITY
   m_EditorClassIdentifier: 
   ID: 13
-  entryName: Ice Column
-  entryFileName: Ice Column_ABILITY
-  entryDisplayName: Ice Column
-  entryIcon: {fileID: 21300000, guid: 3450ecf41463f494c9a7ffa55e0d5f1b, type: 3}
+  entryName: 
+  entryFileName: _ABILITY
+  entryDisplayName: 
+  entryIcon: {fileID: 0}
   entryDescription: 
   _name: 
   _fileName: 
@@ -121,8 +121,7 @@ MonoBehaviour:
     colliderSize: {x: 0, y: 0, z: 0}
     colliderRadius: 0
     colliderHeight: 0
-    groundVisualEffect: {fileID: 6627880113619459372, guid: e8e84152b39c03848a2214b7912a1abe,
-      type: 3}
+    groundVisualEffect: {fileID: 6627880113619459372, guid: e8e84152b39c03848a2214b7912a1abe, type: 3}
     effectPositionOffset: {x: 0, y: 0.2, z: 0}
     groundVisualEffectDuration: 5
     hitEffectUseSocket: 0

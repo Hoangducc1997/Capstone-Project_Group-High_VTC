@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: StarterNecromancer_Pants_ITEM
   m_EditorClassIdentifier: 
   ID: 10
-  entryName: StarterNecromancer_Pants
-  entryFileName: StarterNecromancer_Pants_ITEM
-  entryDisplayName: Starter Pants
-  entryIcon: {fileID: 21300000, guid: 2a27c41020cea6541b089251177cc19a, type: 3}
+  entryName: 
+  entryFileName: _ITEM
+  entryDisplayName: 
+  entryIcon: {fileID: 0}
   entryDescription: 
   _name: 
   _fileName: 
@@ -56,6 +56,7 @@ MonoBehaviour:
   randomStats: []
   randomStatsMax: 0
   sellPrice: 0
+  convertToCurrency: -1
   sellCurrencyID: -1
   buyPrice: 0
   buyCurrencyID: -1
@@ -79,5 +80,4 @@ MonoBehaviour:
   GameActions: []
   UseGameActionsTemplate: 0
   GameActionsTemplate: {fileID: 0}
-  BodyCullingTemplate: {fileID: 11400000, guid: cb3a8ec2c5e473345a1825483fa0c229,
-    type: 2}
+  BodyCullingTemplate: {fileID: 11400000, guid: cb3a8ec2c5e473345a1825483fa0c229, type: 2}

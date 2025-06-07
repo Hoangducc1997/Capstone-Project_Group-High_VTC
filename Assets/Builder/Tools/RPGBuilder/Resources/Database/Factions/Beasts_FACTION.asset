@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Beasts_FACTION
   m_EditorClassIdentifier: 
   ID: 1
-  entryName: Beasts
-  entryFileName: Beasts_FACTION
-  entryDisplayName: Beasts
-  entryIcon: {fileID: 21300000, guid: e1a44b80e3b98504c99ea07a2fc6244e, type: 3}
+  entryName: 
+  entryFileName: _FACTION
+  entryDisplayName: 
+  entryIcon: {fileID: 0}
   entryDescription: 
   _name: 
   _fileName: 
@@ -28,12 +28,12 @@ MonoBehaviour:
     FactionStance: {fileID: 11400000, guid: a2530e37c92091642b659d4dcec5dbd5, type: 2}
     pointsRequired: 100
     playerAlignment: 0
-    AlignementToPlayer: 2
+    AlignementToPlayer: 0
   - stance: 
     FactionStance: {fileID: 11400000, guid: e39c84c8531ef034982093c69f9f5621, type: 2}
     pointsRequired: 100
     playerAlignment: 0
-    AlignementToPlayer: 1
+    AlignementToPlayer: 0
   - stance: 
     FactionStance: {fileID: 11400000, guid: ed6a9d682982b9047b47add0beb6586c, type: 2}
     pointsRequired: 100
@@ -42,16 +42,13 @@ MonoBehaviour:
   factionInteractions:
   - factionID: 0
     defaultStance: 
-    DefaultFactionStance: {fileID: 11400000, guid: a2530e37c92091642b659d4dcec5dbd5,
-      type: 2}
+    DefaultFactionStance: {fileID: 11400000, guid: a2530e37c92091642b659d4dcec5dbd5, type: 2}
     startingPoints: 0
   - factionID: 2
     defaultStance: 
-    DefaultFactionStance: {fileID: 11400000, guid: a2530e37c92091642b659d4dcec5dbd5,
-      type: 2}
+    DefaultFactionStance: {fileID: 11400000, guid: a2530e37c92091642b659d4dcec5dbd5, type: 2}
     startingPoints: 0
   - factionID: 1
     defaultStance: 
-    DefaultFactionStance: {fileID: 11400000, guid: ed6a9d682982b9047b47add0beb6586c,
-      type: 2}
+    DefaultFactionStance: {fileID: 11400000, guid: ed6a9d682982b9047b47add0beb6586c, type: 2}
     startingPoints: 0

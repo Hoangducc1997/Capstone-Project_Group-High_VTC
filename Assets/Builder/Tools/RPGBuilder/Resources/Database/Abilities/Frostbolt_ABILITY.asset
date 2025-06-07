@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Frostbolt_ABILITY
   m_EditorClassIdentifier: 
   ID: 12
-  entryName: Frostbolt
-  entryFileName: Frostbolt_ABILITY
-  entryDisplayName: Frostbolt
-  entryIcon: {fileID: 21300000, guid: 1e0f817b5d5649547ab515652b56563f, type: 3}
+  entryName: 
+  entryFileName: _ABILITY
+  entryDisplayName: 
+  entryIcon: {fileID: 0}
   entryDescription: 
   _name: 
   _fileName: 
@@ -106,8 +106,7 @@ MonoBehaviour:
     UsedOnALly: 0
     LookAtTargetDuringCombatAction: 0
     LookAtTargetOnCombatAction: 0
-    projectileEffect: {fileID: 1908781827404660, guid: 8f33441918495a740b9943caaccafc92,
-      type: 3}
+    projectileEffect: {fileID: 1908781827404660, guid: 8f33441918495a740b9943caaccafc92, type: 3}
     projectileSocketName: 
     projectileTargetSocketName: 
     projectileNodeSocket: {fileID: 0}
@@ -128,8 +127,7 @@ MonoBehaviour:
     effectPositionOffset: {x: 0, y: 1, z: 0.5}
     groundVisualEffectDuration: 5
     hitEffectUseSocket: 0
-    hitEffect: {fileID: 1805005964355744, guid: 11e1a0df98fe48c4e806bb2d90516c1a,
-      type: 3}
+    hitEffect: {fileID: 1805005964355744, guid: 11e1a0df98fe48c4e806bb2d90516c1a, type: 3}
     hitEffectDuration: 3
     hitEffectSocketName: 
     hitEffectNodeSocket: {fileID: 0}

@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: StarterNecromancer_Chest_ITEM
   m_EditorClassIdentifier: 
   ID: 9
-  entryName: StarterNecromancer_Chest
-  entryFileName: StarterNecromancer_Chest_ITEM
-  entryDisplayName: Starter Chest
-  entryIcon: {fileID: 21300000, guid: fe9a901a8c44bcf4e9d2235d896a740e, type: 3}
+  entryName: 
+  entryFileName: _ITEM
+  entryDisplayName: 
+  entryIcon: {fileID: 0}
   entryDescription: 
   _name: 
   _fileName: 
@@ -56,6 +56,7 @@ MonoBehaviour:
   randomStats: []
   randomStatsMax: 0
   sellPrice: 0
+  convertToCurrency: -1
   sellCurrencyID: -1
   buyPrice: 0
   buyCurrencyID: -1
@@ -79,5 +80,4 @@ MonoBehaviour:
   GameActions: []
   UseGameActionsTemplate: 0
   GameActionsTemplate: {fileID: 0}
-  BodyCullingTemplate: {fileID: 11400000, guid: 886c4d85279b30c4cbc3885992d9184e,
-    type: 2}
+  BodyCullingTemplate: {fileID: 11400000, guid: 886c4d85279b30c4cbc3885992d9184e, type: 2}

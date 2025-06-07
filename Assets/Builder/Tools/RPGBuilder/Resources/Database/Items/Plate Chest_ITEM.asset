@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Plate Chest_ITEM
   m_EditorClassIdentifier: 
   ID: 16
-  entryName: Plate Chest
-  entryFileName: Plate Chest_ITEM
-  entryDisplayName: Plate Chest
-  entryIcon: {fileID: 21300000, guid: ffe14f196c1df6143b2fc70cd02d2c91, type: 3}
+  entryName: 
+  entryFileName: _ITEM
+  entryDisplayName: 
+  entryIcon: {fileID: 0}
   entryDescription: 
   _name: 
   _fileName: 
@@ -59,6 +59,7 @@ MonoBehaviour:
   randomStats: []
   randomStatsMax: 0
   sellPrice: 1
+  convertToCurrency: -1
   sellCurrencyID: 0
   buyPrice: 0
   buyCurrencyID: -1
@@ -82,5 +83,4 @@ MonoBehaviour:
   GameActions: []
   UseGameActionsTemplate: 0
   GameActionsTemplate: {fileID: 0}
-  BodyCullingTemplate: {fileID: 11400000, guid: db266b86c86bc8643841b92b0774c2ee,
-    type: 2}
+  BodyCullingTemplate: {fileID: 11400000, guid: db266b86c86bc8643841b92b0774c2ee, type: 2}

@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Bear Fur_ITEM
   m_EditorClassIdentifier: 
   ID: 29
-  entryName: Bear Fur
-  entryFileName: Bear Fur_ITEM
-  entryDisplayName: Bear Fur
-  entryIcon: {fileID: 21300000, guid: c39a860032b56274fb6b905f7526114e, type: 3}
+  entryName: 
+  entryFileName: _ITEM
+  entryDisplayName: 
+  entryIcon: {fileID: 0}
   entryDescription: Can be sold to the Champion of the Arena in exchange of Blink
     Coins.
   _name: 

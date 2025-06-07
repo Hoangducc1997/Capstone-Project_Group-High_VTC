@@ -13,18 +13,17 @@ MonoBehaviour:
   m_Name: Boar_NPC
   m_EditorClassIdentifier: 
   ID: 1
-  entryName: Boar
-  entryFileName: Boar_NPC
-  entryDisplayName: Boar
-  entryIcon: {fileID: 21300000, guid: febf61024bbadae479620ccb427e59f8, type: 3}
+  entryName: 
+  entryFileName: _NPC
+  entryDisplayName: 
+  entryIcon: {fileID: 0}
   entryDescription: 
   _name: 
   _fileName: 
   displayName: 
   icon: {fileID: 0}
   npcType: 0
-  AILogicTemplate: {fileID: 262611205548413635, guid: 42a8b97728201df44ba95376d46032e3,
-    type: 3}
+  AILogicTemplate: {fileID: 262611205548413635, guid: 42a8b97728201df44ba95376d46032e3, type: 3}
   Phases:
   - PhaseTemplate: {fileID: 11400000, guid: 81e855dde46cc40418091f81e13251bb, type: 2}
     Preset: {fileID: 11400000, guid: bd26839c4983e06469b76ba6c5659b32, type: 2}

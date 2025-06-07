@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: BoarAttack1_ABILITY
   m_EditorClassIdentifier: 
   ID: 4
-  entryName: BoarAttack1
-  entryFileName: BoarAttack1_ABILITY
-  entryDisplayName: BoarAttack1
+  entryName: 
+  entryFileName: _ABILITY
+  entryDisplayName: 
   entryIcon: {fileID: 0}
   entryDescription: 
   _name: 
@@ -23,11 +23,11 @@ MonoBehaviour:
   displayName: 
   icon: {fileID: 0}
   learnedByDefault: 0
-  TooltipText: 
   abilityType: 0
   ranks:
   - ShowedInEditor: 1
     unlockCost: 0
+    TooltipText: 
     activationType: 1
     castTime: 0.5
     castInRun: 1
@@ -69,6 +69,7 @@ MonoBehaviour:
     projectileDistance: 0
     projectileAngleSpread: 0
     projectileCount: 1
+    firstProjectileDelay: 0
     projectileDelay: 0
     projectileDuration: 5
     projectileComeBackTime: 0
@@ -137,6 +138,8 @@ MonoBehaviour:
     groundLeapBlockLayers:
       serializedVersion: 2
       m_Bits: 0
+    isAttackSpeedCooldown: 0
+    isAttackSpeedGCD: 0
     cooldown: 2
     isGCD: 1
     startCDOnActivate: 1

@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: Chance to apply Burn_STAT
   m_EditorClassIdentifier: 
   ID: 43
-  entryName: Chance to apply Burn
-  entryFileName: Chance to apply Burn_STAT
-  entryDisplayName: Chance to apply Burn
+  entryName: Chance to apply Knockback
+  entryFileName: Chance to apply Knockback_STAT
+  entryDisplayName: Chance to apply Knockback
   entryIcon: {fileID: 0}
-  entryDescription: The chance to apply burning damage when hitting with an ability.
+  entryDescription: The chance to apply knockback when hitting with an ability.
   _name: Chance to apply Knockback
   _fileName: RPG_STAT_Chance to apply Knockback
   displayName: Chance to apply Knockback
