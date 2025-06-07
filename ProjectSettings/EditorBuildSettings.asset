@@ -6,10 +6,13 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Blink/Tools/RPGBuilder/Scenes/MainMenu.unity
-    guid: 59589b435ddfedf48ac45ca0aab6638b
+    path: Assets/GameName/Scenes/LoadScene.unity
+    guid: 976091149303431499b51da288ab2c37
   - enabled: 1
-    path: Assets/Blink/Tools/RPGBuilder/Scenes/DEMO_RPGBuilder2.0.unity
+    path: Assets/GameName/Scenes/MainMenu.unity
+    guid: fddf3c1542a9f0c4286ae66763bb2291
+  - enabled: 1
+    path: Assets/Builder/Tools/RPGBuilder/Scenes/DEMO_RPGBuilder2.0.unity
     guid: 1f6bc91b6f0af0e4d9d9848d3c0323fa
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}

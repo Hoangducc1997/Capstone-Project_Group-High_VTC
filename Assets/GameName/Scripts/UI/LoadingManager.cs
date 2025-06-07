@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class LoadingManager : MonoBehaviour
 {
-    public static string NEXT_SCENE = "StartGame";
+    public static string NEXT_SCENE = "Menu";
     [SerializeField] private GameObject processBar;
     [SerializeField] private Text textPercent;
     [SerializeField] float fixedLoadingTime = 3f;
@@ -39,6 +39,6 @@ public class LoadingManager : MonoBehaviour
             yield return null;
         }
         SceneManager.LoadScene(sceneName);
-        AudioManager.Instance.PlayVFX("Click UI");
+        //AudioManager.Instance.PlayVFX("Click UI");
     }
 }

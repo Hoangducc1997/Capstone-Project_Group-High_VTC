@@ -272,6 +272,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cycle
       objectReference: {fileID: 0}
+    - target: {fileID: 401086468524873084, guid: 19c2afffc730cde4b80d4f52ca79c625, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 30fdf047f5e6c5e42bf64f15f1292e67, type: 3}
     - target: {fileID: 838503228635461185, guid: 19c2afffc730cde4b80d4f52ca79c625, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -701,6 +705,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f39fce37d0794804a97fcba6a00f9c08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NEXT_SCENE: MainMenu
   processBar: {fileID: 1638300730}
   textPercent: {fileID: 2142866555}
   fixedLoadingTime: 5
