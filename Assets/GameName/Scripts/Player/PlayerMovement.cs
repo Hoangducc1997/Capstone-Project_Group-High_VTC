@@ -3,9 +3,9 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement
 {
-     [Header("Movement Settings")]
-    public float walkSpeed = 1f;
-    public float runSpeed = 5f;
+    [Header("Movement Settings")]
+    public float walkSpeed = 3;
+    public float runSpeed = 7;
     public float rotationSpeed = 30f;
     public float gravity = -9.81f;
     public float jumpHeight = 1.5f;
@@ -92,6 +92,7 @@ public class PlayerMovement
             Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
             float speed = isRunning ? runSpeed : walkSpeed;
             controller.Move(moveDir.normalized * speed * Time.deltaTime);
+            PlayerController.GetPlayerAnimation().SetAnimationType("isRun", isRunning);
         }
 
         if (jump && isGrounded)
