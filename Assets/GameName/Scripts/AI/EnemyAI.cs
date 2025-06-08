@@ -1,4 +1,4 @@
-// EnemyAI.cs
+﻿// EnemyAI.cs
 using Pathfinding;
 using System.Collections.Generic;
 using UnityEngine;
@@ -12,22 +12,33 @@ public class EnemyAI : MonoBehaviour
 
     private AIPath aiPath;
     private Animator animator;
-    private Node rootNode;
+    private AINode rootNode;
 
     void Start()
     {
+        var setter = GetComponent<AIDestinationSetter>();
+        if (setter != null)
+            setter.enabled = false;
+
         aiPath = GetComponent<AIPath>();
         animator = GetComponent<Animator>();
 
-        rootNode = new Selector(new List<Node>
+        // Đảm bảo có ít nhất 1 patrol point và gán điểm đầu tiên
+        if (patrolPoints != null && patrolPoints.Length > 0)
         {
-            new Sequence(new List<Node>
-            {
-                new CheckPlayerDistance(playerTransform, transform),
-                new AttackPlayer(playerTransform, transform, enemyAttack, animator, aiPath)
-            }),
-            new Patrol(transform, patrolPoints, aiPath, animator)
-        });
+            aiPath.destination = patrolPoints[0].position;
+        }
+
+        rootNode = new Selector(new List<AINode>
+    {
+        new Sequence(new List<AINode>
+        {
+            new CheckPlayerDistance(playerTransform, transform),
+            new AttackPlayer(playerTransform, transform, enemyAttack, animator, aiPath)
+        }),
+
+        new Patrol(transform, patrolPoints, aiPath, animator)
+    });
     }
 
     void Update()

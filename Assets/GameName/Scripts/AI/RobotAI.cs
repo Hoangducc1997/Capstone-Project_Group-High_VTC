@@ -18,7 +18,7 @@
         public float maxFleeRange = 10f;
 
         private float lastBuffTime = -Mathf.Infinity;
-        private Node rootNode;
+        private AINode rootNode;
         private bool hasSummoned = false;
 
         private EnemyHealth enemyHealth;
@@ -35,12 +35,12 @@
             aiPath = GetComponent<AIPath>();
             destinationSetter = GetComponent<AIDestinationSetter>();
 
-            rootNode = new Selector(new List<Node>
+            rootNode = new Selector(new List<AINode>
             {
                 new FleeIfLowHealth(() => enemyHealth.CurrentHealth, fleeHealthThreshold, playerTransform, enemyRangeMapPoint, maxFleeRange, aiPath, animator),
                 new BuffSelf(transform, healingPoint, buffCooldown, () => lastBuffTime, t => lastBuffTime = t, enemyHealth, allyPrefab, summonPoint, aiPath, animator),
                 new SummonAllies(summonPoint, allyPrefab, () => enemyHealth.CurrentHealth, summonHealthThreshold, () => hasSummoned, v => hasSummoned = v),
-                new Sequence(new List<Node>
+                new Sequence(new List<AINode>
                 {
                     new CheckPlayerDistance(playerTransform, transform),
                     new AttackPlayer(playerTransform, transform, enemyAttack, animator, aiPath)
@@ -55,7 +55,7 @@
         }
 
         // --- FleeIfLowHealth Node ---
-        public class FleeIfLowHealth : Node
+        public class FleeIfLowHealth : AINode
         {
             private System.Func<float> getHealth;
             private float threshold;
@@ -118,7 +118,7 @@
                 return NodeState.FAILURE;
             }
         }
-        public class SummonAllies : Node
+        public class SummonAllies : AINode
         {
             private Transform summonPoint;
             private GameObject allyPrefab;
@@ -179,7 +179,7 @@
         }
 
         // --- BuffSelf Node ---
-        public class BuffSelf : Node
+        public class BuffSelf : AINode
         {
             private Transform self;
             private Transform healPoint;
@@ -270,7 +270,7 @@
         }
 
         // --- Patrol Node ---
-        public class Patrol : Node
+        public class Patrol : AINode
         {
             private Transform self;
             private Transform[] points;
@@ -302,7 +302,7 @@
         }
 
         // --- AttackPlayer Node ---
-        public class AttackPlayer : Node
+        public class AttackPlayer : AINode
         {
             private Transform player;
             private Transform self;
@@ -340,7 +340,7 @@
 
 
         // --- Distance Check ---
-        public class CheckPlayerDistance : Node
+        public class CheckPlayerDistance : AINode
         {
             private Transform playerTransform;
             private Transform robotTransform;

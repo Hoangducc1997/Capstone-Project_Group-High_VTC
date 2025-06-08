@@ -1,14 +1,14 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-public class Selector : Node
+public class Selector : AINode
 {
     public Selector() : base()
     {
 
     }
 
-    public Selector(List<Node> children) : base(children)
+    public Selector(List<AINode> children) : base(children)
     {
 
     }

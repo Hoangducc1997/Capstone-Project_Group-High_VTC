@@ -2,7 +2,7 @@
 using UnityEngine;
 using Pathfinding;
 
-public class BuffSelf : Node
+public class BuffSelf : AINode
 {
     private Transform self;
     private Transform healPoint;
