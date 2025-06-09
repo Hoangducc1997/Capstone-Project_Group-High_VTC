@@ -23,8 +23,7 @@ MonoBehaviour:
   displayName: 
   icon: {fileID: 0}
   npcType: 0
-  AILogicTemplate: {fileID: 262611205548413635, guid: 42a8b97728201df44ba95376d46032e3,
-    type: 3}
+  AILogicTemplate: {fileID: 262611205548413635, guid: 42a8b97728201df44ba95376d46032e3, type: 3}
   Phases:
   - PhaseTemplate: {fileID: 11400000, guid: 6fe7708c687703e4ab88a9aa376e699c, type: 2}
     Preset: {fileID: 11400000, guid: 82178f79734977f4d809ba2b0b451bcf, type: 2}
@@ -32,7 +31,7 @@ MonoBehaviour:
     Preset: {fileID: 11400000, guid: 82178f79734977f4d809ba2b0b451bcf, type: 2}
   ResetPhaseAfterCombat: 0
   InstantlyHealAfterCombat: 1
-  isDummyTarget: 0
+  isDummyTarget: 1
   factionID: 1
   speciesID: -1
   merchantTableID: -1
