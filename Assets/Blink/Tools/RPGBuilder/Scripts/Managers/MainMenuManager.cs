@@ -1065,7 +1065,7 @@ namespace BLINK.RPGBuilder.Managers
         }
         
         public void OpenBlinkStore() {
-            Application.OpenURL("https://assetstore.unity.com/publishers/49855");
+            Application.OpenURL("https://www.facebook.com/profile.php?id=61570034045910");
         }
     }
 }
