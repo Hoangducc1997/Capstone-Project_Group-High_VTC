@@ -1994,6 +1994,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Map Main In Menu
       objectReference: {fileID: 0}
+    - target: {fileID: 8207899503973242516, guid: 1de04aa25a856964abf1bafd1a1af85d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8502877380051702587, guid: 1de04aa25a856964abf1bafd1a1af85d, type: 3}
       propertyPath: m_LocalScale.x
       value: 5.24

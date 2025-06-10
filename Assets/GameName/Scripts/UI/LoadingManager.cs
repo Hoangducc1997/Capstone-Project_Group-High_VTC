@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using TMPro;
 
 public class LoadingManager : MonoBehaviour
 {
     public static string NEXT_SCENE = "Menu";
     [SerializeField] private GameObject processBar;
-    [SerializeField] private Text textPercent;
+    [SerializeField] private TextMeshProUGUI textPercent;
     [SerializeField] float fixedLoadingTime = 3f;
 
     private void Start()
