@@ -44,7 +44,7 @@ public class ItemData : ScriptableObject
                 PlayerWeapon playerWeapon = target.GetComponent<PlayerWeapon>();
                 if (playerWeapon != null)
                 {
-                    playerWeapon.UpgradeLevelLazer(); // Gọi nâng cấp laser
+                  /*  playerWeapon.UpgradeLevelLazer();*/ // Gọi nâng cấp laser
                 }
                 break;
 

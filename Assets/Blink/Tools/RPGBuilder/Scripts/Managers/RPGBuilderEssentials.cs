@@ -108,6 +108,7 @@ namespace BLINK.RPGBuilder.LogicMono
         private IEnumerator InitializeGameState(Scene scene)
         {
             yield return new WaitForSeconds(GameDatabase.Instance.GetGeneralSettings().DelayAfterSceneLoad);
+            Debug.Log("Come here");
             if (isGameScene(scene.name))
             {
                 mainGameCanvas.enabled = true;
@@ -174,7 +175,7 @@ namespace BLINK.RPGBuilder.LogicMono
                     spawnPosition, Quaternion.Euler(spawnRotation));
                     
                 GameState.playerEntity = playerCharacter.GetComponent<PlayerCombatEntity>();
-
+                Debug.Log("Set Player Entity");
                 if (!GameDatabase.Instance.GetCharacterSettings().NoClasses)
                 {
                     GameState.playerEntity.autoAttackData.CurrentAutoAttackAbilityID = GameDatabase.Instance.GetClasses()[Character.Instance.CharacterData.ClassID].autoAttackAbilityID;

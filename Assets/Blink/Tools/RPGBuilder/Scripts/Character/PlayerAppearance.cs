@@ -170,8 +170,12 @@ namespace BLINK.RPGBuilder.Characters
                 if(InCombat) return weaponNumber == 1 ? weaponSlot.RightHandCombat : weaponSlot.LeftHandCombat;
                 return weaponNumber == 1 ? weaponSlot.RightHandRest : weaponSlot.LeftHandRest;
             }
-
-            return RPGBuilderEssentials.Instance.getCurrentScene().name == GameDatabase.Instance.GetGeneralSettings().mainMenuSceneName ? MainMenuManager.Instance.curPlayerModel.transform : GameState.playerEntity.transform;
+            bool isSameScene = RPGBuilderEssentials.Instance.getCurrentScene().name == GameDatabase.Instance.GetGeneralSettings().mainMenuSceneName;
+            if(GameState.playerEntity == null)
+            {
+                return MainMenuManager.Instance.curPlayerModel.transform;
+            }
+            return isSameScene ? MainMenuManager.Instance.curPlayerModel.transform : GameState.playerEntity.transform;
         }
 
         void SetWeaponPosition(GameObject go, RPGItem weaponItem, bool inCombat, bool mainHand)
