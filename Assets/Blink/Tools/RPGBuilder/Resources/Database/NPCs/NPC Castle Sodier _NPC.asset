@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2eaea086ce51ea9419be768c6237eedb, type: 3}
-  m_Name: HumanNPC_NPC
+  m_Name: NPC Castle Sodier _NPC
   m_EditorClassIdentifier: 
-  ID: 4
-  entryName: HumanNPC
-  entryFileName: HumanNPC_NPC
-  entryDisplayName: Champion of the Arena
+  ID: 6
+  entryName: 'NPC Castle Sodier '
+  entryFileName: NPC Castle Sodier _NPC
+  entryDisplayName: 'Castle Sodier '
   entryIcon: {fileID: 21300000, guid: 99b6e228ccaefa046a4dfea4a9e2dba2, type: 3}
   entryDescription: 
   _name: 
@@ -78,12 +78,12 @@ MonoBehaviour:
   isTargetable: 1
   isNameplateEnabled: 1
   isPlayerInteractable: 1
-  isMerchant: 1
-  isQuestGiver: 1
-  isDialogue: 0
+  isMerchant: 0
+  isQuestGiver: 0
+  isDialogue: 1
   MerchantText: Show me your goods.
   QuestText: Can I do something for you?
-  DialogueText: Tell me your story.
+  DialogueText: This place is not for you. Get out of here now!
   NPCVisual: {fileID: 0}
   modelPosition: {x: 0, y: 0, z: 0}
   modelScale: {x: 1, y: 1, z: 1}
