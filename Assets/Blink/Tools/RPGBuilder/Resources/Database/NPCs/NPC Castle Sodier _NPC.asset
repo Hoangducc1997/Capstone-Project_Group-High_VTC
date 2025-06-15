@@ -73,7 +73,7 @@ MonoBehaviour:
   StatListTemplate: {fileID: 0}
   lootTables: []
   isCombatEnabled: 1
-  isMovementEnabled: 0
+  isMovementEnabled: 1
   isCollisionEnabled: 0
   isTargetable: 1
   isNameplateEnabled: 1
