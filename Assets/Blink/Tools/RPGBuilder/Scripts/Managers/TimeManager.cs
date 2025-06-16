@@ -8,6 +8,15 @@ namespace BLINK.RPGBuilder.Managers
 {
     public class TimeManager : MonoBehaviour
     {
+        [Header("Skybox Settings")]
+        [SerializeField] private Material skyboxAurora;
+        [SerializeField] private Material skyboxMorning;
+        [SerializeField] private Material skyboxAfternoon;
+        [SerializeField] private Material skyboxEvening;
+        [SerializeField] private Material skyboxSunset;
+        [SerializeField] private Material skyboxNight;
+        private Material currentSkybox;
+
         private Light directionalLight;
 
         private float nextSecondUpdate;
@@ -128,6 +137,31 @@ namespace BLINK.RPGBuilder.Managers
         private void UpdateFog(float timePercent)
         {
             RenderSettings.fogColor = GameState.CurrentGameScene.FogColors.Evaluate(timePercent);
+            UpdateSkybox(Character.Instance.CharacterData.Time.CurrentHour);
+        }
+       
+        private void UpdateSkybox(int hour)
+        {
+            Material selectedSkybox;
+
+            if (hour >= 5 && hour < 6)
+                selectedSkybox = skyboxAurora;
+            else if (hour >= 6 && hour < 10)
+                selectedSkybox = skyboxMorning;
+            else if (hour >= 10 && hour < 15)
+                selectedSkybox = skyboxAfternoon;
+            else if (hour >= 15 && hour < 18)
+                selectedSkybox = skyboxEvening;
+            else if (hour >= 18 && hour < 19)
+                selectedSkybox = skyboxSunset;
+            else
+                selectedSkybox = skyboxNight;
+
+            if (selectedSkybox != currentSkybox)
+            {
+                RenderSettings.skybox = selectedSkybox;
+                currentSkybox = selectedSkybox;
+            }
         }
 
         private void FindDirectionalLight()
