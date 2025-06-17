@@ -693,6 +693,7 @@ Transform:
   - {fileID: 1186174514}
   - {fileID: 610574087}
   - {fileID: 1514407363}
+  - {fileID: 1604651464}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1489334299
@@ -805,6 +806,83 @@ MonoBehaviour:
   IsActive: 0
   spawnData:
   - npc: {fileID: 11400000, guid: a73926adf4accaf4e9891121b39604da, type: 2}
+    spawnChance: 100
+    IsPersistent: 0
+  npcCountMax: 1
+  CurrentNPCs: []
+  CurrentPersistentNPCs: []
+  RequirementsTemplate: {fileID: 0}
+  PlayerDistanceMax: 100
+  spawnedCount: 0
+  spawnedCountMax: 0
+  OverrideLevels: 0
+  MinLevel: 1
+  MaxLevel: 2
+  ScaleWithPlayer: 0
+  OverrideFaction: 0
+  Faction: {fileID: 0}
+  OverrideSpecies: 0
+  Species: {fileID: 0}
+  OverrideRespawn: 0
+  MinRespawn: 10
+  MaxRespawn: 20
+  areaRadius: 3.6
+  areaHeight: 3.6
+  gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  lineColor: {r: 0, g: 0, b: 0, a: 1}
+  groundLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  usePosition: 0
+--- !u!1 &1604651463
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1604651464}
+  - component: {fileID: 1604651465}
+  m_Layer: 0
+  m_Name: Potion Merchant
+  m_TagString: Untagged
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1604651464
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1604651463}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: -3.98, y: 0.49, z: 19.72}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1319542053}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!114 &1604651465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1604651463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ec49ea537de7e448b93e909daa1bbb3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Saver: {fileID: 0}
+  spawnerType: 0
+  IsActive: 0
+  spawnData:
+  - npc: {fileID: 11400000, guid: 78cbb1e55432de04caae95f853f056aa, type: 2}
     spawnChance: 100
     IsPersistent: 0
   npcCountMax: 1
