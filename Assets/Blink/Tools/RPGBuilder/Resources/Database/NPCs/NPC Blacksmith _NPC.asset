@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2eaea086ce51ea9419be768c6237eedb, type: 3}
-  m_Name: NPC Potion Merchant_NPC
+  m_Name: NPC Blacksmith _NPC
   m_EditorClassIdentifier: 
-  ID: 9
-  entryName: NPC Potion Merchant
-  entryFileName: NPC Potion Merchant_NPC
-  entryDisplayName: Boiner
+  ID: 11
+  entryName: 'NPC Blacksmith '
+  entryFileName: NPC Blacksmith _NPC
+  entryDisplayName: Creatina
   entryIcon: {fileID: 21300000, guid: 99b6e228ccaefa046a4dfea4a9e2dba2, type: 3}
   entryDescription: 
   _name: 
