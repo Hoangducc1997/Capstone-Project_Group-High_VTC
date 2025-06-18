@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fcfa1e44cbde6334fa5aa613f23c86f6
+guid: 0191f37fb93f8a24387c249e2ea0998c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -71,30 +71,6 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites: []
@@ -114,3 +90,10 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 228952
+  packageName: FREE - Modular Character - Fantasy RPG Human Male
+  packageVersion: 2.0
+  assetPath: Assets/Blink/Art/Characters/Stylized/Humans/Textures_Humans/HM_Body_Normal.png
+  uploadId: 548726
