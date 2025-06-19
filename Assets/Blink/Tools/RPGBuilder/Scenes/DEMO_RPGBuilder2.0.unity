@@ -2447,7 +2447,7 @@ MonoBehaviour:
   lineColor: {r: 0, g: 0, b: 0, a: 1}
   groundLayers:
     serializedVersion: 2
-    m_Bits: 512
+    m_Bits: 128
   usePosition: 0
 --- !u!1 &723550873
 GameObject:
@@ -4345,7 +4345,7 @@ GameObject:
   m_Layer: 0
   m_Name: Boars
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -4358,7 +4358,7 @@ Transform:
   m_GameObject: {fileID: 1258373959}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 77.5, y: 22.7, z: -63.9}
+  m_LocalPosition: {x: 77.5, y: 21.35, z: -63.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4407,7 +4407,7 @@ MonoBehaviour:
   lineColor: {r: 0, g: 0, b: 0, a: 1}
   groundLayers:
     serializedVersion: 2
-    m_Bits: 512
+    m_Bits: 128
   usePosition: 0
 --- !u!1 &1363969119
 GameObject:
