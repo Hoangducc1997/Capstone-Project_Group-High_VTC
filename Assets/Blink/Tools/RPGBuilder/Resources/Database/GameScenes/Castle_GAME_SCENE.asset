@@ -27,7 +27,7 @@ MonoBehaviour:
   mapBounds:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 350, y: 0, z: 350}
-  mapSize: {x: 1000, y: 1000}
+  mapSize: {x: 4096, y: 4096}
   startPositionID: 1
   isProceduralScene: 0
   SpawnPointName: 
