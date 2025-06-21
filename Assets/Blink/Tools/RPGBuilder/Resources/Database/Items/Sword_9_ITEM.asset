@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ada825255f0166f4c9c8124a0f1e2448, type: 3}
-  m_Name: Basic Sword_ITEM
+  m_Name: Sword_9_ITEM
   m_EditorClassIdentifier: 
-  ID: 37
-  entryName: Basic Sword
-  entryFileName: Basic Sword_ITEM
-  entryDisplayName: Basic Sword
+  ID: 45
+  entryName: Sword_9
+  entryFileName: Sword_9_ITEM
+  entryDisplayName: Sword_9
   entryIcon: {fileID: 21300000, guid: cb76c8f7e74582346a86d790928bbf86, type: 3}
-  entryDescription: This is a Basic Sword
+  entryDescription: This is a Sword_9
   _name: 
   _fileName: 
   displayName: 
@@ -35,13 +35,13 @@ MonoBehaviour:
   rarity: 
   ItemRarity: {fileID: 11400000, guid: 9fe2887c3181d5146a74e57b1a55a22d, type: 2}
   itemModelName: 
-  weaponModel: {fileID: 1860753870269144, guid: 257085a123b302d4dafe4dbbd5f5b391, type: 3}
+  weaponModel: {fileID: 1530859087307534, guid: ca8d427b471a77745835639d65f3c276, type: 3}
   modelMaterial: {fileID: 0}
   weaponPositionDatas: []
   showWeaponPositionData: 0
   WeaponTransforms: []
   UseWeaponTransformTemplate: 1
-  WeaponTransformTemplate: {fileID: 11400000, guid: 3fa2f3ac93609564b8952540a233d029, type: 2}
+  WeaponTransformTemplate: {fileID: 11400000, guid: 3f6c7dc7e7f066843a91db65ddf55f23, type: 2}
   AttackSpeed: 52
   minDamage: 124
   maxDamage: 124
