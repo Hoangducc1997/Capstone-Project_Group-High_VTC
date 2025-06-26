@@ -10,6 +10,7 @@ using BLINK.RPGBuilder.UIElements;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 namespace BLINK.RPGBuilder.Managers
 {
@@ -77,13 +78,18 @@ namespace BLINK.RPGBuilder.Managers
         private RPGBuilderEditorDATA editorData;
         private RPGBuilderUISettings UISettings;
 
+        //Intro Cinematic
+        [SerializeField] private Button skipIntroButton;
+        [SerializeField] private GameObject canvasIntroCinematic;
+
         private IEnumerator Start()
         {
             if (Instance != null) yield break;
             Instance = this;
 
-            
-            
+            canvasIntroCinematic.SetActive(false);
+            skipIntroButton.onClick.AddListener(OnSkipIntroClicked);
+
             editorData = Resources.Load<RPGBuilderEditorDATA>("EditorData/RPGBuilderEditorData");
             if (editorData == null)
             {
@@ -148,6 +154,7 @@ namespace BLINK.RPGBuilder.Managers
         {
             disableAllCG();
             RPGBuilderUtilities.EnableCG(CreateCharCG);
+
             RPGBuilderUtilities.EnableCG(BackHomeButtonCG);
 
             classTitleText.gameObject.SetActive(!GameDatabase.Instance.GetCharacterSettings().NoClasses);
@@ -213,6 +220,7 @@ namespace BLINK.RPGBuilder.Managers
 
         private void InitCreateNewChar()
         {
+              
             clearAllSlots();
 
             currentlySelectedRace = 0;
@@ -770,6 +778,14 @@ namespace BLINK.RPGBuilder.Managers
             
             RPGBuilderJsonSaver.GenerateCharacterEquippedtemsData();
             RPGBuilderJsonSaver.SaveCharacterData();
+            //LoadingScreenManager.Instance.LoadGameScene(raceRef.startingSceneID);
+
+            canvasIntroCinematic.SetActive(true);       
+
+        }
+        private void OnSkipIntroClicked()
+        {
+            var raceRef = GameDatabase.Instance.GetRaces()[Character.Instance.CharacterData.RaceID];
             LoadingScreenManager.Instance.LoadGameScene(raceRef.startingSceneID);
         }
 

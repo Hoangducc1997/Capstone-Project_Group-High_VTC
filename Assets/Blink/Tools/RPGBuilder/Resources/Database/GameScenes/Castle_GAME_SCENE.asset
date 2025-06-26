@@ -23,12 +23,12 @@ MonoBehaviour:
   displayName: 
   description: 
   loadingBG: {fileID: 21300000, guid: 7c57777941490724a91c8bfcfa58659c, type: 3}
-  minimapImage: {fileID: 21300000, guid: ee5ecef5f4075f04fb433c7e35f13f45, type: 3}
+  minimapImage: {fileID: 0}
   mapBounds:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 350, y: 0, z: 350}
-  mapSize: {x: 1000, y: 1000}
-  startPositionID: 1
+  mapSize: {x: 4096, y: 4096}
+  startPositionID: 3
   isProceduralScene: 0
   SpawnPointName: 
   AlwaysSpawnAtPoint: 0

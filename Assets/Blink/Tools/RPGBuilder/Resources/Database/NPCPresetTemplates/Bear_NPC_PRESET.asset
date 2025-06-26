@@ -22,7 +22,7 @@ MonoBehaviour:
   Position: {x: 0, y: -0.15, z: 0}
   Scale: {x: 1, y: 1, z: 1}
   NameplateYOffset: 2.3
-  NameplateDistance: 28
+  NameplateDistance: 50
   RendererName: Body
   AnimatorController: {fileID: 22100000, guid: bb30386fd2ad2f04f805dbb01b5c058c, type: 2}
   AnimatorAvatar: {fileID: 9000000, guid: d188a0073b9148447aef07ea0a4a756b, type: 3}

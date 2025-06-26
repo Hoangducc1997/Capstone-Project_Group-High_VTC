@@ -18,9 +18,9 @@ MonoBehaviour:
   MovementSpeedModifier: 0.3
   PauseDuration: 5
   RoamDistance: 50
-  RoamPointTreshold: 3
+  RoamPointThreshold: 0
   roamGroundLayers:
     serializedVersion: 2
-    m_Bits: 512
+    m_Bits: 64
   roamTargetCheckInterval: 0.3
   roamAroundSpawner: 1

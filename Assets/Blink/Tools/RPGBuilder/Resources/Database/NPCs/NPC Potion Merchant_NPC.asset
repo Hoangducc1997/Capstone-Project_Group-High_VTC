@@ -26,7 +26,7 @@ MonoBehaviour:
   AILogicTemplate: {fileID: 262611205548413635, guid: 42a8b97728201df44ba95376d46032e3, type: 3}
   Phases:
   - PhaseTemplate: {fileID: 11400000, guid: 369eebdf6220f2946b7fcf40291afed5, type: 2}
-    Preset: {fileID: 11400000, guid: ce66aca1293994648b677b5b5a0cee1f, type: 2}
+    Preset: {fileID: 11400000, guid: fe66d01f6fe40394d86d522f769181ff, type: 2}
   ResetPhaseAfterCombat: 1
   InstantlyHealAfterCombat: 1
   isDummyTarget: 1

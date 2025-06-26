@@ -36,7 +36,7 @@ MonoBehaviour:
   levelTemplateID: -1
   Genders:
   - Gender: {fileID: 11400000, guid: 6af37385c57329640bdb53dd75cf6921, type: 2}
-    Prefab: {fileID: 4523784951631706015, guid: beed1bbf2aa857849b5e9d0abf4e70af, type: 3}
+    Prefab: {fileID: 4502656670155466057, guid: 68795ab2cbc61dd47a7ec01483310cc9, type: 3}
     Icon: {fileID: 21300000, guid: a50fef2277a98804c905c25693bb61ab, type: 3}
     DynamicAnimator: 1
     RestAnimatorController: {fileID: 22100000, guid: bce07712ca593f34f9c226bb6b2bcba4, type: 2}
@@ -61,7 +61,10 @@ MonoBehaviour:
     vitalityActions: []
   UseStatListTemplate: 0
   StatListTemplate: {fileID: 0}
-  startItems: []
+  startItems:
+  - itemID: 37
+    count: 1
+    equipped: 0
   actionAbilities: []
   allocationStatPoints: 0
   allocatedStatsEntries: []
