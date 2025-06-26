@@ -77,15 +77,19 @@ namespace BLINK.RPGBuilder.Managers
         
         private RPGBuilderEditorDATA editorData;
         private RPGBuilderUISettings UISettings;
-        [SerializeField] private string sceneName = "";
-             
+
+        //Intro Cinematic
+        [SerializeField] private Button skipIntroButton;
+        [SerializeField] private GameObject canvasIntroCinematic;
+
         private IEnumerator Start()
         {
             if (Instance != null) yield break;
             Instance = this;
 
-            
-            
+            canvasIntroCinematic.SetActive(false);
+            skipIntroButton.onClick.AddListener(OnSkipIntroClicked);
+
             editorData = Resources.Load<RPGBuilderEditorDATA>("EditorData/RPGBuilderEditorData");
             if (editorData == null)
             {
@@ -775,15 +779,14 @@ namespace BLINK.RPGBuilder.Managers
             RPGBuilderJsonSaver.GenerateCharacterEquippedtemsData();
             RPGBuilderJsonSaver.SaveCharacterData();
             //LoadingScreenManager.Instance.LoadGameScene(raceRef.startingSceneID);
-            if (!string.IsNullOrEmpty(sceneName))
-            {
-                SceneManager.LoadScene(sceneName);
-            }
-            else
-            {
-                LoadingScreenManager.Instance.LoadGameScene(raceRef.startingSceneID);
-            }
 
+            canvasIntroCinematic.SetActive(true);       
+
+        }
+        private void OnSkipIntroClicked()
+        {
+            var raceRef = GameDatabase.Instance.GetRaces()[Character.Instance.CharacterData.RaceID];
+            LoadingScreenManager.Instance.LoadGameScene(raceRef.startingSceneID);
         }
 
         public void PlaySelectedCharacter()
