@@ -10,6 +10,7 @@ using BLINK.RPGBuilder.UIElements;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 namespace BLINK.RPGBuilder.Managers
 {
@@ -76,7 +77,8 @@ namespace BLINK.RPGBuilder.Managers
         
         private RPGBuilderEditorDATA editorData;
         private RPGBuilderUISettings UISettings;
-
+        [SerializeField] private string sceneName = "";
+             
         private IEnumerator Start()
         {
             if (Instance != null) yield break;
@@ -148,6 +150,7 @@ namespace BLINK.RPGBuilder.Managers
         {
             disableAllCG();
             RPGBuilderUtilities.EnableCG(CreateCharCG);
+
             RPGBuilderUtilities.EnableCG(BackHomeButtonCG);
 
             classTitleText.gameObject.SetActive(!GameDatabase.Instance.GetCharacterSettings().NoClasses);
@@ -213,6 +216,7 @@ namespace BLINK.RPGBuilder.Managers
 
         private void InitCreateNewChar()
         {
+              
             clearAllSlots();
 
             currentlySelectedRace = 0;
@@ -770,7 +774,16 @@ namespace BLINK.RPGBuilder.Managers
             
             RPGBuilderJsonSaver.GenerateCharacterEquippedtemsData();
             RPGBuilderJsonSaver.SaveCharacterData();
-            LoadingScreenManager.Instance.LoadGameScene(raceRef.startingSceneID);
+            //LoadingScreenManager.Instance.LoadGameScene(raceRef.startingSceneID);
+            if (!string.IsNullOrEmpty(sceneName))
+            {
+                SceneManager.LoadScene(sceneName);
+            }
+            else
+            {
+                LoadingScreenManager.Instance.LoadGameScene(raceRef.startingSceneID);
+            }
+
         }
 
         public void PlaySelectedCharacter()
