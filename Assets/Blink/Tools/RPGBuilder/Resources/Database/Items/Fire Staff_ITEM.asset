@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ada825255f0166f4c9c8124a0f1e2448, type: 3}
-  m_Name: Wind Staff_ITEM
+  m_Name: Fire Staff_ITEM
   m_EditorClassIdentifier: 
-  ID: 34
-  entryName: Wind Staff
-  entryFileName: Wind Staff_ITEM
-  entryDisplayName: Wind Staff
-  entryIcon: {fileID: 21300000, guid: 8186f7aaceaca1a4eae4a61c0bb82455, type: 3}
+  ID: 55
+  entryName: Fire Staff
+  entryFileName: Fire Staff_ITEM
+  entryDisplayName: Fire Staff
+  entryIcon: {fileID: 1865821218, guid: 29772939822d48e4a83cd8d79677756e, type: 3}
   entryDescription: 
   _name: 
   _fileName: 
@@ -35,7 +35,7 @@ MonoBehaviour:
   rarity: 
   ItemRarity: {fileID: 11400000, guid: 1ba7c644b767724488d7890d0825afd2, type: 2}
   itemModelName: 
-  weaponModel: {fileID: 3844808660582485764, guid: 4a094bd13a554ce429a71f8ade990f26, type: 3}
+  weaponModel: {fileID: 2083943641721818151, guid: b9e9b9817b565da4c87dd7d4d36b234b, type: 3}
   modelMaterial: {fileID: 0}
   weaponPositionDatas: []
   showWeaponPositionData: 0
