@@ -35,15 +35,13 @@ MonoBehaviour:
   rarity: 
   ItemRarity: {fileID: 11400000, guid: 1ba7c644b767724488d7890d0825afd2, type: 2}
   itemModelName: 
-  weaponModel: {fileID: 3844808660582485764, guid: 4a094bd13a554ce429a71f8ade990f26,
-    type: 3}
+  weaponModel: {fileID: 3844808660582485764, guid: 4a094bd13a554ce429a71f8ade990f26, type: 3}
   modelMaterial: {fileID: 0}
   weaponPositionDatas: []
   showWeaponPositionData: 0
   WeaponTransforms: []
   UseWeaponTransformTemplate: 1
-  WeaponTransformTemplate: {fileID: 11400000, guid: 0628fd127d0ead54c980215a441fe4b4,
-    type: 2}
+  WeaponTransformTemplate: {fileID: 11400000, guid: 0628fd127d0ead54c980215a441fe4b4, type: 2}
   AttackSpeed: 2
   minDamage: 8
   maxDamage: 14
@@ -80,8 +78,7 @@ MonoBehaviour:
     gemStats: []
   Requirements: []
   UseRequirementsTemplate: 0
-  RequirementsTemplate: {fileID: 11400000, guid: 4b3f3d5f228ac3444865bbb19a18d4de,
-    type: 2}
+  RequirementsTemplate: {fileID: 11400000, guid: 4b3f3d5f228ac3444865bbb19a18d4de, type: 2}
   actionAbilities: []
   GameActions: []
   UseGameActionsTemplate: 0
