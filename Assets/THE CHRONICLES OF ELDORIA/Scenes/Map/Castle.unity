@@ -865,7 +865,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4049736777046058959, guid: 504383f89bd6d99499d7fb2eec21d2a7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.91
+      value: 2.61
       objectReference: {fileID: 0}
     - target: {fileID: 4049736777046058959, guid: 504383f89bd6d99499d7fb2eec21d2a7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1234,7 +1234,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4049736777046058959, guid: 504383f89bd6d99499d7fb2eec21d2a7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -1.16
       objectReference: {fileID: 0}
     - target: {fileID: 4049736777046058959, guid: 504383f89bd6d99499d7fb2eec21d2a7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1269,17 +1269,29 @@ PrefabInstance:
       value: Map2
       objectReference: {fileID: 0}
     - target: {fileID: 6776436719507476704, guid: 504383f89bd6d99499d7fb2eec21d2a7, type: 3}
-      propertyPath: Actions.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6776436719507476704, guid: 504383f89bd6d99499d7fb2eec21d2a7, type: 3}
-      propertyPath: Animations.Array.size
+      propertyPath: Sounds.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6776436719507476704, guid: 504383f89bd6d99499d7fb2eec21d2a7, type: 3}
-      propertyPath: VisualEfects.Array.size
+      propertyPath: Actions.Array.size
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 6776436719507476704, guid: 504383f89bd6d99499d7fb2eec21d2a7, type: 3}
+      propertyPath: Animations.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6776436719507476704, guid: 504383f89bd6d99499d7fb2eec21d2a7, type: 3}
+      propertyPath: VisualEfects.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6776436719507476704, guid: 504383f89bd6d99499d7fb2eec21d2a7, type: 3}
+      propertyPath: Sounds.Array.data[0].Chance
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6776436719507476704, guid: 504383f89bd6d99499d7fb2eec21d2a7, type: 3}
+      propertyPath: Actions.Array.data[0].Effect
+      value: 
+      objectReference: {fileID: 11400000, guid: 887225bf29a6e6549b24bec304d8cf56, type: 2}
     - target: {fileID: 6776436719507476704, guid: 504383f89bd6d99499d7fb2eec21d2a7, type: 3}
       propertyPath: Actions.Array.data[1].amount
       value: 1
@@ -1289,7 +1301,19 @@ PrefabInstance:
       value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 6776436719507476704, guid: 504383f89bd6d99499d7fb2eec21d2a7, type: 3}
+      propertyPath: Actions.Array.data[2].amount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6776436719507476704, guid: 504383f89bd6d99499d7fb2eec21d2a7, type: 3}
+      propertyPath: Actions.Array.data[2].chance
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6776436719507476704, guid: 504383f89bd6d99499d7fb2eec21d2a7, type: 3}
       propertyPath: Actions.Array.data[1].entryID
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6776436719507476704, guid: 504383f89bd6d99499d7fb2eec21d2a7, type: 3}
+      propertyPath: Actions.Array.data[2].entryID
       value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6776436719507476704, guid: 504383f89bd6d99499d7fb2eec21d2a7, type: 3}
@@ -1305,7 +1329,39 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6776436719507476704, guid: 504383f89bd6d99499d7fb2eec21d2a7, type: 3}
+      propertyPath: VisualEfects.Array.data[3].VisualEntry.Scale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6776436719507476704, guid: 504383f89bd6d99499d7fb2eec21d2a7, type: 3}
+      propertyPath: VisualEfects.Array.data[3].VisualEntry.Scale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6776436719507476704, guid: 504383f89bd6d99499d7fb2eec21d2a7, type: 3}
+      propertyPath: VisualEfects.Array.data[3].VisualEntry.Scale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6776436719507476704, guid: 504383f89bd6d99499d7fb2eec21d2a7, type: 3}
+      propertyPath: VisualEfects.Array.data[4].VisualEntry.Scale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6776436719507476704, guid: 504383f89bd6d99499d7fb2eec21d2a7, type: 3}
+      propertyPath: VisualEfects.Array.data[4].VisualEntry.Scale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6776436719507476704, guid: 504383f89bd6d99499d7fb2eec21d2a7, type: 3}
+      propertyPath: VisualEfects.Array.data[4].VisualEntry.Scale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6776436719507476704, guid: 504383f89bd6d99499d7fb2eec21d2a7, type: 3}
       propertyPath: VisualEfects.Array.data[2].VisualEntry.Duration
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6776436719507476704, guid: 504383f89bd6d99499d7fb2eec21d2a7, type: 3}
+      propertyPath: VisualEfects.Array.data[3].VisualEntry.Duration
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6776436719507476704, guid: 504383f89bd6d99499d7fb2eec21d2a7, type: 3}
+      propertyPath: VisualEfects.Array.data[4].VisualEntry.Duration
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6776436719507476704, guid: 504383f89bd6d99499d7fb2eec21d2a7, type: 3}
@@ -1313,8 +1369,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6776436719507476704, guid: 504383f89bd6d99499d7fb2eec21d2a7, type: 3}
+      propertyPath: Animations.Array.data[1].AnimationEntry.ModifierSpeed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6776436719507476704, guid: 504383f89bd6d99499d7fb2eec21d2a7, type: 3}
       propertyPath: Animations.Array.data[0].AnimationEntry.SpeedParameterName
       value: AttackAnimationsSpeed
+      objectReference: {fileID: 0}
+    - target: {fileID: 6776436719507476704, guid: 504383f89bd6d99499d7fb2eec21d2a7, type: 3}
+      propertyPath: Animations.Array.data[1].AnimationEntry.SpeedParameterName
+      value: AttackAnimationsSpeed
+      objectReference: {fileID: 0}
+    - target: {fileID: 8321361542870569743, guid: 504383f89bd6d99499d7fb2eec21d2a7, type: 3}
+      propertyPath: nextSceneName
+      value: Map2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
