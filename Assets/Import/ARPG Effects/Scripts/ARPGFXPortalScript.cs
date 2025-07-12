@@ -6,7 +6,7 @@ namespace ARPGFX
 {
     public class ARPGFXPortalScript : MonoBehaviour
     {
-        [SerializeField] private string nextSceneName;
+        //[SerializeField] private string nextSceneName;
 
         public GameObject portalOpenPrefab;
         public GameObject portalIdlePrefab;
