@@ -1145,7 +1145,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3814808875603126181, guid: 504383f89bd6d99499d7fb2eec21d2a7, type: 3}
       propertyPath: m_Name
-      value: BluePortal
+      value: 'Map2Portal '
       objectReference: {fileID: 0}
     - target: {fileID: 4049736777046058959, guid: 504383f89bd6d99499d7fb2eec21d2a7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1306,6 +1306,10 @@ PrefabInstance:
     - target: {fileID: 8321361542870569743, guid: 504383f89bd6d99499d7fb2eec21d2a7, type: 3}
       propertyPath: nextSceneName
       value: Map2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8321361542877177487, guid: 504383f89bd6d99499d7fb2eec21d2a7, type: 3}
+      propertyPath: m_Name
+      value: 'Map2Portal '
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1572,7 +1576,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1178001861294070277, guid: 40806bc9ef0724c4a87e4ec8c59e025b, type: 3}
       propertyPath: m_Name
-      value: YellowPortal
+      value: 'Map3Portal '
       objectReference: {fileID: 0}
     - target: {fileID: 1178001861299498885, guid: 40806bc9ef0724c4a87e4ec8c59e025b, type: 3}
       propertyPath: portalIdlePrefab
@@ -1592,7 +1596,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4406997655009160298, guid: 40806bc9ef0724c4a87e4ec8c59e025b, type: 3}
       propertyPath: Actions.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4406997655009160298, guid: 40806bc9ef0724c4a87e4ec8c59e025b, type: 3}
       propertyPath: VisualEfects.Array.size
@@ -1611,7 +1615,19 @@ PrefabInstance:
       value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 4406997655009160298, guid: 40806bc9ef0724c4a87e4ec8c59e025b, type: 3}
+      propertyPath: Actions.Array.data[2].amount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4406997655009160298, guid: 40806bc9ef0724c4a87e4ec8c59e025b, type: 3}
+      propertyPath: Actions.Array.data[2].chance
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 4406997655009160298, guid: 40806bc9ef0724c4a87e4ec8c59e025b, type: 3}
       propertyPath: Actions.Array.data[1].entryID
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4406997655009160298, guid: 40806bc9ef0724c4a87e4ec8c59e025b, type: 3}
+      propertyPath: Actions.Array.data[2].entryID
       value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 4406997655009160298, guid: 40806bc9ef0724c4a87e4ec8c59e025b, type: 3}
@@ -1632,7 +1648,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6328292200969935663, guid: 40806bc9ef0724c4a87e4ec8c59e025b, type: 3}
       propertyPath: m_Name
-      value: YellowPortal
+      value: 'Map3Portal '
       objectReference: {fileID: 0}
     - target: {fileID: 6562305871333727045, guid: 40806bc9ef0724c4a87e4ec8c59e025b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1689,7 +1705,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2718961903367784425, guid: eab00828a34cb264b904dbd94e0a87ae, type: 3}
       propertyPath: m_Name
-      value: 'RedPortal '
+      value: 'Map1Portal '
       objectReference: {fileID: 0}
     - target: {fileID: 2988370502351849347, guid: eab00828a34cb264b904dbd94e0a87ae, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1731,6 +1747,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7075215745412499139, guid: eab00828a34cb264b904dbd94e0a87ae, type: 3}
+      propertyPath: m_Name
+      value: 'Map1Portal '
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1745,7 +1765,7 @@ SceneRoots:
   - {fileID: 559159529}
   - {fileID: 1489334299}
   - {fileID: 8487073095260986905}
-  - {fileID: 6647211137247648628}
   - {fileID: 2092246709917600351}
+  - {fileID: 6647211137247648628}
   - {fileID: 1319542053}
   - {fileID: 1306307438}
