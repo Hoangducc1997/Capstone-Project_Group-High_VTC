@@ -104,7 +104,7 @@
                 coordinates.x = offsets.x * p.x * f + offsets.z;
                 coordinates.y = offsets.y * p.y * f + offsets.w;
                 coordinates = coordinates / 2 - 0.5 + animationOffsets;
-                return stp * float4(tex2D(txt, coordinates).rgb, 1.0) + (1 - stp) * float4(1, 1, 1, 1);
+                return stp * float4(tex2D(txt, coordinates).rgb, 1.0) + (1 - stp) * float4(0, 0, 0, 0);
             }
 			
 			fixed4 setupTextures(v2f i) 
@@ -136,7 +136,7 @@
 				fixed4 result = multipliedTextures * appliableColor;
                 result = result * _Brightness;
                 result.a = resultAlpha * multipliedTextures.a;
-				//result.a = 1.0;
+		
 				return result;
 			}
 			
