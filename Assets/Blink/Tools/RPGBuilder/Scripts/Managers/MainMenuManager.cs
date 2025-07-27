@@ -186,6 +186,12 @@ namespace BLINK.RPGBuilder.Managers
                 InitContinue();
         }
 
+        public void ExitGame()
+        {
+            Application.Quit();
+            Debug.Log("Exiting Game");
+        }
+
         private void InitContinue()
         {
             clearCharSlots();
@@ -1080,6 +1086,7 @@ namespace BLINK.RPGBuilder.Managers
             return total;
         }
         
+       
         public void OpenBlinkStore() {
             Application.OpenURL("https://www.facebook.com/profile.php?id=61570034045910");
         }
