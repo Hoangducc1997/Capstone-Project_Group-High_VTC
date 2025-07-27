@@ -82,8 +82,10 @@ namespace BLINK.RPGBuilder.Managers
         [SerializeField] private Button skipIntroButton;
         [SerializeField] private GameObject canvasIntroCinematic;
 
+        [SerializeField] private GameObject newCharacterPanel;
         private IEnumerator Start()
         {
+            newCharacterPanel.SetActive(false);
             if (Instance != null) yield break;
             Instance = this;
 
@@ -152,6 +154,7 @@ namespace BLINK.RPGBuilder.Managers
 
         public void ClickNewChar()
         {
+            newCharacterPanel.SetActive(true);
             disableAllCG();
             RPGBuilderUtilities.EnableCG(CreateCharCG);
 
