@@ -19481,6 +19481,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: IntroVideoPlayer
       objectReference: {fileID: 0}
+    - target: {fileID: 4328415956416494147, guid: 764b3fcf2b59b5543b5f7c530772a637, type: 3}
+      propertyPath: m_VideoClip
+      value: 
+      objectReference: {fileID: 32900000, guid: 80b79d961e1d26f438e9f778c282436a, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25755,7 +25759,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _scenePrefabInstances:
   - _gameObject: {fileID: 200886357}
-    _prefab: Assets/THE CHRONICLES OF ELDORIA/Assets/Prefabs/Map/Map Main In Menu.prefab
+    _prefab: Assets/THE CHRONICLES OF DORIA/Assets/Prefabs/Map/Map Main In Menu.prefab
   - _gameObject: {fileID: 1042538644}
     _prefab: Assets/Import/PolygonFantasyKingdom/Prefabs/Props/SM_Prop_Animal_Head_Troll_01.prefab
   - _gameObject: {fileID: 1125794857}
@@ -26349,7 +26353,7 @@ MonoBehaviour:
   - _gameObject: {fileID: 1834593344}
     _prefab: Assets/Import/PolygonFantasyKingdom/Prefabs/Props/SM_Prop_PaintingFrame_03.prefab
   - _gameObject: {fileID: 200886357}
-    _prefab: Assets/THE CHRONICLES OF ELDORIA/Assets/Prefabs/Map/Map Main In Menu.prefab
+    _prefab: Assets/THE CHRONICLES OF DORIA/Assets/Prefabs/Map/Map Main In Menu.prefab
   - _gameObject: {fileID: 2050316738}
     _prefab: Assets/Import/PolygonFantasyKingdom/Prefabs/Props/SM_Prop_Rug_01.prefab
   - _gameObject: {fileID: 1864015205}
@@ -53035,13 +53039,13 @@ MonoBehaviour:
   - _gameObject: {fileID: 10326304}
     _prefab: Assets/Import/PolygonFantasyKingdom/Prefabs/SiegeEngines/SM_Wep_Trebuchet_01.prefab
   - _gameObject: {fileID: 745379128}
-    _prefab: Assets/THE CHRONICLES OF ELDORIA/Assets/Prefabs/Manager/AudioManager.prefab
+    _prefab: Assets/THE CHRONICLES OF DORIA/Assets/Prefabs/Manager/AudioManager.prefab
   - _gameObject: {fileID: 1474837718}
-    _prefab: Assets/THE CHRONICLES OF ELDORIA/Assets/Prefabs/Manager/CanvasLoading.prefab
+    _prefab: Assets/THE CHRONICLES OF DORIA/Assets/Prefabs/Manager/CanvasLoading.prefab
   - _gameObject: {fileID: 1984006105}
-    _prefab: Assets/THE CHRONICLES OF ELDORIA/Assets/Prefabs/UI/IntroVideoPlayer.prefab
+    _prefab: Assets/THE CHRONICLES OF DORIA/Assets/Prefabs/UI/IntroVideoPlayer.prefab
   - _gameObject: {fileID: 1904641492}
-    _prefab: Assets/THE CHRONICLES OF ELDORIA/Assets/Prefabs/UI/CanvasIntro.prefab
+    _prefab: Assets/THE CHRONICLES OF DORIA/Assets/Prefabs/UI/CanvasIntro.prefab
 --- !u!4 &685839937
 Transform:
   m_ObjectHideFlags: 11
@@ -96698,7 +96702,7 @@ Transform:
   m_GameObject: {fileID: 1860483664}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1176.0516, y: 115.81784, z: 229.21777}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
