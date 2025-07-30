@@ -38,9 +38,8 @@ MonoBehaviour:
     RequirementsTemplate: {fileID: 0}
   dialogueID: -1
   questGiven:
-  - questID: 0
-  questCompleted:
-  - questID: 0
+  - questID: 1
+  questCompleted: []
   MinRespawn: 1
   MaxRespawn: 2
   corpseDespawnTime: 1
@@ -79,7 +78,7 @@ MonoBehaviour:
   isNameplateEnabled: 1
   isPlayerInteractable: 1
   isMerchant: 0
-  isQuestGiver: 0
+  isQuestGiver: 1
   isDialogue: 1
   MerchantText: Show me your goods.
   QuestText: Can I do something for you?

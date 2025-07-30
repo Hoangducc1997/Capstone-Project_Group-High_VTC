@@ -332,6 +332,55 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1027846345
+GameObject:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1027846347}
+  - component: {fileID: 1027846346}
+  m_Layer: 0
+  m_Name: Prefab Indexer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1027846346
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1027846345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05a7c62fccbafd342991629222351294, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _scenePrefabInstances:
+  - _gameObject: {fileID: 1895193584141394415}
+    _prefab: Assets/THE CHRONICLES OF ELDORIA/Assets/Prefabs/UI/CanvasIntro.prefab
+  - _gameObject: {fileID: 3402022611747369117}
+    _prefab: Assets/THE CHRONICLES OF ELDORIA/Assets/Prefabs/UI/IntroVideoPlayer.prefab
+--- !u!4 &1027846347
+Transform:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1027846345}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2089952462
 GameObject:
   m_ObjectHideFlags: 0
@@ -508,6 +557,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69d6dfe765a45c644bccd324ea3817ba, type: 3}
+--- !u!1 &1895193584141394415 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1353854630411256586, guid: 69d6dfe765a45c644bccd324ea3817ba, type: 3}
+  m_PrefabInstance: {fileID: 1895193584141394414}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3402022611747369116
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -560,11 +614,28 @@ PrefabInstance:
       propertyPath: m_Name
       value: IntroVideoPlayer
       objectReference: {fileID: 0}
+    - target: {fileID: 4328415956416494147, guid: 764b3fcf2b59b5543b5f7c530772a637, type: 3}
+      propertyPath: m_VideoClip
+      value: 
+      objectReference: {fileID: 32900000, guid: fe670d30871eeb245bff0bc384dc3daf, type: 3}
+    - target: {fileID: 4328415956416494147, guid: 764b3fcf2b59b5543b5f7c530772a637, type: 3}
+      propertyPath: m_AspectRatio
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328415956416494147, guid: 764b3fcf2b59b5543b5f7c530772a637, type: 3}
+      propertyPath: 'm_DirectAudioVolumes.Array.data[0]'
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 764b3fcf2b59b5543b5f7c530772a637, type: 3}
+--- !u!1 &3402022611747369117 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3490781545453675291, guid: 764b3fcf2b59b5543b5f7c530772a637, type: 3}
+  m_PrefabInstance: {fileID: 3402022611747369116}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -574,3 +645,4 @@ SceneRoots:
   - {fileID: 1895193584141394414}
   - {fileID: 2089952465}
   - {fileID: 3402022611747369116}
+  - {fileID: 1027846347}
