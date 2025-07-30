@@ -76244,6 +76244,10 @@ PrefabInstance:
       propertyPath: m_FontData.m_FontStyle
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6162093209348023270, guid: 69d6dfe765a45c644bccd324ea3817ba, type: 3}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 8400000, guid: 89ef99ddd5c0c5344ae20773e6ba6add, type: 2}
     - target: {fileID: 7018710002762272442, guid: 69d6dfe765a45c644bccd324ea3817ba, type: 3}
       propertyPath: m_SortingOrder
       value: 100
