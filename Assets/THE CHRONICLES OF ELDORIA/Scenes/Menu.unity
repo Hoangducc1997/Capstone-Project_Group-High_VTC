@@ -25769,7 +25769,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _scenePrefabInstances:
   - _gameObject: {fileID: 200886357}
-    _prefab: Assets/THE CHRONICLES OF DORIA/Assets/Prefabs/Map/Map Main In Menu.prefab
+    _prefab: Assets/THE CHRONICLES OF ELDORIA/Assets/Prefabs/Map/Map Main In Menu.prefab
   - _gameObject: {fileID: 1042538644}
     _prefab: Assets/Import/PolygonFantasyKingdom/Prefabs/Props/SM_Prop_Animal_Head_Troll_01.prefab
   - _gameObject: {fileID: 1125794857}
@@ -26363,7 +26363,7 @@ MonoBehaviour:
   - _gameObject: {fileID: 1834593344}
     _prefab: Assets/Import/PolygonFantasyKingdom/Prefabs/Props/SM_Prop_PaintingFrame_03.prefab
   - _gameObject: {fileID: 200886357}
-    _prefab: Assets/THE CHRONICLES OF DORIA/Assets/Prefabs/Map/Map Main In Menu.prefab
+    _prefab: Assets/THE CHRONICLES OF ELDORIA/Assets/Prefabs/Map/Map Main In Menu.prefab
   - _gameObject: {fileID: 2050316738}
     _prefab: Assets/Import/PolygonFantasyKingdom/Prefabs/Props/SM_Prop_Rug_01.prefab
   - _gameObject: {fileID: 1864015205}
@@ -53049,13 +53049,13 @@ MonoBehaviour:
   - _gameObject: {fileID: 10326304}
     _prefab: Assets/Import/PolygonFantasyKingdom/Prefabs/SiegeEngines/SM_Wep_Trebuchet_01.prefab
   - _gameObject: {fileID: 745379128}
-    _prefab: Assets/THE CHRONICLES OF DORIA/Assets/Prefabs/Manager/AudioManager.prefab
+    _prefab: Assets/THE CHRONICLES OF ELDORIA/Assets/Prefabs/Manager/AudioManager.prefab
   - _gameObject: {fileID: 1474837718}
-    _prefab: Assets/THE CHRONICLES OF DORIA/Assets/Prefabs/Manager/CanvasLoading.prefab
+    _prefab: Assets/THE CHRONICLES OF ELDORIA/Assets/Prefabs/Manager/CanvasLoading.prefab
   - _gameObject: {fileID: 1984006105}
     _prefab: 
   - _gameObject: {fileID: 1904641492}
-    _prefab: Assets/THE CHRONICLES OF DORIA/Assets/Prefabs/UI/CanvasIntro.prefab
+    _prefab: Assets/THE CHRONICLES OF ELDORIA/Assets/Prefabs/UI/CanvasIntro.prefab
 --- !u!4 &685839937
 Transform:
   m_ObjectHideFlags: 11
@@ -76198,19 +76198,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3741964879101633965, guid: 69d6dfe765a45c644bccd324ea3817ba, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 90
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3741964879101633965, guid: 69d6dfe765a45c644bccd324ea3817ba, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 90
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3741964879101633965, guid: 69d6dfe765a45c644bccd324ea3817ba, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -39
+      value: -32
       objectReference: {fileID: 0}
     - target: {fileID: 3741964879101633965, guid: 69d6dfe765a45c644bccd324ea3817ba, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -8
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4518297598128111532, guid: 69d6dfe765a45c644bccd324ea3817ba, type: 3}
       propertyPath: m_Text
@@ -76242,7 +76242,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4518297598128111532, guid: 69d6dfe765a45c644bccd324ea3817ba, type: 3}
       propertyPath: m_FontData.m_FontStyle
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6162093209348023270, guid: 69d6dfe765a45c644bccd324ea3817ba, type: 3}
       propertyPath: m_Texture
@@ -101638,7 +101638,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1984006105}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 1145d929e4419994296da22736fff928, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: aa3c9a8413530d247ac8b1db1b665151, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
