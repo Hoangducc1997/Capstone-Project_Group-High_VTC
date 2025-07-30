@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bb18b8dfb0f3be4cb9856d31baa677e, type: 3}
+  m_Name: A weapon for Chosen_QUEST
+  m_EditorClassIdentifier: 
+  ID: 1
+  entryName: A weapon for Chosen
+  entryFileName: A weapon for Chosen_QUEST
+  entryDisplayName: A weapon for Chosen
+  entryIcon: {fileID: 0}
+  entryDescription: "Before venturing deeper into the lands of Eldoria, you\u2019ll
+    need a proper weapon. Commander Garren suggests you meet Raptor, the city's enigmatic
+    weaponsmith, known for crafting powerful gear for the Royal Guard. It\u2019s
+    time to arm yourself for the trials ahead."
+  _name: 
+  displayName: 
+  _fileName: 
+  description: 
+  ObjectiveText: Speak to Raptor at the Valemont Forge
+  ProgressText: 
+  repeatable: 0
+  canBeTurnedInWithoutNPC: 0
+  Requirements: []
+  UseRequirementsTemplate: 0
+  RequirementsTemplate: {fileID: 0}
+  itemsGiven: []
+  objectives:
+  - objectiveType: 0
+    taskID: 2
+    timeLimit: 0
+  rewardsGiven:
+  - rewardType: 0
+    itemID: 52
+    currencyID: -1
+    treePointID: -1
+    factionID: -1
+    weaponTemplateID: -1
+    count: 1
+    Experience: 0
+  rewardsToPick: []
