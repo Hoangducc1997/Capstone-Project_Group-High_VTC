@@ -16882,6 +16882,8 @@ MonoBehaviour:
     _prefab: Assets/Import/Enemy/RPGMonsterBundlePolyart/URP/CommonStuffs/Prefab/Wave01/CharacterMaskTint/TurtleShellPAMaskTint.prefab
   - _gameObject: {fileID: 493613880}
     _prefab: Assets/Import/Enemy/RPGMonsterBundlePolyart/URP/CommonStuffs/Prefab/Wave01/CharacterPA/TurtleShellPA.prefab
+  - _gameObject: {fileID: 868189560}
+    _prefab: Assets/THE CHRONICLES OF DORIA/Assets/Prefabs/Enemies/Spawn Enemies.prefab
 --- !u!4 &466626555
 Transform:
   m_ObjectHideFlags: 11
@@ -28263,83 +28265,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 188516, guid: 733e54b0d0a87bc4792179eafb2bd664, type: 3}
   m_PrefabInstance: {fileID: 867878764}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &868189560
+--- !u!1 &868189560 stripped
 GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 6887305940500781054, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
+  m_PrefabInstance: {fileID: 157223028695501236}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 868189562}
-  - component: {fileID: 868189561}
-  m_Layer: 0
-  m_Name: Spawn Enemies
-  m_TagString: Untagged
-  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &868189561
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 868189560}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ec49ea537de7e448b93e909daa1bbb3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Saver: {fileID: 0}
-  spawnerType: 0
-  IsActive: 0
-  spawnData:
-  - npc: {fileID: 11400000, guid: 76bae7ac2473504438c1a84751984748, type: 2}
-    spawnChance: 100
-    IsPersistent: 0
-  npcCountMax: 1
-  CurrentNPCs: []
-  CurrentPersistentNPCs: []
-  RequirementsTemplate: {fileID: 0}
-  PlayerDistanceMax: 100
-  spawnedCount: 0
-  spawnedCountMax: 0
-  OverrideLevels: 0
-  MinLevel: 1
-  MaxLevel: 2
-  ScaleWithPlayer: 0
-  OverrideFaction: 0
-  Faction: {fileID: 0}
-  OverrideSpecies: 0
-  Species: {fileID: 0}
-  OverrideRespawn: 0
-  MinRespawn: 10
-  MaxRespawn: 20
-  areaRadius: 42.86
-  areaHeight: 26.9
-  gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
-  lineColor: {r: 0, g: 0, b: 0, a: 1}
-  groundLayers:
-    serializedVersion: 2
-    m_Bits: 128
-  usePosition: 0
---- !u!4 &868189562
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 868189560}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 78.33, y: 175.63, z: 113.19}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &870429703 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 424612, guid: 24e9dfb62fbafb94299ff67c961c9d65, type: 3}
@@ -68319,6 +68249,67 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1806998042058670, guid: 66a0d0bb3facbea45ac7c66f516f32b1, type: 3}
   m_PrefabInstance: {fileID: 2146724264}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &157223028695501236
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6676781758726972970, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 78.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 6676781758726972970, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 175.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 6676781758726972970, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 113.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 6676781758726972970, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6676781758726972970, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6676781758726972970, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6676781758726972970, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6676781758726972970, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6676781758726972970, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6676781758726972970, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887305940500781054, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
+      propertyPath: m_Name
+      value: Spawn Enemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887305940500781054, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
 --- !u!1001 &1844354709115663297
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -68434,5 +68425,5 @@ SceneRoots:
   - {fileID: 88235883}
   - {fileID: 701513988}
   - {fileID: 714388473}
-  - {fileID: 868189562}
+  - {fileID: 157223028695501236}
   - {fileID: 466626555}
