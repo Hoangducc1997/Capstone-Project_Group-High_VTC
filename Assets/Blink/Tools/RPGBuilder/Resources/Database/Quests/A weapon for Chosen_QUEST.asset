@@ -39,11 +39,27 @@ MonoBehaviour:
     timeLimit: 0
   rewardsGiven:
   - rewardType: 0
-    itemID: 52
+    itemID: 35
+    currencyID: -1
+    treePointID: -1
+    factionID: -1
+    weaponTemplateID: -1
+    count: 200
+    Experience: 0
+  rewardsToPick:
+  - rewardType: 0
+    itemID: 43
     currencyID: -1
     treePointID: -1
     factionID: -1
     weaponTemplateID: -1
     count: 1
     Experience: 0
-  rewardsToPick: []
+  - rewardType: 0
+    itemID: 33
+    currencyID: -1
+    treePointID: -1
+    factionID: -1
+    weaponTemplateID: -1
+    count: 1
+    Experience: 0
