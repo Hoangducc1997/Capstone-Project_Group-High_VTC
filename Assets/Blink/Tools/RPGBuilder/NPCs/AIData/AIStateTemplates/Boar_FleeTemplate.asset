@@ -19,7 +19,7 @@ MonoBehaviour:
   FleeTargetCheckInterval: 0.25
   FleeGroundLayers:
     serializedVersion: 2
-    m_Bits: 512
+    m_Bits: 0
   CallForHelp: 1
   CallForHelpDistance: 15
   HelpingNPCList:
