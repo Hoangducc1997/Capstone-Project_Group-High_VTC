@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cfea309fb49ee4b4aa219db7690d2f2b, type: 3}
-  m_Name: Bat X_BEHAVIOR
+  m_Name: Fish Man_BEHAVIOR
   m_EditorClassIdentifier: 
   ID: -1
-  entryName: Bat X
-  entryFileName: Bat X_BEHAVIOR
+  entryName: Fish Man
+  entryFileName: Fish Man_BEHAVIOR
   entryDisplayName: 
   entryIcon: {fileID: 0}
   entryDescription: 
@@ -35,7 +35,7 @@ MonoBehaviour:
   FleeRequirementsTemplate: {fileID: 0}
   FleeCheckInterval: 3
   PotentialAbilities:
-  - AbilitiesTemplate: {fileID: 11400000, guid: 9b5678d45dcedb74a837dd1573c6a503, type: 2}
+  - AbilitiesTemplate: {fileID: 11400000, guid: eb81dd43da947fc4f9343fe95e7dea99, type: 2}
     chance: 100
   MaxDistanceFromTarget: 3
   MinDistanceFromTarget: 2

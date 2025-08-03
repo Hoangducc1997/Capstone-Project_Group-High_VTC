@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0ba6b7e1e95e2d44ba6d52416e8e033e, type: 3}
-  m_Name: Warrior_RACE
+  m_Name: Character 1_RACE
   m_EditorClassIdentifier: 
-  ID: 1
-  entryName: Warrior
-  entryFileName: Warrior_RACE
+  ID: 0
+  entryName: Character 1
+  entryFileName: Character 1_RACE
   entryDisplayName: Human
-  entryIcon: {fileID: 21300000, guid: c428882e586afef41b6fb4a0e315f800, type: 3}
+  entryIcon: {fileID: 21300000, guid: 99b6e228ccaefa046a4dfea4a9e2dba2, type: 3}
   entryDescription: 
   _name: 
   _fileName: 
@@ -35,9 +35,9 @@ MonoBehaviour:
   combatAnimatorController: {fileID: 0}
   levelTemplateID: -1
   Genders:
-  - Gender: {fileID: 11400000, guid: a7f8731a5fd9fd541aa5657eb596884f, type: 2}
-    Prefab: {fileID: 7834932666486620940, guid: f8658c33076129f46b53deeb181b6776, type: 3}
-    Icon: {fileID: 21300000, guid: c428882e586afef41b6fb4a0e315f800, type: 3}
+  - Gender: {fileID: 11400000, guid: 6af37385c57329640bdb53dd75cf6921, type: 2}
+    Prefab: {fileID: 4502656670155466057, guid: 68795ab2cbc61dd47a7ec01483310cc9, type: 3}
+    Icon: {fileID: 21300000, guid: 99b6e228ccaefa046a4dfea4a9e2dba2, type: 3}
     DynamicAnimator: 1
     RestAnimatorController: {fileID: 22100000, guid: bce07712ca593f34f9c226bb6b2bcba4, type: 2}
     CombatAnimatorController: {fileID: 22100000, guid: bce07712ca593f34f9c226bb6b2bcba4, type: 2}
