@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 943d49eb769cd944fade3a1cd7491609, type: 3}
-  m_Name: Frostbolt_ABILITY
+  m_Name: Dragon Shapeshifting_ABILITY
   m_EditorClassIdentifier: 
-  ID: 12
-  entryName: Frostbolt
-  entryFileName: Frostbolt_ABILITY
-  entryDisplayName: Frostbolt
-  entryIcon: {fileID: 21300000, guid: 1e0f817b5d5649547ab515652b56563f, type: 3}
+  ID: 17
+  entryName: Dragon Shapeshifting
+  entryFileName: Dragon Shapeshifting_ABILITY
+  entryDisplayName: Dragon Shapeshifting
+  entryIcon: {fileID: 21300000, guid: 51dcbb3542a768b49ac5942bd2a0c8bb, type: 3}
   entryDescription: 
   _name: 
   _fileName: 
@@ -27,10 +27,8 @@ MonoBehaviour:
   ranks:
   - ShowedInEditor: 1
     unlockCost: 0
-    TooltipText: Cast a frost bolt that will deal damage to the first enemy hit.
-      On hit, there is a 33% chance to freeze the target, making them unable to move
-      or attack for a duration.
-    activationType: 1
+    TooltipText: 
+    activationType: 0
     castTime: 1
     castInRun: 1
     castBarVisible: 1
@@ -45,7 +43,7 @@ MonoBehaviour:
     Requirements: []
     UseRequirementsTemplate: 0
     RequirementsTemplate: {fileID: 0}
-    targetType: 4
+    targetType: 0
     isToggle: 0
     isToggleCostOnTrigger: 0
     toggledTriggerInterval: 0
@@ -83,7 +81,7 @@ MonoBehaviour:
     projectileDestroyedByEnvironment: 1
     projectileDestroyLayers:
       serializedVersion: 2
-      m_Bits: 4608
+      m_Bits: 128
     projectileAffectedByGravity: 0
     projectileShootOnClickPosition: 0
     projectileDistanceMaxForNPC: 50
@@ -150,23 +148,14 @@ MonoBehaviour:
     cooldownTag: 
     abilityCooldownTag: {fileID: 0}
     effectsApplied:
-    - effectID: 20
+    - effectID: 28
       chance: 100
       effectRank: 0
       target: 0
       isSpread: 0
       spreadDistanceMax: 0
       spreadUnitMax: 0
-      delay: 0
-      tooltipText: 
-    - effectID: 21
-      chance: 33
-      effectRank: 0
-      target: 0
-      isSpread: 0
-      spreadDistanceMax: 0
-      spreadUnitMax: 0
-      delay: 0
+      delay: 11
       tooltipText: 
     casterEffectsApplied: []
     Actions: []
@@ -192,7 +181,7 @@ MonoBehaviour:
     visualEffects: []
     visualAnimations: []
     tagsData:
-    - tag: 0
-      effectID: -1
+    - tag: 2
+      effectID: 28
     extraAbilityExecutedID: 0
     extraAbilityExecutedActivationType: 0

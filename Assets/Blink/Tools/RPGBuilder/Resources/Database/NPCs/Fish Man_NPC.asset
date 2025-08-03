@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2eaea086ce51ea9419be768c6237eedb, type: 3}
   m_Name: Fish Man_NPC
   m_EditorClassIdentifier: 
-  ID: 15
+  ID: 14
   entryName: Fish Man
   entryFileName: Fish Man_NPC
   entryDisplayName: Fish Man
-  entryIcon: {fileID: 21300000, guid: 78251da1960ddb941be2d261d12a1b0d, type: 3}
+  entryIcon: {fileID: 21300000, guid: 96c2585e3b2743541ac25c111dd5ef7c, type: 3}
   entryDescription: 
   _name: 
   _fileName: 
@@ -25,8 +25,8 @@ MonoBehaviour:
   npcType: 0
   AILogicTemplate: {fileID: 262611205548413635, guid: 42a8b97728201df44ba95376d46032e3, type: 3}
   Phases:
-  - PhaseTemplate: {fileID: 11400000, guid: 0b30bdb399f991a4580f6a95596bd02f, type: 2}
-    Preset: {fileID: 11400000, guid: 1f992d856c0d6d14cbaa40e638fc46d8, type: 2}
+  - PhaseTemplate: {fileID: 11400000, guid: 4c651ddda27db3d41884de5d4ee019d6, type: 2}
+    Preset: {fileID: 11400000, guid: 93a0bb7f3ef8cb249906f26621f41f9c, type: 2}
   ResetPhaseAfterCombat: 0
   InstantlyHealAfterCombat: 1
   isDummyTarget: 0
@@ -43,7 +43,7 @@ MonoBehaviour:
   MinEXP: 2
   MaxEXP: 4
   LowerLevelEXPModifier: 0
-  HigherLevelEXPModifier: -20
+  HigherLevelEXPModifier: -30
   EXPBonusPerLevel: 2
   lootBagPrefab: {fileID: 0}
   LootBagDuration: 60
@@ -57,7 +57,7 @@ MonoBehaviour:
     overrideMinValue: 0
     minValue: 0
     overrideMaxValue: 1
-    maxValue: 500
+    maxValue: 100
     overrideStartPercentage: 0
     startPercentage: 100
     addedValue: 0
@@ -109,7 +109,7 @@ MonoBehaviour:
   colliderHeight: 2
   aggroLinks:
   - type: 0
-    npcID: 15
+    npcID: 14
     npcFamily: {fileID: 0}
     maxDistance: 5
   SetLayer: 0

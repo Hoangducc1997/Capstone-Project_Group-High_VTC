@@ -57,7 +57,11 @@ MonoBehaviour:
   - itemID: 5
     count: 1
     equipped: 1
-  actionAbilities: []
+  actionAbilities:
+  - keyType: 1
+    key: 0
+    actionKeyName: SHAPESHIFT_1
+    abilityID: 17
   allocationStatPoints: 0
   allocatedStatsEntries: []
   allocatedStatsEntriesGame: []
