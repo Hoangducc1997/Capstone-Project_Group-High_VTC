@@ -15,9 +15,10 @@ MonoBehaviour:
   ID: 0
   entryName: Character 1
   entryFileName: Character 1_RACE
-  entryDisplayName: Human
-  entryIcon: {fileID: 21300000, guid: 99b6e228ccaefa046a4dfea4a9e2dba2, type: 3}
-  entryDescription: 
+  entryDisplayName: Character 1
+  entryIcon: {fileID: 21300000, guid: 7a733554e56a8ce45a40adc2a9c7eb1e, type: 3}
+  entryDescription: "A mysterious sorcerer from a distant Eastern land, swept into
+    a cosmic storm and cast into Eldoria \u2013 a realm torn asunder by dark forces"
   _name: 
   _fileName: 
   displayName: 
@@ -37,12 +38,11 @@ MonoBehaviour:
   Genders:
   - Gender: {fileID: 11400000, guid: 6af37385c57329640bdb53dd75cf6921, type: 2}
     Prefab: {fileID: 4502656670155466057, guid: 68795ab2cbc61dd47a7ec01483310cc9, type: 3}
-    Icon: {fileID: 21300000, guid: 99b6e228ccaefa046a4dfea4a9e2dba2, type: 3}
+    Icon: {fileID: 21300000, guid: 7d72bbe58b569154ab785a2f7db98840, type: 3}
     DynamicAnimator: 1
     RestAnimatorController: {fileID: 22100000, guid: bce07712ca593f34f9c226bb6b2bcba4, type: 2}
     CombatAnimatorController: {fileID: 22100000, guid: bce07712ca593f34f9c226bb6b2bcba4, type: 2}
   availableClasses:
-  - classID: 0
   - classID: 1
   weaponTemplates: []
   stats: []

@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1a057efdae520044d8eb378f9acecc8d, type: 3}
-  m_Name: Warrior_CLASS
+  m_Name: Ranged_CLASS
   m_EditorClassIdentifier: 
-  ID: 0
-  entryName: Warrior
-  entryFileName: Warrior_CLASS
-  entryDisplayName: Warrior
-  entryIcon: {fileID: 21300000, guid: 38386c2ff28df804b84574c6eee3bf5f, type: 3}
-  entryDescription: The warrior rushes into the fight and slays everything in his
-    path.
+  ID: 1
+  entryName: Ranged
+  entryFileName: Ranged_CLASS
+  entryDisplayName: Ranged
+  entryIcon: {fileID: 21300000, guid: 0f182fb2863faa7449e020de33b77e68, type: 3}
+  entryDescription: '-Weapons: Bows, crossbows, firearms, spells, thrown weapons                                
+    -Range: Medium to long distance'
   _name: 
   _fileName: 
   displayName: 
@@ -27,7 +27,7 @@ MonoBehaviour:
   autoAttackAbilityID: -1
   stats: []
   CustomStats:
-  - statID: 0
+  - statID: 28
     overrideMinValue: 0
     minValue: 0
     overrideMaxValue: 0
@@ -35,7 +35,7 @@ MonoBehaviour:
     overrideStartPercentage: 0
     startPercentage: 100
     addedValue: 0
-    valuePerLevel: 10
+    valuePerLevel: 5
     Percent: 0
     chance: 100
     vitalityActions: []
@@ -44,27 +44,25 @@ MonoBehaviour:
   levelTemplateID: 0
   talentTrees: []
   spellbooks:
-  - spellbookID: 0
+  - spellbookID: 1
   startItems:
-  - itemID: 3
+  - itemID: 6
     count: 1
     equipped: 1
-  - itemID: 0
+  - itemID: 4
     count: 1
     equipped: 1
-  - itemID: 1
+  - itemID: 7
     count: 1
     equipped: 1
-  - itemID: 2
+  - itemID: 5
     count: 1
     equipped: 1
-  - itemID: 12
-    count: 1
-    equipped: 1
-  - itemID: 12
-    count: 1
-    equipped: 1
-  actionAbilities: []
+  actionAbilities:
+  - keyType: 1
+    key: 0
+    actionKeyName: SHAPESHIFT_1
+    abilityID: 17
   allocationStatPoints: 0
   allocatedStatsEntries: []
   allocatedStatsEntriesGame: []

@@ -10,14 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1a057efdae520044d8eb378f9acecc8d, type: 3}
-  m_Name: Mage_CLASS
+  m_Name: Melee_CLASS
   m_EditorClassIdentifier: 
-  ID: 1
-  entryName: Mage
-  entryFileName: Mage_CLASS
-  entryDisplayName: Mage
-  entryIcon: {fileID: 21300000, guid: 0f182fb2863faa7449e020de33b77e68, type: 3}
-  entryDescription: The mage uses magic to slay his enemies.
+  ID: 0
+  entryName: Melee
+  entryFileName: Melee_CLASS
+  entryDisplayName: Melee
+  entryIcon: {fileID: 21300000, guid: 38386c2ff28df804b84574c6eee3bf5f, type: 3}
+  entryDescription: '-Swords, axes, daggers, spears, glaives, halberds                                                  
+    -Range: Close-quarters only'
   _name: 
   _fileName: 
   displayName: 
@@ -26,7 +27,7 @@ MonoBehaviour:
   autoAttackAbilityID: -1
   stats: []
   CustomStats:
-  - statID: 28
+  - statID: 0
     overrideMinValue: 0
     minValue: 0
     overrideMaxValue: 0
@@ -34,7 +35,7 @@ MonoBehaviour:
     overrideStartPercentage: 0
     startPercentage: 100
     addedValue: 0
-    valuePerLevel: 5
+    valuePerLevel: 10
     Percent: 0
     chance: 100
     vitalityActions: []
@@ -43,25 +44,27 @@ MonoBehaviour:
   levelTemplateID: 0
   talentTrees: []
   spellbooks:
-  - spellbookID: 1
+  - spellbookID: 0
   startItems:
-  - itemID: 6
+  - itemID: 3
     count: 1
     equipped: 1
-  - itemID: 4
+  - itemID: 0
     count: 1
     equipped: 1
-  - itemID: 7
+  - itemID: 1
     count: 1
     equipped: 1
-  - itemID: 5
+  - itemID: 2
     count: 1
     equipped: 1
-  actionAbilities:
-  - keyType: 1
-    key: 0
-    actionKeyName: SHAPESHIFT_1
-    abilityID: 17
+  - itemID: 12
+    count: 1
+    equipped: 1
+  - itemID: 12
+    count: 1
+    equipped: 1
+  actionAbilities: []
   allocationStatPoints: 0
   allocatedStatsEntries: []
   allocatedStatsEntriesGame: []
