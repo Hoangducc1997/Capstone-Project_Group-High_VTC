@@ -82,8 +82,10 @@ namespace BLINK.RPGBuilder.Managers
         [SerializeField] private Button skipIntroButton;
         [SerializeField] private GameObject canvasIntroCinematic;
 
+        [SerializeField] private GameObject newCharacterPanel;
         private IEnumerator Start()
         {
+            newCharacterPanel.SetActive(false);
             if (Instance != null) yield break;
             Instance = this;
 
@@ -152,6 +154,7 @@ namespace BLINK.RPGBuilder.Managers
 
         public void ClickNewChar()
         {
+            newCharacterPanel.SetActive(true);
             disableAllCG();
             RPGBuilderUtilities.EnableCG(CreateCharCG);
 
@@ -184,6 +187,12 @@ namespace BLINK.RPGBuilder.Managers
                 ClickHome();
             else
                 InitContinue();
+        }
+
+        public void ExitGame()
+        {
+            Application.Quit();
+            Debug.Log("Exiting Game");
         }
 
         private void InitContinue()
@@ -1080,6 +1089,7 @@ namespace BLINK.RPGBuilder.Managers
             return total;
         }
         
+       
         public void OpenBlinkStore() {
             Application.OpenURL("https://www.facebook.com/profile.php?id=61570034045910");
         }

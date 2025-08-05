@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1246192010375356492
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3814808875603126181, guid: 504383f89bd6d99499d7fb2eec21d2a7, type: 3}
+      propertyPath: m_Name
+      value: RedPortal  Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 4049736777046058959, guid: 504383f89bd6d99499d7fb2eec21d2a7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 4049736777046058959, guid: 504383f89bd6d99499d7fb2eec21d2a7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 4049736777046058959, guid: 504383f89bd6d99499d7fb2eec21d2a7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 4049736777046058959, guid: 504383f89bd6d99499d7fb2eec21d2a7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4049736777046058959, guid: 504383f89bd6d99499d7fb2eec21d2a7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4049736777046058959, guid: 504383f89bd6d99499d7fb2eec21d2a7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4049736777046058959, guid: 504383f89bd6d99499d7fb2eec21d2a7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4049736777046058959, guid: 504383f89bd6d99499d7fb2eec21d2a7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4049736777046058959, guid: 504383f89bd6d99499d7fb2eec21d2a7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4049736777046058959, guid: 504383f89bd6d99499d7fb2eec21d2a7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6776436719507476704, guid: 504383f89bd6d99499d7fb2eec21d2a7, type: 3}
+      propertyPath: InteractableName
+      value: Map1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8321361542870569743, guid: 504383f89bd6d99499d7fb2eec21d2a7, type: 3}
+      propertyPath: portalIdlePrefab
+      value: 
+      objectReference: {fileID: 127902, guid: 27856c31c3afe6244a0f17a4fef0905a, type: 3}
+    - target: {fileID: 8321361542870569743, guid: 504383f89bd6d99499d7fb2eec21d2a7, type: 3}
+      propertyPath: portalOpenPrefab
+      value: 
+      objectReference: {fileID: 130970, guid: ccb3e311f4a463d48882902db30e02ec, type: 3}
+    - target: {fileID: 8321361542870569743, guid: 504383f89bd6d99499d7fb2eec21d2a7, type: 3}
+      propertyPath: portalClosePrefab
+      value: 
+      objectReference: {fileID: 118508, guid: 1f60700ee6f51c140b78e95349e06637, type: 3}
+    - target: {fileID: 8321361542877177487, guid: 504383f89bd6d99499d7fb2eec21d2a7, type: 3}
+      propertyPath: m_Name
+      value: 'RedPortal '
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 504383f89bd6d99499d7fb2eec21d2a7, type: 3}
