@@ -25,10 +25,8 @@ MonoBehaviour:
   npcType: 0
   AILogicTemplate: {fileID: 262611205548413635, guid: 42a8b97728201df44ba95376d46032e3, type: 3}
   Phases:
-  - PhaseTemplate: {fileID: 11400000, guid: 6fe7708c687703e4ab88a9aa376e699c, type: 2}
-    Preset: {fileID: 11400000, guid: 82178f79734977f4d809ba2b0b451bcf, type: 2}
-  - PhaseTemplate: {fileID: 11400000, guid: 44209a4c371d47146a957258c3d11432, type: 2}
-    Preset: {fileID: 11400000, guid: 82178f79734977f4d809ba2b0b451bcf, type: 2}
+  - PhaseTemplate: {fileID: 11400000, guid: 52ecc22b6240cfb42b6c7803732f76cb, type: 2}
+    Preset: {fileID: 11400000, guid: 0b66208c3180a5140b920055a4e73e41, type: 2}
   ResetPhaseAfterCombat: 0
   InstantlyHealAfterCombat: 1
   isDummyTarget: 0
@@ -39,8 +37,8 @@ MonoBehaviour:
   dialogueID: -1
   questGiven: []
   questCompleted: []
-  MinRespawn: 120
-  MaxRespawn: 200
+  MinRespawn: 1
+  MaxRespawn: 1
   corpseDespawnTime: 60
   MinEXP: 15
   MaxEXP: 25
@@ -59,7 +57,7 @@ MonoBehaviour:
     overrideMinValue: 0
     minValue: 0
     overrideMaxValue: 1
-    maxValue: 5000
+    maxValue: 1000
     overrideStartPercentage: 0
     startPercentage: 100
     addedValue: 0
@@ -131,7 +129,7 @@ MonoBehaviour:
   colliderHeight: 2
   aggroLinks:
   - type: 0
-    npcID: 2
+    npcID: 16
     npcFamily: {fileID: 0}
     maxDistance: 15
   SetLayer: 0

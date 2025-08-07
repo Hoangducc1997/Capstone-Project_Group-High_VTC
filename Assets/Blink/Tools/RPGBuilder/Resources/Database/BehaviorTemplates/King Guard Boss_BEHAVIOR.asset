@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cfea309fb49ee4b4aa219db7690d2f2b, type: 3}
-  m_Name: BearBoss_BEHAVIOR
+  m_Name: King Guard Boss_BEHAVIOR
   m_EditorClassIdentifier: 
   ID: -1
-  entryName: BearBoss
-  entryFileName: BearBoss_BEHAVIOR
+  entryName: King Guard Boss
+  entryFileName: King Guard Boss_BEHAVIOR
   entryDisplayName: 
   entryIcon: {fileID: 0}
   entryDescription: 
@@ -35,7 +35,7 @@ MonoBehaviour:
   FleeRequirementsTemplate: {fileID: 0}
   FleeCheckInterval: 3
   PotentialAbilities:
-  - AbilitiesTemplate: {fileID: 11400000, guid: a502912c6b26efe40aabdca1eebb51b0, type: 2}
+  - AbilitiesTemplate: {fileID: 11400000, guid: 5edddecbcb748624db5e2f1867ec9ee7, type: 2}
     chance: 100
   MaxDistanceFromTarget: 4
   MinDistanceFromTarget: 2.5

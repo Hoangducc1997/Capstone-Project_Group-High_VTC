@@ -16707,10 +16707,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 87.1
       objectReference: {fileID: 0}
+    - target: {fileID: 5331150110461500317, guid: ef8f0bcb24f5cea4893436097c831853, type: 3}
+      propertyPath: spawnData.Array.data[0].npc
+      value: 
+      objectReference: {fileID: 11400000, guid: e03d5eac1f6c475468eb1ec013d14886, type: 2}
     - target: {fileID: 5499058406088519390, guid: ef8f0bcb24f5cea4893436097c831853, type: 3}
       propertyPath: m_NavMeshData
       value: 
       objectReference: {fileID: 23800000, guid: bfb4f3c9317ce7d419607c5f7b5b3286, type: 2}
+    - target: {fileID: 7950695896820576261, guid: ef8f0bcb24f5cea4893436097c831853, type: 3}
+      propertyPath: spawnData.Array.data[0].npc
+      value: 
+      objectReference: {fileID: 11400000, guid: a086d07184013044fa172ae82e3fded3, type: 2}
     - target: {fileID: 8850173276822396909, guid: ef8f0bcb24f5cea4893436097c831853, type: 3}
       propertyPath: m_Name
       value: Map 1
@@ -57598,7 +57606,7 @@ GameObject:
   - component: {fileID: 1744440261}
   m_Layer: 0
   m_Name: Camera
-  m_TagString: Untagged
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
