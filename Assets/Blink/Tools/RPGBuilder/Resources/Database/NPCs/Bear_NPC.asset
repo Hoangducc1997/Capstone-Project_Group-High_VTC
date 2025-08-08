@@ -47,7 +47,11 @@ MonoBehaviour:
   EXPBonusPerLevel: 2
   lootBagPrefab: {fileID: 0}
   LootBagDuration: 60
-  factionRewards: []
+  factionRewards:
+  - factionID: -1
+    amount: 0
+  - factionID: -1
+    amount: 0
   MinLevel: 1
   MaxLevel: 3
   isScalingWithPlayer: 0

@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2eaea086ce51ea9419be768c6237eedb, type: 3}
   m_Name: King Guard Boss_NPC
   m_EditorClassIdentifier: 
-  ID: 16
+  ID: 17
   entryName: King Guard Boss
   entryFileName: King Guard Boss_NPC
-  entryDisplayName: 'King Guard '
+  entryDisplayName: King Guard
   entryIcon: {fileID: 21300000, guid: 3cf5b3751a142904689e421f605e30c6, type: 3}
   entryDescription: 
   _name: 
@@ -25,31 +25,31 @@ MonoBehaviour:
   npcType: 0
   AILogicTemplate: {fileID: 262611205548413635, guid: 42a8b97728201df44ba95376d46032e3, type: 3}
   Phases:
-  - PhaseTemplate: {fileID: 11400000, guid: 52ecc22b6240cfb42b6c7803732f76cb, type: 2}
-    Preset: {fileID: 11400000, guid: 0b66208c3180a5140b920055a4e73e41, type: 2}
-  ResetPhaseAfterCombat: 0
+  - PhaseTemplate: {fileID: 11400000, guid: aa6c830d684b9774dbaa08c083c6c13a, type: 2}
+    Preset: {fileID: 11400000, guid: 0cf915ce39ddd9446a1162b28f196c39, type: 2}
+  ResetPhaseAfterCombat: 1
   InstantlyHealAfterCombat: 1
   isDummyTarget: 0
-  factionID: 1
+  factionID: 2
   speciesID: -1
   merchantTableID: -1
   MerchantTables: []
   dialogueID: -1
   questGiven: []
   questCompleted: []
-  MinRespawn: 1
-  MaxRespawn: 1
-  corpseDespawnTime: 60
-  MinEXP: 15
-  MaxEXP: 25
-  LowerLevelEXPModifier: 25
-  HigherLevelEXPModifier: -20
-  EXPBonusPerLevel: 2
+  MinRespawn: 5
+  MaxRespawn: 10
+  corpseDespawnTime: 15
+  MinEXP: 1
+  MaxEXP: 2
+  LowerLevelEXPModifier: 0
+  HigherLevelEXPModifier: -30
+  EXPBonusPerLevel: 1
   lootBagPrefab: {fileID: 0}
   LootBagDuration: 60
   factionRewards: []
-  MinLevel: 10
-  MaxLevel: 10
+  MinLevel: 1
+  MaxLevel: 3
   isScalingWithPlayer: 0
   stats: []
   CustomStats:
@@ -57,7 +57,7 @@ MonoBehaviour:
     overrideMinValue: 0
     minValue: 0
     overrideMaxValue: 1
-    maxValue: 1000
+    maxValue: 100
     overrideStartPercentage: 0
     startPercentage: 100
     addedValue: 0
@@ -65,36 +65,16 @@ MonoBehaviour:
     Percent: 0
     chance: 100
     vitalityActions: []
-  - statID: 27
-    overrideMinValue: 0
-    minValue: 0
-    overrideMaxValue: 0
-    maxValue: 0
-    overrideStartPercentage: 0
-    startPercentage: 100
-    addedValue: 40
-    valuePerLevel: 0
-    Percent: 0
-    chance: 100
-    vitalityActions: []
-  - statID: 20
-    overrideMinValue: 0
-    minValue: 0
-    overrideMaxValue: 0
-    maxValue: 0
-    overrideStartPercentage: 0
-    startPercentage: 100
-    addedValue: 35
-    valuePerLevel: 0
-    Percent: 0
-    chance: 100
-    vitalityActions: []
   UseStatListTemplate: 0
   StatListTemplate: {fileID: 0}
   lootTables:
-  - lootTableID: 3
-    dropRate: 100
+  - lootTableID: 4
+    dropRate: 80.57
   - lootTableID: 5
+    dropRate: 70.689995
+  - lootTableID: 6
+    dropRate: 100
+  - lootTableID: 7
     dropRate: 100
   isCombatEnabled: 1
   isMovementEnabled: 0
@@ -129,9 +109,9 @@ MonoBehaviour:
   colliderHeight: 2
   aggroLinks:
   - type: 0
-    npcID: 16
+    npcID: 17
     npcFamily: {fileID: 0}
-    maxDistance: 15
+    maxDistance: 2
   SetLayer: 0
   SetTag: 0
   GameObjectLayer: 0

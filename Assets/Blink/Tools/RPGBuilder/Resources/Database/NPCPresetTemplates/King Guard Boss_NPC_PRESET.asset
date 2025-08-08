@@ -21,18 +21,18 @@ MonoBehaviour:
   Prefab: {fileID: 4414871117303439921, guid: aef9a3e063e740f4d8100584de73ceb4, type: 3}
   Position: {x: 0, y: -0.15, z: 0}
   Scale: {x: 1, y: 1, z: 1}
-  NameplateYOffset: 2.5
+  NameplateYOffset: 2.25
   NameplateDistance: 50
   RendererName: Body
-  AnimatorController: {fileID: 9100000, guid: 1ec31ee6b4e699b4c919f9ddd24f6f73, type: 2}
-  AnimatorAvatar: {fileID: 9000000, guid: 63e974d9ec82619419e69ae2287be94e, type: 3}
+  AnimatorController: {fileID: 22100000, guid: 8f882879e7869c048ad2c22c822ac054, type: 2}
+  AnimatorAvatar: {fileID: 9000000, guid: d7ae026d8b4f2b3489f3d792c70a3dd8, type: 3}
   AnimatorUseRootMotion: 0
   AnimatorUpdateMode: 0
   AnimatorCullingMode: 0
   NavmeshAgentRadius: 0.5
   NavmeshAgentHeight: 2
-  NavmeshAgentAngularSpeed: 90
-  NavmeshObstacleAvoidance: 0
+  NavmeshAgentAngularSpeed: 500
+  NavmeshObstacleAvoidance: 2
   ColliderType: 0
   ColliderCenter: {x: 0, y: 1, z: 0}
   ColliderSize: {x: 0, y: 0, z: 0}

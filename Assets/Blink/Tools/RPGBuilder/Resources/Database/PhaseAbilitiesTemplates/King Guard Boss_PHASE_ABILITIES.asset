@@ -21,21 +21,7 @@ MonoBehaviour:
   CheckMaxAbilities: 0
   MaxAbilities: 1
   Abilities:
-  - abilityID: 5
-    abilityRank: 0
-    chance: 100
-    RequirementsTemplate: {fileID: 0}
-    optional: 0
-    LimitedUse: 0
-    MaxUseAmount: 1
-  - abilityID: 7
-    abilityRank: 0
-    chance: 100
-    RequirementsTemplate: {fileID: 0}
-    optional: 0
-    LimitedUse: 0
-    MaxUseAmount: 1
-  - abilityID: 10
+  - abilityID: 4
     abilityRank: 0
     chance: 100
     RequirementsTemplate: {fileID: 0}
