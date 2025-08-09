@@ -20,12 +20,12 @@ MonoBehaviour:
   entryDescription: 
   Prefab: {fileID: 4414871117303439921, guid: aef9a3e063e740f4d8100584de73ceb4, type: 3}
   Position: {x: 0, y: -0.15, z: 0}
-  Scale: {x: 1, y: 1, z: 1}
+  Scale: {x: 2, y: 2, z: 2}
   NameplateYOffset: 2.25
   NameplateDistance: 50
   RendererName: Body
-  AnimatorController: {fileID: 22100000, guid: 8f882879e7869c048ad2c22c822ac054, type: 2}
-  AnimatorAvatar: {fileID: 9000000, guid: d7ae026d8b4f2b3489f3d792c70a3dd8, type: 3}
+  AnimatorController: {fileID: 22100000, guid: 6093fe68516330240aa1f20dbbae936e, type: 2}
+  AnimatorAvatar: {fileID: 9000000, guid: 63e974d9ec82619419e69ae2287be94e, type: 3}
   AnimatorUseRootMotion: 0
   AnimatorUpdateMode: 0
   AnimatorCullingMode: 0

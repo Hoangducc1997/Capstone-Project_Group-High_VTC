@@ -21,7 +21,7 @@ MonoBehaviour:
   TransitionDuration: 0
   EnterPhaseRequirementsTemplate: {fileID: 0}
   PotentialBehaviors:
-  - BehaviorTemplate: {fileID: 11400000, guid: 63b97186b7e501041a9732f9fb49e62c, type: 2}
+  - BehaviorTemplate: {fileID: 11400000, guid: fe6cbcfff9b0318458de7e562c6d1fb9, type: 2}
     chance: 100
   ActionsTemplate: {fileID: 0}
   SpawnedAnimationTemplate: {fileID: 0}
