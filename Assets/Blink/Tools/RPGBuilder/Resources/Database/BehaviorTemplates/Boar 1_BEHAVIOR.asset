@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cfea309fb49ee4b4aa219db7690d2f2b, type: 3}
-  m_Name: Bear_BEHAVIOR
+  m_Name: Boar 1_BEHAVIOR
   m_EditorClassIdentifier: 
   ID: -1
-  entryName: Bear
-  entryFileName: Bear_BEHAVIOR
+  entryName: Boar 1
+  entryFileName: Boar 1_BEHAVIOR
   entryDisplayName: 
   entryIcon: {fileID: 0}
   entryDescription: 
   DefaultState: {fileID: 11400000, guid: 4a18af7f08abd654eb345182b55f67ed, type: 2}
-  DefaultStateTemplate: {fileID: 11400000, guid: d9419bff213ef2b4aa5b5585a2f6be0d, type: 2}
+  DefaultStateTemplate: {fileID: 11400000, guid: 1f7448e9e7dcfe241b9c3472f717bd81, type: 2}
   DefaultPetState: {fileID: 0}
   DefaultPetStateTemplate: {fileID: 0}
   ChaseState: {fileID: 11400000, guid: da1c5b016655e014aa0caafd0bb26ed2, type: 2}
@@ -35,12 +35,12 @@ MonoBehaviour:
   FleeRequirementsTemplate: {fileID: 11400000, guid: d877be86765dc6b4e92d97dfb0d0b2df, type: 2}
   FleeCheckInterval: 3
   PotentialAbilities:
-  - AbilitiesTemplate: {fileID: 11400000, guid: fb29fa7e85ecd32428501d7475f285c8, type: 2}
+  - AbilitiesTemplate: {fileID: 11400000, guid: f6d056eda9ae34649bf756e059369b27, type: 2}
     chance: 100
   MaxDistanceFromTarget: 3
   MinDistanceFromTarget: 2
-  LookAtTargetSpeed: 25
-  CheckTargetInterval: 0.5
+  LookAtTargetSpeed: 100
+  CheckTargetInterval: 39
   ResetTargetAfterDistanceFromSpawner: 0
   SpawnerDistanceMax: 30
   ResetTargetAfterDistanceFromSpawnpoint: 0

@@ -10,32 +10,32 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ccfcbfff05fa1f94eaa371eb19ed6547, type: 3}
-  m_Name: Ability Merchant_NPC_PRESET
+  m_Name: Enemy Fish Man_NPC_PRESET
   m_EditorClassIdentifier: 
   ID: -1
-  entryName: Ability Merchant
-  entryFileName: Ability Merchant_NPC_PRESET
+  entryName: Enemy Fish Man
+  entryFileName: Enemy Fish Man_NPC_PRESET
   entryDisplayName: 
-  entryIcon: {fileID: 0}
+  entryIcon: {fileID: 21300000, guid: fbc214a697e326140bfb13151d778c27, type: 3}
   entryDescription: 
-  Prefab: {fileID: 0}
-  Position: {x: 0, y: 0, z: 0}
+  Prefab: {fileID: 4401516545361303541, guid: e6795c22ad904637bbe60283e1c0cd08, type: 3}
+  Position: {x: 0, y: -0.15, z: 0}
   Scale: {x: 1, y: 1, z: 1}
-  NameplateYOffset: 1.5
+  NameplateYOffset: 1.6
   NameplateDistance: 50
-  RendererName: 
-  AnimatorController: {fileID: 0}
-  AnimatorAvatar: {fileID: 0}
+  RendererName: Body
+  AnimatorController: {fileID: 22100000, guid: df7852c2fbf79a748996c97fb61f75db, type: 2}
+  AnimatorAvatar: {fileID: 9000000, guid: eac36f1100f74cf99dbcb5d73ff4dfaa, type: 3}
   AnimatorUseRootMotion: 0
   AnimatorUpdateMode: 0
   AnimatorCullingMode: 0
-  NavmeshAgentRadius: 0.5
-  NavmeshAgentHeight: 2
+  NavmeshAgentRadius: 39
+  NavmeshAgentHeight: 9
   NavmeshAgentAngularSpeed: 500
   NavmeshObstacleAvoidance: 1
   ColliderType: 0
-  ColliderCenter: {x: 0, y: 0, z: 0}
+  ColliderCenter: {x: 0, y: 1, z: 0}
   ColliderSize: {x: 0, y: 0, z: 0}
-  ColliderRadius: 1
-  ColliderHeight: 2
+  ColliderRadius: 39
+  ColliderHeight: 9
   InteractionDistanceMax: 3

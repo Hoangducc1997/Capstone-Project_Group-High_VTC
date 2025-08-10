@@ -16712,13 +16712,37 @@ PrefabInstance:
       value: 87.1
       objectReference: {fileID: 0}
     - target: {fileID: 5331150110461500317, guid: ef8f0bcb24f5cea4893436097c831853, type: 3}
+      propertyPath: areaHeight
+      value: 15.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5331150110461500317, guid: ef8f0bcb24f5cea4893436097c831853, type: 3}
+      propertyPath: areaRadius
+      value: 34.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5331150110461500317, guid: ef8f0bcb24f5cea4893436097c831853, type: 3}
+      propertyPath: usePosition
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5331150110461500317, guid: ef8f0bcb24f5cea4893436097c831853, type: 3}
+      propertyPath: groundLayers.m_Bits
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 5331150110461500317, guid: ef8f0bcb24f5cea4893436097c831853, type: 3}
       propertyPath: spawnData.Array.data[0].npc
       value: 
-      objectReference: {fileID: 11400000, guid: 11da0429409e34449a5be8de17fdc525, type: 2}
+      objectReference: {fileID: 11400000, guid: a27dcbe8c531d974d97304b7cec00fc3, type: 2}
     - target: {fileID: 5499058406088519390, guid: ef8f0bcb24f5cea4893436097c831853, type: 3}
       propertyPath: m_NavMeshData
       value: 
       objectReference: {fileID: 23800000, guid: bfb4f3c9317ce7d419607c5f7b5b3286, type: 2}
+    - target: {fileID: 7950695896820576261, guid: ef8f0bcb24f5cea4893436097c831853, type: 3}
+      propertyPath: usePosition
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7950695896820576261, guid: ef8f0bcb24f5cea4893436097c831853, type: 3}
+      propertyPath: groundLayers.m_Bits
+      value: 32
+      objectReference: {fileID: 0}
     - target: {fileID: 7950695896820576261, guid: ef8f0bcb24f5cea4893436097c831853, type: 3}
       propertyPath: spawnData.Array.data[0].npc
       value: 

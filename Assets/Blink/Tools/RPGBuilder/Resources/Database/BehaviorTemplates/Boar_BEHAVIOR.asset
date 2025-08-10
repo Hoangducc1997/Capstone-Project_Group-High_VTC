@@ -39,15 +39,15 @@ MonoBehaviour:
     chance: 100
   MaxDistanceFromTarget: 3
   MinDistanceFromTarget: 2
-  LookAtTargetSpeed: 25
-  CheckTargetInterval: 0.5
+  LookAtTargetSpeed: 100
+  CheckTargetInterval: 39
   ResetTargetAfterDistanceFromSpawner: 0
   SpawnerDistanceMax: 30
   ResetTargetAfterDistanceFromSpawnpoint: 0
   SpawnPointDistanceMax: 50
   StrafeParameterName: Strafing
   CombatParameterName: InCombatState
-  CanAggroAlly: 0
+  CanAggroAlly: 1
   CanAggroNeutral: 0
   CanAggroEnemy: 1
   PhaseCheckInterval: 3
