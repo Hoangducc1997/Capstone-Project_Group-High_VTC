@@ -10,18 +10,32 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 52363f2ae571b72428704f75dbbeadb1, type: 3}
-  m_Name: King Guard Boss_PHASE_ABILITIES
+  m_Name: Boss Tortoise_PHASE_ABILITIES
   m_EditorClassIdentifier: 
   ID: -1
-  entryName: King Guard Boss
-  entryFileName: King Guard Boss_PHASE_ABILITIES
+  entryName: Boss Tortoise
+  entryFileName: Boss Tortoise_PHASE_ABILITIES
   entryDisplayName: 
   entryIcon: {fileID: 0}
   entryDescription: 
   CheckMaxAbilities: 0
   MaxAbilities: 1
   Abilities:
-  - abilityID: 4
+  - abilityID: 5
+    abilityRank: 0
+    chance: 100
+    RequirementsTemplate: {fileID: 0}
+    optional: 0
+    LimitedUse: 0
+    MaxUseAmount: 1
+  - abilityID: 6
+    abilityRank: 0
+    chance: 100
+    RequirementsTemplate: {fileID: 0}
+    optional: 0
+    LimitedUse: 0
+    MaxUseAmount: 1
+  - abilityID: 10
     abilityRank: 0
     chance: 100
     RequirementsTemplate: {fileID: 0}

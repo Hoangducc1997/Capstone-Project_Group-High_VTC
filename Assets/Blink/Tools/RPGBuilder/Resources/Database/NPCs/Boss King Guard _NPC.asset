@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2eaea086ce51ea9419be768c6237eedb, type: 3}
-  m_Name: King Guard Boss_NPC
+  m_Name: Boss King Guard _NPC
   m_EditorClassIdentifier: 
   ID: 17
-  entryName: King Guard Boss
-  entryFileName: King Guard Boss_NPC
+  entryName: 'Boss King Guard '
+  entryFileName: Boss King Guard _NPC
   entryDisplayName: King Guard
   entryIcon: {fileID: 21300000, guid: 3cf5b3751a142904689e421f605e30c6, type: 3}
   entryDescription: 
@@ -48,8 +48,8 @@ MonoBehaviour:
   lootBagPrefab: {fileID: 0}
   LootBagDuration: 60
   factionRewards: []
-  MinLevel: 1
-  MaxLevel: 3
+  MinLevel: 100
+  MaxLevel: 100
   isScalingWithPlayer: 0
   stats: []
   CustomStats:
@@ -57,7 +57,7 @@ MonoBehaviour:
     overrideMinValue: 0
     minValue: 0
     overrideMaxValue: 1
-    maxValue: 100
+    maxValue: 1000
     overrideStartPercentage: 0
     startPercentage: 100
     addedValue: 0

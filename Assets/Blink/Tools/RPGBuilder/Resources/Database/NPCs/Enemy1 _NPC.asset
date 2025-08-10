@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2eaea086ce51ea9419be768c6237eedb, type: 3}
-  m_Name: Bear_NPC
+  m_Name: Enemy1 _NPC
   m_EditorClassIdentifier: 
-  ID: 2
-  entryName: Bear
-  entryFileName: Bear_NPC
-  entryDisplayName: Bear
-  entryIcon: {fileID: 21300000, guid: 78251da1960ddb941be2d261d12a1b0d, type: 3}
+  ID: 18
+  entryName: 'Enemy1 '
+  entryFileName: Enemy1 _NPC
+  entryDisplayName: Boar
+  entryIcon: {fileID: 21300000, guid: febf61024bbadae479620ccb427e59f8, type: 3}
   entryDescription: 
   _name: 
   _fileName: 
@@ -25,33 +25,29 @@ MonoBehaviour:
   npcType: 0
   AILogicTemplate: {fileID: 262611205548413635, guid: 42a8b97728201df44ba95376d46032e3, type: 3}
   Phases:
-  - PhaseTemplate: {fileID: 11400000, guid: 529b5f7684769d5419996db59c8c7723, type: 2}
-    Preset: {fileID: 11400000, guid: 8f657c3479e2e064e8ffb5d5d8e5c6a6, type: 2}
-  ResetPhaseAfterCombat: 0
+  - PhaseTemplate: {fileID: 11400000, guid: 81e855dde46cc40418091f81e13251bb, type: 2}
+    Preset: {fileID: 11400000, guid: bd26839c4983e06469b76ba6c5659b32, type: 2}
+  ResetPhaseAfterCombat: 1
   InstantlyHealAfterCombat: 1
   isDummyTarget: 0
-  factionID: 1
+  factionID: 2
   speciesID: -1
   merchantTableID: -1
   MerchantTables: []
   dialogueID: -1
   questGiven: []
   questCompleted: []
-  MinRespawn: 25
-  MaxRespawn: 60
-  corpseDespawnTime: 25
-  MinEXP: 2
-  MaxEXP: 4
-  LowerLevelEXPModifier: 20
-  HigherLevelEXPModifier: -20
-  EXPBonusPerLevel: 2
+  MinRespawn: 5
+  MaxRespawn: 10
+  corpseDespawnTime: 15
+  MinEXP: 1
+  MaxEXP: 2
+  LowerLevelEXPModifier: 0
+  HigherLevelEXPModifier: -30
+  EXPBonusPerLevel: 1
   lootBagPrefab: {fileID: 0}
   LootBagDuration: 60
-  factionRewards:
-  - factionID: -1
-    amount: 0
-  - factionID: -1
-    amount: 0
+  factionRewards: []
   MinLevel: 1
   MaxLevel: 3
   isScalingWithPlayer: 0
@@ -61,7 +57,7 @@ MonoBehaviour:
     overrideMinValue: 0
     minValue: 0
     overrideMaxValue: 1
-    maxValue: 1000
+    maxValue: 175
     overrideStartPercentage: 0
     startPercentage: 100
     addedValue: 0
@@ -72,7 +68,7 @@ MonoBehaviour:
   UseStatListTemplate: 0
   StatListTemplate: {fileID: 0}
   lootTables:
-  - lootTableID: 1
+  - lootTableID: 0
     dropRate: 100
   - lootTableID: 2
     dropRate: 100
@@ -113,9 +109,9 @@ MonoBehaviour:
   colliderHeight: 2
   aggroLinks:
   - type: 0
-    npcID: 2
+    npcID: 1
     npcFamily: {fileID: 0}
-    maxDistance: 5
+    maxDistance: 2
   SetLayer: 0
   SetTag: 0
   GameObjectLayer: 0

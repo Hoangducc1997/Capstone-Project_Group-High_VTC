@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aada8124e065cac4f869802281474d05, type: 3}
-  m_Name: King Guard Boss_PHASE
+  m_Name: Boss Tortoise_PHASE
   m_EditorClassIdentifier: 
   ID: -1
-  entryName: King Guard Boss
-  entryFileName: King Guard Boss_PHASE
+  entryName: Boss Tortoise
+  entryFileName: Boss Tortoise_PHASE
   entryDisplayName: 
   entryIcon: {fileID: 0}
   entryDescription: 
@@ -26,13 +26,5 @@ MonoBehaviour:
   ActionsTemplate: {fileID: 0}
   SpawnedAnimationTemplate: {fileID: 0}
   VisualEffectEntries: []
-  AnimationEntries:
-  - Template: {fileID: 11400000, guid: 6c3e3c7f474255e4ca19d48ab0b4a68b, type: 2}
-    ActivationType: 1
-    Delay: 0
-    ShowWeapons: 0
-    ShowWeaponsDuration: 0
-    ModifySpeed: 0
-    SpeedParameterName: AttackAnimationsSpeed
-    ModifierSpeed: 1
+  AnimationEntries: []
   SoundEntries: []

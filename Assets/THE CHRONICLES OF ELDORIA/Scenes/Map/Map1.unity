@@ -16637,7 +16637,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 557928633469026150, guid: ef8f0bcb24f5cea4893436097c831853, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4452700207828818762, guid: ef8f0bcb24f5cea4893436097c831853, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16714,7 +16714,7 @@ PrefabInstance:
     - target: {fileID: 5331150110461500317, guid: ef8f0bcb24f5cea4893436097c831853, type: 3}
       propertyPath: spawnData.Array.data[0].npc
       value: 
-      objectReference: {fileID: 11400000, guid: e03d5eac1f6c475468eb1ec013d14886, type: 2}
+      objectReference: {fileID: 11400000, guid: 11da0429409e34449a5be8de17fdc525, type: 2}
     - target: {fileID: 5499058406088519390, guid: ef8f0bcb24f5cea4893436097c831853, type: 3}
       propertyPath: m_NavMeshData
       value: 

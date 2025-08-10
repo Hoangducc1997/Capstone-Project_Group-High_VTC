@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2eaea086ce51ea9419be768c6237eedb, type: 3}
-  m_Name: Bear_NPC
+  m_Name: Boss Tortoise _NPC
   m_EditorClassIdentifier: 
-  ID: 2
-  entryName: Bear
-  entryFileName: Bear_NPC
-  entryDisplayName: Bear
-  entryIcon: {fileID: 21300000, guid: 78251da1960ddb941be2d261d12a1b0d, type: 3}
+  ID: 19
+  entryName: 'Boss Tortoise '
+  entryFileName: Boss Tortoise _NPC
+  entryDisplayName: Tortoise
+  entryIcon: {fileID: 21300000, guid: 0768f288cbb34fb49b7b28914f0760ca, type: 3}
   entryDescription: 
   _name: 
   _fileName: 
@@ -25,9 +25,9 @@ MonoBehaviour:
   npcType: 0
   AILogicTemplate: {fileID: 262611205548413635, guid: 42a8b97728201df44ba95376d46032e3, type: 3}
   Phases:
-  - PhaseTemplate: {fileID: 11400000, guid: 529b5f7684769d5419996db59c8c7723, type: 2}
-    Preset: {fileID: 11400000, guid: 8f657c3479e2e064e8ffb5d5d8e5c6a6, type: 2}
-  ResetPhaseAfterCombat: 0
+  - PhaseTemplate: {fileID: 11400000, guid: 7ee71beeb8c09cd41b710b4cfa8b5580, type: 2}
+    Preset: {fileID: 11400000, guid: 7923b8df36376984e85d1c95fd68c0d4, type: 2}
+  ResetPhaseAfterCombat: 1
   InstantlyHealAfterCombat: 1
   isDummyTarget: 0
   factionID: 1
@@ -37,23 +37,19 @@ MonoBehaviour:
   dialogueID: -1
   questGiven: []
   questCompleted: []
-  MinRespawn: 25
-  MaxRespawn: 60
-  corpseDespawnTime: 25
-  MinEXP: 2
-  MaxEXP: 4
-  LowerLevelEXPModifier: 20
-  HigherLevelEXPModifier: -20
-  EXPBonusPerLevel: 2
+  MinRespawn: 5
+  MaxRespawn: 10
+  corpseDespawnTime: 15
+  MinEXP: 1
+  MaxEXP: 2
+  LowerLevelEXPModifier: 0
+  HigherLevelEXPModifier: -30
+  EXPBonusPerLevel: 1
   lootBagPrefab: {fileID: 0}
   LootBagDuration: 60
-  factionRewards:
-  - factionID: -1
-    amount: 0
-  - factionID: -1
-    amount: 0
-  MinLevel: 1
-  MaxLevel: 3
+  factionRewards: []
+  MinLevel: 100
+  MaxLevel: 100
   isScalingWithPlayer: 0
   stats: []
   CustomStats:
@@ -72,13 +68,13 @@ MonoBehaviour:
   UseStatListTemplate: 0
   StatListTemplate: {fileID: 0}
   lootTables:
-  - lootTableID: 1
-    dropRate: 100
-  - lootTableID: 2
-    dropRate: 100
   - lootTableID: 4
-    dropRate: 100
+    dropRate: 80.57
   - lootTableID: 5
+    dropRate: 70.689995
+  - lootTableID: 6
+    dropRate: 100
+  - lootTableID: 7
     dropRate: 100
   isCombatEnabled: 1
   isMovementEnabled: 0
@@ -113,9 +109,9 @@ MonoBehaviour:
   colliderHeight: 2
   aggroLinks:
   - type: 0
-    npcID: 2
+    npcID: 19
     npcFamily: {fileID: 0}
-    maxDistance: 5
+    maxDistance: 2
   SetLayer: 0
   SetTag: 0
   GameObjectLayer: 0
