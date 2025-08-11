@@ -32,7 +32,7 @@ MonoBehaviour:
   NavmeshAgentRadius: 39
   NavmeshAgentHeight: 9
   NavmeshAgentAngularSpeed: 500
-  NavmeshObstacleAvoidance: 1
+  NavmeshObstacleAvoidance: 0
   ColliderType: 0
   ColliderCenter: {x: 0, y: 1, z: 0}
   ColliderSize: {x: 0, y: 0, z: 0}

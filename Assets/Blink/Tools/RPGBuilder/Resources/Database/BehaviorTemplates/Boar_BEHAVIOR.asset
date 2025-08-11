@@ -39,8 +39,8 @@ MonoBehaviour:
     chance: 100
   MaxDistanceFromTarget: 3
   MinDistanceFromTarget: 2
-  LookAtTargetSpeed: 100
-  CheckTargetInterval: 39
+  LookAtTargetSpeed: 25
+  CheckTargetInterval: 0.5
   ResetTargetAfterDistanceFromSpawner: 0
   SpawnerDistanceMax: 30
   ResetTargetAfterDistanceFromSpawnpoint: 0

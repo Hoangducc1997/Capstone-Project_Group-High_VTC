@@ -23,6 +23,8 @@ MonoBehaviour:
   PotentialBehaviors:
   - BehaviorTemplate: {fileID: 11400000, guid: 52d8858cd1f46b4449edb9d608b120e8, type: 2}
     chance: 100
+  - BehaviorTemplate: {fileID: 11400000, guid: 8bf1664c4e251544684d22a6325aa95d, type: 2}
+    chance: 0
   ActionsTemplate: {fileID: 0}
   SpawnedAnimationTemplate: {fileID: 0}
   VisualEffectEntries: []

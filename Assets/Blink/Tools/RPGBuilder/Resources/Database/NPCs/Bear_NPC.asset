@@ -81,9 +81,9 @@ MonoBehaviour:
   - lootTableID: 5
     dropRate: 100
   isCombatEnabled: 1
-  isMovementEnabled: 0
+  isMovementEnabled: 1
   isCollisionEnabled: 0
-  isTargetable: 1
+  isTargetable: 0
   isNameplateEnabled: 1
   isPlayerInteractable: 0
   isMerchant: 0
