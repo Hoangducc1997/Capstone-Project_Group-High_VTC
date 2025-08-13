@@ -15,6 +15,7 @@ MonoBehaviour:
   viewAngle: 75
   viewDistance: 15
   AutoAggroDistance: 2
+  MovementSpeedModifier: 0.8
   PatrolPathName: PatrolPath1
   RandomPath: 1
   PatrolPathNames:
@@ -25,4 +26,3 @@ MonoBehaviour:
   PauseAtLastPointDuration: 10
   PointTreshold: 1
   PointCheckInterval: 0.25
-  MovementSpeedModifier: 0.8
