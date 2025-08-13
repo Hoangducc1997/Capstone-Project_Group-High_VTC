@@ -24,8 +24,7 @@ MonoBehaviour:
   DelayAfterSceneLoad: 0
   LoadingScreenEndDelay: 0
   enableDevPanel: 1
-  mainMenuLoadingImage: {fileID: 21300000, guid: 8828aa8b19c69744da1b521cfa891b3b,
-    type: 3}
+  mainMenuLoadingImage: {fileID: 21300000, guid: 8828aa8b19c69744da1b521cfa891b3b, type: 3}
   mainMenuSceneName: MainMenu
   mainMenuLoadingName: Main Menu
   mainMenuLoadingDescription: 
@@ -301,11 +300,15 @@ MonoBehaviour:
     isUnique: 0
     category: UI
     Category: {fileID: 11400000, guid: 5f997748d8586c540b2a9f1c2c8af773, type: 2}
+  - actionName: SHAPESHIFT_4
+    actionDisplayName: 
+    defaultKey: 0
+    isUnique: 0
+    category: 
+    Category: {fileID: 11400000, guid: 01122e0bdd31daa42a9715a293b8ddb4, type: 2}
   defaultCursor: {fileID: 2800000, guid: 880bc0cb1233c4240ba25069c74a0eff, type: 3}
   merchantCursor: {fileID: 2800000, guid: ea211df198b675f49bae559408bdd979, type: 3}
   questGiverCursor: {fileID: 2800000, guid: 3f8c8cd935d6a234abc04a2f63152112, type: 3}
-  interactiveObjectCursor: {fileID: 2800000, guid: 45fc95e4a5cb2f346aaad64ff5e8a206,
-    type: 3}
-  craftingStationCursor: {fileID: 2800000, guid: b8fde2b57f52b79489ab2330f1c8cbc4,
-    type: 3}
+  interactiveObjectCursor: {fileID: 2800000, guid: 45fc95e4a5cb2f346aaad64ff5e8a206, type: 3}
+  craftingStationCursor: {fileID: 2800000, guid: b8fde2b57f52b79489ab2330f1c8cbc4, type: 3}
   enemyCursor: {fileID: 2800000, guid: 418b53165d2426b4a8972237013b2455, type: 3}

@@ -15,9 +15,10 @@ MonoBehaviour:
   ID: 1
   entryName: Character 2
   entryFileName: Character 2_RACE
-  entryDisplayName: Human
-  entryIcon: {fileID: 21300000, guid: c428882e586afef41b6fb4a0e315f800, type: 3}
-  entryDescription: 
+  entryDisplayName: Character 2
+  entryIcon: {fileID: 21300000, guid: cfc74c0ea26280045a3229845cfe52c2, type: 3}
+  entryDescription: A mighty warrior from the Western lands, caught in a cosmic storm
+    and cast into Eldoria - a realm torn asunder by dark forces
   _name: 
   _fileName: 
   displayName: 
@@ -37,13 +38,12 @@ MonoBehaviour:
   Genders:
   - Gender: {fileID: 11400000, guid: a7f8731a5fd9fd541aa5657eb596884f, type: 2}
     Prefab: {fileID: 2731116857867017106, guid: 5652d5adee3ebac4688d1c5134d134f2, type: 3}
-    Icon: {fileID: 21300000, guid: c428882e586afef41b6fb4a0e315f800, type: 3}
+    Icon: {fileID: 21300000, guid: a5a7d5faebc5fc044a912e29def1e8f5, type: 3}
     DynamicAnimator: 1
     RestAnimatorController: {fileID: 22100000, guid: bce07712ca593f34f9c226bb6b2bcba4, type: 2}
     CombatAnimatorController: {fileID: 22100000, guid: bce07712ca593f34f9c226bb6b2bcba4, type: 2}
   availableClasses:
   - classID: 0
-  - classID: 1
   weaponTemplates: []
   stats: []
   CustomStats:
@@ -61,10 +61,7 @@ MonoBehaviour:
     vitalityActions: []
   UseStatListTemplate: 0
   StatListTemplate: {fileID: 0}
-  startItems:
-  - itemID: 37
-    count: 1
-    equipped: 0
+  startItems: []
   actionAbilities: []
   allocationStatPoints: 0
   allocatedStatsEntries: []
