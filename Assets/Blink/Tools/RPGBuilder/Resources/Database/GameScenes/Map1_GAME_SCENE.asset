@@ -22,12 +22,12 @@ MonoBehaviour:
   _fileName: 
   displayName: 
   description: 
-  loadingBG: {fileID: 21300000, guid: 7c57777941490724a91c8bfcfa58659c, type: 3}
-  minimapImage: {fileID: 21300000, guid: ee5ecef5f4075f04fb433c7e35f13f45, type: 3}
+  loadingBG: {fileID: 21300000, guid: bc8b621b1422c3a49903a479df286625, type: 3}
+  minimapImage: {fileID: 21300000, guid: a9854a32ef3d017448e85d63fab00326, type: 3}
   mapBounds:
     m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 350, y: 0, z: 350}
-  mapSize: {x: 1000, y: 1000}
+    m_Extent: {x: 450, y: 0, z: 450}
+  mapSize: {x: 4096, y: 4096}
   startPositionID: 2
   isProceduralScene: 0
   SpawnPointName: 

@@ -16643,7 +16643,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 557928633469026150, guid: ef8f0bcb24f5cea4893436097c831853, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2311664022723908862, guid: ef8f0bcb24f5cea4893436097c831853, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4452700207828818762, guid: ef8f0bcb24f5cea4893436097c831853, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16742,6 +16746,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: a27dcbe8c531d974d97304b7cec00fc3, type: 2}
     - target: {fileID: 5499058406088519390, guid: ef8f0bcb24f5cea4893436097c831853, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5499058406088519390, guid: ef8f0bcb24f5cea4893436097c831853, type: 3}
       propertyPath: m_NavMeshData
       value: 
       objectReference: {fileID: 23800000, guid: bfb4f3c9317ce7d419607c5f7b5b3286, type: 2}
@@ -16760,6 +16768,10 @@ PrefabInstance:
     - target: {fileID: 8850173276822396909, guid: ef8f0bcb24f5cea4893436097c831853, type: 3}
       propertyPath: m_Name
       value: Map 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850173276822396909, guid: ef8f0bcb24f5cea4893436097c831853, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -57708,7 +57720,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6887305940500781054, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -57855,13 +57867,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1744440260}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.07127653, y: 0.71673435, z: -0.0740673, w: -0.6897286}
-  m_LocalPosition: {x: -4.4, y: 20.88, z: 1.99}
+  m_LocalRotation: {x: -0.20740815, y: 0.6994521, z: -0.22456942, w: -0.646001}
+  m_LocalPosition: {x: 103.6, y: 39.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 11.8, y: 267.8, z: 0}
+  m_LocalEulerAnglesHint: {x: 35.6, y: 265.45, z: 0}
 --- !u!114 &1985724005
 MonoBehaviour:
   m_ObjectHideFlags: 0
