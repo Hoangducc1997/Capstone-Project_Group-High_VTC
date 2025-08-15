@@ -22,30 +22,27 @@ MonoBehaviour:
   _fileName: 
   displayName: 
   onSaleItems:
-  - itemID: 15
-    currencyID: 0
-    cost: 25
-  - itemID: 14
-    currencyID: 0
-    cost: 25
-  - itemID: 16
-    currencyID: 0
-    cost: 25
-  - itemID: 17
-    currencyID: 0
-    cost: 25
-  - itemID: 18
-    currencyID: 0
-    cost: 25
-  - itemID: 19
-    currencyID: 0
-    cost: 25
-  - itemID: 20
-    currencyID: 0
-    cost: 25
-  - itemID: 27
-    currencyID: 0
-    cost: 25
-  - itemID: 13
-    currencyID: 0
-    cost: 50
+  - itemID: 3
+    currencyID: 2
+    cost: 1
+  - itemID: 0
+    currencyID: 2
+    cost: 1
+  - itemID: 1
+    currencyID: 2
+    cost: 1
+  - itemID: 2
+    currencyID: 2
+    cost: 1
+  - itemID: 6
+    currencyID: 2
+    cost: 1
+  - itemID: 4
+    currencyID: 2
+    cost: 1
+  - itemID: 7
+    currencyID: 2
+    cost: 1
+  - itemID: 5
+    currencyID: 2
+    cost: 1
