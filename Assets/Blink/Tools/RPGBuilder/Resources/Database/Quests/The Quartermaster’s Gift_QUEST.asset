@@ -38,68 +38,12 @@ MonoBehaviour:
     taskID: 1
     timeLimit: 0
   rewardsGiven:
-  - rewardType: 0
-    itemID: 0
-    currencyID: -1
+  - rewardType: 1
+    itemID: -1
+    currencyID: 2
     treePointID: -1
     factionID: -1
     weaponTemplateID: -1
-    count: 1
-    Experience: 0
-  - rewardType: 0
-    itemID: 2
-    currencyID: -1
-    treePointID: -1
-    factionID: -1
-    weaponTemplateID: -1
-    count: 1
-    Experience: 0
-  - rewardType: 0
-    itemID: 1
-    currencyID: -1
-    treePointID: -1
-    factionID: -1
-    weaponTemplateID: -1
-    count: 1
-    Experience: 0
-  - rewardType: 0
-    itemID: 3
-    currencyID: -1
-    treePointID: -1
-    factionID: -1
-    weaponTemplateID: -1
-    count: 1
-    Experience: 0
-  - rewardType: 0
-    itemID: 4
-    currencyID: -1
-    treePointID: -1
-    factionID: -1
-    weaponTemplateID: -1
-    count: 1
-    Experience: 0
-  - rewardType: 0
-    itemID: 5
-    currencyID: -1
-    treePointID: -1
-    factionID: -1
-    weaponTemplateID: -1
-    count: 1
-    Experience: 0
-  - rewardType: 0
-    itemID: 7
-    currencyID: -1
-    treePointID: -1
-    factionID: -1
-    weaponTemplateID: -1
-    count: 1
-    Experience: 0
-  - rewardType: 0
-    itemID: 6
-    currencyID: -1
-    treePointID: -1
-    factionID: -1
-    weaponTemplateID: -1
-    count: 1
+    count: 4
     Experience: 0
   rewardsToPick: []
