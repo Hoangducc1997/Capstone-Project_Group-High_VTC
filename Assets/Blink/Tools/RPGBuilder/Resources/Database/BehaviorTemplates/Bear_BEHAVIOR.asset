@@ -30,9 +30,9 @@ MonoBehaviour:
   CombatTemplate: {fileID: 11400000, guid: eb087b04b8591874185fbd0232b6c9ca, type: 2}
   WalkBackwardState: {fileID: 11400000, guid: a375df129f994a047ba946b6ddeec806, type: 2}
   WalkBackwardTemplate: {fileID: 11400000, guid: 8d0be0df8612a794897e9cdbcf812aae, type: 2}
-  FleeState: {fileID: 0}
-  FleeTemplate: {fileID: 0}
-  FleeRequirementsTemplate: {fileID: 0}
+  FleeState: {fileID: 11400000, guid: 1035fc49b813bf4478478db958257433, type: 2}
+  FleeTemplate: {fileID: 11400000, guid: 5f515443f156c4f4c8e6c9802646e07c, type: 2}
+  FleeRequirementsTemplate: {fileID: 11400000, guid: d877be86765dc6b4e92d97dfb0d0b2df, type: 2}
   FleeCheckInterval: 3
   PotentialAbilities:
   - AbilitiesTemplate: {fileID: 11400000, guid: fb29fa7e85ecd32428501d7475f285c8, type: 2}

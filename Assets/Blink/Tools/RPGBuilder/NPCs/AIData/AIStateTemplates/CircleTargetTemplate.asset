@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cf4f00163e1a0145807874a84b933c5, type: 3}
   m_Name: CircleTargetTemplate
   m_EditorClassIdentifier: 
+  MovementSpeedModifier: 0.2
   minimumTimeBetweenDirectionChange: 3
   maximumTimeBetweenDirectionChange: 6
-  MovementSpeedModifier: 0.2
