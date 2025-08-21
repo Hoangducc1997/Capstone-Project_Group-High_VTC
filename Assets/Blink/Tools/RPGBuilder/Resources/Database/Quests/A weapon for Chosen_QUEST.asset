@@ -37,7 +37,8 @@ MonoBehaviour:
   - objectiveType: 0
     taskID: 2
     timeLimit: 0
-  rewardsGiven:
+  rewardsGiven: []
+  rewardsToPick:
   - rewardType: 0
     itemID: 37
     currencyID: -1
@@ -54,4 +55,3 @@ MonoBehaviour:
     weaponTemplateID: -1
     count: 1
     Experience: 0
-  rewardsToPick: []
