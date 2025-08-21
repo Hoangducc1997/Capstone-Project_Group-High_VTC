@@ -25,7 +25,7 @@ MonoBehaviour:
   taskType: 4
   sceneName: 
   abilityToLearnID: -1
-  npcToKillID: 14
+  npcToKillID: 20
   itemToGetID: -1
   keepItems: 0
   classRequiredID: -1
@@ -33,5 +33,5 @@ MonoBehaviour:
   itemToUseID: -1
   npcToTalkToID: -1
   weaponTemplateRequiredID: -1
-  taskValue: 1
+  taskValue: 5
   NPCFamily: {fileID: 0}
