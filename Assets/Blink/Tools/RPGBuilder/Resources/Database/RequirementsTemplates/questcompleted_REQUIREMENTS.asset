@@ -45,7 +45,7 @@ MonoBehaviour:
       EnchantmentID: -1
       GearSetID: -1
       GameSceneID: -1
-      QuestID: -1
+      QuestID: 1
       DialogueID: -1
       Knowledge: 0
       State: 0
@@ -78,7 +78,7 @@ MonoBehaviour:
       ArmorType: {fileID: 0}
       ArmorSlot: {fileID: 0}
       Gender: {fileID: 0}
-      QuestState: 1
+      QuestState: 4
       DialogueNode: {fileID: 0}
       NPCFamily: {fileID: 0}
       Region: {fileID: 0}

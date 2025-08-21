@@ -39,6 +39,7 @@ MonoBehaviour:
   dialogueID: -1
   questGiven:
   - questID: 1
+  - questID: 4
   questCompleted: []
   MinRespawn: 1
   MaxRespawn: 2
