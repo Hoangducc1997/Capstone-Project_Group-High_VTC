@@ -26,7 +26,7 @@ MonoBehaviour:
   minimapImage: {fileID: 21300000, guid: a9854a32ef3d017448e85d63fab00326, type: 3}
   mapBounds:
     m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 450, y: 0, z: 450}
+    m_Extent: {x: 216, y: 0, z: 216}
   mapSize: {x: 4096, y: 4096}
   startPositionID: 2
   isProceduralScene: 0
