@@ -2080,6 +2080,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1025537525143841938, guid: 1de04aa25a856964abf1bafd1a1af85d, type: 3}
   m_PrefabInstance: {fileID: 411530813}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &55967817 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9214583811413639572, guid: 1de04aa25a856964abf1bafd1a1af85d, type: 3}
+  m_PrefabInstance: {fileID: 411530813}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &55995143 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4357693407882038713, guid: 1de04aa25a856964abf1bafd1a1af85d, type: 3}
@@ -28355,6 +28360,8 @@ MonoBehaviour:
     _prefab: Assets/Import/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Planter_Pedestal_01_Preset_03.prefab
   - _gameObject: {fileID: 605912223}
     _prefab: Assets/Import/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Planter_Pedestal_01_Preset_03.prefab
+  - _gameObject: {fileID: 55967817}
+    _prefab: Assets/THE CHRONICLES OF ELDORIA/Assets/Prefabs/Map/Directional Light.prefab
   - _gameObject: {fileID: 2064772269}
     _prefab: Assets/Import/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Structure_03.prefab
   - _gameObject: {fileID: 1322652559}

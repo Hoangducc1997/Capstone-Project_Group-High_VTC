@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5af064b541929e41a5718fb0c95c78b, type: 3}
+  m_Name: StarterWarriorSet_GEAR_SET
+  m_EditorClassIdentifier: 
+  ID: 0
+  entryName: StarterWarriorSet
+  entryFileName: StarterWarriorSet_GEAR_SET
+  entryDisplayName: Starter Warrior Set
+  entryIcon: {fileID: 0}
+  entryDescription: 
+  _name: 
+  _fileName: 
+  displayName: 
+  itemsInSet:
+  - itemID: 0
+  - itemID: 2
+  - itemID: 1
+  - itemID: 3
+  gearSetTiers: []

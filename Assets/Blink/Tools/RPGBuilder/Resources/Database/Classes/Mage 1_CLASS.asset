@@ -44,19 +44,7 @@ MonoBehaviour:
   talentTrees: []
   spellbooks:
   - spellbookID: 1
-  startItems:
-  - itemID: 6
-    count: 1
-    equipped: 1
-  - itemID: 4
-    count: 1
-    equipped: 1
-  - itemID: 7
-    count: 1
-    equipped: 1
-  - itemID: 5
-    count: 1
-    equipped: 1
+  startItems: []
   actionAbilities: []
   allocationStatPoints: 0
   allocatedStatsEntries: []

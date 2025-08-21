@@ -28,3 +28,10 @@ MonoBehaviour:
     optional: 0
     LimitedUse: 0
     MaxUseAmount: 1
+  - abilityID: 6
+    abilityRank: 0
+    chance: 100
+    RequirementsTemplate: {fileID: 0}
+    optional: 0
+    LimitedUse: 0
+    MaxUseAmount: 1

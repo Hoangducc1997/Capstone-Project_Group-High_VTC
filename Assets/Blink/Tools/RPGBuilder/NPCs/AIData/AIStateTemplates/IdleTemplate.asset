@@ -14,3 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   viewAngle: 60
   viewDistance: 15
+  AutoAggroDistance: 5
+  MovementSpeedModifier: 0.5

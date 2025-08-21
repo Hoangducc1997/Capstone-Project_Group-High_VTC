@@ -61,10 +61,7 @@ MonoBehaviour:
     vitalityActions: []
   UseStatListTemplate: 0
   StatListTemplate: {fileID: 0}
-  startItems:
-  - itemID: 37
-    count: 1
-    equipped: 0
+  startItems: []
   actionAbilities: []
   allocationStatPoints: 0
   allocatedStatsEntries: []
