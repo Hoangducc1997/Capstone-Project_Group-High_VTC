@@ -47,7 +47,7 @@ MonoBehaviour:
   SpawnPointDistanceMax: 50
   StrafeParameterName: Strafing
   CombatParameterName: InCombatState
-  CanAggroAlly: 1
+  CanAggroAlly: 0
   CanAggroNeutral: 0
   CanAggroEnemy: 1
   PhaseCheckInterval: 3
