@@ -25,8 +25,8 @@ MonoBehaviour:
   npcType: 0
   AILogicTemplate: {fileID: 262611205548413635, guid: 42a8b97728201df44ba95376d46032e3, type: 3}
   Phases:
-  - PhaseTemplate: {fileID: 11400000, guid: 81e855dde46cc40418091f81e13251bb, type: 2}
-    Preset: {fileID: 11400000, guid: 89f8f8cf73760294abf39b04f8afe5cc, type: 2}
+  - PhaseTemplate: {fileID: 11400000, guid: 8f3556c5ff5b1474d8c5518658d9f2ce, type: 2}
+    Preset: {fileID: 11400000, guid: 81925aaf4461a76498d2416d797d5f09, type: 2}
   ResetPhaseAfterCombat: 1
   InstantlyHealAfterCombat: 1
   isDummyTarget: 0
@@ -71,9 +71,9 @@ MonoBehaviour:
   - lootTableID: 6
     dropRate: 100
   isCombatEnabled: 1
-  isMovementEnabled: 0
+  isMovementEnabled: 1
   isCollisionEnabled: 0
-  isTargetable: 1
+  isTargetable: 0
   isNameplateEnabled: 1
   isPlayerInteractable: 0
   isMerchant: 0
