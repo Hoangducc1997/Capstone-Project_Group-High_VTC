@@ -15195,6 +15195,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _scenePrefabInstances:
+  - _gameObject: {fileID: 2143056652}
+    _prefab: Assets/THE CHRONICLES OF ELDORIA/Assets/Prefabs/Map/Sky.prefab
   - _gameObject: {fileID: 1859066374}
     _prefab: Assets/Import/Environment/Map 3 Asset/Fantasy Forest Environment/Prefabs/P_FFE_Rock3.Prefab
   - _gameObject: {fileID: 241948429}
@@ -68052,6 +68054,80 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4737338572755320, guid: 2524b50540187694f8b9ebb2464ede84, type: 3}
   m_PrefabInstance: {fileID: 702977226}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2143056651
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3532682344845955219, guid: 8cf85da3f6052354ab1bdc02ef9eccc2, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 3532682344845955219, guid: 8cf85da3f6052354ab1bdc02ef9eccc2, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3532682344845955219, guid: 8cf85da3f6052354ab1bdc02ef9eccc2, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 3532682344845955219, guid: 8cf85da3f6052354ab1bdc02ef9eccc2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 98.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3532682344845955219, guid: 8cf85da3f6052354ab1bdc02ef9eccc2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 186
+      objectReference: {fileID: 0}
+    - target: {fileID: 3532682344845955219, guid: 8cf85da3f6052354ab1bdc02ef9eccc2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 96
+      objectReference: {fileID: 0}
+    - target: {fileID: 3532682344845955219, guid: 8cf85da3f6052354ab1bdc02ef9eccc2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3532682344845955219, guid: 8cf85da3f6052354ab1bdc02ef9eccc2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3532682344845955219, guid: 8cf85da3f6052354ab1bdc02ef9eccc2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3532682344845955219, guid: 8cf85da3f6052354ab1bdc02ef9eccc2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3532682344845955219, guid: 8cf85da3f6052354ab1bdc02ef9eccc2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3532682344845955219, guid: 8cf85da3f6052354ab1bdc02ef9eccc2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3532682344845955219, guid: 8cf85da3f6052354ab1bdc02ef9eccc2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8457278888399195853, guid: 8cf85da3f6052354ab1bdc02ef9eccc2, type: 3}
+      propertyPath: m_Name
+      value: Sky
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8cf85da3f6052354ab1bdc02ef9eccc2, type: 3}
+--- !u!1 &2143056652 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8457278888399195853, guid: 8cf85da3f6052354ab1bdc02ef9eccc2, type: 3}
+  m_PrefabInstance: {fileID: 2143056651}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2144615476
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -68303,7 +68379,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6887305940500781054, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -68412,6 +68488,7 @@ SceneRoots:
   - {fileID: 412858606}
   - {fileID: 728170823}
   - {fileID: 1503689421}
+  - {fileID: 2143056651}
   - {fileID: 1203036168}
   - {fileID: 191254725}
   - {fileID: 1036186485}
