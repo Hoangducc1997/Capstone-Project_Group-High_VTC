@@ -29246,9 +29246,10 @@ MonoBehaviour:
   canvasGroup: {fileID: 1474837723}
   fixedLoadingTime: 5
   hintMessages:
-  - "Gi\u1EA3i c\u1EE9u v\xF9ng \u0111\u1EA5t l\u1EA1"
-  - "Kh\xE1m ph\xE1 th\u1EBF gi\u1EDBi m\u1EDBi"
-  hintChangeInterval: 1
+  - Save Eldoria
+  - Battle against hordes of ferocious monsters
+  - A wide variety of weapons and abilities
+  hintChangeInterval: 1.6
 --- !u!4 &620127648
 Transform:
   m_ObjectHideFlags: 0
@@ -86111,7 +86112,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 82.98}
-  m_SizeDelta: {x: 200, y: 50}
+  m_SizeDelta: {x: 199, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1424697047
 MonoBehaviour:
@@ -86198,7 +86199,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: -610.7942, y: 0, z: -544.24316, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

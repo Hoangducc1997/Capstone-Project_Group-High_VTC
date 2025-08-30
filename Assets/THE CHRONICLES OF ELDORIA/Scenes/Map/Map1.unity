@@ -16397,6 +16397,8 @@ MonoBehaviour:
     _prefab: Assets/Import/Environment/Map 1 Asset/Prefabs/PA_Oldtext.prefab
   - _gameObject: {fileID: 579671178}
     _prefab: Assets/Import/Environment/Map 1 Asset/Prefabs/PA_FireFX_1.prefab
+  - _gameObject: {fileID: 579671132}
+    _prefab: Assets/THE CHRONICLES OF ELDORIA/Assets/Prefabs/Map/Sky.prefab
   - _gameObject: {fileID: 579671177}
     _prefab: Assets/Import/Environment/Map 1 Asset/Models/Portal/PA_RockSet3_Pile1.fbx
   - _gameObject: {fileID: 579671176}
@@ -17000,6 +17002,9 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1375558170}
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3558189115577804828, guid: ef8f0bcb24f5cea4893436097c831853, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2044152732}
     - targetCorrespondingSourceObject: {fileID: 4963374998670344843, guid: ef8f0bcb24f5cea4893436097c831853, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1985724005}
@@ -17012,6 +17017,11 @@ Transform:
 --- !u!1 &579671130 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4963374998670344843, guid: ef8f0bcb24f5cea4893436097c831853, type: 3}
+  m_PrefabInstance: {fileID: 579671128}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &579671132 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6865994154272684047, guid: ef8f0bcb24f5cea4893436097c831853, type: 3}
   m_PrefabInstance: {fileID: 579671128}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &579671133 stripped
@@ -58217,6 +58227,27 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
+--- !u!65 &2044152732
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 579679165}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 28.826046, y: 25.355728, z: 35.833637}
+  m_Center: {x: -1.7152233, y: 12.677866, z: 1.2096729}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
