@@ -36,8 +36,8 @@ MonoBehaviour:
   combatAnimatorController: {fileID: 0}
   levelTemplateID: -1
   Genders:
-  - Gender: {fileID: 11400000, guid: a7f8731a5fd9fd541aa5657eb596884f, type: 2}
-    Prefab: {fileID: 2731116857867017106, guid: 5652d5adee3ebac4688d1c5134d134f2, type: 3}
+  - Gender: {fileID: 11400000, guid: 6af37385c57329640bdb53dd75cf6921, type: 2}
+    Prefab: {fileID: 7031991785815948113, guid: 7a95c9f47c867da4fa8509acc6fc1509, type: 3}
     Icon: {fileID: 21300000, guid: a5a7d5faebc5fc044a912e29def1e8f5, type: 3}
     DynamicAnimator: 1
     RestAnimatorController: {fileID: 22100000, guid: bce07712ca593f34f9c226bb6b2bcba4, type: 2}

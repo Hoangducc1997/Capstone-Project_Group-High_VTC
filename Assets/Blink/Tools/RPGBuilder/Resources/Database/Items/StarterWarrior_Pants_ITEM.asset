@@ -29,14 +29,14 @@ MonoBehaviour:
   weaponType: 
   WeaponType: {fileID: 0}
   armorType: 
-  ArmorType: {fileID: 11400000, guid: 78540823b49a0294bbbe84a8a014a982, type: 2}
+  ArmorType: {fileID: 11400000, guid: b3e9dece47ba97945968b015c97df10d, type: 2}
   slotType: 
   WeaponSlot: {fileID: 0}
   rarity: 
   ItemRarity: {fileID: 11400000, guid: 9fe2887c3181d5146a74e57b1a55a22d, type: 2}
   itemModelName: Starter_Legs
   weaponModel: {fileID: 0}
-  modelMaterial: {fileID: 0}
+  modelMaterial: {fileID: 2100000, guid: bd95d05da092ee546bb149f526e4d054, type: 2}
   weaponPositionDatas: []
   showWeaponPositionData: 0
   WeaponTransforms: []
