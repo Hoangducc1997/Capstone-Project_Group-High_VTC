@@ -24,13 +24,13 @@ MonoBehaviour:
     - gender: {fileID: 11400000, guid: 6af37385c57329640bdb53dd75cf6921, type: 2}
       CombatPosition: {x: 0, y: 0, z: 0}
       CombatRotation: {x: 0, y: 0, z: 0}
-      CombatScale: {x: 1.212493, y: 1.212493, z: 1.212493}
+      CombatScale: {x: 0.8, y: 0.8, z: 0.8}
       RestPosition: {x: 0, y: 0, z: 0}
       RestRotation: {x: 12.952393, y: 340.42453, z: 94.098335}
-      RestScale: {x: 1.2124927, y: 1.2124927, z: 1.2124927}
+      RestScale: {x: 0.8, y: 0.8, z: 0.8}
       CombatPosition2: {x: 0, y: 0, z: 0}
       CombatRotation2: {x: 0, y: 0, z: 0}
-      CombatScale2: {x: 1, y: 1, z: 1}
+      CombatScale2: {x: 0.8, y: 0.8, z: 0.8}
       RestPosition2: {x: 0, y: 0, z: 0}
       RestRotation2: {x: 0, y: 0, z: 0}
-      RestScale2: {x: 1, y: 1, z: 1}
+      RestScale2: {x: 0.8, y: 0.8, z: 0.8}
