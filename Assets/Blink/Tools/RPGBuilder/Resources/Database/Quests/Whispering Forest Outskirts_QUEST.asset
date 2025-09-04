@@ -10,20 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1bb18b8dfb0f3be4cb9856d31baa677e, type: 3}
-  m_Name: dsdasd_QUEST
+  m_Name: Whispering Forest Outskirts_QUEST
   m_EditorClassIdentifier: 
   ID: 4
-  entryName: dsdasd
-  entryFileName: dsdasd_QUEST
-  entryDisplayName: dsadasdd
+  entryName: Whispering Forest Outskirts
+  entryFileName: Whispering Forest Outskirts_QUEST
+  entryDisplayName: Threat at the Forest Edge
   entryIcon: {fileID: 0}
-  entryDescription: dasdsadas
+  entryDescription: Strange Fish Fiends have appeared at the Whispering Forest outskirts,
+    attacking villagers near the waters. Elara fears they may spread deeper and asks
+    you to hunt them to protect the region.
   _name: 
   displayName: 
   _fileName: 
   description: 
-  ObjectiveText: dsadas
-  ProgressText: dsadsa
+  ObjectiveText: Hunt and defeat 5 Fish Fiends at the outskirts of the Whispering
+    Forest.
+  ProgressText: 
   repeatable: 0
   canBeTurnedInWithoutNPC: 0
   Requirements: []
@@ -34,5 +37,13 @@ MonoBehaviour:
   - objectiveType: 0
     taskID: 3
     timeLimit: 0
-  rewardsGiven: []
+  rewardsGiven:
+  - rewardType: 0
+    itemID: 35
+    currencyID: -1
+    treePointID: -1
+    factionID: -1
+    weaponTemplateID: -1
+    count: 300
+    Experience: 0
   rewardsToPick: []
