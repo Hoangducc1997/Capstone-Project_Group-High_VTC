@@ -16467,10 +16467,6 @@ MonoBehaviour:
     _prefab: Assets/Import/Environment/Map 1 Asset/Prefabs/PA_RockSet1_Pile1.prefab
   - _gameObject: {fileID: 579671144}
     _prefab: Assets/Import/Environment/Map 1 Asset/Prefabs/PA_RockSet1_Pile4.prefab
-  - _gameObject: {fileID: 579671143}
-    _prefab: Assets/Import/Environment/Map 1 Asset/Prefabs/PA_RockSet1_Pile3.prefab
-  - _gameObject: {fileID: 579671142}
-    _prefab: Assets/Import/Environment/Map 1 Asset/Prefabs/PA_RockSet1_Pile3.prefab
   - _gameObject: {fileID: 579671141}
     _prefab: Assets/Import/Environment/Map 1 Asset/Prefabs/PA_PortalSphere.prefab
   - _gameObject: {fileID: 579671140}
@@ -16625,7 +16621,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1285361693271765765, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
       propertyPath: areaRadius
-      value: 6
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1285361693271765765, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
       propertyPath: npcCountMax
@@ -16645,7 +16641,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: f54c356a8ba586c40af803251f537c7d, type: 2}
     - target: {fileID: 6676781758726972970, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10.6
+      value: 11.48
       objectReference: {fileID: 0}
     - target: {fileID: 6676781758726972970, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
       propertyPath: m_LocalPosition.y
@@ -16653,7 +16649,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6676781758726972970, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -58.3
+      value: -58.46
       objectReference: {fileID: 0}
     - target: {fileID: 6676781758726972970, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
       propertyPath: m_LocalRotation.w
@@ -17172,6 +17168,8 @@ PrefabInstance:
     - {fileID: 37707528411332616, guid: ef8f0bcb24f5cea4893436097c831853, type: 3}
     - {fileID: 4558882871911703936, guid: ef8f0bcb24f5cea4893436097c831853, type: 3}
     - {fileID: 557928633469026150, guid: ef8f0bcb24f5cea4893436097c831853, type: 3}
+    - {fileID: 5380336112251721591, guid: ef8f0bcb24f5cea4893436097c831853, type: 3}
+    - {fileID: 948761012686885864, guid: ef8f0bcb24f5cea4893436097c831853, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 4452700207828818762, guid: ef8f0bcb24f5cea4893436097c831853, type: 3}
       insertIndex: -1
@@ -17248,16 +17246,6 @@ GameObject:
 --- !u!1 &579671141 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1883984720234852858, guid: ef8f0bcb24f5cea4893436097c831853, type: 3}
-  m_PrefabInstance: {fileID: 579671128}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &579671142 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5380336112251721591, guid: ef8f0bcb24f5cea4893436097c831853, type: 3}
-  m_PrefabInstance: {fileID: 579671128}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &579671143 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 948761012686885864, guid: ef8f0bcb24f5cea4893436097c831853, type: 3}
   m_PrefabInstance: {fileID: 579671128}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &579671144 stripped
