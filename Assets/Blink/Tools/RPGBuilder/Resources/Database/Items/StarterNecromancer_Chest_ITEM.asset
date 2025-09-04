@@ -36,7 +36,7 @@ MonoBehaviour:
   ItemRarity: {fileID: 11400000, guid: 9fe2887c3181d5146a74e57b1a55a22d, type: 2}
   itemModelName: Starter_Chest
   weaponModel: {fileID: 0}
-  modelMaterial: {fileID: 2100000, guid: 0cead53e4ecd4a04798672bd2e5ad8e8, type: 2}
+  modelMaterial: {fileID: 0}
   weaponPositionDatas: []
   showWeaponPositionData: 0
   WeaponTransforms: []
@@ -56,6 +56,7 @@ MonoBehaviour:
   randomStats: []
   randomStatsMax: 0
   sellPrice: 0
+  convertToCurrency: -1
   sellCurrencyID: -1
   buyPrice: 0
   buyCurrencyID: -1
@@ -79,5 +80,4 @@ MonoBehaviour:
   GameActions: []
   UseGameActionsTemplate: 0
   GameActionsTemplate: {fileID: 0}
-  BodyCullingTemplate: {fileID: 11400000, guid: 886c4d85279b30c4cbc3885992d9184e,
-    type: 2}
+  BodyCullingTemplate: {fileID: 11400000, guid: 7237dc5077183ee4988cb8125867ac02, type: 2}

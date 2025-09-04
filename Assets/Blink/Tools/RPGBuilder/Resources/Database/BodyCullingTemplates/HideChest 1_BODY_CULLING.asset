@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 763af42a004de754ba938cdea2d0f4bd, type: 3}
-  m_Name: HideChestArms_BODY_CULLING
+  m_Name: HideChest 1_BODY_CULLING
   m_EditorClassIdentifier: 
   ID: -1
-  entryName: HideChestArms
-  entryFileName: HideChestArms_BODY_CULLING
+  entryName: HideChest 1
+  entryFileName: HideChest 1_BODY_CULLING
   entryDisplayName: 
   entryIcon: {fileID: 0}
   entryDescription: 
@@ -24,4 +24,8 @@ MonoBehaviour:
     - Gender: {fileID: 11400000, guid: 6af37385c57329640bdb53dd75cf6921, type: 2}
       BodyParts:
       - {fileID: 11400000, guid: 454499f0063bd554b8171e142a4fad1a, type: 2}
-      - {fileID: 11400000, guid: c14c23184c613b046af68b73ecf85191, type: 2}
+  - raceID: 3
+    Values:
+    - Gender: {fileID: 11400000, guid: 6af37385c57329640bdb53dd75cf6921, type: 2}
+      BodyParts:
+      - {fileID: 11400000, guid: 454499f0063bd554b8171e142a4fad1a, type: 2}

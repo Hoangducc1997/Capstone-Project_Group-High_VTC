@@ -36,7 +36,7 @@ MonoBehaviour:
   ItemRarity: {fileID: 11400000, guid: 9fe2887c3181d5146a74e57b1a55a22d, type: 2}
   itemModelName: Starter_Legs
   weaponModel: {fileID: 0}
-  modelMaterial: {fileID: 2100000, guid: 0cead53e4ecd4a04798672bd2e5ad8e8, type: 2}
+  modelMaterial: {fileID: 0}
   weaponPositionDatas: []
   showWeaponPositionData: 0
   WeaponTransforms: []
@@ -56,6 +56,7 @@ MonoBehaviour:
   randomStats: []
   randomStatsMax: 0
   sellPrice: 0
+  convertToCurrency: -1
   sellCurrencyID: -1
   buyPrice: 0
   buyCurrencyID: -1
@@ -75,9 +76,12 @@ MonoBehaviour:
   Requirements: []
   UseRequirementsTemplate: 0
   RequirementsTemplate: {fileID: 0}
-  actionAbilities: []
+  actionAbilities:
+  - keyType: 0
+    key: 0
+    actionKeyName: 
+    abilityID: -1
   GameActions: []
   UseGameActionsTemplate: 0
   GameActionsTemplate: {fileID: 0}
-  BodyCullingTemplate: {fileID: 11400000, guid: cb3a8ec2c5e473345a1825483fa0c229,
-    type: 2}
+  BodyCullingTemplate: {fileID: 11400000, guid: 20c3de22d809eaa4aa5d838ac47fda21, type: 2}
