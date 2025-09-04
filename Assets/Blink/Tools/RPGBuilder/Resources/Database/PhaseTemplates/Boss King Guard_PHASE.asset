@@ -18,13 +18,23 @@ MonoBehaviour:
   entryDisplayName: 
   entryIcon: {fileID: 0}
   entryDescription: 
-  TransitionDuration: 0
+  TransitionDuration: 0.6
   EnterPhaseRequirementsTemplate: {fileID: 0}
   PotentialBehaviors:
   - BehaviorTemplate: {fileID: 11400000, guid: 52d8858cd1f46b4449edb9d608b120e8, type: 2}
     chance: 100
   ActionsTemplate: {fileID: 0}
   SpawnedAnimationTemplate: {fileID: 0}
-  VisualEffectEntries: []
+  VisualEffectEntries:
+  - Template: {fileID: 0}
+    ActivationType: 0
+    UseNodeSocket: 0
+    NodeSocket: {fileID: 0}
+    ParentedToCaster: 0
+    PositionOffset: {x: 0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+    Endless: 0
+    Duration: 5
+    Delay: 0
   AnimationEntries: []
   SoundEntries: []

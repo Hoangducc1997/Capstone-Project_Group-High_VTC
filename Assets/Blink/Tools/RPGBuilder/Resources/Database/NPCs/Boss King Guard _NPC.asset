@@ -37,9 +37,9 @@ MonoBehaviour:
   dialogueID: -1
   questGiven: []
   questCompleted: []
-  MinRespawn: 5
-  MaxRespawn: 10
-  corpseDespawnTime: 15
+  MinRespawn: 1
+  MaxRespawn: 1
+  corpseDespawnTime: 600
   MinEXP: 1
   MaxEXP: 2
   LowerLevelEXPModifier: 0

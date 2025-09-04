@@ -147,16 +147,7 @@ MonoBehaviour:
     isSharingCooldown: 0
     cooldownTag: 
     abilityCooldownTag: {fileID: 0}
-    effectsApplied:
-    - effectID: 24
-      chance: 100
-      effectRank: 0
-      target: 0
-      isSpread: 0
-      spreadDistanceMax: 0
-      spreadUnitMax: 0
-      delay: 0
-      tooltipText: 
+    effectsApplied: []
     casterEffectsApplied: []
     Actions: []
     VisualEffectEntries: []
