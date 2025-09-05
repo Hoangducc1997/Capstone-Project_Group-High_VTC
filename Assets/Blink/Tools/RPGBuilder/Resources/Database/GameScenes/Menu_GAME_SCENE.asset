@@ -10,25 +10,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dd833f50e74631042ae5eac5ab830020, type: 3}
-  m_Name: Castle_GAME_SCENE
+  m_Name: Menu_GAME_SCENE
   m_EditorClassIdentifier: 
-  ID: 1
-  entryName: Castle
-  entryFileName: Castle_GAME_SCENE
-  entryDisplayName: Castle
+  ID: 6
+  entryName: Menu
+  entryFileName: Menu_GAME_SCENE
+  entryDisplayName: Menu
   entryIcon: {fileID: 0}
   entryDescription: 
   _name: 
   _fileName: 
   displayName: 
   description: 
-  loadingBG: {fileID: 21300000, guid: bc5b5d63c0fc0fc4e9d5b3f8a94a7881, type: 3}
+  loadingBG: {fileID: 0}
   minimapImage: {fileID: 0}
   mapBounds:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 350, y: 0, z: 350}
-  mapSize: {x: 4096, y: 4096}
-  startPositionID: 1
+    m_Center: {x: 1, y: 1, z: 1}
+    m_Extent: {x: 1, y: 1, z: 1}
+  mapSize: {x: 1, y: 1}
+  startPositionID: 6
   isProceduralScene: 0
   SpawnPointName: 
   AlwaysSpawnAtPoint: 0
@@ -93,7 +93,7 @@ MonoBehaviour:
     m_ColorSpace: -1
     m_NumColorKeys: 7
     m_NumAlphaKeys: 2
-  UpdateSunPosition: 1
-  UpdateFog: 1
+  UpdateSunPosition: 0
+  UpdateFog: 0
   regions: []
-  DefaultRegion: {fileID: 11400000, guid: 0f4a8047d05c88344985899bfd19165f, type: 2}
+  DefaultRegion: {fileID: 11400000, guid: 0c00fda3ff17ca141b1f232bbfe2fe75, type: 2}

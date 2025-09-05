@@ -19,7 +19,7 @@ MonoBehaviour:
   entryIcon: {fileID: 0}
   entryDescription: 
   WeaponTransforms:
-  - raceID: 3
+  - raceID: 0
     transformValues:
     - gender: {fileID: 11400000, guid: 6af37385c57329640bdb53dd75cf6921, type: 2}
       CombatPosition: {x: 0, y: 0, z: 0}

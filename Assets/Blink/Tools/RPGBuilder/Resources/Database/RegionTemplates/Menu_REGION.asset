@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3f0c8bf6cd6c2074d82a2e80cb6d4d30, type: 3}
-  m_Name: Castle_REGION
+  m_Name: Menu_REGION
   m_EditorClassIdentifier: 
   ID: -1
-  entryName: Castle
-  entryFileName: Castle_REGION
-  entryDisplayName: Castle
+  entryName: Menu
+  entryFileName: Menu_REGION
+  entryDisplayName: Menu
   entryIcon: {fileID: 0}
   entryDescription: 
   fogChange: 0
@@ -25,7 +25,7 @@ MonoBehaviour:
   musicChange: 1
   combatModeChange: 0
   combatStateChange: 0
-  welcomeText: 1
+  welcomeText: 0
   taskCompletion: 0
   fogEnabled: 1
   fogColor: {r: 0, g: 0, b: 0, a: 0}
@@ -48,7 +48,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 466b747b1e3124a74ac8457241d7dda3, type: 3}
   combatEnabled: 0
   inCombat: 0
-  welcomeMessageText: WELCOME TO CASTLE
+  welcomeMessageText: Menu
   welcomeMessageDuration: 3
-  EnterGameActionsTemplate: {fileID: 11400000, guid: 8c58e47cdfa5a6046ae845c05abcadf0, type: 2}
-  ExitGameActionsTemplate: {fileID: 11400000, guid: 4f5a1669dba0b2848b24394eddd88030, type: 2}
+  EnterGameActionsTemplate: {fileID: 11400000, guid: b34dda91a8630bf4aa63c102370d5984, type: 2}
+  ExitGameActionsTemplate: {fileID: 11400000, guid: 6786354ba4f68be4f8e4b5b2edd2a184, type: 2}
