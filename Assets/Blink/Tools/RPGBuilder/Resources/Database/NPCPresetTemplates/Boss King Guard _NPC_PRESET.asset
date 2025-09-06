@@ -20,8 +20,8 @@ MonoBehaviour:
   entryDescription: 
   Prefab: {fileID: 4414871117303439921, guid: aef9a3e063e740f4d8100584de73ceb4, type: 3}
   Position: {x: 0, y: -0.15, z: 0}
-  Scale: {x: 2.3, y: 2.3, z: 2.3}
-  NameplateYOffset: 5
+  Scale: {x: 2.5, y: 2.5, z: 2.5}
+  NameplateYOffset: 6
   NameplateDistance: 68
   RendererName: Body
   AnimatorController: {fileID: 22100000, guid: 6093fe68516330240aa1f20dbbae936e, type: 2}
@@ -38,4 +38,4 @@ MonoBehaviour:
   ColliderSize: {x: 0, y: 0, z: 0}
   ColliderRadius: 0.5
   ColliderHeight: 2
-  InteractionDistanceMax: 3
+  InteractionDistanceMax: 5

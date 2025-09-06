@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e6b0bd28cdba664792f9263cd5a9dd1, type: 3}
-  m_Name: Castle_Enter_GAME_ACTIONS
+  m_Name: Map1_Enter_GAME_ACTIONS
   m_EditorClassIdentifier: 
   ID: -1
-  entryName: Castle_Enter
-  entryFileName: Castle_Enter_GAME_ACTIONS
+  entryName: Map1_Enter
+  entryFileName: Map1_Enter_GAME_ACTIONS
   entryDisplayName: 
   entryIcon: {fileID: 0}
   entryDescription: 
@@ -151,7 +151,7 @@ MonoBehaviour:
       SpeedParameterName: AttackAnimationsSpeed
       ModifierSpeed: 1
     SoundEntry:
-      Template: {fileID: 11400000, guid: f1677c736246c7141ab45a171328a40e, type: 2}
+      Template: {fileID: 11400000, guid: aac521a40072fec44b24996e17274c56, type: 2}
       ActivationType: 0
       Delay: 1
       Parented: 0
