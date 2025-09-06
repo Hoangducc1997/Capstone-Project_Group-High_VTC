@@ -30,12 +30,12 @@ namespace BLINK.RPGBuilder.Managers
         {
             GameEvents.NewGameSceneLoaded += FindDirectionalLight;
 
-            // 👉 Đặt skybox ngay khi script được bật, theo giờ hiện tại
-            if (Character.Instance != null)
-            {
-                int hour = Character.Instance.CharacterData.Time.CurrentHour;
-                UpdateSkybox(hour);
-            }
+            //// 👉 Đặt skybox ngay khi script được bật, theo giờ hiện tại
+            //if (Character.Instance != null)
+            //{
+            //    int hour = Character.Instance.CharacterData.Time.CurrentHour;
+            //    UpdateSkybox(hour);
+            //}
         }
 
 
