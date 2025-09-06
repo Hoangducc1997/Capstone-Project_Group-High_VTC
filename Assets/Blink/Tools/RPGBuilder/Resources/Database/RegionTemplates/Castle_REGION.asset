@@ -43,9 +43,7 @@ MonoBehaviour:
   skyboxTransitionSpeed: 0.5
   cameraParticle: {fileID: 0}
   musicClips:
-  - {fileID: 8300000, guid: 169336db230b94b3489d2951a7b74a47, type: 3}
-  - {fileID: 8300000, guid: b74e817a3a1b94aa3816f73b87b95d90, type: 3}
-  - {fileID: 8300000, guid: 466b747b1e3124a74ac8457241d7dda3, type: 3}
+  - {fileID: 8300000, guid: 5617ca9292220784c82ec9d9de1ab25c, type: 3}
   combatEnabled: 0
   inCombat: 0
   welcomeMessageText: WELCOME TO CASTLE

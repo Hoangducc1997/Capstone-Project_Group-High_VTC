@@ -53,6 +53,6 @@ MonoBehaviour:
   MinutesPerHour: 60
   StartingSecond: 0
   SecondsPerMinutes: 60
-  GlobalTimeSpeed: 0.5
-  SecondDuration: 0.0013888889
-  HourDuration: 5
+  GlobalTimeSpeed: 1
+  SecondDuration: 0.00027777778
+  HourDuration: 1

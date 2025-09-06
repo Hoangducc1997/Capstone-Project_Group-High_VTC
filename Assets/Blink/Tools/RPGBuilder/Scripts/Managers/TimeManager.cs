@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using BLINK.RPGBuilder.Characters;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace BLINK.RPGBuilder.Managers
 {
@@ -17,15 +18,26 @@ namespace BLINK.RPGBuilder.Managers
         [SerializeField] private Material skyboxNight;
         private Material currentSkybox;
 
+        public Image sunImg;
+        public Image moonImg;
+
         private Light directionalLight;
 
         private float nextSecondUpdate;
         private float FrameTimePassed;
-        
+
         private void OnEnable()
         {
             GameEvents.NewGameSceneLoaded += FindDirectionalLight;
+
+            // 👉 Đặt skybox ngay khi script được bật, theo giờ hiện tại
+            if (Character.Instance != null)
+            {
+                int hour = Character.Instance.CharacterData.Time.CurrentHour;
+                UpdateSkybox(hour);
+            }
         }
+
 
         private void OnDisable()
         {
@@ -139,20 +151,20 @@ namespace BLINK.RPGBuilder.Managers
             RenderSettings.fogColor = GameState.CurrentGameScene.FogColors.Evaluate(timePercent);
             UpdateSkybox(Character.Instance.CharacterData.Time.CurrentHour);
         }
-       
+
         private void UpdateSkybox(int hour)
         {
             Material selectedSkybox;
 
-            if (hour >= 5 && hour < 6)
+            if (hour >= 4 && hour < 8)
                 selectedSkybox = skyboxAurora;
-            else if (hour >= 6 && hour < 10)
+            else if (hour >= 8 && hour < 11)
                 selectedSkybox = skyboxMorning;
-            else if (hour >= 10 && hour < 15)
+            else if (hour >= 11 && hour < 15)
                 selectedSkybox = skyboxAfternoon;
-            else if (hour >= 15 && hour < 18)
+            else if (hour >= 15 && hour < 17)
                 selectedSkybox = skyboxEvening;
-            else if (hour >= 18 && hour < 19)
+            else if (hour >= 17 && hour < 20)
                 selectedSkybox = skyboxSunset;
             else
                 selectedSkybox = skyboxNight;
@@ -161,6 +173,21 @@ namespace BLINK.RPGBuilder.Managers
             {
                 RenderSettings.skybox = selectedSkybox;
                 currentSkybox = selectedSkybox;
+            }
+
+            // 👉 Hiển thị mặt trời / mặt trăng
+            if (sunImg != null && moonImg != null)
+            {
+                if (hour >= 4 && hour < 20) // 4h - 19h59 = ban ngày
+                {
+                    sunImg.gameObject.SetActive(true);
+                    moonImg.gameObject.SetActive(false);
+                }
+                else // Ban đêm
+                {
+                    sunImg.gameObject.SetActive(false);
+                    moonImg.gameObject.SetActive(true);
+                }
             }
         }
 
@@ -172,10 +199,17 @@ namespace BLINK.RPGBuilder.Managers
                 Light[] lights = FindObjectsOfType<Light>();
                 foreach (var light in lights)
                 {
-                    if(light.type != LightType.Directional) continue;
+                    if (light.type != LightType.Directional) continue;
                     directionalLight = light;
-                    return;
+                    break;
                 }
+            }
+
+            // 👉 Khi tìm được ánh sáng, update lại skybox theo giờ hiện tại
+            if (Character.Instance != null)
+            {
+                int hour = Character.Instance.CharacterData.Time.CurrentHour;
+                UpdateSkybox(hour);
             }
         }
     }

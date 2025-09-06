@@ -43,12 +43,10 @@ MonoBehaviour:
   skyboxTransitionSpeed: 0.5
   cameraParticle: {fileID: 0}
   musicClips:
-  - {fileID: 8300000, guid: 466b747b1e3124a74ac8457241d7dda3, type: 3}
-  - {fileID: 8300000, guid: b74e817a3a1b94aa3816f73b87b95d90, type: 3}
-  - {fileID: 8300000, guid: 466b747b1e3124a74ac8457241d7dda3, type: 3}
+  - {fileID: 8300000, guid: 9405814c3ea634efe91ba89087ae5885, type: 3}
   combatEnabled: 0
   inCombat: 0
-  welcomeMessageText: ...
+  welcomeMessageText: MAP 1
   welcomeMessageDuration: 3
-  EnterGameActionsTemplate: {fileID: 11400000, guid: 8c58e47cdfa5a6046ae845c05abcadf0, type: 2}
-  ExitGameActionsTemplate: {fileID: 11400000, guid: 4f5a1669dba0b2848b24394eddd88030, type: 2}
+  EnterGameActionsTemplate: {fileID: 11400000, guid: b34dda91a8630bf4aa63c102370d5984, type: 2}
+  ExitGameActionsTemplate: {fileID: 11400000, guid: b1771a1d90f50cf4eb5e380b37775396, type: 2}
