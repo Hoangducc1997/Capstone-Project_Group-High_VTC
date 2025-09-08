@@ -20,38 +20,308 @@ MonoBehaviour:
   entryDescription: 
   _name: 
   _fileName: 
-  levels: 10
-  baseXPValue: 3
-  increaseAmount: 40
+  levels: 100
+  baseXPValue: 5
+  increaseAmount: 23
   levelUpPrefab: {fileID: 0}
   allLevels:
   - levelName: 1
     level: 1
-    XPRequired: 3
+    XPRequired: 5
   - levelName: 2
     level: 2
-    XPRequired: 4
+    XPRequired: 6
   - levelName: 3
     level: 3
-    XPRequired: 5
+    XPRequired: 7
   - levelName: 4
     level: 4
-    XPRequired: 8
+    XPRequired: 9
   - levelName: 5
     level: 5
     XPRequired: 11
   - levelName: 6
     level: 6
-    XPRequired: 16
+    XPRequired: 14
   - levelName: 7
     level: 7
-    XPRequired: 22
+    XPRequired: 17
   - levelName: 8
     level: 8
-    XPRequired: 31
+    XPRequired: 21
   - levelName: 9
     level: 9
-    XPRequired: 44
+    XPRequired: 26
   - levelName: 10
     level: 10
-    XPRequired: 61
+    XPRequired: 32
+  - levelName: 11
+    level: 11
+    XPRequired: 39
+  - levelName: 12
+    level: 12
+    XPRequired: 48
+  - levelName: 13
+    level: 13
+    XPRequired: 59
+  - levelName: 14
+    level: 14
+    XPRequired: 73
+  - levelName: 15
+    level: 15
+    XPRequired: 90
+  - levelName: 16
+    level: 16
+    XPRequired: 111
+  - levelName: 17
+    level: 17
+    XPRequired: 137
+  - levelName: 18
+    level: 18
+    XPRequired: 168
+  - levelName: 19
+    level: 19
+    XPRequired: 207
+  - levelName: 20
+    level: 20
+    XPRequired: 255
+  - levelName: 21
+    level: 21
+    XPRequired: 314
+  - levelName: 22
+    level: 22
+    XPRequired: 386
+  - levelName: 23
+    level: 23
+    XPRequired: 475
+  - levelName: 24
+    level: 24
+    XPRequired: 584
+  - levelName: 25
+    level: 25
+    XPRequired: 718
+  - levelName: 26
+    level: 26
+    XPRequired: 884
+  - levelName: 27
+    level: 27
+    XPRequired: 1087
+  - levelName: 28
+    level: 28
+    XPRequired: 1337
+  - levelName: 29
+    level: 29
+    XPRequired: 1645
+  - levelName: 30
+    level: 30
+    XPRequired: 2024
+  - levelName: 31
+    level: 31
+    XPRequired: 2489
+  - levelName: 32
+    level: 32
+    XPRequired: 3062
+  - levelName: 33
+    level: 33
+    XPRequired: 3766
+  - levelName: 34
+    level: 34
+    XPRequired: 4632
+  - levelName: 35
+    level: 35
+    XPRequired: 5698
+  - levelName: 36
+    level: 36
+    XPRequired: 7008
+  - levelName: 37
+    level: 37
+    XPRequired: 8620
+  - levelName: 38
+    level: 38
+    XPRequired: 10603
+  - levelName: 39
+    level: 39
+    XPRequired: 13042
+  - levelName: 40
+    level: 40
+    XPRequired: 16042
+  - levelName: 41
+    level: 41
+    XPRequired: 19732
+  - levelName: 42
+    level: 42
+    XPRequired: 24270
+  - levelName: 43
+    level: 43
+    XPRequired: 29852
+  - levelName: 44
+    level: 44
+    XPRequired: 36718
+  - levelName: 45
+    level: 45
+    XPRequired: 45164
+  - levelName: 46
+    level: 46
+    XPRequired: 55552
+  - levelName: 47
+    level: 47
+    XPRequired: 68329
+  - levelName: 48
+    level: 48
+    XPRequired: 84044
+  - levelName: 49
+    level: 49
+    XPRequired: 103374
+  - levelName: 50
+    level: 50
+    XPRequired: 127151
+  - levelName: 51
+    level: 51
+    XPRequired: 156396
+  - levelName: 52
+    level: 52
+    XPRequired: 192367
+  - levelName: 53
+    level: 53
+    XPRequired: 236611
+  - levelName: 54
+    level: 54
+    XPRequired: 291032
+  - levelName: 55
+    level: 55
+    XPRequired: 357969
+  - levelName: 56
+    level: 56
+    XPRequired: 440302
+  - levelName: 57
+    level: 57
+    XPRequired: 541572
+  - levelName: 58
+    level: 58
+    XPRequired: 666133
+  - levelName: 59
+    level: 59
+    XPRequired: 819344
+  - levelName: 60
+    level: 60
+    XPRequired: 1007793
+  - levelName: 61
+    level: 61
+    XPRequired: 1239586
+  - levelName: 62
+    level: 62
+    XPRequired: 1524691
+  - levelName: 63
+    level: 63
+    XPRequired: 1875370
+  - levelName: 64
+    level: 64
+    XPRequired: 2306705
+  - levelName: 65
+    level: 65
+    XPRequired: 2837247
+  - levelName: 66
+    level: 66
+    XPRequired: 3489814
+  - levelName: 67
+    level: 67
+    XPRequired: 4292472
+  - levelName: 68
+    level: 68
+    XPRequired: 5279740
+  - levelName: 69
+    level: 69
+    XPRequired: 6494081
+  - levelName: 70
+    level: 70
+    XPRequired: 7987719
+  - levelName: 71
+    level: 71
+    XPRequired: 9824895
+  - levelName: 72
+    level: 72
+    XPRequired: 12084621
+  - levelName: 73
+    level: 73
+    XPRequired: 14864084
+  - levelName: 74
+    level: 74
+    XPRequired: 18282824
+  - levelName: 75
+    level: 75
+    XPRequired: 22487874
+  - levelName: 76
+    level: 76
+    XPRequired: 27660086
+  - levelName: 77
+    level: 77
+    XPRequired: 34021904
+  - levelName: 78
+    level: 78
+    XPRequired: 41846944
+  - levelName: 79
+    level: 79
+    XPRequired: 51471740
+  - levelName: 80
+    level: 80
+    XPRequired: 63310240
+  - levelName: 81
+    level: 81
+    XPRequired: 77871592
+  - levelName: 82
+    level: 82
+    XPRequired: 95782056
+  - levelName: 83
+    level: 83
+    XPRequired: 117811928
+  - levelName: 84
+    level: 84
+    XPRequired: 144908672
+  - levelName: 85
+    level: 85
+    XPRequired: 178237664
+  - levelName: 86
+    level: 86
+    XPRequired: 219232320
+  - levelName: 87
+    level: 87
+    XPRequired: 269655744
+  - levelName: 88
+    level: 88
+    XPRequired: 331676576
+  - levelName: 89
+    level: 89
+    XPRequired: 407962176
+  - levelName: 90
+    level: 90
+    XPRequired: 501793472
+  - levelName: 91
+    level: 91
+    XPRequired: 617205952
+  - levelName: 92
+    level: 92
+    XPRequired: 759163328
+  - levelName: 93
+    level: 93
+    XPRequired: 933770880
+  - levelName: 94
+    level: 94
+    XPRequired: 1148538240
+  - levelName: 95
+    level: 95
+    XPRequired: 1412702080
+  - levelName: 96
+    level: 96
+    XPRequired: 1737623552
+  - levelName: 97
+    level: 97
+    XPRequired: 2000000000
+  - levelName: 98
+    level: 98
+    XPRequired: 2000000000
+  - levelName: 99
+    level: 99
+    XPRequired: 2000000000
+  - levelName: 100
+    level: 100
+    XPRequired: 2000000000
