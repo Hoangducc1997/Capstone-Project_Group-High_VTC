@@ -43,12 +43,10 @@ MonoBehaviour:
   skyboxTransitionSpeed: 0.5
   cameraParticle: {fileID: 0}
   musicClips:
-  - {fileID: 8300000, guid: 169336db230b94b3489d2951a7b74a47, type: 3}
-  - {fileID: 8300000, guid: b74e817a3a1b94aa3816f73b87b95d90, type: 3}
-  - {fileID: 8300000, guid: 466b747b1e3124a74ac8457241d7dda3, type: 3}
+  - {fileID: 8300000, guid: 5617ca9292220784c82ec9d9de1ab25c, type: 3}
   combatEnabled: 0
   inCombat: 0
-  welcomeMessageText: Castle
+  welcomeMessageText: WELCOME TO CASTLE
   welcomeMessageDuration: 3
   EnterGameActionsTemplate: {fileID: 11400000, guid: 8c58e47cdfa5a6046ae845c05abcadf0, type: 2}
   ExitGameActionsTemplate: {fileID: 11400000, guid: 4f5a1669dba0b2848b24394eddd88030, type: 2}

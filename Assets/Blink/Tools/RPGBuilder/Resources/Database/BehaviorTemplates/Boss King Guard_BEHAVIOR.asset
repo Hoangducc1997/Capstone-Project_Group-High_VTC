@@ -22,7 +22,7 @@ MonoBehaviour:
   DefaultStateTemplate: {fileID: 11400000, guid: 1f7448e9e7dcfe241b9c3472f717bd81, type: 2}
   DefaultPetState: {fileID: 0}
   DefaultPetStateTemplate: {fileID: 0}
-  ChaseState: {fileID: 11400000, guid: da1c5b016655e014aa0caafd0bb26ed2, type: 2}
+  ChaseState: {fileID: 0}
   ChaseTemplate: {fileID: 11400000, guid: 35f20e6471a66424d8988ba8846d5741, type: 2}
   CombatIdleState: {fileID: 11400000, guid: d89f31ada7ebd884fabca8865eb99ef8, type: 2}
   CombatIdleTemplate: {fileID: 11400000, guid: 8e415c658b825cf4abad478bd8cf1efd, type: 2}
@@ -37,14 +37,14 @@ MonoBehaviour:
   PotentialAbilities:
   - AbilitiesTemplate: {fileID: 11400000, guid: cbb348e07558d6a49a7f6fbc72664393, type: 2}
     chance: 100
-  MaxDistanceFromTarget: 3
+  MaxDistanceFromTarget: 6
   MinDistanceFromTarget: 2
   LookAtTargetSpeed: 25
   CheckTargetInterval: 0.5
-  ResetTargetAfterDistanceFromSpawner: 0
-  SpawnerDistanceMax: 30
-  ResetTargetAfterDistanceFromSpawnpoint: 0
-  SpawnPointDistanceMax: 50
+  ResetTargetAfterDistanceFromSpawner: 1
+  SpawnerDistanceMax: 3
+  ResetTargetAfterDistanceFromSpawnpoint: 1
+  SpawnPointDistanceMax: 39
   StrafeParameterName: Strafing
   CombatParameterName: InCombatState
   CanAggroAlly: 0

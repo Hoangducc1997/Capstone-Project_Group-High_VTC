@@ -37,9 +37,9 @@ MonoBehaviour:
   dialogueID: -1
   questGiven: []
   questCompleted: []
-  MinRespawn: 5
-  MaxRespawn: 10
-  corpseDespawnTime: 15
+  MinRespawn: 600
+  MaxRespawn: 1000
+  corpseDespawnTime: 10
   MinEXP: 1
   MaxEXP: 2
   LowerLevelEXPModifier: 0
@@ -111,7 +111,7 @@ MonoBehaviour:
   - type: 0
     npcID: 17
     npcFamily: {fileID: 0}
-    maxDistance: 2
+    maxDistance: 5
   SetLayer: 0
   SetTag: 0
   GameObjectLayer: 0

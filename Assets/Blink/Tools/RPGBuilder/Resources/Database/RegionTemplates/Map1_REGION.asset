@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f0c8bf6cd6c2074d82a2e80cb6d4d30, type: 3}
+  m_Name: Map1_REGION
+  m_EditorClassIdentifier: 
+  ID: -1
+  entryName: Map1
+  entryFileName: Map1_REGION
+  entryDisplayName: Map1
+  entryIcon: {fileID: 0}
+  entryDescription: 
+  fogChange: 0
+  lightningChange: 0
+  skyboxChange: 0
+  cameraParticleChange: 0
+  musicChange: 1
+  combatModeChange: 0
+  combatStateChange: 0
+  welcomeText: 1
+  taskCompletion: 0
+  fogEnabled: 1
+  fogColor: {r: 0, g: 0, b: 0, a: 0}
+  fogMode: 1
+  fogDensity: 0
+  fogStartDistance: 0
+  fogEndDistance: 0
+  fogTransitionSpeed: 0.5
+  lightEnabled: 1
+  lightColor: {r: 1, g: 1, b: 1, a: 1}
+  lightIntensity: 1
+  lightGameobjectName: Directional Light
+  lightTransitionSpeed: 0.5
+  skyboxCubemap: {fileID: 0}
+  skyboxTransitionSpeed: 0.5
+  cameraParticle: {fileID: 0}
+  musicClips:
+  - {fileID: 8300000, guid: 9405814c3ea634efe91ba89087ae5885, type: 3}
+  combatEnabled: 0
+  inCombat: 0
+  welcomeMessageText: MAP 1
+  welcomeMessageDuration: 3
+  EnterGameActionsTemplate: {fileID: 11400000, guid: b34dda91a8630bf4aa63c102370d5984, type: 2}
+  ExitGameActionsTemplate: {fileID: 11400000, guid: b1771a1d90f50cf4eb5e380b37775396, type: 2}

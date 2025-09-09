@@ -41,10 +41,10 @@ MonoBehaviour:
   MinDistanceFromTarget: 2
   LookAtTargetSpeed: 25
   CheckTargetInterval: 0.5
-  ResetTargetAfterDistanceFromSpawner: 0
-  SpawnerDistanceMax: 30
-  ResetTargetAfterDistanceFromSpawnpoint: 0
-  SpawnPointDistanceMax: 50
+  ResetTargetAfterDistanceFromSpawner: 1
+  SpawnerDistanceMax: 39
+  ResetTargetAfterDistanceFromSpawnpoint: 1
+  SpawnPointDistanceMax: 39
   StrafeParameterName: Strafing
   CombatParameterName: InCombatState
   CanAggroAlly: 0

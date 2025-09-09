@@ -16,9 +16,9 @@ MonoBehaviour:
   entryName: Character 1
   entryFileName: Character 1_RACE
   entryDisplayName: Character 1
-  entryIcon: {fileID: 21300000, guid: 7a733554e56a8ce45a40adc2a9c7eb1e, type: 3}
-  entryDescription: "A mysterious sorcerer from a distant Eastern land, swept into
-    a cosmic storm and cast into Eldoria \u2013 a realm torn asunder by dark forces"
+  entryIcon: {fileID: 21300000, guid: cfc74c0ea26280045a3229845cfe52c2, type: 3}
+  entryDescription: A mighty warrior from the Western lands, caught in a cosmic storm
+    and cast into Eldoria - a realm torn asunder by dark forces
   _name: 
   _fileName: 
   displayName: 
@@ -37,13 +37,13 @@ MonoBehaviour:
   levelTemplateID: -1
   Genders:
   - Gender: {fileID: 11400000, guid: 6af37385c57329640bdb53dd75cf6921, type: 2}
-    Prefab: {fileID: 4502656670155466057, guid: 68795ab2cbc61dd47a7ec01483310cc9, type: 3}
-    Icon: {fileID: 21300000, guid: 7d72bbe58b569154ab785a2f7db98840, type: 3}
+    Prefab: {fileID: 8292983204246258141, guid: bc4cb7d51a5c8b94e9bfbb7864615e92, type: 3}
+    Icon: {fileID: 21300000, guid: a5a7d5faebc5fc044a912e29def1e8f5, type: 3}
     DynamicAnimator: 1
-    RestAnimatorController: {fileID: 22100000, guid: bce07712ca593f34f9c226bb6b2bcba4, type: 2}
-    CombatAnimatorController: {fileID: 22100000, guid: bce07712ca593f34f9c226bb6b2bcba4, type: 2}
+    RestAnimatorController: {fileID: 22100000, guid: 203bed481924ce043a826744fa42efde, type: 2}
+    CombatAnimatorController: {fileID: 22100000, guid: 203bed481924ce043a826744fa42efde, type: 2}
   availableClasses:
-  - classID: 1
+  - classID: 0
   weaponTemplates: []
   stats: []
   CustomStats:

@@ -82,10 +82,13 @@ namespace BLINK.RPGBuilder.Managers
         [SerializeField] private Button skipIntroButton;
         [SerializeField] private GameObject canvasIntroCinematic;
 
+        //Anim UI
         [SerializeField] private GameObject newCharacterPanel;
+        [SerializeField] private GameObject continueCharacterPanel;
         private IEnumerator Start()
         {
             newCharacterPanel.SetActive(false);
+            continueCharacterPanel.SetActive(false);
             if (Instance != null) yield break;
             Instance = this;
 
@@ -169,7 +172,8 @@ namespace BLINK.RPGBuilder.Managers
 
         public void ClickContinue()
         {
-			if (allCharacters.Count == 0) return;
+            continueCharacterPanel.SetActive(true);
+            if (allCharacters.Count == 0) return;
             disableAllCG();
             RPGBuilderUtilities.EnableCG(ContinueCG);
             RPGBuilderUtilities.EnableCG(BackHomeButtonCG);

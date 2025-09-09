@@ -26,13 +26,13 @@ MonoBehaviour:
   minimapImage: {fileID: 21300000, guid: ee5ecef5f4075f04fb433c7e35f13f45, type: 3}
   mapBounds:
     m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 350, y: 0, z: 350}
-  mapSize: {x: 1000, y: 1000}
+    m_Extent: {x: 199, y: 0, z: 239}
+  mapSize: {x: 4096, y: 4096}
   startPositionID: 4
   isProceduralScene: 0
   SpawnPointName: 
   AlwaysSpawnAtPoint: 0
-  SunRotationAxis: 100
+  SunRotationAxis: 300
   SunColors:
     serializedVersion: 2
     key0: {r: 0, g: 0, b: 0, a: 1}
@@ -96,4 +96,4 @@ MonoBehaviour:
   UpdateSunPosition: 1
   UpdateFog: 1
   regions: []
-  DefaultRegion: {fileID: 11400000, guid: 0f4a8047d05c88344985899bfd19165f, type: 2}
+  DefaultRegion: {fileID: 0}
