@@ -10,29 +10,29 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ccfcbfff05fa1f94eaa371eb19ed6547, type: 3}
-  m_Name: Enemy2 Wofturn_NPC_PRESET
+  m_Name: Enemy2 Flying Demon_NPC_PRESET
   m_EditorClassIdentifier: 
   ID: -1
-  entryName: Enemy2 Wofturn
-  entryFileName: Enemy2 Wofturn_NPC_PRESET
+  entryName: Enemy2 Flying Demon
+  entryFileName: Enemy2 Flying Demon_NPC_PRESET
   entryDisplayName: 
-  entryIcon: {fileID: 21300000, guid: cdb98991110d8e347b7207a304fc2a88, type: 3}
+  entryIcon: {fileID: 21300000, guid: ac389629987616046bcd7f878b0c2d9a, type: 3}
   entryDescription: 
-  Prefab: {fileID: 5785497811905594081, guid: b5afe6d4d709463798131becb57c8317, type: 3}
-  Position: {x: 0, y: 0, z: 0}
-  Scale: {x: 1.5, y: 1.5, z: 1.5}
+  Prefab: {fileID: 7579524208966766500, guid: 6128bd601766439d8431c9fc63fcb843, type: 3}
+  Position: {x: 0, y: 1, z: 0}
+  Scale: {x: 1.2, y: 1.2, z: 1.2}
   NameplateYOffset: 3
   NameplateDistance: 45
   RendererName: Body
-  AnimatorController: {fileID: 22100000, guid: 11903110993290f49a4858a9e6b35e91, type: 2}
-  AnimatorAvatar: {fileID: 9000000, guid: 55474c07685b4276a437f94e058c2101, type: 3}
+  AnimatorController: {fileID: 22100000, guid: eb464e1e6e5ff9f489fe05bec14fac20, type: 2}
+  AnimatorAvatar: {fileID: 9000000, guid: 890739edfeab4ff3bb51174dec7e3731, type: 3}
   AnimatorUseRootMotion: 0
   AnimatorUpdateMode: 0
   AnimatorCullingMode: 0
-  NavmeshAgentRadius: 0.5
-  NavmeshAgentHeight: 2
-  NavmeshAgentAngularSpeed: 500
-  NavmeshObstacleAvoidance: 3
+  NavmeshAgentRadius: 18
+  NavmeshAgentHeight: 39
+  NavmeshAgentAngularSpeed: 1000
+  NavmeshObstacleAvoidance: 0
   ColliderType: 0
   ColliderCenter: {x: 0, y: 1, z: 0}
   ColliderSize: {x: 0, y: 0, z: 0}

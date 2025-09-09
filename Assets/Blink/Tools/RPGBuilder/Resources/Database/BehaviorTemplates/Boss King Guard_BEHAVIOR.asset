@@ -37,14 +37,14 @@ MonoBehaviour:
   PotentialAbilities:
   - AbilitiesTemplate: {fileID: 11400000, guid: cbb348e07558d6a49a7f6fbc72664393, type: 2}
     chance: 100
-  MaxDistanceFromTarget: 3
+  MaxDistanceFromTarget: 6
   MinDistanceFromTarget: 2
   LookAtTargetSpeed: 25
   CheckTargetInterval: 0.5
-  ResetTargetAfterDistanceFromSpawner: 0
-  SpawnerDistanceMax: 30
-  ResetTargetAfterDistanceFromSpawnpoint: 0
-  SpawnPointDistanceMax: 50
+  ResetTargetAfterDistanceFromSpawner: 1
+  SpawnerDistanceMax: 3
+  ResetTargetAfterDistanceFromSpawnpoint: 1
+  SpawnPointDistanceMax: 39
   StrafeParameterName: Strafing
   CombatParameterName: InCombatState
   CanAggroAlly: 0
