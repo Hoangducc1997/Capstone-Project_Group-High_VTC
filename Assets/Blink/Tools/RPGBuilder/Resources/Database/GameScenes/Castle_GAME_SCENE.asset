@@ -23,10 +23,10 @@ MonoBehaviour:
   displayName: 
   description: 
   loadingBG: {fileID: 21300000, guid: bc5b5d63c0fc0fc4e9d5b3f8a94a7881, type: 3}
-  minimapImage: {fileID: 0}
+  minimapImage: {fileID: 21300000, guid: 38d2d294db271db4ca574e9efa9aee0a, type: 3}
   mapBounds:
     m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 350, y: 0, z: 350}
+    m_Extent: {x: 650, y: 0, z: 500}
   mapSize: {x: 4096, y: 4096}
   startPositionID: 1
   isProceduralScene: 0
