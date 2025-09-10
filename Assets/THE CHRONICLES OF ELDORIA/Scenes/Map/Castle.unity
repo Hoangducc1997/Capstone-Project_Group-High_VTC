@@ -196,6 +196,89 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   usePosition: 0
+--- !u!1001 &250029133
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1528097809}
+    m_Modifications:
+    - target: {fileID: 902786645165417114, guid: fb3c2ca68d9871c4d9c9f18996d0c99b, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: -876546973899608171, guid: 16d1f11fd60eb754687c8451e2b5e5bf, type: 3}
+    - target: {fileID: 1493930256076052038, guid: fb3c2ca68d9871c4d9c9f18996d0c99b, type: 3}
+      propertyPath: m_Name
+      value: PA_Water
+      objectReference: {fileID: 0}
+    - target: {fileID: 2513246636189803605, guid: fb3c2ca68d9871c4d9c9f18996d0c99b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2513246636189803605, guid: fb3c2ca68d9871c4d9c9f18996d0c99b, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2513246636189803605, guid: fb3c2ca68d9871c4d9c9f18996d0c99b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2513246636189803605, guid: fb3c2ca68d9871c4d9c9f18996d0c99b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 48
+      objectReference: {fileID: 0}
+    - target: {fileID: 2513246636189803605, guid: fb3c2ca68d9871c4d9c9f18996d0c99b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -31
+      objectReference: {fileID: 0}
+    - target: {fileID: 2513246636189803605, guid: fb3c2ca68d9871c4d9c9f18996d0c99b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 42
+      objectReference: {fileID: 0}
+    - target: {fileID: 2513246636189803605, guid: fb3c2ca68d9871c4d9c9f18996d0c99b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2513246636189803605, guid: fb3c2ca68d9871c4d9c9f18996d0c99b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2513246636189803605, guid: fb3c2ca68d9871c4d9c9f18996d0c99b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2513246636189803605, guid: fb3c2ca68d9871c4d9c9f18996d0c99b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2513246636189803605, guid: fb3c2ca68d9871c4d9c9f18996d0c99b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2513246636189803605, guid: fb3c2ca68d9871c4d9c9f18996d0c99b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2513246636189803605, guid: fb3c2ca68d9871c4d9c9f18996d0c99b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fb3c2ca68d9871c4d9c9f18996d0c99b, type: 3}
+--- !u!1 &250029134 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1493930256076052038, guid: fb3c2ca68d9871c4d9c9f18996d0c99b, type: 3}
+  m_PrefabInstance: {fileID: 250029133}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &250029135 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2513246636189803605, guid: fb3c2ca68d9871c4d9c9f18996d0c99b, type: 3}
+  m_PrefabInstance: {fileID: 250029133}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &517668665
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27812,6 +27895,8 @@ MonoBehaviour:
     _prefab: Assets/Import/PolygonFantasyKingdom/Prefabs/Props/BattleGround/SM_Prop_Battle_Relic_02.prefab
   - _gameObject: {fileID: 2157151599401090264}
     _prefab: Assets/Import/PolygonFantasyKingdom/Prefabs/SiegeEngines/SM_Wep_Trebuchet_01.prefab
+  - _gameObject: {fileID: 250029134}
+    _prefab: Assets/Import/Environment/Map 1 Asset/Prefabs/PA_Water.prefab
   - _gameObject: {fileID: 8487073095260986907}
     _prefab: Assets/THE CHRONICLES OF ELDORIA/Assets/Prefabs/Map/RedPortal  Variant.prefab
   - _gameObject: {fileID: 8487073095260986906}
@@ -28108,6 +28193,38 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   usePosition: 0
+--- !u!1 &1528097808
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1528097809}
+  m_Layer: 0
+  m_Name: Water
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1528097809
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1528097808}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 250029135}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1604651463
 GameObject:
   m_ObjectHideFlags: 0
@@ -28773,6 +28890,14 @@ PrefabInstance:
     - target: {fileID: 816651104200668325, guid: 1de04aa25a856964abf1bafd1a1af85d, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 819186456714068885, guid: 1de04aa25a856964abf1bafd1a1af85d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 57.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 819186456714068885, guid: 1de04aa25a856964abf1bafd1a1af85d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -36
       objectReference: {fileID: 0}
     - target: {fileID: 853958042074094978, guid: 1de04aa25a856964abf1bafd1a1af85d, type: 3}
       propertyPath: m_Layer
@@ -29493,6 +29618,10 @@ PrefabInstance:
     - target: {fileID: 3298496891902131341, guid: 1de04aa25a856964abf1bafd1a1af85d, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3298496891902131341, guid: 1de04aa25a856964abf1bafd1a1af85d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3306349460872793100, guid: 1de04aa25a856964abf1bafd1a1af85d, type: 3}
       propertyPath: m_Layer
@@ -31085,6 +31214,10 @@ PrefabInstance:
     - target: {fileID: 8708177574178668437, guid: 1de04aa25a856964abf1bafd1a1af85d, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8708177574178668437, guid: 1de04aa25a856964abf1bafd1a1af85d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8746640643857002545, guid: 1de04aa25a856964abf1bafd1a1af85d, type: 3}
       propertyPath: m_Layer
@@ -99694,6 +99827,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 693099753}
   - {fileID: 2157151599401090262}
+  - {fileID: 1528097809}
   - {fileID: 8487073095260986905}
   - {fileID: 2092246709917600351}
   - {fileID: 6647211137247648628}

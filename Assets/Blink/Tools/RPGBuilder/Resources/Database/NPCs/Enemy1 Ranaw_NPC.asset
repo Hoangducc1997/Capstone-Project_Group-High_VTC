@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2eaea086ce51ea9419be768c6237eedb, type: 3}
-  m_Name: Boss Tortoise _NPC
+  m_Name: Enemy1 Ranaw_NPC
   m_EditorClassIdentifier: 
-  ID: 19
-  entryName: 'Boss Tortoise '
-  entryFileName: Boss Tortoise _NPC
-  entryDisplayName: Tortoise
-  entryIcon: {fileID: 21300000, guid: 0768f288cbb34fb49b7b28914f0760ca, type: 3}
+  ID: 24
+  entryName: Enemy1 Ranaw
+  entryFileName: Enemy1 Ranaw_NPC
+  entryDisplayName: Ranaw
+  entryIcon: {fileID: 21300000, guid: 8a2efe502e022504d9f50ae5ba3218c8, type: 3}
   entryDescription: 
   _name: 
   _fileName: 
@@ -25,21 +25,21 @@ MonoBehaviour:
   npcType: 0
   AILogicTemplate: {fileID: 262611205548413635, guid: 42a8b97728201df44ba95376d46032e3, type: 3}
   Phases:
-  - PhaseTemplate: {fileID: 11400000, guid: 7ee71beeb8c09cd41b710b4cfa8b5580, type: 2}
-    Preset: {fileID: 11400000, guid: 7923b8df36376984e85d1c95fd68c0d4, type: 2}
+  - PhaseTemplate: {fileID: 11400000, guid: 8f3556c5ff5b1474d8c5518658d9f2ce, type: 2}
+    Preset: {fileID: 11400000, guid: 4232d164e3a4ac84c9261a339b07bb8b, type: 2}
   ResetPhaseAfterCombat: 1
   InstantlyHealAfterCombat: 1
   isDummyTarget: 0
-  factionID: 1
+  factionID: 2
   speciesID: -1
   merchantTableID: -1
   MerchantTables: []
   dialogueID: -1
   questGiven: []
   questCompleted: []
-  MinRespawn: 3600
-  MaxRespawn: 3600
-  corpseDespawnTime: 1
+  MinRespawn: 5
+  MaxRespawn: 10
+  corpseDespawnTime: 15
   MinEXP: 1
   MaxEXP: 2
   LowerLevelEXPModifier: 0
@@ -48,8 +48,8 @@ MonoBehaviour:
   lootBagPrefab: {fileID: 0}
   LootBagDuration: 60
   factionRewards: []
-  MinLevel: 100
-  MaxLevel: 100
+  MinLevel: 1
+  MaxLevel: 3
   isScalingWithPlayer: 0
   stats: []
   CustomStats:
@@ -57,7 +57,7 @@ MonoBehaviour:
     overrideMinValue: 0
     minValue: 0
     overrideMaxValue: 1
-    maxValue: 10000
+    maxValue: 100
     overrideStartPercentage: 0
     startPercentage: 100
     addedValue: 0
@@ -68,18 +68,12 @@ MonoBehaviour:
   UseStatListTemplate: 0
   StatListTemplate: {fileID: 0}
   lootTables:
-  - lootTableID: 4
-    dropRate: 80.57
-  - lootTableID: 5
-    dropRate: 70.689995
   - lootTableID: 6
-    dropRate: 100
-  - lootTableID: 7
     dropRate: 100
   isCombatEnabled: 1
   isMovementEnabled: 0
   isCollisionEnabled: 0
-  isTargetable: 0
+  isTargetable: 1
   isNameplateEnabled: 1
   isPlayerInteractable: 0
   isMerchant: 0
@@ -109,7 +103,7 @@ MonoBehaviour:
   colliderHeight: 2
   aggroLinks:
   - type: 0
-    npcID: 19
+    npcID: 18
     npcFamily: {fileID: 0}
     maxDistance: 2
   SetLayer: 0
