@@ -64,7 +64,11 @@ MonoBehaviour:
     valuePerLevel: 0
     Percent: 0
     chance: 100
-    vitalityActions: []
+    vitalityActions:
+    - value: 0
+      valueType: 0
+      isPercent: 0
+      GameActionsTemplate: {fileID: 0}
   UseStatListTemplate: 0
   StatListTemplate: {fileID: 0}
   lootTables:
