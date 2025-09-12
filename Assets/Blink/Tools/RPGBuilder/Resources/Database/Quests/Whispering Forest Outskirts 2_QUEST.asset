@@ -10,32 +10,31 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1bb18b8dfb0f3be4cb9856d31baa677e, type: 3}
-  m_Name: Whispering Forest Outskirts_QUEST
+  m_Name: Whispering Forest Outskirts 2_QUEST
   m_EditorClassIdentifier: 
-  ID: 4
-  entryName: Whispering Forest Outskirts
-  entryFileName: Whispering Forest Outskirts_QUEST
-  entryDisplayName: Threat at the Forest Edge
+  ID: 5
+  entryName: Whispering Forest Outskirts 2
+  entryFileName: Whispering Forest Outskirts 2_QUEST
+  entryDisplayName: A Howling Threat
   entryIcon: {fileID: 0}
-  entryDescription: Strange Fish Fiends have appeared at the Whispering Forest outskirts,
-    attacking villagers near the waters.  Strenick fears they may spread deeper and
-    asks you to hunt them to protect the region.
+  entryDescription: 'Elara presents a greater challenge to gauge your strength: hunt
+    the dangerous Wolfturn. Overcoming these formidable beasts is the only way to
+    prove you are ready for the true dangers that threaten the Whispering Forest.'
   _name: 
   displayName: 
   _fileName: 
   description: 
-  ObjectiveText: Hunt and defeat 5 Fish Fiends at the outskirts of the Whispering
-    Forest.
+  ObjectiveText: Hunt and defeat 5 Wolfturn on the outskirts of the Whispering Forest
   ProgressText: 'Kill '
   repeatable: 0
   canBeTurnedInWithoutNPC: 0
   Requirements: []
   UseRequirementsTemplate: 1
-  RequirementsTemplate: {fileID: 11400000, guid: c49908c4e6b6054409a1f9b48df83296, type: 2}
+  RequirementsTemplate: {fileID: 11400000, guid: b9c211a8eb2e9b848b4498606a728385, type: 2}
   itemsGiven: []
   objectives:
   - objectiveType: 0
-    taskID: 3
+    taskID: 6
     timeLimit: 0
   rewardsGiven:
   - rewardType: 0
@@ -44,6 +43,6 @@ MonoBehaviour:
     treePointID: -1
     factionID: -1
     weaponTemplateID: -1
-    count: 300
+    count: 500
     Experience: 0
   rewardsToPick: []
