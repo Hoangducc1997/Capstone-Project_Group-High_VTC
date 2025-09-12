@@ -44,6 +44,14 @@ MonoBehaviour:
     treePointID: -1
     factionID: -1
     weaponTemplateID: -1
-    count: 4
+    count: 10
+    Experience: 0
+  - rewardType: 0
+    itemID: 13
+    currencyID: -1
+    treePointID: -1
+    factionID: -1
+    weaponTemplateID: -1
+    count: 10
     Experience: 0
   rewardsToPick: []

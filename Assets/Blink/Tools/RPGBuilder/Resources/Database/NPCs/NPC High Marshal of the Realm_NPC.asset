@@ -40,7 +40,10 @@ MonoBehaviour:
   questGiven:
   - questID: 1
   - questID: 4
-  questCompleted: []
+  - questID: 5
+  questCompleted:
+  - questID: 4
+  - questID: 5
   MinRespawn: 1
   MaxRespawn: 2
   corpseDespawnTime: 1
