@@ -485,6 +485,10 @@ PrefabInstance:
       propertyPath: skyboxAfternoon
       value: 
       objectReference: {fileID: 2100000, guid: d9dca9ae1786c394f9e79c637aa9a7bf, type: 2}
+    - target: {fileID: 7411305308607303400, guid: 91bd169e03d716447822cf20c76b9949, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

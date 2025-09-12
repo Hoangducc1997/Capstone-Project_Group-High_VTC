@@ -17,4 +17,21 @@ public class PlayIntro : MonoBehaviour
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene(nextSceneName);
     }
+    private void OnEnable()
+    {
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.PauseBackgroundMusic();
+        }
+    }
+
+    private void OnDisable()
+    {
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.RunBackgroundMusic(
+                UnityEngine.SceneManagement.SceneManager.GetActiveScene().name
+            );
+        }
+    }
 }
