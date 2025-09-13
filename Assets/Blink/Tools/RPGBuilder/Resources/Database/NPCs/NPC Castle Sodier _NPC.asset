@@ -16,7 +16,7 @@ MonoBehaviour:
   entryName: 'NPC Castle Sodier '
   entryFileName: NPC Castle Sodier _NPC
   entryDisplayName: 'Piece I Sodier '
-  entryIcon: {fileID: 21300000, guid: 99b6e228ccaefa046a4dfea4a9e2dba2, type: 3}
+  entryIcon: {fileID: 21300000, guid: 83883756d6e808c449458d82799d6ae6, type: 3}
   entryDescription: 
   _name: 
   _fileName: 
@@ -26,7 +26,7 @@ MonoBehaviour:
   AILogicTemplate: {fileID: 262611205548413635, guid: 42a8b97728201df44ba95376d46032e3, type: 3}
   Phases:
   - PhaseTemplate: {fileID: 11400000, guid: 369eebdf6220f2946b7fcf40291afed5, type: 2}
-    Preset: {fileID: 11400000, guid: 7dda03a92750ffc438d5e959f141ca7a, type: 2}
+    Preset: {fileID: 11400000, guid: 3c3ef901b6940614295ba95fe3770c26, type: 2}
   ResetPhaseAfterCombat: 1
   InstantlyHealAfterCombat: 1
   isDummyTarget: 1
@@ -73,13 +73,13 @@ MonoBehaviour:
   StatListTemplate: {fileID: 0}
   lootTables: []
   isCombatEnabled: 1
-  isMovementEnabled: 1
+  isMovementEnabled: 0
   isCollisionEnabled: 0
   isTargetable: 1
   isNameplateEnabled: 1
   isPlayerInteractable: 1
-  isMerchant: 0
-  isQuestGiver: 0
+  isMerchant: 1
+  isQuestGiver: 1
   isDialogue: 1
   MerchantText: Show me your goods.
   QuestText: Can I do something for you?

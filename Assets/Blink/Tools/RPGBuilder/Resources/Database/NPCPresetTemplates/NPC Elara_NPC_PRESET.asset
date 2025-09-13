@@ -10,22 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ccfcbfff05fa1f94eaa371eb19ed6547, type: 3}
-  m_Name: Pet_Elara_NPC_PRESET
+  m_Name: NPC Elara_NPC_PRESET
   m_EditorClassIdentifier: 
   ID: -1
-  entryName: Pet_Elara
-  entryFileName: Pet_Elara_NPC_PRESET
+  entryName: NPC Elara
+  entryFileName: NPC Elara_NPC_PRESET
   entryDisplayName: 
-  entryIcon: {fileID: 21300000, guid: 0daea28b70bd3d3409bc2b237aeb1c8b, type: 3}
+  entryIcon: {fileID: 21300000, guid: 99b6e228ccaefa046a4dfea4a9e2dba2, type: 3}
   entryDescription: 
-  Prefab: {fileID: 3972964382682025698, guid: d14dfe4b65257704da6c56aed9329ab6, type: 3}
+  Prefab: {fileID: 3106079188005785500, guid: 592317df682501a4e9aacfde6404e251, type: 3}
   Position: {x: 0, y: 0, z: 0}
-  Scale: {x: 0.6, y: 0.6, z: 0.6}
-  NameplateYOffset: 1.8
+  Scale: {x: 1, y: 1, z: 1}
+  NameplateYOffset: 2.1
   NameplateDistance: 39
   RendererName: Body
-  AnimatorController: {fileID: 22100000, guid: 197129c882a4b3b489a34bd8d9ce2732, type: 2}
-  AnimatorAvatar: {fileID: 9000000, guid: 82561a5771df4d9bbf82fd8bcfa9bb3b, type: 3}
+  AnimatorController: {fileID: 22100000, guid: 747736c5df2123c40baa3ef95ab90389, type: 2}
+  AnimatorAvatar: {fileID: 9000000, guid: 9d545e43681431348908eab98e78aa45, type: 3}
   AnimatorUseRootMotion: 0
   AnimatorUpdateMode: 0
   AnimatorCullingMode: 0
@@ -38,4 +38,4 @@ MonoBehaviour:
   ColliderSize: {x: 0, y: 0, z: 0}
   ColliderRadius: 0.5
   ColliderHeight: 2
-  InteractionDistanceMax: 5
+  InteractionDistanceMax: 3
