@@ -40,9 +40,45 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1091037589017839509}
     m_Modifications:
+    - target: {fileID: 1036093839617950, guid: 24e2f7a008fde164698a13a05b6918f5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1124045769824716, guid: 24e2f7a008fde164698a13a05b6918f5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1437055375145280, guid: 24e2f7a008fde164698a13a05b6918f5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1639613318545464, guid: 24e2f7a008fde164698a13a05b6918f5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1766879556452844, guid: 24e2f7a008fde164698a13a05b6918f5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1793230569793294, guid: 24e2f7a008fde164698a13a05b6918f5, type: 3}
       propertyPath: m_Name
       value: SM_Chr_Jester_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1797296295439272, guid: 24e2f7a008fde164698a13a05b6918f5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1932963734898372, guid: 24e2f7a008fde164698a13a05b6918f5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1952506901253162, guid: 24e2f7a008fde164698a13a05b6918f5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1980498797749110, guid: 24e2f7a008fde164698a13a05b6918f5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4454599636911048, guid: 24e2f7a008fde164698a13a05b6918f5, type: 3}
       propertyPath: m_LocalPosition.x
