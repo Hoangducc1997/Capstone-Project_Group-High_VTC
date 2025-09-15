@@ -155,7 +155,7 @@ namespace BLINK.RPGBuilder.Managers
 
         private void InitCharacterInfo ()
         {
-            CharacterNameText.text = Character.Instance.CharacterData.CharacterName;
+            CharacterNameText.text = "Name: " + Character.Instance.CharacterData.CharacterName;
             RaceNameText.text = "Race: " + GameDatabase.Instance.GetRaces()[Character.Instance.CharacterData.RaceID].entryDisplayName;
 
             if (!GameDatabase.Instance.GetCharacterSettings().NoClasses)
@@ -315,7 +315,8 @@ namespace BLINK.RPGBuilder.Managers
         public override void Show()
         {
             base.Show();
-            CharacterNameText.text = Character.Instance.CharacterData.CharacterName;
+            CharacterNameText.text = "Name: " + Character.Instance.CharacterData.CharacterName;
+            LevelText.text = "Level: " + Character.Instance.CharacterData.Level;
             classTalentTreeButtonGO.SetActive(!GameDatabase.Instance.GetCharacterSettings().NoClasses);
             RPGBuilderUtilities.EnableCG(thisCG);
             transform.SetAsLastSibling();
