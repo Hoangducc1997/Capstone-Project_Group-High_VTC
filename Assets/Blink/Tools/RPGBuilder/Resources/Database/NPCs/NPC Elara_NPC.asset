@@ -36,9 +36,8 @@ MonoBehaviour:
   MerchantTables:
   - MerchantTableID: 0
     RequirementsTemplate: {fileID: 0}
-  dialogueID: -1
-  questGiven:
-  - questID: 6
+  dialogueID: 1
+  questGiven: []
   questCompleted:
   - questID: 3
   MinRespawn: 1

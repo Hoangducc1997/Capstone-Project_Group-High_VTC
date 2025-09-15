@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: RPG Dialogue Text
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -712, y: -72}
+  position: {x: 824, y: -296}
   ports:
     keys:
     - previousNode
@@ -51,6 +51,281 @@ MonoBehaviour:
     the only one with the knowledge to counter this darkness."
   RequirementsTemplate: {fileID: 0}
   GameActionsTemplate: {fileID: 0}
+  showSettings: 1
+  viewedEndless: 0
+  clickedEndless: 1
+  viewCountMax: 1
+  clickCountMax: 0
+  nodeImage: {fileID: 0}
+--- !u!114 &-7582671023237050114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3482daf33a41b424789a150bca26817d, type: 3}
+  m_Name: RPG Dialogue Text
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -328, y: -472}
+  ports:
+    keys:
+    - previousNode
+    - nextNodes
+    values:
+    - _fieldName: previousNode
+      _node: {fileID: -7582671023237050114}
+      _typeQualifiedName: RPGDialogueTextNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: nextNodes
+        node: {fileID: -2934186957106517817}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: nextNodes
+      _node: {fileID: -7582671023237050114}
+      _typeQualifiedName: RPGDialogueBaseNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  previousNode: {fileID: 0}
+  nextNodes: {fileID: 0}
+  identityType: 1
+  nodeName: 
+  message: Nothing to say. Good day
+  RequirementsTemplate: {fileID: 0}
+  GameActionsTemplate: {fileID: 0}
+  showSettings: 1
+  viewedEndless: 1
+  clickedEndless: 1
+  viewCountMax: 0
+  clickCountMax: 0
+  nodeImage: {fileID: 0}
+--- !u!114 &-7491721298944300557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3482daf33a41b424789a150bca26817d, type: 3}
+  m_Name: RPG Dialogue Text
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -792, y: -72}
+  ports:
+    keys:
+    - previousNode
+    - nextNodes
+    values:
+    - _fieldName: previousNode
+      _node: {fileID: -7491721298944300557}
+      _typeQualifiedName: RPGDialogueTextNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: nextNodes
+        node: {fileID: -2934186957106517817}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: nextNodes
+      _node: {fileID: -7491721298944300557}
+      _typeQualifiedName: RPGDialogueBaseNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: previousNode
+        node: {fileID: 7137648985097965068}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  previousNode: {fileID: 0}
+  nextNodes: {fileID: 0}
+  identityType: 1
+  nodeName: 
+  message: "I\u2019m ready for the final challenge."
+  RequirementsTemplate: {fileID: 0}
+  GameActionsTemplate: {fileID: 0}
+  showSettings: 0
+  viewedEndless: 1
+  clickedEndless: 1
+  viewCountMax: 1
+  clickCountMax: 0
+  nodeImage: {fileID: 0}
+--- !u!114 &-7384014325178575996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3482daf33a41b424789a150bca26817d, type: 3}
+  m_Name: RPG Dialogue Text
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 472, y: -72}
+  ports:
+    keys:
+    - previousNode
+    - nextNodes
+    values:
+    - _fieldName: previousNode
+      _node: {fileID: -7384014325178575996}
+      _typeQualifiedName: RPGDialogueTextNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: nextNodes
+        node: {fileID: 1423194365641474105}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: nextNodes
+      _node: {fileID: -7384014325178575996}
+      _typeQualifiedName: RPGDialogueBaseNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: previousNode
+        node: {fileID: -341974154522348456}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  previousNode: {fileID: 0}
+  nextNodes: {fileID: 0}
+  identityType: 0
+  nodeName: 
+  message: Yes. He is not only physically strong but also guarded by loyal minions,
+    but his defeat will prove your true strength.
+  RequirementsTemplate: {fileID: 0}
+  GameActionsTemplate: {fileID: 0}
+  showSettings: 0
+  viewedEndless: 1
+  clickedEndless: 1
+  viewCountMax: 0
+  clickCountMax: 0
+  nodeImage: {fileID: 0}
+--- !u!114 &-4882681643123546760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3482daf33a41b424789a150bca26817d, type: 3}
+  m_Name: RPG Dialogue Text
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1656, y: -72}
+  ports:
+    keys:
+    - previousNode
+    - nextNodes
+    values:
+    - _fieldName: previousNode
+      _node: {fileID: -4882681643123546760}
+      _typeQualifiedName: RPGDialogueTextNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: nextNodes
+        node: {fileID: -3128682983679982617}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: nextNodes
+      _node: {fileID: -4882681643123546760}
+      _typeQualifiedName: RPGDialogueBaseNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  previousNode: {fileID: 0}
+  nextNodes: {fileID: 0}
+  identityType: 1
+  nodeName: 
+  message: See you soon
+  RequirementsTemplate: {fileID: 0}
+  GameActionsTemplate: {fileID: 11400000, guid: 7706cb46546e9b243ad7f2a86eef3b88, type: 2}
+  showSettings: 0
+  viewedEndless: 1
+  clickedEndless: 1
+  viewCountMax: 0
+  clickCountMax: 0
+  nodeImage: {fileID: 0}
+--- !u!114 &-3128682983679982617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3482daf33a41b424789a150bca26817d, type: 3}
+  m_Name: RPG Dialogue Text
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1256, y: -72}
+  ports:
+    keys:
+    - previousNode
+    - nextNodes
+    values:
+    - _fieldName: previousNode
+      _node: {fileID: -3128682983679982617}
+      _typeQualifiedName: RPGDialogueTextNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: nextNodes
+        node: {fileID: -341974154522348456}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: nextNodes
+      _node: {fileID: -3128682983679982617}
+      _typeQualifiedName: RPGDialogueBaseNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: previousNode
+        node: {fileID: -4882681643123546760}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  previousNode: {fileID: 0}
+  nextNodes: {fileID: 0}
+  identityType: 0
+  nodeName: 
+  message: Go, and let courage guide you.
+  RequirementsTemplate: {fileID: 0}
+  GameActionsTemplate: {fileID: 0}
   showSettings: 0
   viewedEndless: 1
   clickedEndless: 1
@@ -70,7 +345,7 @@ MonoBehaviour:
   m_Name: RPG Dialogue Text
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -712, y: -296}
+  position: {x: -920, y: -328}
   ports:
     keys:
     - previousNode
@@ -93,6 +368,12 @@ MonoBehaviour:
       - fieldName: previousNode
         node: {fileID: 6859995419334141160}
         reroutePoints: []
+      - fieldName: previousNode
+        node: {fileID: -7491721298944300557}
+        reroutePoints: []
+      - fieldName: previousNode
+        node: {fileID: -7582671023237050114}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -104,10 +385,10 @@ MonoBehaviour:
   message: "You came to see me\u2014what matter brings you here?"
   RequirementsTemplate: {fileID: 0}
   GameActionsTemplate: {fileID: 0}
-  showSettings: 0
-  viewedEndless: 1
+  showSettings: 1
+  viewedEndless: 0
   clickedEndless: 1
-  viewCountMax: 0
+  viewCountMax: 1
   clickCountMax: 0
   nodeImage: {fileID: 0}
 --- !u!114 &-424077013849142963
@@ -161,6 +442,62 @@ MonoBehaviour:
     grows faster than I imagined."
   RequirementsTemplate: {fileID: 0}
   GameActionsTemplate: {fileID: 0}
+  showSettings: 1
+  viewedEndless: 0
+  clickedEndless: 1
+  viewCountMax: 1
+  clickCountMax: 0
+  nodeImage: {fileID: 0}
+--- !u!114 &-341974154522348456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3482daf33a41b424789a150bca26817d, type: 3}
+  m_Name: RPG Dialogue Text
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 872, y: -72}
+  ports:
+    keys:
+    - previousNode
+    - nextNodes
+    values:
+    - _fieldName: previousNode
+      _node: {fileID: -341974154522348456}
+      _typeQualifiedName: RPGDialogueTextNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: nextNodes
+        node: {fileID: -7384014325178575996}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: nextNodes
+      _node: {fileID: -341974154522348456}
+      _typeQualifiedName: RPGDialogueBaseNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: previousNode
+        node: {fileID: -3128682983679982617}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  previousNode: {fileID: 0}
+  nextNodes: {fileID: 0}
+  identityType: 1
+  nodeName: 
+  message: "I\u2019ll return with proof of his death."
+  RequirementsTemplate: {fileID: 0}
+  GameActionsTemplate: {fileID: 0}
   showSettings: 0
   viewedEndless: 1
   clickedEndless: 1
@@ -188,6 +525,14 @@ MonoBehaviour:
   - {fileID: 6851806126136412523}
   - {fileID: 5448916147629009203}
   - {fileID: 652443145087881171}
+  - {fileID: -7582671023237050114}
+  - {fileID: -7491721298944300557}
+  - {fileID: 7137648985097965068}
+  - {fileID: 1423194365641474105}
+  - {fileID: -7384014325178575996}
+  - {fileID: -341974154522348456}
+  - {fileID: -3128682983679982617}
+  - {fileID: -4882681643123546760}
 --- !u!114 &652443145087881171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -201,7 +546,7 @@ MonoBehaviour:
   m_Name: RPG Dialogue Text
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 520, y: -72}
+  position: {x: 2056, y: -296}
   ports:
     keys:
     - previousNode
@@ -235,6 +580,62 @@ MonoBehaviour:
   message: Good bye
   RequirementsTemplate: {fileID: 0}
   GameActionsTemplate: {fileID: 11400000, guid: 6e78963097937654cab9faddf3905633, type: 2}
+  showSettings: 1
+  viewedEndless: 0
+  clickedEndless: 1
+  viewCountMax: 1
+  clickCountMax: 0
+  nodeImage: {fileID: 0}
+--- !u!114 &1423194365641474105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3482daf33a41b424789a150bca26817d, type: 3}
+  m_Name: RPG Dialogue Text
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 88, y: -72}
+  ports:
+    keys:
+    - previousNode
+    - nextNodes
+    values:
+    - _fieldName: previousNode
+      _node: {fileID: 1423194365641474105}
+      _typeQualifiedName: RPGDialogueTextNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: nextNodes
+        node: {fileID: 7137648985097965068}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: nextNodes
+      _node: {fileID: 1423194365641474105}
+      _typeQualifiedName: RPGDialogueBaseNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: previousNode
+        node: {fileID: -7384014325178575996}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  previousNode: {fileID: 0}
+  nextNodes: {fileID: 0}
+  identityType: 1
+  nodeName: 
+  message: So this is a tough task right?
+  RequirementsTemplate: {fileID: 0}
+  GameActionsTemplate: {fileID: 0}
   showSettings: 0
   viewedEndless: 1
   clickedEndless: 1
@@ -291,10 +692,10 @@ MonoBehaviour:
   message: What should we do now?
   RequirementsTemplate: {fileID: 0}
   GameActionsTemplate: {fileID: 0}
-  showSettings: 0
-  viewedEndless: 1
+  showSettings: 1
+  viewedEndless: 0
   clickedEndless: 1
-  viewCountMax: 0
+  viewCountMax: 1
   clickCountMax: 0
   nodeImage: {fileID: 0}
 --- !u!114 &5448916147629009203
@@ -310,7 +711,7 @@ MonoBehaviour:
   m_Name: RPG Dialogue Text
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 104, y: -72}
+  position: {x: 1624, y: -296}
   ports:
     keys:
     - previousNode
@@ -349,9 +750,9 @@ MonoBehaviour:
   RequirementsTemplate: {fileID: 0}
   GameActionsTemplate: {fileID: 11400000, guid: 1851b9b5e879d194ab7bb94a4be2abe2, type: 2}
   showSettings: 1
-  viewedEndless: 1
+  viewedEndless: 0
   clickedEndless: 1
-  viewCountMax: 0
+  viewCountMax: 1
   clickCountMax: 0
   nodeImage: {fileID: 0}
 --- !u!114 &6851806126136412523
@@ -367,7 +768,7 @@ MonoBehaviour:
   m_Name: RPG Dialogue Text
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -312, y: -72}
+  position: {x: 1240, y: -296}
   ports:
     keys:
     - previousNode
@@ -404,10 +805,10 @@ MonoBehaviour:
   message: Where can I find her?
   RequirementsTemplate: {fileID: 0}
   GameActionsTemplate: {fileID: 0}
-  showSettings: 0
-  viewedEndless: 1
+  showSettings: 1
+  viewedEndless: 0
   clickedEndless: 1
-  viewCountMax: 0
+  viewCountMax: 1
   clickCountMax: 0
   nodeImage: {fileID: 0}
 --- !u!114 &6859995419334141160
@@ -461,9 +862,66 @@ MonoBehaviour:
     witnessed their assault with my own eyes."
   RequirementsTemplate: {fileID: 0}
   GameActionsTemplate: {fileID: 0}
-  showSettings: 0
-  viewedEndless: 1
+  showSettings: 1
+  viewedEndless: 0
   clickedEndless: 1
-  viewCountMax: 0
+  viewCountMax: 1
+  clickCountMax: 0
+  nodeImage: {fileID: 0}
+--- !u!114 &7137648985097965068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3482daf33a41b424789a150bca26817d, type: 3}
+  m_Name: RPG Dialogue Text
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -328, y: -72}
+  ports:
+    keys:
+    - previousNode
+    - nextNodes
+    values:
+    - _fieldName: previousNode
+      _node: {fileID: 7137648985097965068}
+      _typeQualifiedName: RPGDialogueTextNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: nextNodes
+        node: {fileID: -7491721298944300557}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: nextNodes
+      _node: {fileID: 7137648985097965068}
+      _typeQualifiedName: RPGDialogueBaseNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: previousNode
+        node: {fileID: 1423194365641474105}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  previousNode: {fileID: 0}
+  nextNodes: {fileID: 0}
+  identityType: 0
+  nodeName: 
+  message: Then your final test is facing the King Guard, deep within the Whispering
+    Forest.
+  RequirementsTemplate: {fileID: 0}
+  GameActionsTemplate: {fileID: 0}
+  showSettings: 1
+  viewedEndless: 0
+  clickedEndless: 1
+  viewCountMax: 1
   clickCountMax: 0
   nodeImage: {fileID: 0}

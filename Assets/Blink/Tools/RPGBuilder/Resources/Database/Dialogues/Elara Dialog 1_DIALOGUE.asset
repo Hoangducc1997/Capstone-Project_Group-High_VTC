@@ -10,18 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: be88565115884934c9d9fd69eb23a73f, type: 3}
-  m_Name: Strenick dialogues 1_DIALOGUE
+  m_Name: Elara Dialog 1_DIALOGUE
   m_EditorClassIdentifier: 
-  ID: 0
-  entryName: Strenick dialogues 1
-  entryFileName: Strenick dialogues 1_DIALOGUE
-  entryDisplayName: Strenick dialogues 1
+  ID: 1
+  entryName: Elara Dialog 1
+  entryFileName: Elara Dialog 1_DIALOGUE
+  entryDisplayName: Elara Dialog 1
   entryIcon: {fileID: 0}
   entryDescription: 
   _name: 
   _fileName: 
   displayName: 
   description: 
-  dialogueGraph: {fileID: 11400000, guid: b5bb5f516551b9745b556efe668d6ef1, type: 2}
+  dialogueGraph: {fileID: 11400000, guid: 2bbf617fb1d2abf4f81b99e184e2cc02, type: 2}
   hasExitNode: 0
-  exitNodeText: Good bye
+  exitNodeText: Goodbye

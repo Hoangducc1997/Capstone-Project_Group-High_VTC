@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5c69746984ed7884e9b6f8cad8bfe01b, type: 3}
-  m_Name: questcompleted 1_REQUIREMENTS
+  m_Name: questcompleted Quatermaster_REQUIREMENTS
   m_EditorClassIdentifier: 
   ID: -1
-  entryName: questcompleted 1
-  entryFileName: questcompleted 1_REQUIREMENTS
+  entryName: questcompleted Quatermaster
+  entryFileName: questcompleted Quatermaster_REQUIREMENTS
   entryDisplayName: 
   entryIcon: {fileID: 0}
   entryDescription: 
@@ -45,7 +45,7 @@ MonoBehaviour:
       EnchantmentID: -1
       GearSetID: -1
       GameSceneID: -1
-      QuestID: 4
+      QuestID: 2
       DialogueID: -1
       Knowledge: 0
       State: 0

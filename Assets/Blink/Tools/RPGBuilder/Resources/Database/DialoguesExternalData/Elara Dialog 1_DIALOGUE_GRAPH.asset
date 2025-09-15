@@ -1,0 +1,470 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9081986908532742628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3482daf33a41b424789a150bca26817d, type: 3}
+  m_Name: RPG Dialogue Text
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 344, y: -296}
+  ports:
+    keys:
+    - previousNode
+    - nextNodes
+    values:
+    - _fieldName: previousNode
+      _node: {fileID: -9081986908532742628}
+      _typeQualifiedName: RPGDialogueTextNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: nextNodes
+        node: {fileID: 7868339100150852064}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: nextNodes
+      _node: {fileID: -9081986908532742628}
+      _typeQualifiedName: RPGDialogueBaseNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: previousNode
+        node: {fileID: 866784643416778057}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  previousNode: {fileID: 0}
+  nextNodes: {fileID: 0}
+  identityType: 0
+  nodeName: 
+  message: Strenick was wise to send you. If Eldoria is to survive, we must act swiftly.
+    I will begin raising the wards at once, but this is only the beginning.
+  RequirementsTemplate: {fileID: 0}
+  GameActionsTemplate: {fileID: 0}
+  showSettings: 1
+  viewedEndless: 0
+  clickedEndless: 1
+  viewCountMax: 1
+  clickCountMax: 0
+  nodeImage: {fileID: 0}
+--- !u!114 &-7587879571004732866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3482daf33a41b424789a150bca26817d, type: 3}
+  m_Name: RPG Dialogue Text
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 344, y: 152}
+  ports:
+    keys:
+    - previousNode
+    - nextNodes
+    values:
+    - _fieldName: previousNode
+      _node: {fileID: -7587879571004732866}
+      _typeQualifiedName: RPGDialogueTextNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: nextNodes
+        node: {fileID: 866784643416778057}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: nextNodes
+      _node: {fileID: -7587879571004732866}
+      _typeQualifiedName: RPGDialogueBaseNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: previousNode
+        node: {fileID: -5037700335765716585}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  previousNode: {fileID: 0}
+  nextNodes: {fileID: 0}
+  identityType: 0
+  nodeName: 
+  message: "For now, you\u2019ve done your duty. But I sense a power within you,
+    one that must be awakened. Soon, you will return to Strenick\u2014not as a messenger,
+    but as a warrior in training."
+  RequirementsTemplate: {fileID: 0}
+  GameActionsTemplate: {fileID: 0}
+  showSettings: 1
+  viewedEndless: 0
+  clickedEndless: 1
+  viewCountMax: 1
+  clickCountMax: 0
+  nodeImage: {fileID: 0}
+--- !u!114 &-6669552600058530738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3482daf33a41b424789a150bca26817d, type: 3}
+  m_Name: RPG Dialogue Text
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -504, y: -296}
+  ports:
+    keys:
+    - previousNode
+    - nextNodes
+    values:
+    - _fieldName: previousNode
+      _node: {fileID: -6669552600058530738}
+      _typeQualifiedName: RPGDialogueTextNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: nextNodes
+        node: {fileID: 4732453102060560966}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: nextNodes
+      _node: {fileID: -6669552600058530738}
+      _typeQualifiedName: RPGDialogueBaseNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: previousNode
+        node: {fileID: 7868339100150852064}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  previousNode: {fileID: 0}
+  nextNodes: {fileID: 0}
+  identityType: 0
+  nodeName: 
+  message: "\u2026So it has begun. I feared the shadows would move against us, but
+    not so soon."
+  RequirementsTemplate: {fileID: 0}
+  GameActionsTemplate: {fileID: 0}
+  showSettings: 1
+  viewedEndless: 0
+  clickedEndless: 1
+  viewCountMax: 1
+  clickCountMax: 0
+  nodeImage: {fileID: 0}
+--- !u!114 &-5037700335765716585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3482daf33a41b424789a150bca26817d, type: 3}
+  m_Name: RPG Dialogue Text
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 344, y: 344}
+  ports:
+    keys:
+    - previousNode
+    - nextNodes
+    values:
+    - _fieldName: previousNode
+      _node: {fileID: -5037700335765716585}
+      _typeQualifiedName: RPGDialogueTextNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: nextNodes
+        node: {fileID: -7587879571004732866}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: nextNodes
+      _node: {fileID: -5037700335765716585}
+      _typeQualifiedName: RPGDialogueBaseNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  previousNode: {fileID: 0}
+  nextNodes: {fileID: 0}
+  identityType: 1
+  nodeName: 
+  message: Ok . I will go to him.
+  RequirementsTemplate: {fileID: 0}
+  GameActionsTemplate: {fileID: 11400000, guid: f1b77a321fc3e844596673a5c9d95ddf, type: 2}
+  showSettings: 1
+  viewedEndless: 0
+  clickedEndless: 1
+  viewCountMax: 1
+  clickCountMax: 0
+  nodeImage: {fileID: 0}
+--- !u!114 &-3814753640823023683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3482daf33a41b424789a150bca26817d, type: 3}
+  m_Name: RPG Dialogue Text
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1368, y: -296}
+  ports:
+    keys:
+    - previousNode
+    - nextNodes
+    values:
+    - _fieldName: previousNode
+      _node: {fileID: -3814753640823023683}
+      _typeQualifiedName: RPGDialogueTextNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: nextNodes
+      _node: {fileID: -3814753640823023683}
+      _typeQualifiedName: RPGDialogueBaseNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: previousNode
+        node: {fileID: 4732453102060560966}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  previousNode: {fileID: 0}
+  nextNodes: {fileID: 0}
+  identityType: 0
+  nodeName: 
+  message: Hey Stranger, I can sense urgency in your steps. What brings you to my
+    tower?
+  RequirementsTemplate: {fileID: 11400000, guid: 6709bd59eecb84741ae702213e5de37d, type: 2}
+  GameActionsTemplate: {fileID: 0}
+  showSettings: 1
+  viewedEndless: 0
+  clickedEndless: 1
+  viewCountMax: 1
+  clickCountMax: 0
+  nodeImage: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b94581986ec14c489cf702c2fae6f9f, type: 3}
+  m_Name: Elara Dialog 1_DIALOGUE_GRAPH
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -3814753640823023683}
+  - {fileID: 4732453102060560966}
+  - {fileID: -6669552600058530738}
+  - {fileID: 7868339100150852064}
+  - {fileID: -9081986908532742628}
+  - {fileID: 866784643416778057}
+  - {fileID: -7587879571004732866}
+  - {fileID: -5037700335765716585}
+--- !u!114 &866784643416778057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3482daf33a41b424789a150bca26817d, type: 3}
+  m_Name: RPG Dialogue Text
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 344, y: -72}
+  ports:
+    keys:
+    - previousNode
+    - nextNodes
+    values:
+    - _fieldName: previousNode
+      _node: {fileID: 866784643416778057}
+      _typeQualifiedName: RPGDialogueTextNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: nextNodes
+        node: {fileID: -9081986908532742628}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: nextNodes
+      _node: {fileID: 866784643416778057}
+      _typeQualifiedName: RPGDialogueBaseNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: previousNode
+        node: {fileID: -7587879571004732866}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  previousNode: {fileID: 0}
+  nextNodes: {fileID: 0}
+  identityType: 1
+  nodeName: 
+  message: What should I do next?
+  RequirementsTemplate: {fileID: 0}
+  GameActionsTemplate: {fileID: 0}
+  showSettings: 1
+  viewedEndless: 0
+  clickedEndless: 1
+  viewCountMax: 1
+  clickCountMax: 0
+  nodeImage: {fileID: 0}
+--- !u!114 &4732453102060560966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3482daf33a41b424789a150bca26817d, type: 3}
+  m_Name: RPG Dialogue Text
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -904, y: -296}
+  ports:
+    keys:
+    - previousNode
+    - nextNodes
+    values:
+    - _fieldName: previousNode
+      _node: {fileID: 4732453102060560966}
+      _typeQualifiedName: RPGDialogueTextNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: nextNodes
+        node: {fileID: -3814753640823023683}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: nextNodes
+      _node: {fileID: 4732453102060560966}
+      _typeQualifiedName: RPGDialogueBaseNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: previousNode
+        node: {fileID: -6669552600058530738}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  previousNode: {fileID: 0}
+  nextNodes: {fileID: 0}
+  identityType: 1
+  nodeName: 
+  message: "Strenick sent me. Eldoria is under attack\u2014dark forces are advancing"
+  RequirementsTemplate: {fileID: 0}
+  GameActionsTemplate: {fileID: 11400000, guid: 63268fe1cdd93ca4998c566d268e4bf0, type: 2}
+  showSettings: 1
+  viewedEndless: 0
+  clickedEndless: 1
+  viewCountMax: 1
+  clickCountMax: 0
+  nodeImage: {fileID: 0}
+--- !u!114 &7868339100150852064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3482daf33a41b424789a150bca26817d, type: 3}
+  m_Name: RPG Dialogue Text
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -88, y: -296}
+  ports:
+    keys:
+    - previousNode
+    - nextNodes
+    values:
+    - _fieldName: previousNode
+      _node: {fileID: 7868339100150852064}
+      _typeQualifiedName: RPGDialogueTextNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: nextNodes
+        node: {fileID: -6669552600058530738}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: nextNodes
+      _node: {fileID: 7868339100150852064}
+      _typeQualifiedName: RPGDialogueBaseNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: previousNode
+        node: {fileID: -9081986908532742628}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  previousNode: {fileID: 0}
+  nextNodes: {fileID: 0}
+  identityType: 1
+  nodeName: 
+  message: He asked me to warn you, so you can prepare the defenses.
+  RequirementsTemplate: {fileID: 0}
+  GameActionsTemplate: {fileID: 0}
+  showSettings: 1
+  viewedEndless: 0
+  clickedEndless: 1
+  viewCountMax: 1
+  clickCountMax: 0
+  nodeImage: {fileID: 0}
