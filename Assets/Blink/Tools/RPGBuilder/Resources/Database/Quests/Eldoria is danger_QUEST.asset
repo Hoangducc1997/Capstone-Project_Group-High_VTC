@@ -17,19 +17,25 @@ MonoBehaviour:
   entryFileName: Eldoria is danger_QUEST
   entryDisplayName: Eldoria is danger
   entryIcon: {fileID: 0}
-  entryDescription: 
+  entryDescription: "Strenick has entrusted you with a important task. Dark forces
+    have begun their assault on Eldoria, and the realm\u2019s survival depends on
+    swift action. You must deliver this urgent message to the sorceress Elara, who
+    holds the knowledge and power to prepare the kingdom\u2019s defenses."
   _name: 
   displayName: 
   _fileName: 
   description: 
-  ObjectiveText: 
-  ProgressText: 
+  ObjectiveText: Meet Elara and inform her about the dark forces attacking Eldoria.
+  ProgressText: Talk to Elara in her tower
   repeatable: 0
   canBeTurnedInWithoutNPC: 0
   Requirements: []
   UseRequirementsTemplate: 0
   RequirementsTemplate: {fileID: 0}
   itemsGiven: []
-  objectives: []
+  objectives:
+  - objectiveType: 0
+    taskID: 7
+    timeLimit: 0
   rewardsGiven: []
   rewardsToPick: []

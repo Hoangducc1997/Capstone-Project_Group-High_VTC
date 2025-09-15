@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2b2d56e903fec084c9ce28bbeae9aef4, type: 3}
-  m_Name: MeetNPC_TASK
+  m_Name: MeetNPCStrenick_TASK
   m_EditorClassIdentifier: 
-  ID: 4
-  entryName: MeetNPC
-  entryFileName: MeetNPC_TASK
-  entryDisplayName: Meet
+  ID: 8
+  entryName: MeetNPCStrenick
+  entryFileName: MeetNPCStrenick_TASK
+  entryDisplayName: MeetNPCStrenick
   entryIcon: {fileID: 0}
   entryDescription: 
   _name: 
@@ -31,7 +31,7 @@ MonoBehaviour:
   classRequiredID: -1
   skillRequiredID: -1
   itemToUseID: -1
-  npcToTalkToID: -1
+  npcToTalkToID: 12
   weaponTemplateRequiredID: -1
   taskValue: 0
   NPCFamily: {fileID: 0}

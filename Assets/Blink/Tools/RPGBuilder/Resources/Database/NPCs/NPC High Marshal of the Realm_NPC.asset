@@ -36,14 +36,16 @@ MonoBehaviour:
   MerchantTables:
   - MerchantTableID: 0
     RequirementsTemplate: {fileID: 0}
-  dialogueID: -1
+  dialogueID: 0
   questGiven:
   - questID: 1
   - questID: 4
   - questID: 5
+  - questID: 3
   questCompleted:
   - questID: 4
   - questID: 5
+  - questID: 6
   MinRespawn: 1
   MaxRespawn: 2
   corpseDespawnTime: 1
