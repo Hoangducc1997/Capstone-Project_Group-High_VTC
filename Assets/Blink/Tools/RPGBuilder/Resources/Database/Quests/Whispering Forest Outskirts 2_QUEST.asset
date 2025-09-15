@@ -17,9 +17,9 @@ MonoBehaviour:
   entryFileName: Whispering Forest Outskirts 2_QUEST
   entryDisplayName: A Howling Threat
   entryIcon: {fileID: 0}
-  entryDescription: 'Elara presents a greater challenge to gauge your strength: hunt
-    the dangerous Wolfturn. Overcoming these formidable beasts is the only way to
-    prove you are ready for the true dangers that threaten the Whispering Forest.'
+  entryDescription: 'Strenick presents a greater challenge to gauge your strength:
+    hunt the dangerous Wolfturn. Overcoming these formidable beasts is the only way
+    to prove you are ready for the true dangers that threaten the Whispering Forest.'
   _name: 
   displayName: 
   _fileName: 
@@ -37,9 +37,9 @@ MonoBehaviour:
     taskID: 6
     timeLimit: 0
   rewardsGiven:
-  - rewardType: 0
+  - rewardType: 1
     itemID: 35
-    currencyID: -1
+    currencyID: 1
     treePointID: -1
     factionID: -1
     weaponTemplateID: -1

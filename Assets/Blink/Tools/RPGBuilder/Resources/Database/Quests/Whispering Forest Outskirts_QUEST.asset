@@ -38,9 +38,9 @@ MonoBehaviour:
     taskID: 3
     timeLimit: 0
   rewardsGiven:
-  - rewardType: 0
+  - rewardType: 1
     itemID: 35
-    currencyID: -1
+    currencyID: 1
     treePointID: -1
     factionID: -1
     weaponTemplateID: -1
