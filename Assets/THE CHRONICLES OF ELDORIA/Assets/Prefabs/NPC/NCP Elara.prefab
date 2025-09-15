@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1378242899357544, guid: 2154df2b1029fce44a5ed87edcaa0546, type: 3}
       propertyPath: m_Name
-      value: NCP_Elara
+      value: NCP Elara
       objectReference: {fileID: 0}
     - target: {fileID: 4569614443650498, guid: 2154df2b1029fce44a5ed87edcaa0546, type: 3}
       propertyPath: m_LocalPosition.x
@@ -108,19 +108,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4011552640903790, guid: d5535f7eb1bd7bf4da9e49a3964862b4, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.79889303
+      value: -0.65105605
       objectReference: {fileID: 0}
     - target: {fileID: 4011552640903790, guid: d5535f7eb1bd7bf4da9e49a3964862b4, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.2716267
+      value: 0.25144032
       objectReference: {fileID: 0}
     - target: {fileID: 4011552640903790, guid: d5535f7eb1bd7bf4da9e49a3964862b4, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.4998104
+      value: -0.5738859
       objectReference: {fileID: 0}
     - target: {fileID: 4011552640903790, guid: d5535f7eb1bd7bf4da9e49a3964862b4, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.19539309
+      value: -0.42843765
       objectReference: {fileID: 0}
     - target: {fileID: 4011552640903790, guid: d5535f7eb1bd7bf4da9e49a3964862b4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
