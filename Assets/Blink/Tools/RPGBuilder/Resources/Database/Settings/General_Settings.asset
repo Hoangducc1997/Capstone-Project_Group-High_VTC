@@ -164,7 +164,7 @@ MonoBehaviour:
     Category: {fileID: 11400000, guid: d8215dbc904ddb1409a14d5027152bf5, type: 2}
   - actionName: ACTIVE_BLOCKING
     actionDisplayName: Block
-    defaultKey: 0
+    defaultKey: 122
     isUnique: 1
     category: COMBAT
     Category: {fileID: 11400000, guid: d8215dbc904ddb1409a14d5027152bf5, type: 2}
@@ -254,7 +254,7 @@ MonoBehaviour:
     Category: {fileID: 11400000, guid: 01122e0bdd31daa42a9715a293b8ddb4, type: 2}
   - actionName: ACTION_ABILITY_1
     actionDisplayName: Action Ability 1
-    defaultKey: 0
+    defaultKey: 121
     isUnique: 1
     category: COMBAT
     Category: {fileID: 11400000, guid: d8215dbc904ddb1409a14d5027152bf5, type: 2}
@@ -278,25 +278,25 @@ MonoBehaviour:
     Category: {fileID: 11400000, guid: 5f997748d8586c540b2a9f1c2c8af773, type: 2}
   - actionName: UI_PANEL_SOCKETING
     actionDisplayName: Socketing
-    defaultKey: 0
+    defaultKey: 117
     isUnique: 0
     category: UI
     Category: {fileID: 11400000, guid: 5f997748d8586c540b2a9f1c2c8af773, type: 2}
   - actionName: UI_PANEL_SPELLBOOK
     actionDisplayName: Spellbook
-    defaultKey: 0
+    defaultKey: 112
     isUnique: 1
     category: UI
     Category: {fileID: 11400000, guid: 5f997748d8586c540b2a9f1c2c8af773, type: 2}
   - actionName: UI_PANEL_WEAPON_TEMPLATES
     actionDisplayName: Weapons
-    defaultKey: 0
+    defaultKey: 111
     isUnique: 0
     category: UI
     Category: {fileID: 11400000, guid: 5f997748d8586c540b2a9f1c2c8af773, type: 2}
   - actionName: UI_PANEL_STATS_ALLOCATION
     actionDisplayName: Stats
-    defaultKey: 0
+    defaultKey: 108
     isUnique: 0
     category: UI
     Category: {fileID: 11400000, guid: 5f997748d8586c540b2a9f1c2c8af773, type: 2}
