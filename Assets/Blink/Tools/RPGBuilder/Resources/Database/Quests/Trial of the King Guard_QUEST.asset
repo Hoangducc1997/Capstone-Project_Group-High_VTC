@@ -32,7 +32,7 @@ MonoBehaviour:
   repeatable: 0
   canBeTurnedInWithoutNPC: 0
   Requirements: []
-  UseRequirementsTemplate: 1
+  UseRequirementsTemplate: 0
   RequirementsTemplate: {fileID: 11400000, guid: f45d03a2c2284c24cb1eb5a07a63f673, type: 2}
   itemsGiven: []
   objectives:
