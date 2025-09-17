@@ -40,8 +40,8 @@ MonoBehaviour:
     Prefab: {fileID: 4502656670155466057, guid: 68795ab2cbc61dd47a7ec01483310cc9, type: 3}
     Icon: {fileID: 21300000, guid: 7d72bbe58b569154ab785a2f7db98840, type: 3}
     DynamicAnimator: 1
-    RestAnimatorController: {fileID: 22100000, guid: bce07712ca593f34f9c226bb6b2bcba4, type: 2}
-    CombatAnimatorController: {fileID: 22100000, guid: bce07712ca593f34f9c226bb6b2bcba4, type: 2}
+    RestAnimatorController: {fileID: 22100000, guid: 203bed481924ce043a826744fa42efde, type: 2}
+    CombatAnimatorController: {fileID: 22100000, guid: 203bed481924ce043a826744fa42efde, type: 2}
   availableClasses:
   - classID: 1
   weaponTemplates: []
