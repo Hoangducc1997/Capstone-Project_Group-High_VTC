@@ -82,7 +82,7 @@ MonoBehaviour:
     projectileDestroyedByEnvironment: 1
     projectileDestroyLayers:
       serializedVersion: 2
-      m_Bits: 4608
+      m_Bits: 128
     projectileAffectedByGravity: 0
     projectileShootOnClickPosition: 0
     projectileDistanceMaxForNPC: 50
@@ -105,13 +105,11 @@ MonoBehaviour:
     UsedOnALly: 0
     LookAtTargetDuringCombatAction: 0
     LookAtTargetOnCombatAction: 0
-    projectileEffect: {fileID: 1714274598519724, guid: 46f837efd030e1844bc2d60f88994d6a,
-      type: 3}
+    projectileEffect: {fileID: 1714274598519724, guid: 46f837efd030e1844bc2d60f88994d6a, type: 3}
     projectileSocketName: 
     projectileTargetSocketName: 
     projectileNodeSocket: {fileID: 0}
-    projectileTargetNodeSocket: {fileID: 11400000, guid: ce9910f9467705446a02fec763985733,
-      type: 2}
+    projectileTargetNodeSocket: {fileID: 11400000, guid: ce9910f9467705446a02fec763985733, type: 2}
     projectileUseNodeSocket: 0
     projectileTargetUseNodeSocket: 0
     projectileParentedToCaster: 0
@@ -128,8 +126,7 @@ MonoBehaviour:
     effectPositionOffset: {x: 0, y: 1, z: 0.5}
     groundVisualEffectDuration: 5
     hitEffectUseSocket: 0
-    hitEffect: {fileID: 1814361462553474, guid: b24d86eef3cf9d74ca645a82ee838035,
-      type: 3}
+    hitEffect: {fileID: 1814361462553474, guid: b24d86eef3cf9d74ca645a82ee838035, type: 3}
     hitEffectDuration: 3
     hitEffectSocketName: 
     hitEffectNodeSocket: {fileID: 0}
@@ -168,28 +165,20 @@ MonoBehaviour:
       isSpread: 0
       spreadDistanceMax: 0
       spreadUnitMax: 0
-      delay: 0
+      delay: 1
       tooltipText: 
     casterEffectsApplied: []
     Actions: []
     VisualEffectEntries: []
     AnimationEntries:
-    - Template: {fileID: 11400000, guid: 3b22ef5da01b28c4fbe82067cfc8949f, type: 2}
+    - Template: {fileID: 11400000, guid: d9ab4ebbc0555c74bbdc3119766029b1, type: 2}
       ActivationType: 0
       Delay: 0
-      ShowWeapons: 0
-      ShowWeaponsDuration: 0
+      ShowWeapons: 1
+      ShowWeaponsDuration: 2
       ModifySpeed: 0
       SpeedParameterName: AttackAnimationsSpeed
       ModifierSpeed: 1.25
-    - Template: {fileID: 11400000, guid: 3d4e497f4f79e4041b4d54d5a6821937, type: 2}
-      ActivationType: 1
-      Delay: 0
-      ShowWeapons: 0
-      ShowWeaponsDuration: 0
-      ModifySpeed: 0
-      SpeedParameterName: AttackAnimationsSpeed
-      ModifierSpeed: 1
     SoundEntries: []
     visualEffects: []
     visualAnimations: []
