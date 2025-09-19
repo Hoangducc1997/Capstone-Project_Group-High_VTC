@@ -28,5 +28,5 @@ MonoBehaviour:
   LimitDroppedItems: 1
   maxDroppedItems: 1
   Requirements: []
-  UseRequirementsTemplate: 0
+  UseRequirementsTemplate: 1
   RequirementsTemplate: {fileID: 11400000, guid: c7167533a2b40b04f984c5cb482db4fe, type: 2}
