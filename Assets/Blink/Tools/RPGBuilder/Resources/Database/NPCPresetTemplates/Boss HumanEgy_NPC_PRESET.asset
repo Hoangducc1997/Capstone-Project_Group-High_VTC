@@ -10,22 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ccfcbfff05fa1f94eaa371eb19ed6547, type: 3}
-  m_Name: Boss Tortoise_NPC_PRESET
+  m_Name: Boss HumanEgy_NPC_PRESET
   m_EditorClassIdentifier: 
   ID: -1
-  entryName: Boss Tortoise
-  entryFileName: Boss Tortoise_NPC_PRESET
+  entryName: Boss HumanEgy
+  entryFileName: Boss HumanEgy_NPC_PRESET
   entryDisplayName: 
-  entryIcon: {fileID: 21300000, guid: 0145b05f9b90a1c4baf3040c22218dc7, type: 3}
+  entryIcon: {fileID: 21300000, guid: a30ce2e0068cc5740acc39b94d671933, type: 3}
   entryDescription: 
-  Prefab: {fileID: 2156680144695125162, guid: 6ae3de621a986b54f801c70adcb34c23, type: 3}
-  Position: {x: 0, y: 0.2, z: 0}
-  Scale: {x: 1, y: 1, z: 1}
-  NameplateYOffset: 5
+  Prefab: {fileID: 135620, guid: 7c4b27022b3abf44782275b8502657f4, type: 3}
+  Position: {x: 0, y: -0.15, z: 0}
+  Scale: {x: 2.5, y: 2.5, z: 2.5}
+  NameplateYOffset: 6
   NameplateDistance: 68
   RendererName: Body
-  AnimatorController: {fileID: 22100000, guid: 6fe629d9ec5b88e47a8f5a1a26e8d647, type: 2}
-  AnimatorAvatar: {fileID: 9000000, guid: 312893f539145244eb941380e62dd9e8, type: 3}
+  AnimatorController: {fileID: 22100000, guid: 21f6ba691b9607648ac6f2cfd0fbd5a8, type: 2}
+  AnimatorAvatar: {fileID: 9000000, guid: adeea3529caea6342b5830afa0694323, type: 3}
   AnimatorUseRootMotion: 0
   AnimatorUpdateMode: 0
   AnimatorCullingMode: 0
@@ -38,4 +38,4 @@ MonoBehaviour:
   ColliderSize: {x: 0, y: 0, z: 0}
   ColliderRadius: 0.5
   ColliderHeight: 2
-  InteractionDistanceMax: 3
+  InteractionDistanceMax: 5

@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2eaea086ce51ea9419be768c6237eedb, type: 3}
-  m_Name: Boss Tortoise _NPC
+  m_Name: Boss HumanEgy_NPC
   m_EditorClassIdentifier: 
-  ID: 19
-  entryName: 'Boss Tortoise '
-  entryFileName: Boss Tortoise _NPC
-  entryDisplayName: Tortoise
-  entryIcon: {fileID: 21300000, guid: 0145b05f9b90a1c4baf3040c22218dc7, type: 3}
+  ID: 40
+  entryName: Boss HumanEgy
+  entryFileName: Boss HumanEgy_NPC
+  entryDisplayName: HumanEgy
+  entryIcon: {fileID: 21300000, guid: a30ce2e0068cc5740acc39b94d671933, type: 3}
   entryDescription: 
   _name: 
   _fileName: 
@@ -25,8 +25,8 @@ MonoBehaviour:
   npcType: 0
   AILogicTemplate: {fileID: 262611205548413635, guid: 42a8b97728201df44ba95376d46032e3, type: 3}
   Phases:
-  - PhaseTemplate: {fileID: 11400000, guid: 7ee71beeb8c09cd41b710b4cfa8b5580, type: 2}
-    Preset: {fileID: 11400000, guid: 7923b8df36376984e85d1c95fd68c0d4, type: 2}
+  - PhaseTemplate: {fileID: 11400000, guid: aa6c830d684b9774dbaa08c083c6c13a, type: 2}
+    Preset: {fileID: 11400000, guid: 0473a25f70e45884f830a3fad30d23d0, type: 2}
   ResetPhaseAfterCombat: 1
   InstantlyHealAfterCombat: 1
   isDummyTarget: 0
@@ -37,9 +37,9 @@ MonoBehaviour:
   dialogueID: -1
   questGiven: []
   questCompleted: []
-  MinRespawn: 3600
-  MaxRespawn: 3600
-  corpseDespawnTime: 1
+  MinRespawn: 600
+  MaxRespawn: 1000
+  corpseDespawnTime: 10
   MinEXP: 1
   MaxEXP: 2
   LowerLevelEXPModifier: 0
@@ -57,14 +57,18 @@ MonoBehaviour:
     overrideMinValue: 0
     minValue: 0
     overrideMaxValue: 1
-    maxValue: 10000
+    maxValue: 1000
     overrideStartPercentage: 0
     startPercentage: 100
     addedValue: 0
     valuePerLevel: 0
     Percent: 0
     chance: 100
-    vitalityActions: []
+    vitalityActions:
+    - value: 0
+      valueType: 0
+      isPercent: 0
+      GameActionsTemplate: {fileID: 0}
   UseStatListTemplate: 0
   StatListTemplate: {fileID: 0}
   lootTables:
@@ -76,10 +80,12 @@ MonoBehaviour:
     dropRate: 100
   - lootTableID: 7
     dropRate: 100
+  - lootTableID: 8
+    dropRate: 100
   isCombatEnabled: 1
   isMovementEnabled: 0
   isCollisionEnabled: 0
-  isTargetable: 0
+  isTargetable: 1
   isNameplateEnabled: 1
   isPlayerInteractable: 0
   isMerchant: 0
@@ -109,9 +115,9 @@ MonoBehaviour:
   colliderHeight: 2
   aggroLinks:
   - type: 0
-    npcID: 19
+    npcID: 17
     npcFamily: {fileID: 0}
-    maxDistance: 2
+    maxDistance: 5
   SetLayer: 0
   SetTag: 0
   GameObjectLayer: 0
