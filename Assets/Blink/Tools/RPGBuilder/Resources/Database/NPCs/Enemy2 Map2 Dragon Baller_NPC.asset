@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2eaea086ce51ea9419be768c6237eedb, type: 3}
-  m_Name: Boss Tortoise _NPC
+  m_Name: Enemy2 Map2 Dragon Baller_NPC
   m_EditorClassIdentifier: 
-  ID: 19
-  entryName: 'Boss Tortoise '
-  entryFileName: Boss Tortoise _NPC
-  entryDisplayName: Tortoise
-  entryIcon: {fileID: 21300000, guid: 0145b05f9b90a1c4baf3040c22218dc7, type: 3}
+  ID: 34
+  entryName: Enemy2 Map2 Dragon Baller
+  entryFileName: Enemy2 Map2 Dragon Baller_NPC
+  entryDisplayName: Dragon Baller
+  entryIcon: {fileID: 21300000, guid: 0589e199c57759348a9bf139b9693b4b, type: 3}
   entryDescription: 
   _name: 
   _fileName: 
@@ -25,8 +25,8 @@ MonoBehaviour:
   npcType: 0
   AILogicTemplate: {fileID: 262611205548413635, guid: 42a8b97728201df44ba95376d46032e3, type: 3}
   Phases:
-  - PhaseTemplate: {fileID: 11400000, guid: 7ee71beeb8c09cd41b710b4cfa8b5580, type: 2}
-    Preset: {fileID: 11400000, guid: 7923b8df36376984e85d1c95fd68c0d4, type: 2}
+  - PhaseTemplate: {fileID: 11400000, guid: aa6c830d684b9774dbaa08c083c6c13a, type: 2}
+    Preset: {fileID: 11400000, guid: b63a7248d70805d428a63b1715d18dab, type: 2}
   ResetPhaseAfterCombat: 1
   InstantlyHealAfterCombat: 1
   isDummyTarget: 0
@@ -37,9 +37,9 @@ MonoBehaviour:
   dialogueID: -1
   questGiven: []
   questCompleted: []
-  MinRespawn: 3600
-  MaxRespawn: 3600
-  corpseDespawnTime: 1
+  MinRespawn: 1
+  MaxRespawn: 1
+  corpseDespawnTime: 600
   MinEXP: 1
   MaxEXP: 2
   LowerLevelEXPModifier: 0
@@ -57,7 +57,7 @@ MonoBehaviour:
     overrideMinValue: 0
     minValue: 0
     overrideMaxValue: 1
-    maxValue: 10000
+    maxValue: 500
     overrideStartPercentage: 0
     startPercentage: 100
     addedValue: 0
@@ -79,7 +79,7 @@ MonoBehaviour:
   isCombatEnabled: 1
   isMovementEnabled: 0
   isCollisionEnabled: 0
-  isTargetable: 0
+  isTargetable: 1
   isNameplateEnabled: 1
   isPlayerInteractable: 0
   isMerchant: 0
@@ -109,9 +109,9 @@ MonoBehaviour:
   colliderHeight: 2
   aggroLinks:
   - type: 0
-    npcID: 19
+    npcID: 17
     npcFamily: {fileID: 0}
-    maxDistance: 2
+    maxDistance: 1
   SetLayer: 0
   SetTag: 0
   GameObjectLayer: 0

@@ -10,32 +10,32 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ccfcbfff05fa1f94eaa371eb19ed6547, type: 3}
-  m_Name: Boss Tortoise_NPC_PRESET
+  m_Name: Enemy2 Map3 Beei_NPC_PRESET
   m_EditorClassIdentifier: 
   ID: -1
-  entryName: Boss Tortoise
-  entryFileName: Boss Tortoise_NPC_PRESET
+  entryName: Enemy2 Map3 Beei
+  entryFileName: Enemy2 Map3 Beei_NPC_PRESET
   entryDisplayName: 
-  entryIcon: {fileID: 21300000, guid: 0145b05f9b90a1c4baf3040c22218dc7, type: 3}
+  entryIcon: {fileID: 21300000, guid: 37295b23d27e1fc43bb0c5f6f1924ff1, type: 3}
   entryDescription: 
-  Prefab: {fileID: 2156680144695125162, guid: 6ae3de621a986b54f801c70adcb34c23, type: 3}
-  Position: {x: 0, y: 0.2, z: 0}
-  Scale: {x: 1, y: 1, z: 1}
-  NameplateYOffset: 5
-  NameplateDistance: 68
+  Prefab: {fileID: 6888400107449561580, guid: 6663a7095dcf4292a33c7d4a948f0cc6, type: 3}
+  Position: {x: 0, y: 0, z: 0}
+  Scale: {x: 1.5, y: 1.5, z: 1.5}
+  NameplateYOffset: 3
+  NameplateDistance: 45
   RendererName: Body
-  AnimatorController: {fileID: 22100000, guid: 6fe629d9ec5b88e47a8f5a1a26e8d647, type: 2}
-  AnimatorAvatar: {fileID: 9000000, guid: 312893f539145244eb941380e62dd9e8, type: 3}
+  AnimatorController: {fileID: 22100000, guid: a8ebc8c4bf7a96e49ad9ded129093d59, type: 2}
+  AnimatorAvatar: {fileID: 9000000, guid: 2cbed75cc8e5405bbe7a4ff50f21ef35, type: 3}
   AnimatorUseRootMotion: 0
   AnimatorUpdateMode: 0
   AnimatorCullingMode: 0
   NavmeshAgentRadius: 0.5
   NavmeshAgentHeight: 2
   NavmeshAgentAngularSpeed: 500
-  NavmeshObstacleAvoidance: 2
+  NavmeshObstacleAvoidance: 3
   ColliderType: 0
   ColliderCenter: {x: 0, y: 1, z: 0}
   ColliderSize: {x: 0, y: 0, z: 0}
   ColliderRadius: 0.5
   ColliderHeight: 2
-  InteractionDistanceMax: 3
+  InteractionDistanceMax: 5
