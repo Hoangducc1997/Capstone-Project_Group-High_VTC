@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2eaea086ce51ea9419be768c6237eedb, type: 3}
-  m_Name: Enemy1 BatMad_NPC
+  m_Name: Enemy2 Map3 Dragon Mon_NPC
   m_EditorClassIdentifier: 
-  ID: 21
-  entryName: Enemy1 BatMad
-  entryFileName: Enemy1 BatMad_NPC
-  entryDisplayName: BatMad
-  entryIcon: {fileID: 21300000, guid: 18234294bdae0be479a98a45f2a2cba6, type: 3}
+  ID: 39
+  entryName: Enemy2 Map3 Dragon Mon
+  entryFileName: Enemy2 Map3 Dragon Mon_NPC
+  entryDisplayName: Dragon Mon
+  entryIcon: {fileID: 21300000, guid: 20b171c6ea652ac43b6f185fef3de5fd, type: 3}
   entryDescription: 
   _name: 
   _fileName: 
@@ -25,21 +25,21 @@ MonoBehaviour:
   npcType: 0
   AILogicTemplate: {fileID: 262611205548413635, guid: 42a8b97728201df44ba95376d46032e3, type: 3}
   Phases:
-  - PhaseTemplate: {fileID: 11400000, guid: 8f3556c5ff5b1474d8c5518658d9f2ce, type: 2}
-    Preset: {fileID: 11400000, guid: 89f8f8cf73760294abf39b04f8afe5cc, type: 2}
+  - PhaseTemplate: {fileID: 11400000, guid: aa6c830d684b9774dbaa08c083c6c13a, type: 2}
+    Preset: {fileID: 11400000, guid: feecb734d1fdad544af87fe506c8c45a, type: 2}
   ResetPhaseAfterCombat: 1
   InstantlyHealAfterCombat: 1
   isDummyTarget: 0
-  factionID: 2
+  factionID: 1
   speciesID: -1
   merchantTableID: -1
   MerchantTables: []
   dialogueID: -1
   questGiven: []
   questCompleted: []
-  MinRespawn: 5
-  MaxRespawn: 10
-  corpseDespawnTime: 15
+  MinRespawn: 1
+  MaxRespawn: 1
+  corpseDespawnTime: 600
   MinEXP: 1
   MaxEXP: 2
   LowerLevelEXPModifier: 0
@@ -48,8 +48,8 @@ MonoBehaviour:
   lootBagPrefab: {fileID: 0}
   LootBagDuration: 60
   factionRewards: []
-  MinLevel: 1
-  MaxLevel: 3
+  MinLevel: 100
+  MaxLevel: 100
   isScalingWithPlayer: 0
   stats: []
   CustomStats:
@@ -57,7 +57,7 @@ MonoBehaviour:
     overrideMinValue: 0
     minValue: 0
     overrideMaxValue: 1
-    maxValue: 100
+    maxValue: 500
     overrideStartPercentage: 0
     startPercentage: 100
     addedValue: 0
@@ -68,12 +68,18 @@ MonoBehaviour:
   UseStatListTemplate: 0
   StatListTemplate: {fileID: 0}
   lootTables:
+  - lootTableID: 4
+    dropRate: 80.57
+  - lootTableID: 5
+    dropRate: 70.689995
   - lootTableID: 6
     dropRate: 100
+  - lootTableID: 7
+    dropRate: 100
   isCombatEnabled: 1
-  isMovementEnabled: 1
+  isMovementEnabled: 0
   isCollisionEnabled: 0
-  isTargetable: 0
+  isTargetable: 1
   isNameplateEnabled: 1
   isPlayerInteractable: 0
   isMerchant: 0
@@ -103,9 +109,9 @@ MonoBehaviour:
   colliderHeight: 2
   aggroLinks:
   - type: 0
-    npcID: 18
+    npcID: 17
     npcFamily: {fileID: 0}
-    maxDistance: 2
+    maxDistance: 1
   SetLayer: 0
   SetTag: 0
   GameObjectLayer: 0
