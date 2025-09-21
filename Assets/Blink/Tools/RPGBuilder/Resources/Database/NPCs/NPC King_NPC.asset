@@ -15,7 +15,7 @@ MonoBehaviour:
   ID: 29
   entryName: NPC King
   entryFileName: NPC King_NPC
-  entryDisplayName: King
+  entryDisplayName: King Alaric
   entryIcon: {fileID: 21300000, guid: f8954d7a8842d5543b38a75e284bbb48, type: 3}
   entryDescription: 
   _name: 
@@ -37,10 +37,9 @@ MonoBehaviour:
   - MerchantTableID: 0
     RequirementsTemplate: {fileID: 0}
   dialogueID: -1
-  questGiven:
-  - questID: 0
+  questGiven: []
   questCompleted:
-  - questID: 0
+  - questID: 8
   MinRespawn: 1
   MaxRespawn: 2
   corpseDespawnTime: 1
@@ -78,12 +77,12 @@ MonoBehaviour:
   isTargetable: 1
   isNameplateEnabled: 1
   isPlayerInteractable: 1
-  isMerchant: 1
+  isMerchant: 0
   isQuestGiver: 1
   isDialogue: 1
   MerchantText: Show me your goods.
-  QuestText: Can I do something for you?
-  DialogueText: This place is not for you. Get out of here now!
+  QuestText: I have some task to you.
+  DialogueText: I am King Alaric, sovereign of Eldoria and guardian of its people
   NPCVisual: {fileID: 0}
   modelPosition: {x: 0, y: 0, z: 0}
   modelScale: {x: 1, y: 1, z: 1}

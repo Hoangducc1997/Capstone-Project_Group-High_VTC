@@ -56,7 +56,7 @@ MonoBehaviour:
   clickedEndless: 1
   viewCountMax: 1
   clickCountMax: 0
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: 21300000, guid: 2b8169f22db684e4796d5800a93ae73a, type: 3}
 --- !u!114 &-7582671023237050114
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -123,7 +123,7 @@ MonoBehaviour:
   m_Name: RPG Dialogue Text
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -792, y: -72}
+  position: {x: -712, y: -72}
   ports:
     keys:
     - previousNode
@@ -217,6 +217,59 @@ MonoBehaviour:
     but his defeat will prove your true strength.
   RequirementsTemplate: {fileID: 0}
   GameActionsTemplate: {fileID: 0}
+  showSettings: 1
+  viewedEndless: 1
+  clickedEndless: 1
+  viewCountMax: 0
+  clickCountMax: 0
+  nodeImage: {fileID: 21300000, guid: 2b8169f22db684e4796d5800a93ae73a, type: 3}
+--- !u!114 &-6525722495940533042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3482daf33a41b424789a150bca26817d, type: 3}
+  m_Name: RPG Dialogue Text
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 936, y: 136}
+  ports:
+    keys:
+    - previousNode
+    - nextNodes
+    values:
+    - _fieldName: previousNode
+      _node: {fileID: -6525722495940533042}
+      _typeQualifiedName: RPGDialogueTextNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: nextNodes
+        node: {fileID: -2229483659590513425}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: nextNodes
+      _node: {fileID: -6525722495940533042}
+      _typeQualifiedName: RPGDialogueBaseNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  previousNode: {fileID: 0}
+  nextNodes: {fileID: 0}
+  identityType: 1
+  nodeName: 
+  message: "\u2019ll seek her out and ask about this fragment. Thank you, Strenick."
+  RequirementsTemplate: {fileID: 0}
+  GameActionsTemplate: {fileID: 0}
   showSettings: 0
   viewedEndless: 1
   clickedEndless: 1
@@ -276,6 +329,63 @@ MonoBehaviour:
   viewCountMax: 0
   clickCountMax: 0
   nodeImage: {fileID: 0}
+--- !u!114 &-3191422081418475875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3482daf33a41b424789a150bca26817d, type: 3}
+  m_Name: RPG Dialogue Text
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -296, y: 136}
+  ports:
+    keys:
+    - previousNode
+    - nextNodes
+    values:
+    - _fieldName: previousNode
+      _node: {fileID: -3191422081418475875}
+      _typeQualifiedName: RPGDialogueTextNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: nextNodes
+        node: {fileID: -2359406936492428631}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: nextNodes
+      _node: {fileID: -3191422081418475875}
+      _typeQualifiedName: RPGDialogueBaseNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: previousNode
+        node: {fileID: 7760472693680366881}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  previousNode: {fileID: 0}
+  nextNodes: {fileID: 0}
+  identityType: 0
+  nodeName: 
+  message: "Hmm\u2026 I\u2019ve never seen anything like this before. Its markings
+    are unfamiliar, and its aura feels ancient."
+  RequirementsTemplate: {fileID: 0}
+  GameActionsTemplate: {fileID: 0}
+  showSettings: 0
+  viewedEndless: 1
+  clickedEndless: 1
+  viewCountMax: 0
+  clickCountMax: 0
+  nodeImage: {fileID: 0}
 --- !u!114 &-3128682983679982617
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -326,7 +436,7 @@ MonoBehaviour:
   message: Go, and let courage guide you.
   RequirementsTemplate: {fileID: 0}
   GameActionsTemplate: {fileID: 0}
-  showSettings: 0
+  showSettings: 1
   viewedEndless: 1
   clickedEndless: 1
   viewCountMax: 0
@@ -374,6 +484,9 @@ MonoBehaviour:
       - fieldName: previousNode
         node: {fileID: -7582671023237050114}
         reroutePoints: []
+      - fieldName: previousNode
+        node: {fileID: -2359406936492428631}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -389,6 +502,120 @@ MonoBehaviour:
   viewedEndless: 0
   clickedEndless: 1
   viewCountMax: 1
+  clickCountMax: 0
+  nodeImage: {fileID: 21300000, guid: 2b8169f22db684e4796d5800a93ae73a, type: 3}
+--- !u!114 &-2359406936492428631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3482daf33a41b424789a150bca26817d, type: 3}
+  m_Name: RPG Dialogue Text
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -712, y: 136}
+  ports:
+    keys:
+    - previousNode
+    - nextNodes
+    values:
+    - _fieldName: previousNode
+      _node: {fileID: -2359406936492428631}
+      _typeQualifiedName: RPGDialogueTextNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: nextNodes
+        node: {fileID: -2934186957106517817}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: nextNodes
+      _node: {fileID: -2359406936492428631}
+      _typeQualifiedName: RPGDialogueBaseNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: previousNode
+        node: {fileID: -3191422081418475875}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  previousNode: {fileID: 0}
+  nextNodes: {fileID: 0}
+  identityType: 1
+  nodeName: 
+  message: I found this strange fragment after defeating the King Guard. Do you know
+    what it is?
+  RequirementsTemplate: {fileID: 11400000, guid: 3fc1e50328820b34e94c4b6a6811c4db, type: 2}
+  GameActionsTemplate: {fileID: 0}
+  showSettings: 0
+  viewedEndless: 1
+  clickedEndless: 1
+  viewCountMax: 0
+  clickCountMax: 0
+  nodeImage: {fileID: 0}
+--- !u!114 &-2229483659590513425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3482daf33a41b424789a150bca26817d, type: 3}
+  m_Name: RPG Dialogue Text
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 520, y: 136}
+  ports:
+    keys:
+    - previousNode
+    - nextNodes
+    values:
+    - _fieldName: previousNode
+      _node: {fileID: -2229483659590513425}
+      _typeQualifiedName: RPGDialogueTextNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: nextNodes
+        node: {fileID: 7760472693680366881}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: nextNodes
+      _node: {fileID: -2229483659590513425}
+      _typeQualifiedName: RPGDialogueBaseNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: previousNode
+        node: {fileID: -6525722495940533042}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  previousNode: {fileID: 0}
+  nextNodes: {fileID: 0}
+  identityType: 0
+  nodeName: 
+  message: "No, not truly. But if anyone can decipher such mysteries, it\u2019s Elara.
+    She has deep knowledge of old relics and magical symbols."
+  RequirementsTemplate: {fileID: 0}
+  GameActionsTemplate: {fileID: 0}
+  showSettings: 0
+  viewedEndless: 1
+  clickedEndless: 1
+  viewCountMax: 0
   clickCountMax: 0
   nodeImage: {fileID: 0}
 --- !u!114 &-424077013849142963
@@ -447,7 +674,7 @@ MonoBehaviour:
   clickedEndless: 1
   viewCountMax: 1
   clickCountMax: 0
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: 21300000, guid: 2b8169f22db684e4796d5800a93ae73a, type: 3}
 --- !u!114 &-341974154522348456
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -533,6 +760,11 @@ MonoBehaviour:
   - {fileID: -341974154522348456}
   - {fileID: -3128682983679982617}
   - {fileID: -4882681643123546760}
+  - {fileID: -2359406936492428631}
+  - {fileID: -3191422081418475875}
+  - {fileID: 7760472693680366881}
+  - {fileID: -2229483659590513425}
+  - {fileID: -6525722495940533042}
 --- !u!114 &652443145087881171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -754,7 +986,7 @@ MonoBehaviour:
   clickedEndless: 1
   viewCountMax: 1
   clickCountMax: 0
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: 21300000, guid: 2b8169f22db684e4796d5800a93ae73a, type: 3}
 --- !u!114 &6851806126136412523
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -923,5 +1155,61 @@ MonoBehaviour:
   viewedEndless: 1
   clickedEndless: 1
   viewCountMax: 1
+  clickCountMax: 0
+  nodeImage: {fileID: 21300000, guid: 2b8169f22db684e4796d5800a93ae73a, type: 3}
+--- !u!114 &7760472693680366881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3482daf33a41b424789a150bca26817d, type: 3}
+  m_Name: RPG Dialogue Text
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 104, y: 136}
+  ports:
+    keys:
+    - previousNode
+    - nextNodes
+    values:
+    - _fieldName: previousNode
+      _node: {fileID: 7760472693680366881}
+      _typeQualifiedName: RPGDialogueTextNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: nextNodes
+        node: {fileID: -3191422081418475875}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: nextNodes
+      _node: {fileID: 7760472693680366881}
+      _typeQualifiedName: RPGDialogueBaseNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: previousNode
+        node: {fileID: -2229483659590513425}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  previousNode: {fileID: 0}
+  nextNodes: {fileID: 0}
+  identityType: 1
+  nodeName: 
+  message: So you have no idea?
+  RequirementsTemplate: {fileID: 0}
+  GameActionsTemplate: {fileID: 0}
+  showSettings: 0
+  viewedEndless: 1
+  clickedEndless: 1
+  viewCountMax: 0
   clickCountMax: 0
   nodeImage: {fileID: 0}
