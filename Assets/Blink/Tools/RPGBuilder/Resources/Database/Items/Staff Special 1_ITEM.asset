@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ada825255f0166f4c9c8124a0f1e2448, type: 3}
-  m_Name: Weak Staff_ITEM
+  m_Name: Staff Special 1_ITEM
   m_EditorClassIdentifier: 
-  ID: 33
-  entryName: Weak Staff
-  entryFileName: Weak Staff_ITEM
-  entryDisplayName: Weak Staff
-  entryIcon: {fileID: 21300000, guid: 64d22d23203fb3e4488808ac97bb494b, type: 3}
+  ID: 67
+  entryName: Staff Special 1
+  entryFileName: Staff Special 1_ITEM
+  entryDisplayName: Staff Special 1
+  entryIcon: {fileID: 21300000, guid: 8186f7aaceaca1a4eae4a61c0bb82455, type: 3}
   entryDescription: 
   _name: 
   _fileName: 
@@ -33,22 +33,29 @@ MonoBehaviour:
   slotType: 
   WeaponSlot: {fileID: 11400000, guid: 66a8c9030c91a5549a990933ab36dc21, type: 2}
   rarity: 
-  ItemRarity: {fileID: 11400000, guid: 9fe2887c3181d5146a74e57b1a55a22d, type: 2}
+  ItemRarity: {fileID: 11400000, guid: 1ba7c644b767724488d7890d0825afd2, type: 2}
   itemModelName: 
-  weaponModel: {fileID: 6759754029706040241, guid: 0ac02a3480fd1e74399e4bce194de9f4,
-    type: 3}
+  weaponModel: {fileID: 7199168584958388838, guid: a06a0ca4cc1c44bf80b9635e49de81a6, type: 3}
   modelMaterial: {fileID: 0}
   weaponPositionDatas: []
   showWeaponPositionData: 0
   WeaponTransforms: []
   UseWeaponTransformTemplate: 1
-  WeaponTransformTemplate: {fileID: 11400000, guid: 0628fd127d0ead54c980215a441fe4b4,
-    type: 2}
+  WeaponTransformTemplate: {fileID: 11400000, guid: 0628fd127d0ead54c980215a441fe4b4, type: 2}
   AttackSpeed: 2
   minDamage: 8
   maxDamage: 14
   autoAttackAbilityID: -1
-  stats: []
+  stats:
+  - statID: 28
+    amount: 30
+    isPercent: 0
+  - statID: 0
+    amount: 50
+    isPercent: 0
+  - statID: 38
+    amount: 15
+    isPercent: 0
   randomStats: []
   randomStatsMax: 0
   sellPrice: 0
@@ -71,8 +78,7 @@ MonoBehaviour:
     gemStats: []
   Requirements: []
   UseRequirementsTemplate: 0
-  RequirementsTemplate: {fileID: 11400000, guid: 4b3f3d5f228ac3444865bbb19a18d4de,
-    type: 2}
+  RequirementsTemplate: {fileID: 11400000, guid: 4b3f3d5f228ac3444865bbb19a18d4de, type: 2}
   actionAbilities: []
   GameActions: []
   UseGameActionsTemplate: 0

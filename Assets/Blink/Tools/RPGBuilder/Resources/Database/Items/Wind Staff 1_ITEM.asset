@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ada825255f0166f4c9c8124a0f1e2448, type: 3}
   m_Name: Wind Staff 1_ITEM
   m_EditorClassIdentifier: 
-  ID: 58
+  ID: 60
   entryName: Wind Staff 1
   entryFileName: Wind Staff 1_ITEM
   entryDisplayName: Wind Staff
@@ -35,7 +35,7 @@ MonoBehaviour:
   rarity: 
   ItemRarity: {fileID: 11400000, guid: 1ba7c644b767724488d7890d0825afd2, type: 2}
   itemModelName: 
-  weaponModel: {fileID: 1827596961713134, guid: c2dd40164096b6e4580abdd7d7679766, type: 3}
+  weaponModel: {fileID: 1727398384854044, guid: 62a989f80c7fe164cae90ebeaa608b5c, type: 3}
   modelMaterial: {fileID: 0}
   weaponPositionDatas: []
   showWeaponPositionData: 0

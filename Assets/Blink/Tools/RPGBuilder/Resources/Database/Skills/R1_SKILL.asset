@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b40c42ebeb56c5044bc164610325a105, type: 3}
+  m_Name: R1_SKILL
+  m_EditorClassIdentifier: 
+  ID: 0
+  entryName: R1
+  entryFileName: R1_SKILL
+  entryDisplayName: R1
+  entryIcon: {fileID: 21300000, guid: 7be8187e4fa3ee94bae0f5eee5314c31, type: 3}
+  entryDescription: 
+  _name: 
+  _fileName: 
+  displayName: 
+  description: 
+  icon: {fileID: 0}
+  automaticallyAdded: 0
+  MaxLevel: 0
+  levelTemplateID: 0
+  talentTrees: []
+  stats: []
+  CustomStats:
+  - statID: -1
+    overrideMinValue: 0
+    minValue: 0
+    overrideMaxValue: 0
+    maxValue: 0
+    overrideStartPercentage: 0
+    startPercentage: 100
+    addedValue: 0
+    valuePerLevel: 0
+    Percent: 0
+    chance: 100
+    vitalityActions: []
+  UseStatListTemplate: 1
+  StatListTemplate: {fileID: 0}
+  startItems:
+  - itemID: 75
+    count: 1
+    equipped: 0
+  actionAbilities:
+  - keyType: 0
+    key: 0
+    actionKeyName: 
+    abilityID: 24
+  allocatedStatsEntriesGame:
+  - statID: -1
+    maxValue: -1
+    cost: 1
+    valueAdded: 1
