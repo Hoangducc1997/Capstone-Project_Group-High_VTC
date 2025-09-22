@@ -46,7 +46,7 @@ MonoBehaviour:
   nodeName: 
   message: i will not let you down , your Majesty.
   RequirementsTemplate: {fileID: 0}
-  GameActionsTemplate: {fileID: 0}
+  GameActionsTemplate: {fileID: 11400000, guid: 12fb4597beb697941889cf0012b7a9c7, type: 2}
   showSettings: 0
   viewedEndless: 1
   clickedEndless: 1
@@ -105,7 +105,7 @@ MonoBehaviour:
   RequirementsTemplate: {fileID: 0}
   GameActionsTemplate: {fileID: 0}
   showSettings: 1
-  viewedEndless: 0
+  viewedEndless: 1
   clickedEndless: 1
   viewCountMax: 1
   clickCountMax: 0

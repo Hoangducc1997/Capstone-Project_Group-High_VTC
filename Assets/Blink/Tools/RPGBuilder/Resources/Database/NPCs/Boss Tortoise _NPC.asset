@@ -48,8 +48,8 @@ MonoBehaviour:
   lootBagPrefab: {fileID: 0}
   LootBagDuration: 60
   factionRewards: []
-  MinLevel: 100
-  MaxLevel: 100
+  MinLevel: 1
+  MaxLevel: 1
   isScalingWithPlayer: 0
   stats: []
   CustomStats:
@@ -69,12 +69,14 @@ MonoBehaviour:
   StatListTemplate: {fileID: 0}
   lootTables:
   - lootTableID: 4
-    dropRate: 80.57
+    dropRate: 0
   - lootTableID: 5
-    dropRate: 70.689995
+    dropRate: 100
   - lootTableID: 6
     dropRate: 100
   - lootTableID: 7
+    dropRate: 100
+  - lootTableID: 10
     dropRate: 100
   isCombatEnabled: 1
   isMovementEnabled: 0
