@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bb18b8dfb0f3be4cb9856d31baa677e, type: 3}
+  m_Name: The Centaur Threat_QUEST
+  m_EditorClassIdentifier: 
+  ID: 13
+  entryName: The Centaur Threat
+  entryFileName: The Centaur Threat_QUEST
+  entryDisplayName: The Centaur Threat
+  entryIcon: {fileID: 0}
+  entryDescription: "After the fall of Victor\u2019s pack, you discovered a centaur
+    warlord gathering forces atop the Sanctum of the Veil. If left unchecked, his
+    army will march on Eldoria and bring ruin to the kingdom. Garren has commanded
+    you and your companions to strike first and eliminate this commander before his
+    forces grow too strong."
+  _name: 
+  displayName: 
+  _fileName: 
+  description: 
+  ObjectiveText: Travel to the top of the Sanctum of the Veil and defeat the Centaur
+    Commander before his army can be assembled.
+  ProgressText: 
+  repeatable: 0
+  canBeTurnedInWithoutNPC: 0
+  Requirements: []
+  UseRequirementsTemplate: 0
+  RequirementsTemplate: {fileID: 0}
+  itemsGiven: []
+  objectives:
+  - objectiveType: 0
+    taskID: 15
+    timeLimit: 0
+  rewardsGiven:
+  - rewardType: 0
+    itemID: 13
+    currencyID: -1
+    treePointID: -1
+    factionID: -1
+    weaponTemplateID: -1
+    count: 50
+    Experience: 0
+  - rewardType: 1
+    itemID: -1
+    currencyID: 1
+    treePointID: -1
+    factionID: -1
+    weaponTemplateID: -1
+    count: 2000
+    Experience: 0
+  - rewardType: 1
+    itemID: -1
+    currencyID: 2
+    treePointID: -1
+    factionID: -1
+    weaponTemplateID: -1
+    count: 300
+    Experience: 0
+  rewardsToPick: []

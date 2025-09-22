@@ -171,6 +171,116 @@ MonoBehaviour:
   viewCountMax: 0
   clickCountMax: 0
   nodeImage: {fileID: 0}
+--- !u!114 &-8205764254773489218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3482daf33a41b424789a150bca26817d, type: 3}
+  m_Name: RPG Dialogue Text
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1976, y: 120}
+  ports:
+    keys:
+    - previousNode
+    - nextNodes
+    values:
+    - _fieldName: previousNode
+      _node: {fileID: -8205764254773489218}
+      _typeQualifiedName: RPGDialogueTextNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: nextNodes
+        node: {fileID: 3778691021123651492}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: nextNodes
+      _node: {fileID: -8205764254773489218}
+      _typeQualifiedName: RPGDialogueBaseNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: previousNode
+        node: {fileID: -7716778927211845579}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  previousNode: {fileID: 0}
+  nextNodes: {fileID: 0}
+  identityType: 0
+  nodeName: 
+  message: "Be cautious. Its strength will surpass anything you\u2019ve faced before.
+    But if you succeed, the seal can finally be restored."
+  RequirementsTemplate: {fileID: 0}
+  GameActionsTemplate: {fileID: 0}
+  showSettings: 0
+  viewedEndless: 1
+  clickedEndless: 1
+  viewCountMax: 0
+  clickCountMax: 0
+  nodeImage: {fileID: 0}
+--- !u!114 &-7716778927211845579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3482daf33a41b424789a150bca26817d, type: 3}
+  m_Name: RPG Dialogue Text
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2392, y: 120}
+  ports:
+    keys:
+    - previousNode
+    - nextNodes
+    values:
+    - _fieldName: previousNode
+      _node: {fileID: -7716778927211845579}
+      _typeQualifiedName: RPGDialogueTextNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: nextNodes
+        node: {fileID: -8205764254773489218}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: nextNodes
+      _node: {fileID: -7716778927211845579}
+      _typeQualifiedName: RPGDialogueBaseNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  previousNode: {fileID: 0}
+  nextNodes: {fileID: 0}
+  identityType: 1
+  nodeName: 
+  message: I understand. See you soon
+  RequirementsTemplate: {fileID: 0}
+  GameActionsTemplate: {fileID: 11400000, guid: 66343d49e33327041bdf54ed1fe0dd54, type: 2}
+  showSettings: 0
+  viewedEndless: 1
+  clickedEndless: 1
+  viewCountMax: 0
+  clickCountMax: 0
+  nodeImage: {fileID: 0}
 --- !u!114 &-7587879571004732866
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -278,6 +388,62 @@ MonoBehaviour:
   nodeName: 
   message: "Go to the king immediately. Tell him what you\u2019ve found, and say
     that I have chosen you to find all fragments."
+  RequirementsTemplate: {fileID: 0}
+  GameActionsTemplate: {fileID: 0}
+  showSettings: 0
+  viewedEndless: 1
+  clickedEndless: 1
+  viewCountMax: 0
+  clickCountMax: 0
+  nodeImage: {fileID: 0}
+--- !u!114 &-7062655484503977842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3482daf33a41b424789a150bca26817d, type: 3}
+  m_Name: RPG Dialogue Text
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -88, y: 120}
+  ports:
+    keys:
+    - previousNode
+    - nextNodes
+    values:
+    - _fieldName: previousNode
+      _node: {fileID: -7062655484503977842}
+      _typeQualifiedName: RPGDialogueTextNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: nextNodes
+        node: {fileID: -1065756223042552207}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: nextNodes
+      _node: {fileID: -7062655484503977842}
+      _typeQualifiedName: RPGDialogueBaseNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: previousNode
+        node: {fileID: 2379549947267436812}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  previousNode: {fileID: 0}
+  nextNodes: {fileID: 0}
+  identityType: 1
+  nodeName: 
+  message: What does it say?
   RequirementsTemplate: {fileID: 0}
   GameActionsTemplate: {fileID: 0}
   showSettings: 0
@@ -551,6 +717,9 @@ MonoBehaviour:
       - fieldName: previousNode
         node: {fileID: 1624144909830306542}
         reroutePoints: []
+      - fieldName: previousNode
+        node: {fileID: -896625935446128750}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -674,6 +843,120 @@ MonoBehaviour:
   message: "\u2026Impossible. This is no ordinary shard\u2014it\u2019s one of the
     Four Seal Fragments. And this one carries the mark of Courage."
   RequirementsTemplate: {fileID: 0}
+  GameActionsTemplate: {fileID: 11400000, guid: 7e89c96adc6be8441b1d45e1cf3aae98, type: 2}
+  showSettings: 0
+  viewedEndless: 1
+  clickedEndless: 1
+  viewCountMax: 0
+  clickCountMax: 0
+  nodeImage: {fileID: 0}
+--- !u!114 &-1065756223042552207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3482daf33a41b424789a150bca26817d, type: 3}
+  m_Name: RPG Dialogue Text
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -504, y: 120}
+  ports:
+    keys:
+    - previousNode
+    - nextNodes
+    values:
+    - _fieldName: previousNode
+      _node: {fileID: -1065756223042552207}
+      _typeQualifiedName: RPGDialogueTextNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: nextNodes
+        node: {fileID: -896625935446128750}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: nextNodes
+      _node: {fileID: -1065756223042552207}
+      _typeQualifiedName: RPGDialogueBaseNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: previousNode
+        node: {fileID: -7062655484503977842}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  previousNode: {fileID: 0}
+  nextNodes: {fileID: 0}
+  identityType: 0
+  nodeName: 
+  message: "Let me see\u2026 yes, the fragment is genuine. And this tablet\u2014it
+    bears the ancient markings of the seal. Give me a moment\u2026"
+  RequirementsTemplate: {fileID: 0}
+  GameActionsTemplate: {fileID: 0}
+  showSettings: 0
+  viewedEndless: 1
+  clickedEndless: 1
+  viewCountMax: 0
+  clickCountMax: 0
+  nodeImage: {fileID: 0}
+--- !u!114 &-896625935446128750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3482daf33a41b424789a150bca26817d, type: 3}
+  m_Name: RPG Dialogue Text
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -920, y: 120}
+  ports:
+    keys:
+    - previousNode
+    - nextNodes
+    values:
+    - _fieldName: previousNode
+      _node: {fileID: -896625935446128750}
+      _typeQualifiedName: RPGDialogueTextNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: nextNodes
+        node: {fileID: -3814753640823023683}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: nextNodes
+      _node: {fileID: -896625935446128750}
+      _typeQualifiedName: RPGDialogueBaseNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: previousNode
+        node: {fileID: -1065756223042552207}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  previousNode: {fileID: 0}
+  nextNodes: {fileID: 0}
+  identityType: 1
+  nodeName: 
+  message: "Elara, I\u2019ve returned from the Sanctum. The Centaur Commander is
+    dead. From his body, I recovered the Fragment of Wisdom\u2026 and this tablet."
+  RequirementsTemplate: {fileID: 11400000, guid: 43d8420d21bccce44897f6c5011e2829, type: 2}
   GameActionsTemplate: {fileID: 0}
   showSettings: 0
   viewedEndless: 1
@@ -714,6 +997,15 @@ MonoBehaviour:
   - {fileID: 339793599723235678}
   - {fileID: 1624144909830306542}
   - {fileID: 4749465337726375060}
+  - {fileID: -896625935446128750}
+  - {fileID: -1065756223042552207}
+  - {fileID: -7062655484503977842}
+  - {fileID: 2379549947267436812}
+  - {fileID: 9150770726401259682}
+  - {fileID: 4066800444998870607}
+  - {fileID: 3778691021123651492}
+  - {fileID: -8205764254773489218}
+  - {fileID: -7716778927211845579}
 --- !u!114 &339793599723235678
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -839,7 +1131,7 @@ MonoBehaviour:
   m_Name: RPG Dialogue Text
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -908.8583, y: 199.76169}
+  position: {x: -904, y: 360}
   ports:
     keys:
     - previousNode
@@ -871,6 +1163,178 @@ MonoBehaviour:
   identityType: 1
   nodeName: 
   message: Nothing to say, my lady
+  RequirementsTemplate: {fileID: 0}
+  GameActionsTemplate: {fileID: 0}
+  showSettings: 0
+  viewedEndless: 1
+  clickedEndless: 1
+  viewCountMax: 0
+  clickCountMax: 0
+  nodeImage: {fileID: 0}
+--- !u!114 &2379549947267436812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3482daf33a41b424789a150bca26817d, type: 3}
+  m_Name: RPG Dialogue Text
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 344, y: 120}
+  ports:
+    keys:
+    - previousNode
+    - nextNodes
+    values:
+    - _fieldName: previousNode
+      _node: {fileID: 2379549947267436812}
+      _typeQualifiedName: RPGDialogueTextNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: nextNodes
+        node: {fileID: -7062655484503977842}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: nextNodes
+      _node: {fileID: 2379549947267436812}
+      _typeQualifiedName: RPGDialogueBaseNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: previousNode
+        node: {fileID: 9150770726401259682}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  previousNode: {fileID: 0}
+  nextNodes: {fileID: 0}
+  identityType: 0
+  nodeName: 
+  message: "The tablet reveals the truth of the final fragment\u2014the Fragment
+    of Sacrifice. It was swallowed by a great turtle, and the creature has grown
+    massive and violent from its power."
+  RequirementsTemplate: {fileID: 0}
+  GameActionsTemplate: {fileID: 0}
+  showSettings: 0
+  viewedEndless: 1
+  clickedEndless: 1
+  viewCountMax: 0
+  clickCountMax: 0
+  nodeImage: {fileID: 0}
+--- !u!114 &3778691021123651492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3482daf33a41b424789a150bca26817d, type: 3}
+  m_Name: RPG Dialogue Text
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1560, y: 120}
+  ports:
+    keys:
+    - previousNode
+    - nextNodes
+    values:
+    - _fieldName: previousNode
+      _node: {fileID: 3778691021123651492}
+      _typeQualifiedName: RPGDialogueTextNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: nextNodes
+        node: {fileID: 4066800444998870607}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: nextNodes
+      _node: {fileID: 3778691021123651492}
+      _typeQualifiedName: RPGDialogueBaseNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: previousNode
+        node: {fileID: -8205764254773489218}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  previousNode: {fileID: 0}
+  nextNodes: {fileID: 0}
+  identityType: 1
+  nodeName: 
+  message: Then I will face the beast and claim the last fragment.
+  RequirementsTemplate: {fileID: 0}
+  GameActionsTemplate: {fileID: 0}
+  showSettings: 0
+  viewedEndless: 1
+  clickedEndless: 1
+  viewCountMax: 0
+  clickCountMax: 0
+  nodeImage: {fileID: 0}
+--- !u!114 &4066800444998870607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3482daf33a41b424789a150bca26817d, type: 3}
+  m_Name: RPG Dialogue Text
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1144, y: 120}
+  ports:
+    keys:
+    - previousNode
+    - nextNodes
+    values:
+    - _fieldName: previousNode
+      _node: {fileID: 4066800444998870607}
+      _typeQualifiedName: RPGDialogueTextNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: nextNodes
+        node: {fileID: 9150770726401259682}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: nextNodes
+      _node: {fileID: 4066800444998870607}
+      _typeQualifiedName: RPGDialogueBaseNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: previousNode
+        node: {fileID: 3778691021123651492}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  previousNode: {fileID: 0}
+  nextNodes: {fileID: 0}
+  identityType: 0
+  nodeName: 
+  message: "The beast roams the outer forests near the Hollow Throne. You must find
+    it and bring it down, or the fragment will remain lost\u2014and Eldoria\u2019s
+    fate with it."
   RequirementsTemplate: {fileID: 0}
   GameActionsTemplate: {fileID: 0}
   showSettings: 0
@@ -931,9 +1395,9 @@ MonoBehaviour:
   RequirementsTemplate: {fileID: 11400000, guid: 3fc1e50328820b34e94c4b6a6811c4db, type: 2}
   GameActionsTemplate: {fileID: 0}
   showSettings: 1
-  viewedEndless: 0
+  viewedEndless: 1
   clickedEndless: 1
-  viewCountMax: 1
+  viewCountMax: 2
   clickCountMax: 0
   nodeImage: {fileID: 0}
 --- !u!114 &4732453102060560966
@@ -1038,7 +1502,7 @@ MonoBehaviour:
   nodeName: 
   message: Good bye
   RequirementsTemplate: {fileID: 0}
-  GameActionsTemplate: {fileID: 0}
+  GameActionsTemplate: {fileID: 11400000, guid: 90d927793a4644b45a157b94a2359751, type: 2}
   showSettings: 0
   viewedEndless: 1
   clickedEndless: 1
@@ -1155,5 +1619,61 @@ MonoBehaviour:
   viewedEndless: 0
   clickedEndless: 1
   viewCountMax: 1
+  clickCountMax: 0
+  nodeImage: {fileID: 0}
+--- !u!114 &9150770726401259682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3482daf33a41b424789a150bca26817d, type: 3}
+  m_Name: RPG Dialogue Text
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 744, y: 120}
+  ports:
+    keys:
+    - previousNode
+    - nextNodes
+    values:
+    - _fieldName: previousNode
+      _node: {fileID: 9150770726401259682}
+      _typeQualifiedName: RPGDialogueTextNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: nextNodes
+        node: {fileID: 2379549947267436812}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: nextNodes
+      _node: {fileID: 9150770726401259682}
+      _typeQualifiedName: RPGDialogueBaseNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: previousNode
+        node: {fileID: 4066800444998870607}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  previousNode: {fileID: 0}
+  nextNodes: {fileID: 0}
+  identityType: 1
+  nodeName: 
+  message: Where is it now?
+  RequirementsTemplate: {fileID: 0}
+  GameActionsTemplate: {fileID: 0}
+  showSettings: 0
+  viewedEndless: 1
+  clickedEndless: 1
+  viewCountMax: 0
   clickCountMax: 0
   nodeImage: {fileID: 0}
