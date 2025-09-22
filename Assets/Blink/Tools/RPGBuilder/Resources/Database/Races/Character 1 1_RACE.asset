@@ -59,42 +59,6 @@ MonoBehaviour:
     Percent: 0
     chance: 100
     vitalityActions: []
-  - statID: 36
-    overrideMinValue: 0
-    minValue: 0
-    overrideMaxValue: 0
-    maxValue: 0
-    overrideStartPercentage: 0
-    startPercentage: 100
-    addedValue: 10
-    valuePerLevel: 20
-    Percent: 0
-    chance: 100
-    vitalityActions: []
-  - statID: 3
-    overrideMinValue: 0
-    minValue: 0
-    overrideMaxValue: 0
-    maxValue: 0
-    overrideStartPercentage: 0
-    startPercentage: 100
-    addedValue: 0
-    valuePerLevel: 10
-    Percent: 0
-    chance: 100
-    vitalityActions: []
-  - statID: -1
-    overrideMinValue: 0
-    minValue: 0
-    overrideMaxValue: 0
-    maxValue: 0
-    overrideStartPercentage: 0
-    startPercentage: 100
-    addedValue: 0
-    valuePerLevel: 0
-    Percent: 0
-    chance: 100
-    vitalityActions: []
   UseStatListTemplate: 0
   StatListTemplate: {fileID: 0}
   startItems: []
