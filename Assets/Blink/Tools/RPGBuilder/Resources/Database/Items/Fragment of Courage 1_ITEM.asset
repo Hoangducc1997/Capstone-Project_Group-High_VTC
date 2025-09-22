@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ada825255f0166f4c9c8124a0f1e2448, type: 3}
-  m_Name: Fragment of Sacrifice_ITEM
+  m_Name: Fragment of Courage 1_ITEM
   m_EditorClassIdentifier: 
-  ID: 62
-  entryName: Fragment of Sacrifice
-  entryFileName: Fragment of Sacrifice_ITEM
-  entryDisplayName: Fragment of Sacrifice
-  entryIcon: {fileID: 21300000, guid: 8ea71a2337af74f198e6019b8dfea016, type: 3}
-  entryDescription: A fragment marked by sorrow and devotion, infused with the essence
-    of selflessness. It resonates with those willing to give all for others, its
-    power blooming only through acts of true sacrifice.
+  ID: 77
+  entryName: Fragment of Courage 1
+  entryFileName: Fragment of Courage 1_ITEM
+  entryDisplayName: Unknow Fragment
+  entryIcon: {fileID: 21300000, guid: fabdbfb46e03d0d4b9352184f7cb3726, type: 3}
+  entryDescription: Forged in battle, this shard pulses with the spirit of valor.
+    Those who bear it feel unshaken before overwhelming odds, their resolve hardening
+    into unbreakable strength.
   _name: 
   _fileName: 
   displayName: 
@@ -67,7 +67,7 @@ MonoBehaviour:
   sockets: []
   gemData:
     socketType: 
-    GemSocketType: {fileID: 0}
+    GemSocketType: {fileID: 11400000, guid: 2aa33804dade2fc40b9e693983990ce8, type: 2}
     gemStats: []
   Requirements: []
   UseRequirementsTemplate: 0

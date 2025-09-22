@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ada825255f0166f4c9c8124a0f1e2448, type: 3}
-  m_Name: Fragment of Courage_ITEM
+  m_Name: Fragment of Hope 1_ITEM
   m_EditorClassIdentifier: 
-  ID: 61
-  entryName: Fragment of Courage
-  entryFileName: Fragment of Courage_ITEM
-  entryDisplayName: Unknow Fragment
-  entryIcon: {fileID: 21300000, guid: fabdbfb46e03d0d4b9352184f7cb3726, type: 3}
-  entryDescription: Forged in battle, this shard pulses with the spirit of valor.
-    Those who bear it feel unshaken before overwhelming odds, their resolve hardening
-    into unbreakable strength.
+  ID: 80
+  entryName: Fragment of Hope 1
+  entryFileName: Fragment of Hope 1_ITEM
+  entryDisplayName: Fragment of Hope
+  entryIcon: {fileID: 21300000, guid: bfa01af180f7649b4b44863da178d4c3, type: 3}
+  entryDescription: This radiant fragment shines with gentle light, said to embody
+    the will to endure even in the darkest times. It inspires courage in allies and
+    banishes despair, a beacon guiding Eldoria through shadow.
   _name: 
   _fileName: 
   displayName: 
@@ -67,7 +67,7 @@ MonoBehaviour:
   sockets: []
   gemData:
     socketType: 
-    GemSocketType: {fileID: 11400000, guid: 2aa33804dade2fc40b9e693983990ce8, type: 2}
+    GemSocketType: {fileID: 0}
     gemStats: []
   Requirements: []
   UseRequirementsTemplate: 0

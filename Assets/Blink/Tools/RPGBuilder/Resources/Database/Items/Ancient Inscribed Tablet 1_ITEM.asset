@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ada825255f0166f4c9c8124a0f1e2448, type: 3}
-  m_Name: Fragment of Hope_ITEM
+  m_Name: Ancient Inscribed Tablet 1_ITEM
   m_EditorClassIdentifier: 
-  ID: 63
-  entryName: Fragment of Hope
-  entryFileName: Fragment of Hope_ITEM
-  entryDisplayName: Fragment of Hope
-  entryIcon: {fileID: 21300000, guid: bfa01af180f7649b4b44863da178d4c3, type: 3}
-  entryDescription: This radiant fragment shines with gentle light, said to embody
-    the will to endure even in the darkest times. It inspires courage in allies and
-    banishes despair, a beacon guiding Eldoria through shadow.
+  ID: 78
+  entryName: Ancient Inscribed Tablet 1
+  entryFileName: Ancient Inscribed Tablet 1_ITEM
+  entryDisplayName: Ancient Inscribed Tablet
+  entryIcon: {fileID: 21300000, guid: db2cdeff8da65480bb0894c10fb077a6, type: 3}
+  entryDescription: A worn stone tablet engraved with runes in an ancient language.
+    Though cracked and unfinished, the marks on it revealed some hidden truth that
+    Elara might be able to decipher.
   _name: 
   _fileName: 
   displayName: 
