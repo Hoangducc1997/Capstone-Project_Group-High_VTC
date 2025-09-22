@@ -16,7 +16,7 @@ MonoBehaviour:
   entryName: Appear
   entryFileName: Appear_EFFECT
   entryDisplayName: Appear
-  entryIcon: {fileID: 21300000, guid: 758656f4df641c9499f11dd49416e55d, type: 3}
+  entryIcon: {fileID: 21300000, guid: 2b30c91787fb6d74faf61e0b9cbfb504, type: 3}
   entryDescription: 
   _name: 
   _fileName: 
@@ -43,7 +43,7 @@ MonoBehaviour:
     customDamageType: {fileID: 0}
     customHealingType: {fileID: 0}
     Damage: 0
-    alteredStatID: 0
+    alteredStatID: 2
     FlatCalculation: 0
     CannotCrit: 0
     removeStealth: 1
@@ -144,7 +144,7 @@ MonoBehaviour:
       NodeSocket: {fileID: 0}
       ParentedToCaster: 1
       PositionOffset: {x: 0, y: 0.1, z: 0}
-      Scale: {x: 0.2, y: 0.2, z: 0.2}
+      Scale: {x: 0.3, y: 0.3, z: 0.3}
       Endless: 0
       Duration: 3
       Delay: 0
