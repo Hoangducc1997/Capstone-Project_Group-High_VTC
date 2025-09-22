@@ -16,7 +16,7 @@ MonoBehaviour:
   entryName: R1_1
   entryFileName: R1_1_ABILITY
   entryDisplayName: 1
-  entryIcon: {fileID: 21300000, guid: cdec13907ffc75749ab2ed436bec6b14, type: 3}
+  entryIcon: {fileID: 21300000, guid: 354c73206ef75914883ed52842a138c4, type: 3}
   entryDescription: 
   _name: 
   _fileName: 
@@ -161,7 +161,7 @@ MonoBehaviour:
     casterEffectsApplied: []
     Actions: []
     VisualEffectEntries:
-    - Template: {fileID: 11400000, guid: eb1c707d6ab084e41ba3b485be5ef80f, type: 2}
+    - Template: {fileID: 11400000, guid: a532744e6d83d8242a57cab56a743f15, type: 2}
       ActivationType: 1
       UseNodeSocket: 0
       NodeSocket: {fileID: 11400000, guid: ce9910f9467705446a02fec763985733, type: 2}
@@ -179,7 +179,7 @@ MonoBehaviour:
       ShowWeaponsDuration: 1
       ModifySpeed: 1
       SpeedParameterName: AttackAnimationsSpeed
-      ModifierSpeed: 2
+      ModifierSpeed: 3
     SoundEntries:
     - Template: {fileID: 11400000, guid: 9e681601b3ae4a44b91950d8e9417c2a, type: 2}
       ActivationType: 0
