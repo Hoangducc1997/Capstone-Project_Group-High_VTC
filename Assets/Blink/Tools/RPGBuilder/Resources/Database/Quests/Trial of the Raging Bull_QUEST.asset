@@ -10,24 +10,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1bb18b8dfb0f3be4cb9856d31baa677e, type: 3}
-  m_Name: Trial of the King Guard_QUEST
+  m_Name: Trial of the Raging Bull_QUEST
   m_EditorClassIdentifier: 
   ID: 7
-  entryName: Trial of the King Guard
-  entryFileName: Trial of the King Guard_QUEST
-  entryDisplayName: Trial of the King Guard
+  entryName: Trial of the Raging Bull
+  entryFileName: Trial of the Raging Bull_QUEST
+  entryDisplayName: Trial of the Raging Bull
   entryIcon: {fileID: 0}
   entryDescription: Having proven yourself against the Wolfturn, Strenick now sets
-    the ultimate test before you. Deep within the Whispering Forest lurks the King
-    Guard, a ruthless warlord of the dark forces, surrounded by his loyal minions.
+    the ultimate test before you. Deep within the Whispering Forest lurks the Raging
+    Bull, a ruthless warlord of the dark forces, surrounded by his loyal minions.
     Defeating him will prove once and for all that you are prepared to face the true
     horrors threatening Eldoria.
   _name: 
   displayName: 
   _fileName: 
   description: 
-  ObjectiveText: Venture into the depths of the Whispering Forest.  Defeat the King
-    Guard and his followers.
+  ObjectiveText: Venture into the depths of the Whispering Forest.  Defeat the Raging
+    Bull and his followers.
   ProgressText: 'Slay '
   repeatable: 0
   canBeTurnedInWithoutNPC: 0

@@ -668,8 +668,8 @@ MonoBehaviour:
   nextNodes: {fileID: 0}
   identityType: 1
   nodeName: 
-  message: I found this strange fragment after defeating the King Guard. Do you know
-    what it is?
+  message: I found this strange fragment after defeating the Raging Bull. Do you
+    know what it is?
   RequirementsTemplate: {fileID: 11400000, guid: 3fc1e50328820b34e94c4b6a6811c4db, type: 2}
   GameActionsTemplate: {fileID: 0}
   showSettings: 1
@@ -1608,7 +1608,7 @@ MonoBehaviour:
   nextNodes: {fileID: 0}
   identityType: 0
   nodeName: 
-  message: Then your final test is facing the King Guard, deep within the Whispering
+  message: Then your final test is facing the Raging Bull, deep within the Whispering
     Forest.
   RequirementsTemplate: {fileID: 0}
   GameActionsTemplate: {fileID: 0}
