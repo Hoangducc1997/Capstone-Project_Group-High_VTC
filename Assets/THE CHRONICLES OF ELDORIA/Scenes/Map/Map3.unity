@@ -14275,6 +14275,97 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 143110, guid: 45569ce0b54aed542a3c4bb699dc89dc, type: 3}
   m_PrefabInstance: {fileID: 464499784}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &464680202
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3586415201846153083, guid: 80d7581afc9e75241be34a897247b73e, type: 3}
+      propertyPath: m_Name
+      value: CastlePortal  Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 4397452561601744657, guid: 80d7581afc9e75241be34a897247b73e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 152.19632
+      objectReference: {fileID: 0}
+    - target: {fileID: 4397452561601744657, guid: 80d7581afc9e75241be34a897247b73e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 183.004
+      objectReference: {fileID: 0}
+    - target: {fileID: 4397452561601744657, guid: 80d7581afc9e75241be34a897247b73e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 95.857
+      objectReference: {fileID: 0}
+    - target: {fileID: 4397452561601744657, guid: 80d7581afc9e75241be34a897247b73e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.97832876
+      objectReference: {fileID: 0}
+    - target: {fileID: 4397452561601744657, guid: 80d7581afc9e75241be34a897247b73e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4397452561601744657, guid: 80d7581afc9e75241be34a897247b73e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.20705797
+      objectReference: {fileID: 0}
+    - target: {fileID: 4397452561601744657, guid: 80d7581afc9e75241be34a897247b73e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4397452561601744657, guid: 80d7581afc9e75241be34a897247b73e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4397452561601744657, guid: 80d7581afc9e75241be34a897247b73e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 23.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4397452561601744657, guid: 80d7581afc9e75241be34a897247b73e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6575203371469584446, guid: 80d7581afc9e75241be34a897247b73e, type: 3}
+      propertyPath: InteractableName
+      value: Castle
+      objectReference: {fileID: 0}
+    - target: {fileID: 6575203371469584446, guid: 80d7581afc9e75241be34a897247b73e, type: 3}
+      propertyPath: Actions.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6575203371469584446, guid: 80d7581afc9e75241be34a897247b73e, type: 3}
+      propertyPath: Actions.Array.data[0].Effect
+      value: 
+      objectReference: {fileID: 11400000, guid: 732595ffb895ed2439785483173cd4d1, type: 2}
+    - target: {fileID: 6575203371469584446, guid: 80d7581afc9e75241be34a897247b73e, type: 3}
+      propertyPath: Actions.Array.data[3].amount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6575203371469584446, guid: 80d7581afc9e75241be34a897247b73e, type: 3}
+      propertyPath: Actions.Array.data[3].chance
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6575203371469584446, guid: 80d7581afc9e75241be34a897247b73e, type: 3}
+      propertyPath: Actions.Array.data[3].entryID
+      value: -1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 80d7581afc9e75241be34a897247b73e, type: 3}
+--- !u!1 &464680203 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3586415201846153083, guid: 80d7581afc9e75241be34a897247b73e, type: 3}
+  m_PrefabInstance: {fileID: 464680202}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &464680204 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8524759761127165521, guid: 80d7581afc9e75241be34a897247b73e, type: 3}
+  m_PrefabInstance: {fileID: 464680202}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &465502761
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15994,6 +16085,10 @@ MonoBehaviour:
     _prefab: Assets/THE CHRONICLES OF ELDORIA/Assets/Prefabs/Enemies/Spawn Enemies.prefab
   - _gameObject: {fileID: 177082890}
     _prefab: Assets/THE CHRONICLES OF ELDORIA/Assets/Prefabs/Enemies/Spawn Enemies.prefab
+  - _gameObject: {fileID: 464680203}
+    _prefab: Assets/THE CHRONICLES OF ELDORIA/Assets/Prefabs/Map/CastlePortal  Variant.prefab
+  - _gameObject: {fileID: 464680204}
+    _prefab: Assets/Import/ARPG Effects/Demo/Prefabs/Portals/BluePortal.prefab
 --- !u!4 &466626555
 Transform:
   m_ObjectHideFlags: 11
@@ -63627,3 +63722,4 @@ SceneRoots:
   - {fileID: 2011572297}
   - {fileID: 883435821}
   - {fileID: 466626555}
+  - {fileID: 464680202}
