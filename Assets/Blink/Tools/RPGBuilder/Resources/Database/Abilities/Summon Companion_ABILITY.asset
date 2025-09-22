@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 943d49eb769cd944fade3a1cd7491609, type: 3}
-  m_Name: Pet_Elara Atk_ABILITY
+  m_Name: Summon Companion_ABILITY
   m_EditorClassIdentifier: 
   ID: 23
-  entryName: Pet_Elara Atk
-  entryFileName: Pet_Elara Atk_ABILITY
-  entryDisplayName: Pet_Elara Atk
+  entryName: Summon Companion
+  entryFileName: Summon Companion_ABILITY
+  entryDisplayName: 'Summon Companion '
   entryIcon: {fileID: 21300000, guid: 0daea28b70bd3d3409bc2b237aeb1c8b, type: 3}
   entryDescription: 
   _name: 

@@ -47,7 +47,7 @@ MonoBehaviour:
   nextNodes: {fileID: 0}
   identityType: 0
   nodeName: 
-  message: Strenick was wise to send you. If Eldoria is to survive, we must act swiftly.
+  message: Garren was wise to send you. If Eldoria is to survive, we must act swiftly.
     I will begin raising the wards at once, but this is only the beginning.
   RequirementsTemplate: {fileID: 0}
   GameActionsTemplate: {fileID: 0}
@@ -219,7 +219,7 @@ MonoBehaviour:
   identityType: 0
   nodeName: 
   message: "For now, you\u2019ve done your duty. But I sense a power within you,
-    one that must be awakened. Soon, you will return to Strenick\u2014not as a messenger,
+    one that must be awakened. Soon, you will return to Garren\u2014not as a messenger,
     but as a warrior in training."
   RequirementsTemplate: {fileID: 0}
   GameActionsTemplate: {fileID: 0}
@@ -926,14 +926,14 @@ MonoBehaviour:
   nextNodes: {fileID: 0}
   identityType: 1
   nodeName: 
-  message: My lady , Strenick told me you might know about this fragment I found
-    after defeating the King Guard.
+  message: My lady , Garren told me you might know about this fragment I found after
+    defeating the King Guard.
   RequirementsTemplate: {fileID: 11400000, guid: 3fc1e50328820b34e94c4b6a6811c4db, type: 2}
   GameActionsTemplate: {fileID: 0}
-  showSettings: 0
-  viewedEndless: 1
+  showSettings: 1
+  viewedEndless: 0
   clickedEndless: 1
-  viewCountMax: 0
+  viewCountMax: 1
   clickCountMax: 0
   nodeImage: {fileID: 0}
 --- !u!114 &4732453102060560966
@@ -983,7 +983,7 @@ MonoBehaviour:
   nextNodes: {fileID: 0}
   identityType: 1
   nodeName: 
-  message: "Strenick sent me. Eldoria is under attack\u2014dark forces are advancing"
+  message: "Garren sent me. Eldoria is under attack\u2014dark forces are advancing"
   RequirementsTemplate: {fileID: 0}
   GameActionsTemplate: {fileID: 11400000, guid: 63268fe1cdd93ca4998c566d268e4bf0, type: 2}
   showSettings: 1

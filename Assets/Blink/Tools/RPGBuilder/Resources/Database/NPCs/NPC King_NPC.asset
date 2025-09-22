@@ -36,7 +36,7 @@ MonoBehaviour:
   MerchantTables:
   - MerchantTableID: 0
     RequirementsTemplate: {fileID: 0}
-  dialogueID: -1
+  dialogueID: 2
   questGiven: []
   questCompleted:
   - questID: 8

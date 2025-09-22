@@ -160,8 +160,8 @@ MonoBehaviour:
   message: "I\u2019m ready for the final challenge."
   RequirementsTemplate: {fileID: 11400000, guid: 8aa7fbd4c1021834a8d60a6300927cfc, type: 2}
   GameActionsTemplate: {fileID: 0}
-  showSettings: 0
-  viewedEndless: 1
+  showSettings: 1
+  viewedEndless: 0
   clickedEndless: 1
   viewCountMax: 1
   clickCountMax: 0
@@ -329,6 +329,59 @@ MonoBehaviour:
   viewCountMax: 0
   clickCountMax: 0
   nodeImage: {fileID: 0}
+--- !u!114 &-3629415367810110880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3482daf33a41b424789a150bca26817d, type: 3}
+  m_Name: RPG Dialogue Text
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -708, y: 363}
+  ports:
+    keys:
+    - previousNode
+    - nextNodes
+    values:
+    - _fieldName: previousNode
+      _node: {fileID: -3629415367810110880}
+      _typeQualifiedName: RPGDialogueTextNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: nextNodes
+        node: {fileID: -2934186957106517817}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: nextNodes
+      _node: {fileID: -3629415367810110880}
+      _typeQualifiedName: RPGDialogueBaseNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  previousNode: {fileID: 0}
+  nextNodes: {fileID: 0}
+  identityType: 0
+  nodeName: 
+  message: 
+  RequirementsTemplate: {fileID: 11400000, guid: 6c768292960696345b0d105f96d45c01, type: 2}
+  GameActionsTemplate: {fileID: 0}
+  showSettings: 0
+  viewedEndless: 1
+  clickedEndless: 1
+  viewCountMax: 0
+  clickCountMax: 0
+  nodeImage: {fileID: 0}
 --- !u!114 &-3191422081418475875
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -487,6 +540,9 @@ MonoBehaviour:
       - fieldName: previousNode
         node: {fileID: -2359406936492428631}
         reroutePoints: []
+      - fieldName: previousNode
+        node: {fileID: -3629415367810110880}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -555,10 +611,10 @@ MonoBehaviour:
     what it is?
   RequirementsTemplate: {fileID: 11400000, guid: 3fc1e50328820b34e94c4b6a6811c4db, type: 2}
   GameActionsTemplate: {fileID: 0}
-  showSettings: 0
-  viewedEndless: 1
+  showSettings: 1
+  viewedEndless: 0
   clickedEndless: 1
-  viewCountMax: 0
+  viewCountMax: 1
   clickCountMax: 0
   nodeImage: {fileID: 0}
 --- !u!114 &-2229483659590513425
@@ -765,6 +821,7 @@ MonoBehaviour:
   - {fileID: 7760472693680366881}
   - {fileID: -2229483659590513425}
   - {fileID: -6525722495940533042}
+  - {fileID: -3629415367810110880}
 --- !u!114 &652443145087881171
 MonoBehaviour:
   m_ObjectHideFlags: 0
