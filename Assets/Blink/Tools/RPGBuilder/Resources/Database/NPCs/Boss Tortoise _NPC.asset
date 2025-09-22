@@ -16,7 +16,7 @@ MonoBehaviour:
   entryName: 'Boss Tortoise '
   entryFileName: Boss Tortoise _NPC
   entryDisplayName: Tortoise
-  entryIcon: {fileID: 21300000, guid: 0768f288cbb34fb49b7b28914f0760ca, type: 3}
+  entryIcon: {fileID: 21300000, guid: 0145b05f9b90a1c4baf3040c22218dc7, type: 3}
   entryDescription: 
   _name: 
   _fileName: 
@@ -37,9 +37,9 @@ MonoBehaviour:
   dialogueID: -1
   questGiven: []
   questCompleted: []
-  MinRespawn: 5
-  MaxRespawn: 10
-  corpseDespawnTime: 15
+  MinRespawn: 3600
+  MaxRespawn: 3600
+  corpseDespawnTime: 1
   MinEXP: 1
   MaxEXP: 2
   LowerLevelEXPModifier: 0
@@ -48,8 +48,8 @@ MonoBehaviour:
   lootBagPrefab: {fileID: 0}
   LootBagDuration: 60
   factionRewards: []
-  MinLevel: 100
-  MaxLevel: 100
+  MinLevel: 1
+  MaxLevel: 1
   isScalingWithPlayer: 0
   stats: []
   CustomStats:
@@ -57,7 +57,7 @@ MonoBehaviour:
     overrideMinValue: 0
     minValue: 0
     overrideMaxValue: 1
-    maxValue: 1000
+    maxValue: 10000
     overrideStartPercentage: 0
     startPercentage: 100
     addedValue: 0
@@ -69,17 +69,19 @@ MonoBehaviour:
   StatListTemplate: {fileID: 0}
   lootTables:
   - lootTableID: 4
-    dropRate: 80.57
+    dropRate: 0
   - lootTableID: 5
-    dropRate: 70.689995
+    dropRate: 100
   - lootTableID: 6
     dropRate: 100
   - lootTableID: 7
     dropRate: 100
+  - lootTableID: 10
+    dropRate: 100
   isCombatEnabled: 1
   isMovementEnabled: 0
   isCollisionEnabled: 0
-  isTargetable: 1
+  isTargetable: 0
   isNameplateEnabled: 1
   isPlayerInteractable: 0
   isMerchant: 0

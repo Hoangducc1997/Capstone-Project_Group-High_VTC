@@ -69,4 +69,5 @@ public class LoadingManager : MonoBehaviour
 
         canvasLoading.SetActive(false);
     }
+
 }

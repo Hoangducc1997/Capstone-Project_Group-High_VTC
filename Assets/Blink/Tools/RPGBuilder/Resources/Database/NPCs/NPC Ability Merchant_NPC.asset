@@ -16,7 +16,7 @@ MonoBehaviour:
   entryName: NPC Ability Merchant
   entryFileName: NPC Ability Merchant_NPC
   entryDisplayName: Mager
-  entryIcon: {fileID: 21300000, guid: 99b6e228ccaefa046a4dfea4a9e2dba2, type: 3}
+  entryIcon: {fileID: 21300000, guid: c1f65b3236b076b48b746a507a5be29b, type: 3}
   entryDescription: 
   _name: 
   _fileName: 
@@ -34,7 +34,7 @@ MonoBehaviour:
   speciesID: -1
   merchantTableID: -1
   MerchantTables:
-  - MerchantTableID: 0
+  - MerchantTableID: 2
     RequirementsTemplate: {fileID: 0}
   dialogueID: -1
   questGiven:
@@ -83,7 +83,7 @@ MonoBehaviour:
   isDialogue: 1
   MerchantText: Show me your goods.
   QuestText: Can I do something for you?
-  DialogueText: This place is not for you. Get out of here now!
+  DialogueText: Hello
   NPCVisual: {fileID: 0}
   modelPosition: {x: 0, y: 0, z: 0}
   modelScale: {x: 1, y: 1, z: 1}

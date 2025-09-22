@@ -15,7 +15,7 @@ MonoBehaviour:
   ID: 17
   entryName: 'Boss King Guard '
   entryFileName: Boss King Guard _NPC
-  entryDisplayName: King Guard
+  entryDisplayName: Raging Bull
   entryIcon: {fileID: 21300000, guid: 3cf5b3751a142904689e421f605e30c6, type: 3}
   entryDescription: 
   _name: 
@@ -64,17 +64,23 @@ MonoBehaviour:
     valuePerLevel: 0
     Percent: 0
     chance: 100
-    vitalityActions: []
+    vitalityActions:
+    - value: 0
+      valueType: 0
+      isPercent: 0
+      GameActionsTemplate: {fileID: 0}
   UseStatListTemplate: 0
   StatListTemplate: {fileID: 0}
   lootTables:
   - lootTableID: 4
-    dropRate: 80.57
+    dropRate: 100
   - lootTableID: 5
-    dropRate: 70.689995
+    dropRate: 100
   - lootTableID: 6
     dropRate: 100
   - lootTableID: 7
+    dropRate: 100
+  - lootTableID: 8
     dropRate: 100
   isCombatEnabled: 1
   isMovementEnabled: 0

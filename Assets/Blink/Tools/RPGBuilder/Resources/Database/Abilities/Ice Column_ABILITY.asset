@@ -121,8 +121,7 @@ MonoBehaviour:
     colliderSize: {x: 0, y: 0, z: 0}
     colliderRadius: 0
     colliderHeight: 0
-    groundVisualEffect: {fileID: 6627880113619459372, guid: e8e84152b39c03848a2214b7912a1abe,
-      type: 3}
+    groundVisualEffect: {fileID: 6627880113619459372, guid: e8e84152b39c03848a2214b7912a1abe, type: 3}
     effectPositionOffset: {x: 0, y: 0.2, z: 0}
     groundVisualEffectDuration: 5
     hitEffectUseSocket: 0
@@ -156,13 +155,13 @@ MonoBehaviour:
       isSpread: 0
       spreadDistanceMax: 0
       spreadUnitMax: 0
-      delay: 0
+      delay: 1
       tooltipText: 
     casterEffectsApplied: []
     Actions: []
     VisualEffectEntries: []
     AnimationEntries:
-    - Template: {fileID: 11400000, guid: 3d4e497f4f79e4041b4d54d5a6821937, type: 2}
+    - Template: {fileID: 11400000, guid: d9ab4ebbc0555c74bbdc3119766029b1, type: 2}
       ActivationType: 1
       Delay: 0
       ShowWeapons: 0

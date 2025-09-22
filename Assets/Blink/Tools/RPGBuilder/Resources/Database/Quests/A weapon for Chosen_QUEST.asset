@@ -30,12 +30,12 @@ MonoBehaviour:
   repeatable: 0
   canBeTurnedInWithoutNPC: 0
   Requirements: []
-  UseRequirementsTemplate: 0
-  RequirementsTemplate: {fileID: 0}
+  UseRequirementsTemplate: 1
+  RequirementsTemplate: {fileID: 11400000, guid: d6737e241e0518649890b258c252c967, type: 2}
   itemsGiven: []
   objectives:
   - objectiveType: 0
-    taskID: 2
+    taskID: 8
     timeLimit: 0
   rewardsGiven: []
   rewardsToPick:

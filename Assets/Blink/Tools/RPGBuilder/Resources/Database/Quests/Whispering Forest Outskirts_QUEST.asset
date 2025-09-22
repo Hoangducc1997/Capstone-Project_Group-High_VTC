@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bb18b8dfb0f3be4cb9856d31baa677e, type: 3}
+  m_Name: Whispering Forest Outskirts_QUEST
+  m_EditorClassIdentifier: 
+  ID: 4
+  entryName: Whispering Forest Outskirts
+  entryFileName: Whispering Forest Outskirts_QUEST
+  entryDisplayName: Threat at the Forest Edge
+  entryIcon: {fileID: 0}
+  entryDescription: Strange Fish Fiends have appeared at the Whispering Forest outskirts,
+    attacking villagers near the waters.  Garren fears they may spread deeper and
+    asks you to hunt them to protect the region.
+  _name: 
+  displayName: 
+  _fileName: 
+  description: 
+  ObjectiveText: Hunt and defeat 5 Fish Fiends at the outskirts of the Whispering
+    Forest.
+  ProgressText: 'Kill '
+  repeatable: 0
+  canBeTurnedInWithoutNPC: 0
+  Requirements: []
+  UseRequirementsTemplate: 1
+  RequirementsTemplate: {fileID: 11400000, guid: 1ead93ca92a3b22488d8cf0fa14ba250, type: 2}
+  itemsGiven: []
+  objectives:
+  - objectiveType: 0
+    taskID: 3
+    timeLimit: 0
+  rewardsGiven:
+  - rewardType: 1
+    itemID: 35
+    currencyID: 1
+    treePointID: -1
+    factionID: -1
+    weaponTemplateID: -1
+    count: 300
+    Experience: 0
+  rewardsToPick: []

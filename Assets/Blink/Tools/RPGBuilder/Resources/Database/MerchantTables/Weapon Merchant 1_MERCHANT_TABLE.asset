@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9748d4235cbb1b644903a925da7146d4, type: 3}
+  m_Name: Weapon Merchant 1_MERCHANT_TABLE
+  m_EditorClassIdentifier: 
+  ID: 3
+  entryName: Weapon Merchant 1
+  entryFileName: Weapon Merchant 1_MERCHANT_TABLE
+  entryDisplayName: Weapon
+  entryIcon: {fileID: 0}
+  entryDescription: 
+  _name: 
+  _fileName: 
+  displayName: 
+  onSaleItems:
+  - itemID: 37
+    currencyID: 1
+    cost: 20
+  - itemID: 38
+    currencyID: 1
+    cost: 50
+  - itemID: 39
+    currencyID: 1
+    cost: 100
+  - itemID: 41
+    currencyID: 1
+    cost: 390
+  - itemID: 42
+    currencyID: 1
+    cost: 500
+  - itemID: 43
+    currencyID: 1
+    cost: 680
+  - itemID: 44
+    currencyID: 1
+    cost: 790
+  - itemID: 45
+    currencyID: 1
+    cost: 860
+  - itemID: 46
+    currencyID: 1
+    cost: 999
+  - itemID: 47
+    currencyID: 1
+    cost: 1000
+  - itemID: 48
+    currencyID: 1
+    cost: 1111
+  - itemID: 49
+    currencyID: 1
+    cost: 1222
+  - itemID: 50
+    currencyID: 1
+    cost: 1333
+  - itemID: 51
+    currencyID: 1
+    cost: 1339
+  - itemID: 52
+    currencyID: 1
+    cost: 1555
+  - itemID: 53
+    currencyID: 1
+    cost: 1668
+  - itemID: 54
+    currencyID: 1
+    cost: 2000
+  - itemID: 60
+    currencyID: 1
+    cost: 20
+  - itemID: 59
+    currencyID: 1
+    cost: 50
+  - itemID: 34
+    currencyID: 1
+    cost: 100
+  - itemID: 66
+    currencyID: 1
+    cost: 390
+  - itemID: 65
+    currencyID: 1
+    cost: 500
+  - itemID: 64
+    currencyID: 1
+    cost: 680
+  - itemID: 63
+    currencyID: 1
+    cost: 790
+  - itemID: 62
+    currencyID: 1
+    cost: 860
+  - itemID: 61
+    currencyID: 1
+    cost: 999
+  - itemID: 58
+    currencyID: 1
+    cost: 1000
+  - itemID: 67
+    currencyID: 2
+    cost: 1
+  - itemID: 68
+    currencyID: 2
+    cost: 1
+  - itemID: 69
+    currencyID: 2
+    cost: 1
+  - itemID: 33
+    currencyID: 2
+    cost: 1
+  - itemID: 70
+    currencyID: 2
+    cost: 1
+  - itemID: 31
+    currencyID: 2
+    cost: 1
+  - itemID: 71
+    currencyID: 2
+    cost: 1
+  - itemID: 72
+    currencyID: 2
+    cost: 1

@@ -33,11 +33,11 @@ MonoBehaviour:
   FleeState: {fileID: 11400000, guid: 1035fc49b813bf4478478db958257433, type: 2}
   FleeTemplate: {fileID: 11400000, guid: 5f515443f156c4f4c8e6c9802646e07c, type: 2}
   FleeRequirementsTemplate: {fileID: 11400000, guid: d877be86765dc6b4e92d97dfb0d0b2df, type: 2}
-  FleeCheckInterval: 3
+  FleeCheckInterval: 3.9
   PotentialAbilities:
   - AbilitiesTemplate: {fileID: 11400000, guid: fb29fa7e85ecd32428501d7475f285c8, type: 2}
     chance: 100
-  MaxDistanceFromTarget: 3
+  MaxDistanceFromTarget: 5
   MinDistanceFromTarget: 2
   LookAtTargetSpeed: 25
   CheckTargetInterval: 0.5
@@ -50,4 +50,4 @@ MonoBehaviour:
   CanAggroAlly: 0
   CanAggroNeutral: 0
   CanAggroEnemy: 1
-  PhaseCheckInterval: 3
+  PhaseCheckInterval: 3.9

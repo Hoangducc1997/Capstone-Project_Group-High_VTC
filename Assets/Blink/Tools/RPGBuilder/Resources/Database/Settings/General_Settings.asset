@@ -24,9 +24,9 @@ MonoBehaviour:
   DelayAfterSceneLoad: 0
   LoadingScreenEndDelay: 0
   enableDevPanel: 1
-  mainMenuLoadingImage: {fileID: 21300000, guid: 8828aa8b19c69744da1b521cfa891b3b, type: 3}
-  mainMenuSceneName: MainMenu
-  mainMenuLoadingName: Main Menu
+  mainMenuLoadingImage: {fileID: 21300000, guid: 7c57777941490724a91c8bfcfa58659c, type: 3}
+  mainMenuSceneName: Menu
+  mainMenuLoadingName: Menu
   mainMenuLoadingDescription: 
   useOldController: 0
   ActionKeyCategoryList:
@@ -164,7 +164,7 @@ MonoBehaviour:
     Category: {fileID: 11400000, guid: d8215dbc904ddb1409a14d5027152bf5, type: 2}
   - actionName: ACTIVE_BLOCKING
     actionDisplayName: Block
-    defaultKey: 0
+    defaultKey: 122
     isUnique: 1
     category: COMBAT
     Category: {fileID: 11400000, guid: d8215dbc904ddb1409a14d5027152bf5, type: 2}
@@ -254,7 +254,7 @@ MonoBehaviour:
     Category: {fileID: 11400000, guid: 01122e0bdd31daa42a9715a293b8ddb4, type: 2}
   - actionName: ACTION_ABILITY_1
     actionDisplayName: Action Ability 1
-    defaultKey: 0
+    defaultKey: 121
     isUnique: 1
     category: COMBAT
     Category: {fileID: 11400000, guid: d8215dbc904ddb1409a14d5027152bf5, type: 2}
@@ -278,25 +278,25 @@ MonoBehaviour:
     Category: {fileID: 11400000, guid: 5f997748d8586c540b2a9f1c2c8af773, type: 2}
   - actionName: UI_PANEL_SOCKETING
     actionDisplayName: Socketing
-    defaultKey: 0
+    defaultKey: 117
     isUnique: 0
     category: UI
     Category: {fileID: 11400000, guid: 5f997748d8586c540b2a9f1c2c8af773, type: 2}
   - actionName: UI_PANEL_SPELLBOOK
     actionDisplayName: Spellbook
-    defaultKey: 0
+    defaultKey: 112
     isUnique: 1
     category: UI
     Category: {fileID: 11400000, guid: 5f997748d8586c540b2a9f1c2c8af773, type: 2}
   - actionName: UI_PANEL_WEAPON_TEMPLATES
     actionDisplayName: Weapons
-    defaultKey: 0
+    defaultKey: 111
     isUnique: 0
     category: UI
     Category: {fileID: 11400000, guid: 5f997748d8586c540b2a9f1c2c8af773, type: 2}
   - actionName: UI_PANEL_STATS_ALLOCATION
     actionDisplayName: Stats
-    defaultKey: 0
+    defaultKey: 108
     isUnique: 0
     category: UI
     Category: {fileID: 11400000, guid: 5f997748d8586c540b2a9f1c2c8af773, type: 2}
@@ -311,4 +311,4 @@ MonoBehaviour:
   questGiverCursor: {fileID: 2800000, guid: 3f8c8cd935d6a234abc04a2f63152112, type: 3}
   interactiveObjectCursor: {fileID: 2800000, guid: 45fc95e4a5cb2f346aaad64ff5e8a206, type: 3}
   craftingStationCursor: {fileID: 2800000, guid: b8fde2b57f52b79489ab2330f1c8cbc4, type: 3}
-  enemyCursor: {fileID: 2800000, guid: 418b53165d2426b4a8972237013b2455, type: 3}
+  enemyCursor: {fileID: 2800000, guid: 1fd1d5e40a48a684baffede0b04f3abf, type: 3}

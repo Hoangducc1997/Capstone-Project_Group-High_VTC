@@ -16,7 +16,7 @@ MonoBehaviour:
   entryName: 'NPC Weapon Vendor '
   entryFileName: NPC Weapon Vendor _NPC
   entryDisplayName: Raptor
-  entryIcon: {fileID: 21300000, guid: 99b6e228ccaefa046a4dfea4a9e2dba2, type: 3}
+  entryIcon: {fileID: 21300000, guid: 98d8bb0e213cd0f4d91df75bd73969f5, type: 3}
   entryDescription: 
   _name: 
   _fileName: 
@@ -34,7 +34,7 @@ MonoBehaviour:
   speciesID: -1
   merchantTableID: -1
   MerchantTables:
-  - MerchantTableID: 0
+  - MerchantTableID: 3
     RequirementsTemplate: {fileID: 0}
   dialogueID: -1
   questGiven:
@@ -83,7 +83,7 @@ MonoBehaviour:
   isDialogue: 1
   MerchantText: Show me your goods.
   QuestText: Can I do something for you?
-  DialogueText: This place is not for you. Get out of here now!
+  DialogueText: Hi traveler
   NPCVisual: {fileID: 0}
   modelPosition: {x: 0, y: 0, z: 0}
   modelScale: {x: 1, y: 1, z: 1}

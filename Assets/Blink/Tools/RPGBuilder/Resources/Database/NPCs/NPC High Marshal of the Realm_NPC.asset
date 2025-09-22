@@ -15,8 +15,8 @@ MonoBehaviour:
   ID: 12
   entryName: NPC High Marshal of the Realm
   entryFileName: NPC High Marshal of the Realm_NPC
-  entryDisplayName: Strenick
-  entryIcon: {fileID: 21300000, guid: 99b6e228ccaefa046a4dfea4a9e2dba2, type: 3}
+  entryDisplayName: Garren
+  entryIcon: {fileID: 21300000, guid: 2b8169f22db684e4796d5800a93ae73a, type: 3}
   entryDescription: 
   _name: 
   _fileName: 
@@ -36,11 +36,23 @@ MonoBehaviour:
   MerchantTables:
   - MerchantTableID: 0
     RequirementsTemplate: {fileID: 0}
-  dialogueID: -1
+  dialogueID: 0
   questGiven:
   - questID: 1
   - questID: 4
-  questCompleted: []
+  - questID: 5
+  - questID: 9
+  - questID: 10
+  questCompleted:
+  - questID: 4
+  - questID: 5
+  - questID: 6
+  - questID: 7
+  - questID: 9
+  - questID: 10
+  - questID: 11
+  - questID: 12
+  - questID: 13
   MinRespawn: 1
   MaxRespawn: 2
   corpseDespawnTime: 1

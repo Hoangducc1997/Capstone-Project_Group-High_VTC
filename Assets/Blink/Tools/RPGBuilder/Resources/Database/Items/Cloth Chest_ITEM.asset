@@ -59,7 +59,8 @@ MonoBehaviour:
   randomStats: []
   randomStatsMax: 0
   sellPrice: 1
-  sellCurrencyID: 0
+  convertToCurrency: -1
+  sellCurrencyID: 2
   buyPrice: 0
   buyCurrencyID: -1
   stackLimit: 1
@@ -82,5 +83,4 @@ MonoBehaviour:
   GameActions: []
   UseGameActionsTemplate: 0
   GameActionsTemplate: {fileID: 0}
-  BodyCullingTemplate: {fileID: 11400000, guid: db266b86c86bc8643841b92b0774c2ee,
-    type: 2}
+  BodyCullingTemplate: {fileID: 0}

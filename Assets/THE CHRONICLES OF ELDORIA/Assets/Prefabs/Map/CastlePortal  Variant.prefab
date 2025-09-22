@@ -52,6 +52,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5711092423555444908, guid: eab00828a34cb264b904dbd94e0a87ae, type: 3}
+      propertyPath: Actions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5711092423555444908, guid: eab00828a34cb264b904dbd94e0a87ae, type: 3}
+      propertyPath: Actions.Array.data[1].amount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5711092423555444908, guid: eab00828a34cb264b904dbd94e0a87ae, type: 3}
+      propertyPath: Actions.Array.data[1].chance
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5711092423555444908, guid: eab00828a34cb264b904dbd94e0a87ae, type: 3}
+      propertyPath: Actions.Array.data[2].amount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5711092423555444908, guid: eab00828a34cb264b904dbd94e0a87ae, type: 3}
+      propertyPath: Actions.Array.data[2].chance
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5711092423555444908, guid: eab00828a34cb264b904dbd94e0a87ae, type: 3}
+      propertyPath: Actions.Array.data[1].entryID
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5711092423555444908, guid: eab00828a34cb264b904dbd94e0a87ae, type: 3}
+      propertyPath: Actions.Array.data[2].entryID
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 7075215745407251267, guid: eab00828a34cb264b904dbd94e0a87ae, type: 3}
       propertyPath: portalIdlePrefab
       value: 

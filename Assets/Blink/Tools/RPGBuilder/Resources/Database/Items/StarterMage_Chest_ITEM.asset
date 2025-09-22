@@ -36,7 +36,7 @@ MonoBehaviour:
   ItemRarity: {fileID: 11400000, guid: 9fe2887c3181d5146a74e57b1a55a22d, type: 2}
   itemModelName: Starter_Chest
   weaponModel: {fileID: 0}
-  modelMaterial: {fileID: 0}
+  modelMaterial: {fileID: 2100000, guid: eb672304fc7494d498965b8f2b242de6, type: 2}
   weaponPositionDatas: []
   showWeaponPositionData: 0
   WeaponTransforms: []

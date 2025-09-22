@@ -23,8 +23,7 @@ MonoBehaviour:
   displayName: 
   icon: {fileID: 0}
   npcType: 0
-  AILogicTemplate: {fileID: 262611205548413635, guid: 42a8b97728201df44ba95376d46032e3,
-    type: 3}
+  AILogicTemplate: {fileID: 262611205548413635, guid: 42a8b97728201df44ba95376d46032e3, type: 3}
   Phases:
   - PhaseTemplate: {fileID: 11400000, guid: bb11388be06569140beda4b401ddeeee, type: 2}
     Preset: {fileID: 11400000, guid: 4e718ae583637c4418db2ba0d05f6e0c, type: 2}

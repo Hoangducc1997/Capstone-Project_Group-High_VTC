@@ -5075,7 +5075,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7044423609670822336
 Transform:
   m_ObjectHideFlags: 0
@@ -5319,7 +5319,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &4575408897109950048
 Transform:
   m_ObjectHideFlags: 0
@@ -5384,7 +5384,7 @@ SkinnedMeshRenderer:
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
   m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: -2439352532998724759, guid: 4ae144e9f7cc1024789fec711c9fe589, type: 3}
+  m_Mesh: {fileID: 0}
   m_Bones:
   - {fileID: 2920180627870762130}
   m_BlendShapeWeights: []
@@ -5462,7 +5462,7 @@ GameObject:
   - component: {fileID: 1469881013050620784}
   m_Layer: 0
   m_Name: HumanMaleM2
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5738,7 +5738,7 @@ MonoBehaviour:
   - {fileID: 3520687453808957938}
   - {fileID: 7093552094485824948}
   - {fileID: 1730267386415584762}
-  - {fileID: 8568377753143857116}
+  - {fileID: 4322509606843867124}
   - {fileID: 3568603259699386914}
   - {fileID: 9187231365519232521}
   - {fileID: 3793893449585814385}

@@ -23,29 +23,32 @@ MonoBehaviour:
   displayName: 
   onSaleItems:
   - itemID: 15
-    currencyID: 0
+    currencyID: 2
     cost: 25
   - itemID: 14
-    currencyID: 0
+    currencyID: 2
     cost: 25
   - itemID: 16
-    currencyID: 0
+    currencyID: 2
     cost: 25
   - itemID: 17
-    currencyID: 0
+    currencyID: 2
     cost: 25
   - itemID: 18
-    currencyID: 0
+    currencyID: 2
     cost: 25
   - itemID: 19
-    currencyID: 0
+    currencyID: 2
     cost: 25
   - itemID: 20
-    currencyID: 0
+    currencyID: 2
     cost: 25
   - itemID: 27
-    currencyID: 0
+    currencyID: 2
     cost: 25
   - itemID: 13
-    currencyID: 0
+    currencyID: 1
     cost: 50
+  - itemID: 63
+    currencyID: 1
+    cost: 1

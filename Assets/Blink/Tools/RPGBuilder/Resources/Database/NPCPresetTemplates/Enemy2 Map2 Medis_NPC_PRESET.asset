@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccfcbfff05fa1f94eaa371eb19ed6547, type: 3}
+  m_Name: Enemy2 Map2 Medis_NPC_PRESET
+  m_EditorClassIdentifier: 
+  ID: -1
+  entryName: Enemy2 Map2 Medis
+  entryFileName: Enemy2 Map2 Medis_NPC_PRESET
+  entryDisplayName: 
+  entryIcon: {fileID: 21300000, guid: bad67741226f29c4dbbdb9f88c440a7e, type: 3}
+  entryDescription: 
+  Prefab: {fileID: 8493481916742154775, guid: e8f29beb31ca4972b7fe90b95f5d1d34, type: 3}
+  Position: {x: 0, y: 0, z: 0}
+  Scale: {x: 5, y: 5, z: 5}
+  NameplateYOffset: 6.8
+  NameplateDistance: 68
+  RendererName: Body
+  AnimatorController: {fileID: 22100000, guid: 41b3f52c56addc141a95c0ac46a8829b, type: 2}
+  AnimatorAvatar: {fileID: 9000000, guid: 3577d5d9c6db446da89d6cc3da05c0ba, type: 3}
+  AnimatorUseRootMotion: 0
+  AnimatorUpdateMode: 0
+  AnimatorCullingMode: 0
+  NavmeshAgentRadius: 0.5
+  NavmeshAgentHeight: 2
+  NavmeshAgentAngularSpeed: 500
+  NavmeshObstacleAvoidance: 3
+  ColliderType: 0
+  ColliderCenter: {x: 0, y: 1, z: 0}
+  ColliderSize: {x: 0, y: 0, z: 0}
+  ColliderRadius: 0.5
+  ColliderHeight: 2
+  InteractionDistanceMax: 5

@@ -30,8 +30,8 @@ MonoBehaviour:
   repeatable: 0
   canBeTurnedInWithoutNPC: 0
   Requirements: []
-  UseRequirementsTemplate: 0
-  RequirementsTemplate: {fileID: 0}
+  UseRequirementsTemplate: 1
+  RequirementsTemplate: {fileID: 11400000, guid: c49908c4e6b6054409a1f9b48df83296, type: 2}
   itemsGiven: []
   objectives:
   - objectiveType: 0
@@ -44,6 +44,14 @@ MonoBehaviour:
     treePointID: -1
     factionID: -1
     weaponTemplateID: -1
-    count: 4
+    count: 10
+    Experience: 0
+  - rewardType: 0
+    itemID: 13
+    currencyID: -1
+    treePointID: -1
+    factionID: -1
+    weaponTemplateID: -1
+    count: 10
     Experience: 0
   rewardsToPick: []
