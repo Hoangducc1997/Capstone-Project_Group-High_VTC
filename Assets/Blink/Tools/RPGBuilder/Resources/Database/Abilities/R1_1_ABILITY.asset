@@ -166,17 +166,17 @@ MonoBehaviour:
       UseNodeSocket: 0
       NodeSocket: {fileID: 11400000, guid: ce9910f9467705446a02fec763985733, type: 2}
       ParentedToCaster: 0
-      PositionOffset: {x: 0.3, y: 0, z: 3.9}
+      PositionOffset: {x: 0.3, y: 0, z: 8}
       Scale: {x: 1, y: 1, z: 1}
       Endless: 0
-      Duration: 5
+      Duration: 6
       Delay: 0
     AnimationEntries:
-    - Template: {fileID: 11400000, guid: cf548e2e66f29eb4a821b2d60f7c6f79, type: 2}
+    - Template: {fileID: 11400000, guid: d9ab4ebbc0555c74bbdc3119766029b1, type: 2}
       ActivationType: 0
       Delay: 0
       ShowWeapons: 1
-      ShowWeaponsDuration: 1
+      ShowWeaponsDuration: 2
       ModifySpeed: 1
       SpeedParameterName: AttackAnimationsSpeed
       ModifierSpeed: 3

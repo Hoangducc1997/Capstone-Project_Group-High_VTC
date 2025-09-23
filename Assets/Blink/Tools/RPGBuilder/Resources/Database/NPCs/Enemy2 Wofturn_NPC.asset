@@ -78,10 +78,10 @@ MonoBehaviour:
     dropRate: 100
   isCombatEnabled: 1
   isMovementEnabled: 0
-  isCollisionEnabled: 0
-  isTargetable: 1
+  isCollisionEnabled: 1
+  isTargetable: 0
   isNameplateEnabled: 1
-  isPlayerInteractable: 0
+  isPlayerInteractable: 1
   isMerchant: 0
   isQuestGiver: 0
   isDialogue: 0
