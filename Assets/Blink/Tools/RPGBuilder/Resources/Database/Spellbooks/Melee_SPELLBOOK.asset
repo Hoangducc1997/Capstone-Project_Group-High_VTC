@@ -26,6 +26,11 @@ MonoBehaviour:
   nodeList:
   - nodeType: 0
     nodeName: 
+    abilityID: 34
+    bonusID: -1
+    unlockLevel: 1
+  - nodeType: 0
+    nodeName: 
     abilityID: 23
     bonusID: -1
     unlockLevel: 1
@@ -41,32 +46,7 @@ MonoBehaviour:
     unlockLevel: 1
   - nodeType: 0
     nodeName: 
-    abilityID: 12
-    bonusID: -1
-    unlockLevel: 1
-  - nodeType: 0
-    nodeName: 
-    abilityID: 1
-    bonusID: -1
-    unlockLevel: 1
-  - nodeType: 0
-    nodeName: 
-    abilityID: 2
-    bonusID: -1
-    unlockLevel: 1
-  - nodeType: 0
-    nodeName: 
-    abilityID: 6
-    bonusID: -1
-    unlockLevel: 1
-  - nodeType: 0
-    nodeName: 
-    abilityID: 11
-    bonusID: -1
-    unlockLevel: 1
-  - nodeType: 0
-    nodeName: 
-    abilityID: 15
+    abilityID: 39
     bonusID: -1
     unlockLevel: 1
   sourceType: 0

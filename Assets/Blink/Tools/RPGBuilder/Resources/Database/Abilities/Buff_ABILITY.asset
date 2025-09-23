@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 943d49eb769cd944fade3a1cd7491609, type: 3}
-  m_Name: R1_1_ABILITY
+  m_Name: Buff_ABILITY
   m_EditorClassIdentifier: 
-  ID: 24
-  entryName: R1_1
-  entryFileName: R1_1_ABILITY
-  entryDisplayName: 1
-  entryIcon: {fileID: 21300000, guid: 354c73206ef75914883ed52842a138c4, type: 3}
+  ID: 34
+  entryName: Buff
+  entryFileName: Buff_ABILITY
+  entryDisplayName: Buff
+  entryIcon: {fileID: 21300000, guid: 11fa9e57566052b4dbd708ae32b3c597, type: 3}
   entryDescription: 
   _name: 
   _fileName: 
@@ -27,12 +27,11 @@ MonoBehaviour:
   ranks:
   - ShowedInEditor: 1
     unlockCost: 0
-    TooltipText: Brutally slam the ground and knockback enemies. After the knockback,
-      enemies hit are stunned for 3 seconds.
-    activationType: 1
-    castTime: 0.75
-    castInRun: 1
-    castBarVisible: 0
+    TooltipText: Increase 50 HP
+    activationType: 0
+    castTime: 0
+    castInRun: 0
+    castBarVisible: 1
     faceCursorWhileCasting: 1
     faceCursorWhenOnCastStart: 1
     faceCursorWhenOnCastEnd: 1
@@ -44,28 +43,28 @@ MonoBehaviour:
     Requirements: []
     UseRequirementsTemplate: 0
     RequirementsTemplate: {fileID: 0}
-    targetType: 3
+    targetType: 0
     isToggle: 0
     isToggleCostOnTrigger: 0
     toggledTriggerInterval: 0
-    MaxUnitHit: 10
-    minRange: 10
+    MaxUnitHit: 1
+    minRange: 0
     maxRange: 0
     standTimeDuration: 0
     canRotateInStandTime: 0
-    castSpeedSlowAmount: 0.3
-    castSpeedSlowTime: 0.6
-    castSpeedSlowRate: 0.1
-    AIAttackTime: 1
-    coneDegree: 40
+    castSpeedSlowAmount: 0.5
+    castSpeedSlowTime: 0.4
+    castSpeedSlowRate: 0.5
+    AIAttackTime: 0
+    coneDegree: 0
     ConeHitCount: 1
     ConeHitInterval: 0
     AOERadius: 0
     AOEHitCount: 1
     AOEHitInterval: 0
-    linearWidth: 5
-    linearHeight: 9
-    linearLength: 20
+    linearWidth: 0
+    linearHeight: 0
+    linearLength: 0
     projectileSpeed: 0
     projectileDistance: 0
     projectileAngleSpread: 0
@@ -141,58 +140,51 @@ MonoBehaviour:
       m_Bits: 0
     isAttackSpeedCooldown: 0
     isAttackSpeedGCD: 0
-    cooldown: 3
-    isGCD: 1
+    cooldown: 10
+    isGCD: 0
     startCDOnActivate: 1
     CanUseDuringGCD: 0
     isSharingCooldown: 0
     cooldownTag: 
     abilityCooldownTag: {fileID: 0}
     effectsApplied:
-    - effectID: 35
+    - effectID: 47
       chance: 100
       effectRank: 0
       target: 0
       isSpread: 0
-      spreadDistanceMax: 10
-      spreadUnitMax: 3
+      spreadDistanceMax: 0
+      spreadUnitMax: 0
+      delay: 0
+      tooltipText: Increase 50 HP
+    - effectID: -1
+      chance: 100
+      effectRank: 0
+      target: 0
+      isSpread: 0
+      spreadDistanceMax: 0
+      spreadUnitMax: 0
       delay: 0
       tooltipText: 
     casterEffectsApplied: []
     Actions: []
-    VisualEffectEntries:
-    - Template: {fileID: 11400000, guid: a532744e6d83d8242a57cab56a743f15, type: 2}
-      ActivationType: 1
-      UseNodeSocket: 0
-      NodeSocket: {fileID: 11400000, guid: ce9910f9467705446a02fec763985733, type: 2}
-      ParentedToCaster: 0
-      PositionOffset: {x: 0.3, y: 0, z: 8}
-      Scale: {x: 1, y: 1, z: 1}
-      Endless: 0
-      Duration: 6
-      Delay: 0
+    VisualEffectEntries: []
     AnimationEntries:
-    - Template: {fileID: 11400000, guid: d9ab4ebbc0555c74bbdc3119766029b1, type: 2}
+    - Template: {fileID: 11400000, guid: 6c3e3c7f474255e4ca19d48ab0b4a68b, type: 2}
       ActivationType: 0
       Delay: 0
       ShowWeapons: 1
       ShowWeaponsDuration: 2
-      ModifySpeed: 1
+      ModifySpeed: 0
       SpeedParameterName: AttackAnimationsSpeed
       ModifierSpeed: 1
     SoundEntries:
-    - Template: {fileID: 11400000, guid: 9e681601b3ae4a44b91950d8e9417c2a, type: 2}
+    - Template: {fileID: 11400000, guid: 8ceb1d9178316e9428fddc9fc6b9c407, type: 2}
       ActivationType: 0
-      Delay: 0.2
-      Parented: 0
-    - Template: {fileID: 11400000, guid: 2991bce0c823f7248a90526f3b845e34, type: 2}
-      ActivationType: 1
       Delay: 0
       Parented: 0
     visualEffects: []
     visualAnimations: []
-    tagsData:
-    - tag: 0
-      effectID: -1
+    tagsData: []
     extraAbilityExecutedID: 0
     extraAbilityExecutedActivationType: 0

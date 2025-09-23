@@ -16,7 +16,7 @@ MonoBehaviour:
   entryName: M1_2
   entryFileName: M1_2_EFFECT
   entryDisplayName: M1_2
-  entryIcon: {fileID: 21300000, guid: dc3de7035054ae941871e862c33e0581, type: 3}
+  entryIcon: {fileID: 21300000, guid: 917871e5c6d34ed4b93dfafad1277db5, type: 3}
   entryDescription: 
   _name: 
   _fileName: 
@@ -42,7 +42,7 @@ MonoBehaviour:
     secondaryDamageType: 
     customDamageType: {fileID: 11400000, guid: c313dc209ed403e49aa60496770f947a, type: 2}
     customHealingType: {fileID: 0}
-    Damage: 100
+    Damage: 500
     alteredStatID: 0
     FlatCalculation: 0
     CannotCrit: 0
