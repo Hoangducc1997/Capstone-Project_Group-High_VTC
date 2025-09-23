@@ -108,7 +108,7 @@ MonoBehaviour:
     fragment of Hope. Along with the shard of Courage, it has responded to you. This
     is not by chance\u2014it is your destiny."
   RequirementsTemplate: {fileID: 0}
-  GameActionsTemplate: {fileID: 0}
+  GameActionsTemplate: {fileID: 11400000, guid: 7e89c96adc6be8441b1d45e1cf3aae98, type: 2}
   showSettings: 0
   viewedEndless: 1
   clickedEndless: 1
@@ -164,7 +164,7 @@ MonoBehaviour:
   nodeName: 
   message: Why me? Why did you choose me for this?
   RequirementsTemplate: {fileID: 0}
-  GameActionsTemplate: {fileID: 0}
+  GameActionsTemplate: {fileID: 11400000, guid: c57da5919269efd43b9279446bb23209, type: 2}
   showSettings: 0
   viewedEndless: 1
   clickedEndless: 1
@@ -551,6 +551,9 @@ MonoBehaviour:
       - fieldName: previousNode
         node: {fileID: 1624144909830306542}
         reroutePoints: []
+      - fieldName: previousNode
+        node: {fileID: 8318594501935615976}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -675,7 +678,7 @@ MonoBehaviour:
     Four Seal Fragments. And this one carries the mark of Courage."
   RequirementsTemplate: {fileID: 0}
   GameActionsTemplate: {fileID: 0}
-  showSettings: 0
+  showSettings: 1
   viewedEndless: 1
   clickedEndless: 1
   viewCountMax: 0
@@ -714,6 +717,7 @@ MonoBehaviour:
   - {fileID: 339793599723235678}
   - {fileID: 1624144909830306542}
   - {fileID: 4749465337726375060}
+  - {fileID: 8318594501935615976}
 --- !u!114 &339793599723235678
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -839,7 +843,7 @@ MonoBehaviour:
   m_Name: RPG Dialogue Text
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -908.8583, y: 199.76169}
+  position: {x: -936, y: 344}
   ports:
     keys:
     - previousNode
@@ -931,7 +935,7 @@ MonoBehaviour:
   RequirementsTemplate: {fileID: 11400000, guid: 3fc1e50328820b34e94c4b6a6811c4db, type: 2}
   GameActionsTemplate: {fileID: 0}
   showSettings: 1
-  viewedEndless: 0
+  viewedEndless: 1
   clickedEndless: 1
   viewCountMax: 1
   clickCountMax: 0
@@ -987,7 +991,7 @@ MonoBehaviour:
   RequirementsTemplate: {fileID: 0}
   GameActionsTemplate: {fileID: 11400000, guid: 63268fe1cdd93ca4998c566d268e4bf0, type: 2}
   showSettings: 1
-  viewedEndless: 0
+  viewedEndless: 1
   clickedEndless: 1
   viewCountMax: 1
   clickCountMax: 0
@@ -1094,7 +1098,7 @@ MonoBehaviour:
   nodeName: 
   message: Your words will reach the king, Elara. I accept the burden of this fate.
   RequirementsTemplate: {fileID: 0}
-  GameActionsTemplate: {fileID: 0}
+  GameActionsTemplate: {fileID: 11400000, guid: 90d927793a4644b45a157b94a2359751, type: 2}
   showSettings: 0
   viewedEndless: 1
   clickedEndless: 1
@@ -1155,5 +1159,59 @@ MonoBehaviour:
   viewedEndless: 0
   clickedEndless: 1
   viewCountMax: 1
+  clickCountMax: 0
+  nodeImage: {fileID: 0}
+--- !u!114 &8318594501935615976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3482daf33a41b424789a150bca26817d, type: 3}
+  m_Name: RPG Dialogue Text
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -920, y: 136}
+  ports:
+    keys:
+    - previousNode
+    - nextNodes
+    values:
+    - _fieldName: previousNode
+      _node: {fileID: 8318594501935615976}
+      _typeQualifiedName: RPGDialogueTextNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: nextNodes
+        node: {fileID: -3814753640823023683}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: nextNodes
+      _node: {fileID: 8318594501935615976}
+      _typeQualifiedName: RPGDialogueBaseNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  previousNode: {fileID: 0}
+  nextNodes: {fileID: 0}
+  identityType: 1
+  nodeName: 
+  message: "My lady, I\u2019ve returned from the Sanctum. The Centaur Commander is
+    dead. From his body, I recovered the Fragment of Wisdom\u2026 and this tablet."
+  RequirementsTemplate: {fileID: 11400000, guid: 43d8420d21bccce44897f6c5011e2829, type: 2}
+  GameActionsTemplate: {fileID: 0}
+  showSettings: 0
+  viewedEndless: 1
+  clickedEndless: 1
+  viewCountMax: 0
   clickCountMax: 0
   nodeImage: {fileID: 0}

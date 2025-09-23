@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2b2d56e903fec084c9ce28bbeae9aef4, type: 3}
-  m_Name: KillMedismap2_TASK
+  m_Name: Killmonderakermap2_TASK
   m_EditorClassIdentifier: 
   ID: 12
-  entryName: KillMedismap2
-  entryFileName: KillMedismap2_TASK
-  entryDisplayName: KillMedismap2
+  entryName: Killmonderakermap2
+  entryFileName: Killmonderakermap2_TASK
+  entryDisplayName: Killmonderakermap2
   entryIcon: {fileID: 0}
   entryDescription: 
   _name: 
@@ -25,7 +25,7 @@ MonoBehaviour:
   taskType: 4
   sceneName: 
   abilityToLearnID: -1
-  npcToKillID: 36
+  npcToKillID: 35
   itemToGetID: -1
   keepItems: 0
   classRequiredID: -1
