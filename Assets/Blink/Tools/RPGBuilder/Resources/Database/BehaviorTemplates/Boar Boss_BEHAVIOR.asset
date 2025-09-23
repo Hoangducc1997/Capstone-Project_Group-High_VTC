@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cfea309fb49ee4b4aa219db7690d2f2b, type: 3}
-  m_Name: Boar 1_BEHAVIOR
+  m_Name: Boar Boss_BEHAVIOR
   m_EditorClassIdentifier: 
   ID: -1
-  entryName: Boar 1
-  entryFileName: Boar 1_BEHAVIOR
+  entryName: Boar Boss
+  entryFileName: Boar Boss_BEHAVIOR
   entryDisplayName: 
   entryIcon: {fileID: 0}
   entryDescription: 
@@ -35,16 +35,16 @@ MonoBehaviour:
   FleeRequirementsTemplate: {fileID: 11400000, guid: d877be86765dc6b4e92d97dfb0d0b2df, type: 2}
   FleeCheckInterval: 3
   PotentialAbilities:
-  - AbilitiesTemplate: {fileID: 11400000, guid: f6d056eda9ae34649bf756e059369b27, type: 2}
+  - AbilitiesTemplate: {fileID: 11400000, guid: cbb348e07558d6a49a7f6fbc72664393, type: 2}
     chance: 100
   MaxDistanceFromTarget: 3
   MinDistanceFromTarget: 2
-  LookAtTargetSpeed: 25
+  LookAtTargetSpeed: 47.3
   CheckTargetInterval: 0.5
-  ResetTargetAfterDistanceFromSpawner: 1
-  SpawnerDistanceMax: 39
-  ResetTargetAfterDistanceFromSpawnpoint: 1
-  SpawnPointDistanceMax: 39
+  ResetTargetAfterDistanceFromSpawner: 0
+  SpawnerDistanceMax: 30
+  ResetTargetAfterDistanceFromSpawnpoint: 0
+  SpawnPointDistanceMax: 50
   StrafeParameterName: Strafing
   CombatParameterName: InCombatState
   CanAggroAlly: 0

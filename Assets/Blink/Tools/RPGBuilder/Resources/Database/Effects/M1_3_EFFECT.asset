@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 57399dce936f2be46ac77a4b74f31144, type: 3}
-  m_Name: R1_5_EFFECT
+  m_Name: M1_3_EFFECT
   m_EditorClassIdentifier: 
-  ID: 48
-  entryName: R1_5
-  entryFileName: R1_5_EFFECT
-  entryDisplayName: R1_5
-  entryIcon: {fileID: 21300000, guid: 2456dd2824f5ec540830760922f5bac6, type: 3}
+  ID: 52
+  entryName: M1_3
+  entryFileName: M1_3_EFFECT
+  entryDisplayName: M1_3
+  entryIcon: {fileID: 21300000, guid: 917871e5c6d34ed4b93dfafad1277db5, type: 3}
   entryDescription: 
   _name: 
   _fileName: 
@@ -38,21 +38,21 @@ MonoBehaviour:
   IsPersistent: 0
   ranks:
   - ShowedInEditor: 1
-    mainDamageType: 2
+    mainDamageType: 1
     secondaryDamageType: 
-    customDamageType: {fileID: 11400000, guid: 5af9468d4942f7a43b53ebfe815ed1cd, type: 2}
+    customDamageType: {fileID: 11400000, guid: c313dc209ed403e49aa60496770f947a, type: 2}
     customHealingType: {fileID: 0}
-    Damage: 100
+    Damage: 500
     alteredStatID: 0
     FlatCalculation: 0
     CannotCrit: 0
     removeStealth: 1
     skillModifier: 0
-    weaponDamageModifier: 100
+    weaponDamageModifier: 10
     useWeapon1Damage: 1
     useWeapon2Damage: 1
     skillModifierID: -1
-    lifesteal: 0
+    lifesteal: 2
     maxHealthModifier: 0
     missingHealthModifier: 0
     UltimateGain: 0
@@ -138,13 +138,13 @@ MonoBehaviour:
     showStealthActionBar: 1
     nestedEffects: []
     VisualEffectEntries:
-    - Template: {fileID: 11400000, guid: 97b6526b6bf52ff4699ee81c8cb100c3, type: 2}
+    - Template: {fileID: 11400000, guid: 49da066721fc2214ca973f31fe874003, type: 2}
       ActivationType: 0
       UseNodeSocket: 0
       NodeSocket: {fileID: 0}
       ParentedToCaster: 0
-      PositionOffset: {x: 0, y: 0, z: 0}
-      Scale: {x: 2, y: 2, z: 2}
+      PositionOffset: {x: 0, y: 2, z: 0}
+      Scale: {x: 1, y: 1, z: 1}
       Endless: 0
       Duration: 5
       Delay: 0

@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 943d49eb769cd944fade3a1cd7491609, type: 3}
-  m_Name: M1_1_ABILITY
+  m_Name: M1_3_ABILITY
   m_EditorClassIdentifier: 
-  ID: 21
-  entryName: M1_1
-  entryFileName: M1_1_ABILITY
-  entryDisplayName: 1
-  entryIcon: {fileID: 21300000, guid: 43c790a9f7df2a94eae5ed3790092e78, type: 3}
+  ID: 39
+  entryName: M1_3
+  entryFileName: M1_3_ABILITY
+  entryDisplayName: M1_3
+  entryIcon: {fileID: 21300000, guid: 6aa2c084e23bc8e469b947725adac0fd, type: 3}
   entryDescription: 
   _name: 
   _fileName: 
@@ -27,10 +27,9 @@ MonoBehaviour:
   ranks:
   - ShowedInEditor: 1
     unlockCost: 0
-    TooltipText: Brutally slam the ground and knockback enemies. After the knockback,
-      enemies hit are stunned for 3 seconds.
+    TooltipText: Slices up to 5 enemies in front of you. Physical damage.
     activationType: 1
-    castTime: 0.75
+    castTime: 0.4
     castInRun: 1
     castBarVisible: 0
     faceCursorWhileCasting: 1
@@ -44,28 +43,28 @@ MonoBehaviour:
     Requirements: []
     UseRequirementsTemplate: 0
     RequirementsTemplate: {fileID: 0}
-    targetType: 3
+    targetType: 1
     isToggle: 0
     isToggleCostOnTrigger: 0
     toggledTriggerInterval: 0
-    MaxUnitHit: 10
+    MaxUnitHit: 5
     minRange: 10
     maxRange: 0
     standTimeDuration: 0
     canRotateInStandTime: 0
-    castSpeedSlowAmount: 0.3
-    castSpeedSlowTime: 0.6
-    castSpeedSlowRate: 0.1
+    castSpeedSlowAmount: 0.5
+    castSpeedSlowTime: 0.3
+    castSpeedSlowRate: 0.5
     AIAttackTime: 1
-    coneDegree: 40
+    coneDegree: 10
     ConeHitCount: 1
     ConeHitInterval: 0
     AOERadius: 0
     AOEHitCount: 1
     AOEHitInterval: 0
-    linearWidth: 4
-    linearHeight: 3
-    linearLength: 14
+    linearWidth: 0
+    linearHeight: 0
+    linearLength: 0
     projectileSpeed: 0
     projectileDistance: 0
     projectileAngleSpread: 0
@@ -141,7 +140,7 @@ MonoBehaviour:
       m_Bits: 0
     isAttackSpeedCooldown: 0
     isAttackSpeedGCD: 0
-    cooldown: 3
+    cooldown: 2
     isGCD: 1
     startCDOnActivate: 1
     CanUseDuringGCD: 0
@@ -149,16 +148,7 @@ MonoBehaviour:
     cooldownTag: 
     abilityCooldownTag: {fileID: 0}
     effectsApplied:
-    - effectID: 32
-      chance: 100
-      effectRank: 0
-      target: 0
-      isSpread: 0
-      spreadDistanceMax: 10
-      spreadUnitMax: 3
-      delay: 0
-      tooltipText: 
-    - effectID: 8
+    - effectID: 52
       chance: 100
       effectRank: 0
       target: 0
@@ -170,33 +160,29 @@ MonoBehaviour:
     casterEffectsApplied: []
     Actions: []
     VisualEffectEntries:
-    - Template: {fileID: 11400000, guid: eb1c707d6ab084e41ba3b485be5ef80f, type: 2}
-      ActivationType: 1
+    - Template: {fileID: 11400000, guid: 49da066721fc2214ca973f31fe874003, type: 2}
+      ActivationType: 0
       UseNodeSocket: 0
-      NodeSocket: {fileID: 11400000, guid: ce9910f9467705446a02fec763985733, type: 2}
+      NodeSocket: {fileID: 0}
       ParentedToCaster: 0
-      PositionOffset: {x: 0.3, y: 0, z: 3.9}
+      PositionOffset: {x: 0, y: 1, z: 1}
       Scale: {x: 1, y: 1, z: 1}
       Endless: 0
       Duration: 5
-      Delay: 0
+      Delay: 1.2
     AnimationEntries:
-    - Template: {fileID: 11400000, guid: cceae28da0bec0445a700c27e03e5768, type: 2}
+    - Template: {fileID: 11400000, guid: 0569bf14deb6ada4ab73d29d170c87d3, type: 2}
       ActivationType: 0
       Delay: 0
       ShowWeapons: 1
-      ShowWeaponsDuration: 1
-      ModifySpeed: 1
+      ShowWeaponsDuration: 2
+      ModifySpeed: 0
       SpeedParameterName: AttackAnimationsSpeed
-      ModifierSpeed: 0.8
+      ModifierSpeed: 1
     SoundEntries:
-    - Template: {fileID: 11400000, guid: 9e681601b3ae4a44b91950d8e9417c2a, type: 2}
+    - Template: {fileID: 11400000, guid: 9da5354998d84b94881403302ed8054d, type: 2}
       ActivationType: 0
       Delay: 0.2
-      Parented: 0
-    - Template: {fileID: 11400000, guid: 2991bce0c823f7248a90526f3b845e34, type: 2}
-      ActivationType: 1
-      Delay: 0
       Parented: 0
     visualEffects: []
     visualAnimations: []

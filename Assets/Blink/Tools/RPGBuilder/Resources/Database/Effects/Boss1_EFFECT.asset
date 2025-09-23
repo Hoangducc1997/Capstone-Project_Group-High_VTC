@@ -10,45 +10,45 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 57399dce936f2be46ac77a4b74f31144, type: 3}
-  m_Name: R1_5_EFFECT
+  m_Name: Boss1_EFFECT
   m_EditorClassIdentifier: 
-  ID: 48
-  entryName: R1_5
-  entryFileName: R1_5_EFFECT
-  entryDisplayName: R1_5
-  entryIcon: {fileID: 21300000, guid: 2456dd2824f5ec540830760922f5bac6, type: 3}
+  ID: 53
+  entryName: Boss1
+  entryFileName: Boss1_EFFECT
+  entryDisplayName: Boss1
+  entryIcon: {fileID: 21300000, guid: fba5a7b305a50024c927e13d7040dc0b, type: 3}
   entryDescription: 
   _name: 
   _fileName: 
   displayName: 
   icon: {fileID: 0}
-  effectType: 0
+  effectType: 2
   effectTag: 
   EffectTag: {fileID: 0}
-  isState: 0
+  isState: 1
   isBuffOnSelf: 0
-  stackLimit: 1
+  stackLimit: 3
   allowMultiple: 0
   allowMixedCaster: 0
-  pulses: 1
-  duration: 0
+  pulses: 6
+  duration: 6
   endless: 0
-  canBeManuallyRemoved: 1
+  canBeManuallyRemoved: 0
   showUIState: 1
   IsPersistent: 0
   ranks:
   - ShowedInEditor: 1
-    mainDamageType: 2
+    mainDamageType: 1
     secondaryDamageType: 
-    customDamageType: {fileID: 11400000, guid: 5af9468d4942f7a43b53ebfe815ed1cd, type: 2}
+    customDamageType: {fileID: 11400000, guid: fb09aee37ff90b64b8035153f509a59e, type: 2}
     customHealingType: {fileID: 0}
-    Damage: 100
+    Damage: 30
     alteredStatID: 0
     FlatCalculation: 0
     CannotCrit: 0
     removeStealth: 1
     skillModifier: 0
-    weaponDamageModifier: 100
+    weaponDamageModifier: 0
     useWeapon1Damage: 1
     useWeapon2Damage: 1
     skillModifierID: -1
@@ -138,13 +138,13 @@ MonoBehaviour:
     showStealthActionBar: 1
     nestedEffects: []
     VisualEffectEntries:
-    - Template: {fileID: 11400000, guid: 97b6526b6bf52ff4699ee81c8cb100c3, type: 2}
+    - Template: {fileID: 11400000, guid: ec1cc15acdde88f49aeebdfaf929ecf4, type: 2}
       ActivationType: 0
       UseNodeSocket: 0
-      NodeSocket: {fileID: 0}
+      NodeSocket: {fileID: 11400000, guid: ce9910f9467705446a02fec763985733, type: 2}
       ParentedToCaster: 0
-      PositionOffset: {x: 0, y: 0, z: 0}
-      Scale: {x: 2, y: 2, z: 2}
+      PositionOffset: {x: 0, y: 1, z: 0}
+      Scale: {x: 1, y: 1, z: 1}
       Endless: 0
       Duration: 5
       Delay: 0
