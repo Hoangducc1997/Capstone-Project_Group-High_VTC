@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ba6b7e1e95e2d44ba6d52416e8e033e, type: 3}
+  m_Name: Character 1 1_RACE
+  m_EditorClassIdentifier: 
+  ID: 4
+  entryName: Character 1 1
+  entryFileName: Character 1 1_RACE
+  entryDisplayName: Character 1
+  entryIcon: {fileID: 21300000, guid: cfc74c0ea26280045a3229845cfe52c2, type: 3}
+  entryDescription: A mighty warrior from the Western lands, caught in a cosmic storm
+    and cast into Eldoria - a realm torn asunder by dark forces
+  _name: 
+  _fileName: 
+  displayName: 
+  description: 
+  startingSceneID: 1
+  startingPositionID: 1
+  factionID: 0
+  speciesID: -1
+  malePrefab: {fileID: 0}
+  maleIcon: {fileID: 0}
+  femalePrefab: {fileID: 0}
+  femaleIcon: {fileID: 0}
+  dynamicAnimator: 0
+  restAnimatorController: {fileID: 0}
+  combatAnimatorController: {fileID: 0}
+  levelTemplateID: -1
+  Genders:
+  - Gender: {fileID: 11400000, guid: 6af37385c57329640bdb53dd75cf6921, type: 2}
+    Prefab: {fileID: 8292983204246258141, guid: bc4cb7d51a5c8b94e9bfbb7864615e92, type: 3}
+    Icon: {fileID: 21300000, guid: a5a7d5faebc5fc044a912e29def1e8f5, type: 3}
+    DynamicAnimator: 1
+    RestAnimatorController: {fileID: 22100000, guid: 203bed481924ce043a826744fa42efde, type: 2}
+    CombatAnimatorController: {fileID: 22100000, guid: 203bed481924ce043a826744fa42efde, type: 2}
+  availableClasses:
+  - classID: 0
+  weaponTemplates: []
+  stats: []
+  CustomStats:
+  - statID: 0
+    overrideMinValue: 0
+    minValue: 0
+    overrideMaxValue: 0
+    maxValue: 0
+    overrideStartPercentage: 0
+    startPercentage: 100
+    addedValue: 0
+    valuePerLevel: 10
+    Percent: 0
+    chance: 100
+    vitalityActions: []
+  UseStatListTemplate: 0
+  StatListTemplate: {fileID: 0}
+  startItems: []
+  actionAbilities: []
+  allocationStatPoints: 0
+  allocatedStatsEntries: []

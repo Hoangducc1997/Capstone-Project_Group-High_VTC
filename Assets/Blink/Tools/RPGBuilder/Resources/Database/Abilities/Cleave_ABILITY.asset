@@ -148,7 +148,7 @@ MonoBehaviour:
     cooldownTag: 
     abilityCooldownTag: {fileID: 0}
     effectsApplied:
-    - effectID: 0
+    - effectID: 39
       chance: 100
       effectRank: 0
       target: 0
@@ -159,9 +159,19 @@ MonoBehaviour:
       tooltipText: 
     casterEffectsApplied: []
     Actions: []
-    VisualEffectEntries: []
+    VisualEffectEntries:
+    - Template: {fileID: 11400000, guid: 112a00f90fa569348a183fc28f81569e, type: 2}
+      ActivationType: 0
+      UseNodeSocket: 0
+      NodeSocket: {fileID: 0}
+      ParentedToCaster: 0
+      PositionOffset: {x: 0, y: 0, z: 0}
+      Scale: {x: 1, y: 1, z: 1}
+      Endless: 0
+      Duration: 5
+      Delay: 0
     AnimationEntries:
-    - Template: {fileID: 11400000, guid: f8c336233ed139b4e9db8f97a76681dc, type: 2}
+    - Template: {fileID: 11400000, guid: 0569bf14deb6ada4ab73d29d170c87d3, type: 2}
       ActivationType: 0
       Delay: 0
       ShowWeapons: 1

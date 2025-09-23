@@ -105,7 +105,7 @@ MonoBehaviour:
     UsedOnALly: 0
     LookAtTargetDuringCombatAction: 0
     LookAtTargetOnCombatAction: 0
-    projectileEffect: {fileID: 1714274598519724, guid: 46f837efd030e1844bc2d60f88994d6a, type: 3}
+    projectileEffect: {fileID: 190162, guid: c6342acfccda5a94bae465531baf3640, type: 3}
     projectileSocketName: 
     projectileTargetSocketName: 
     projectileNodeSocket: {fileID: 0}
@@ -123,14 +123,14 @@ MonoBehaviour:
     colliderRadius: 0.4
     colliderHeight: 0
     groundVisualEffect: {fileID: 0}
-    effectPositionOffset: {x: 0, y: 1, z: 0.5}
+    effectPositionOffset: {x: 1, y: 1, z: 1}
     groundVisualEffectDuration: 5
     hitEffectUseSocket: 0
-    hitEffect: {fileID: 1814361462553474, guid: b24d86eef3cf9d74ca645a82ee838035, type: 3}
-    hitEffectDuration: 3
+    hitEffect: {fileID: 0}
+    hitEffectDuration: 5
     hitEffectSocketName: 
     hitEffectNodeSocket: {fileID: 0}
-    hitEffectPositionOffset: {x: 0, y: 0, z: 0}
+    hitEffectPositionOffset: {x: 1, y: 0, z: 1}
     hitAttachedToNode: 0
     channelTime: 0
     groundLeapDuration: 0
@@ -149,7 +149,7 @@ MonoBehaviour:
     cooldownTag: 
     abilityCooldownTag: {fileID: 0}
     effectsApplied:
-    - effectID: 18
+    - effectID: 40
       chance: 100
       effectRank: 0
       target: 0
@@ -157,15 +157,6 @@ MonoBehaviour:
       spreadDistanceMax: 0
       spreadUnitMax: 0
       delay: 0
-      tooltipText: 
-    - effectID: 19
-      chance: 25
-      effectRank: 0
-      target: 0
-      isSpread: 0
-      spreadDistanceMax: 0
-      spreadUnitMax: 0
-      delay: 1
       tooltipText: 
     casterEffectsApplied: []
     Actions: []
