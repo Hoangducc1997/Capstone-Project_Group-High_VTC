@@ -10,19 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 57399dce936f2be46ac77a4b74f31144, type: 3}
-  m_Name: Teleport Map Main_EFFECT
+  m_Name: R1_6_EFFECT
   m_EditorClassIdentifier: 
-  ID: 25
-  entryName: Teleport Map Main
-  entryFileName: Teleport Map Main_EFFECT
-  entryDisplayName: Teleport Map Main
-  entryIcon: {fileID: 21300000, guid: b542d0df5f724e748a88571aa794d2d3, type: 3}
+  ID: 49
+  entryName: R1_6
+  entryFileName: R1_6_EFFECT
+  entryDisplayName: R1_6
+  entryIcon: {fileID: 21300000, guid: 2456dd2824f5ec540830760922f5bac6, type: 3}
   entryDescription: 
   _name: 
   _fileName: 
   displayName: 
   icon: {fileID: 0}
-  effectType: 10
+  effectType: 0
   effectTag: 
   EffectTag: {fileID: 0}
   isState: 0
@@ -38,17 +38,17 @@ MonoBehaviour:
   IsPersistent: 0
   ranks:
   - ShowedInEditor: 1
-    mainDamageType: 0
+    mainDamageType: 2
     secondaryDamageType: 
-    customDamageType: {fileID: 0}
+    customDamageType: {fileID: 11400000, guid: 5af9468d4942f7a43b53ebfe815ed1cd, type: 2}
     customHealingType: {fileID: 0}
-    Damage: 0
-    alteredStatID: -1
+    Damage: 390
+    alteredStatID: 0
     FlatCalculation: 0
     CannotCrit: 0
     removeStealth: 1
     skillModifier: 0
-    weaponDamageModifier: 0
+    weaponDamageModifier: 100
     useWeapon1Damage: 1
     useWeapon2Damage: 1
     skillModifierID: -1
@@ -64,13 +64,13 @@ MonoBehaviour:
     damageStatModifier: 0
     hitValueType: 0
     teleportType: 0
-    gameSceneID: 1
-    teleportPOS: {x: 19.59, y: 0.58, z: -15.35}
+    gameSceneID: -1
+    teleportPOS: {x: 0, y: 0, z: 0}
     teleportDirectionalType: 0
-    teleportDirectionalDistance: 30
+    teleportDirectionalDistance: 0
     teleportDirectionalBlockLayers:
       serializedVersion: 2
-      m_Bits: 128
+      m_Bits: 0
     lootTableID: -1
     petNPCDataID: -1
     petDuration: 60
@@ -138,7 +138,7 @@ MonoBehaviour:
     showStealthActionBar: 1
     nestedEffects: []
     VisualEffectEntries:
-    - Template: {fileID: 0}
+    - Template: {fileID: 11400000, guid: 97b6526b6bf52ff4699ee81c8cb100c3, type: 2}
       ActivationType: 0
       UseNodeSocket: 0
       NodeSocket: {fileID: 0}

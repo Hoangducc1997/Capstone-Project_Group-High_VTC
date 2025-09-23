@@ -10,28 +10,28 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 57399dce936f2be46ac77a4b74f31144, type: 3}
-  m_Name: Teleport Map Main_EFFECT
+  m_Name: Buff HP_EFFECT
   m_EditorClassIdentifier: 
-  ID: 25
-  entryName: Teleport Map Main
-  entryFileName: Teleport Map Main_EFFECT
-  entryDisplayName: Teleport Map Main
-  entryIcon: {fileID: 21300000, guid: b542d0df5f724e748a88571aa794d2d3, type: 3}
+  ID: 47
+  entryName: Buff HP
+  entryFileName: Buff HP_EFFECT
+  entryDisplayName: Buff HP
+  entryIcon: {fileID: 21300000, guid: 11fa9e57566052b4dbd708ae32b3c597, type: 3}
   entryDescription: 
   _name: 
   _fileName: 
   displayName: 
   icon: {fileID: 0}
-  effectType: 10
+  effectType: 1
   effectTag: 
   EffectTag: {fileID: 0}
   isState: 0
-  isBuffOnSelf: 0
+  isBuffOnSelf: 1
   stackLimit: 1
   allowMultiple: 0
   allowMixedCaster: 0
   pulses: 1
-  duration: 0
+  duration: 10
   endless: 0
   canBeManuallyRemoved: 1
   showUIState: 1
@@ -42,8 +42,8 @@ MonoBehaviour:
     secondaryDamageType: 
     customDamageType: {fileID: 0}
     customHealingType: {fileID: 0}
-    Damage: 0
-    alteredStatID: -1
+    Damage: 50
+    alteredStatID: 0
     FlatCalculation: 0
     CannotCrit: 0
     removeStealth: 1
@@ -64,13 +64,13 @@ MonoBehaviour:
     damageStatModifier: 0
     hitValueType: 0
     teleportType: 0
-    gameSceneID: 1
-    teleportPOS: {x: 19.59, y: 0.58, z: -15.35}
+    gameSceneID: -1
+    teleportPOS: {x: 0, y: 0, z: 0}
     teleportDirectionalType: 0
-    teleportDirectionalDistance: 30
+    teleportDirectionalDistance: 0
     teleportDirectionalBlockLayers:
       serializedVersion: 2
-      m_Bits: 128
+      m_Bits: 0
     lootTableID: -1
     petNPCDataID: -1
     petDuration: 60
@@ -138,21 +138,24 @@ MonoBehaviour:
     showStealthActionBar: 1
     nestedEffects: []
     VisualEffectEntries:
-    - Template: {fileID: 0}
+    - Template: {fileID: 11400000, guid: 217551936159d4245af11f2130d37d4d, type: 2}
       ActivationType: 0
       UseNodeSocket: 0
       NodeSocket: {fileID: 0}
-      ParentedToCaster: 0
+      ParentedToCaster: 1
       PositionOffset: {x: 0, y: 0, z: 0}
       Scale: {x: 1, y: 1, z: 1}
       Endless: 0
-      Duration: 5
+      Duration: 10
       Delay: 0
     AnimationEntries: []
     SoundEntries: []
     visualEffects: []
     visualAnimations: []
-    statEffectsData: []
+    statEffectsData:
+    - statID: 0
+      statEffectModification: 50
+      isPercent: 0
     GameActions: []
     UseGameActionsTemplate: 0
     GameActionsTemplate: {fileID: 0}

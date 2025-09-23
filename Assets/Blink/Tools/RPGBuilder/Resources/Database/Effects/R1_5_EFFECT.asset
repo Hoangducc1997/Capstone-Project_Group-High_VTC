@@ -12,28 +12,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57399dce936f2be46ac77a4b74f31144, type: 3}
   m_Name: R1_5_EFFECT
   m_EditorClassIdentifier: 
-  ID: 45
+  ID: 48
   entryName: R1_5
   entryFileName: R1_5_EFFECT
   entryDisplayName: R1_5
-  entryIcon: {fileID: 21300000, guid: 3450ecf41463f494c9a7ffa55e0d5f1b, type: 3}
+  entryIcon: {fileID: 21300000, guid: 2456dd2824f5ec540830760922f5bac6, type: 3}
   entryDescription: 
   _name: 
   _fileName: 
   displayName: 
   icon: {fileID: 0}
-  effectType: 5
+  effectType: 0
   effectTag: 
   EffectTag: {fileID: 0}
-  isState: 1
+  isState: 0
   isBuffOnSelf: 0
   stackLimit: 1
   allowMultiple: 0
   allowMixedCaster: 0
   pulses: 1
-  duration: 3
+  duration: 0
   endless: 0
-  canBeManuallyRemoved: 0
+  canBeManuallyRemoved: 1
   showUIState: 1
   IsPersistent: 0
   ranks:
@@ -42,13 +42,13 @@ MonoBehaviour:
     secondaryDamageType: 
     customDamageType: {fileID: 11400000, guid: 5af9468d4942f7a43b53ebfe815ed1cd, type: 2}
     customHealingType: {fileID: 0}
-    Damage: 50
+    Damage: 390
     alteredStatID: 0
     FlatCalculation: 0
     CannotCrit: 0
     removeStealth: 1
     skillModifier: 0
-    weaponDamageModifier: 0
+    weaponDamageModifier: 100
     useWeapon1Damage: 1
     useWeapon2Damage: 1
     skillModifierID: -1
@@ -138,7 +138,7 @@ MonoBehaviour:
     showStealthActionBar: 1
     nestedEffects: []
     VisualEffectEntries:
-    - Template: {fileID: 11400000, guid: 97b6526b6bf52ff4699ee81c8cb100c3, type: 2}
+    - Template: {fileID: 11400000, guid: e193c5a0e3eab504cb6c4725c80bfced, type: 2}
       ActivationType: 0
       UseNodeSocket: 0
       NodeSocket: {fileID: 0}

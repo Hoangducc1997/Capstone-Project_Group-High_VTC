@@ -12,25 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 943d49eb769cd944fade3a1cd7491609, type: 3}
   m_Name: R1_5_ABILITY
   m_EditorClassIdentifier: 
-  ID: 33
+  ID: 35
   entryName: R1_5
   entryFileName: R1_5_ABILITY
   entryDisplayName: R1_5
-  entryIcon: {fileID: 21300000, guid: 3450ecf41463f494c9a7ffa55e0d5f1b, type: 3}
+  entryIcon: {fileID: 21300000, guid: 2456dd2824f5ec540830760922f5bac6, type: 3}
   entryDescription: 
   _name: 
   _fileName: 
   displayName: 
   icon: {fileID: 0}
-  learnedByDefault: 0
+  learnedByDefault: 1
   abilityType: 0
   ranks:
   - ShowedInEditor: 1
     unlockCost: 0
-    TooltipText: Freezes all target within the area.
-    activationType: 0
-    castTime: 0
-    castInRun: 0
+    TooltipText: Cast a fireball that will damage the first enemy hit. On hit, there
+      is a 25% to also burn the target, dealing damage over time.
+    activationType: 1
+    castTime: 1
+    castInRun: 1
     castBarVisible: 1
     faceCursorWhileCasting: 1
     faceCursorWhenOnCastStart: 1
@@ -43,11 +44,11 @@ MonoBehaviour:
     Requirements: []
     UseRequirementsTemplate: 0
     RequirementsTemplate: {fileID: 0}
-    targetType: 6
+    targetType: 4
     isToggle: 0
     isToggleCostOnTrigger: 0
     toggledTriggerInterval: 0
-    MaxUnitHit: 10
+    MaxUnitHit: 1
     minRange: 0
     maxRange: 0
     standTimeDuration: 0
@@ -65,8 +66,8 @@ MonoBehaviour:
     linearWidth: 0
     linearHeight: 0
     linearLength: 0
-    projectileSpeed: 0
-    projectileDistance: 0
+    projectileSpeed: 50
+    projectileDistance: 10
     projectileAngleSpread: 0
     projectileCount: 1
     firstProjectileDelay: 0
@@ -81,7 +82,7 @@ MonoBehaviour:
     projectileDestroyedByEnvironment: 1
     projectileDestroyLayers:
       serializedVersion: 2
-      m_Bits: 0
+      m_Bits: 144
     projectileAffectedByGravity: 0
     projectileShootOnClickPosition: 0
     projectileDistanceMaxForNPC: 50
@@ -89,9 +90,9 @@ MonoBehaviour:
     squareWidth: 0
     squareLength: 0
     squareHeight: 0
-    groundRadius: 4
-    groundRange: 15
-    groundHitTime: 0.75
+    groundRadius: 0
+    groundRange: 0
+    groundHitTime: 0
     groundHitCount: 1
     groundHitInterval: 0
     CanHitPlayer: 0
@@ -104,11 +105,11 @@ MonoBehaviour:
     UsedOnALly: 0
     LookAtTargetDuringCombatAction: 0
     LookAtTargetOnCombatAction: 0
-    projectileEffect: {fileID: 0}
+    projectileEffect: {fileID: 1246638314895344, guid: fe91343b9a35bb14794086f1770004a3, type: 3}
     projectileSocketName: 
     projectileTargetSocketName: 
     projectileNodeSocket: {fileID: 0}
-    projectileTargetNodeSocket: {fileID: 0}
+    projectileTargetNodeSocket: {fileID: 11400000, guid: ce9910f9467705446a02fec763985733, type: 2}
     projectileUseNodeSocket: 0
     projectileTargetUseNodeSocket: 0
     projectileParentedToCaster: 0
@@ -116,20 +117,20 @@ MonoBehaviour:
     projectileSoundTemplate: {fileID: 0}
     projectileSoundParentedToEffect: 0
     useCustomCollision: 0
-    projectileColliderType: 0
+    projectileColliderType: 1
     colliderCenter: {x: 0, y: 0, z: 0}
     colliderSize: {x: 0, y: 0, z: 0}
-    colliderRadius: 0
+    colliderRadius: 100
     colliderHeight: 0
-    groundVisualEffect: {fileID: 121928, guid: 313e5c5f850e5be429d4a6787a725f73, type: 3}
-    effectPositionOffset: {x: 0, y: 0.2, z: 0}
+    groundVisualEffect: {fileID: 0}
+    effectPositionOffset: {x: 3, y: 0, z: 3}
     groundVisualEffectDuration: 5
     hitEffectUseSocket: 0
     hitEffect: {fileID: 0}
-    hitEffectDuration: 0
+    hitEffectDuration: 6
     hitEffectSocketName: 
     hitEffectNodeSocket: {fileID: 0}
-    hitEffectPositionOffset: {x: 0, y: 0, z: 0}
+    hitEffectPositionOffset: {x: 1, y: 0, z: 1}
     hitAttachedToNode: 0
     channelTime: 0
     groundLeapDuration: 0
@@ -140,15 +141,15 @@ MonoBehaviour:
       m_Bits: 0
     isAttackSpeedCooldown: 0
     isAttackSpeedGCD: 0
-    cooldown: 8
+    cooldown: 3
     isGCD: 1
-    startCDOnActivate: 1
+    startCDOnActivate: 0
     CanUseDuringGCD: 0
     isSharingCooldown: 0
     cooldownTag: 
     abilityCooldownTag: {fileID: 0}
     effectsApplied:
-    - effectID: 45
+    - effectID: 48
       chance: 100
       effectRank: 0
       target: 0
@@ -161,14 +162,14 @@ MonoBehaviour:
     Actions: []
     VisualEffectEntries: []
     AnimationEntries:
-    - Template: {fileID: 11400000, guid: d9ab4ebbc0555c74bbdc3119766029b1, type: 2}
-      ActivationType: 1
+    - Template: {fileID: 11400000, guid: cf548e2e66f29eb4a821b2d60f7c6f79, type: 2}
+      ActivationType: 0
       Delay: 0
       ShowWeapons: 1
-      ShowWeaponsDuration: 3
+      ShowWeaponsDuration: 4.5
       ModifySpeed: 0
       SpeedParameterName: AttackAnimationsSpeed
-      ModifierSpeed: 1
+      ModifierSpeed: 1.25
     SoundEntries: []
     visualEffects: []
     visualAnimations: []

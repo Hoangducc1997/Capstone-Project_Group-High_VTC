@@ -27,7 +27,7 @@ MonoBehaviour:
   ranks:
   - ShowedInEditor: 1
     unlockCost: 0
-    TooltipText: 
+    TooltipText: Summon Darker to heal and attack enemies from range.
     activationType: 1
     castTime: 0.5
     castInRun: 1
@@ -156,7 +156,7 @@ MonoBehaviour:
       spreadDistanceMax: 0
       spreadUnitMax: 0
       delay: 0
-      tooltipText: 
+      tooltipText: Summon Darker to heal and attack enemies from range.
     casterEffectsApplied: []
     Actions: []
     VisualEffectEntries: []
