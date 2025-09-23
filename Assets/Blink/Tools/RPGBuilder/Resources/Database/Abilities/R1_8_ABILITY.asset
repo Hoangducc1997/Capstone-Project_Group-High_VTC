@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 943d49eb769cd944fade3a1cd7491609, type: 3}
-  m_Name: R1_5_ABILITY
+  m_Name: R1_8_ABILITY
   m_EditorClassIdentifier: 
-  ID: 35
-  entryName: R1_5
-  entryFileName: R1_5_ABILITY
-  entryDisplayName: R1_5
+  ID: 38
+  entryName: R1_8
+  entryFileName: R1_8_ABILITY
+  entryDisplayName: R1_8
   entryIcon: {fileID: 21300000, guid: 2456dd2824f5ec540830760922f5bac6, type: 3}
   entryDescription: 
   _name: 
@@ -85,7 +85,7 @@ MonoBehaviour:
       m_Bits: 144
     projectileAffectedByGravity: 0
     projectileShootOnClickPosition: 0
-    projectileDistanceMaxForNPC: 50
+    projectileDistanceMaxForNPC: 0
     mustLookAtTarget: 1
     squareWidth: 0
     squareLength: 0
@@ -105,7 +105,7 @@ MonoBehaviour:
     UsedOnALly: 0
     LookAtTargetDuringCombatAction: 0
     LookAtTargetOnCombatAction: 0
-    projectileEffect: {fileID: 1246638314895344, guid: fe91343b9a35bb14794086f1770004a3, type: 3}
+    projectileEffect: {fileID: 1929620577409710, guid: eb550bb3d0f18944ba2272872ad6e2cd, type: 3}
     projectileSocketName: 
     projectileTargetSocketName: 
     projectileNodeSocket: {fileID: 0}
@@ -123,14 +123,14 @@ MonoBehaviour:
     colliderRadius: 100
     colliderHeight: 0
     groundVisualEffect: {fileID: 0}
-    effectPositionOffset: {x: 0, y: 1, z: 0}
+    effectPositionOffset: {x: 0, y: 0, z: 0}
     groundVisualEffectDuration: 5
     hitEffectUseSocket: 0
     hitEffect: {fileID: 0}
     hitEffectDuration: 6
     hitEffectSocketName: 
     hitEffectNodeSocket: {fileID: 0}
-    hitEffectPositionOffset: {x: 0, y: 0, z: 0}
+    hitEffectPositionOffset: {x: 1, y: 0, z: 1}
     hitAttachedToNode: 0
     channelTime: 0
     groundLeapDuration: 0
@@ -149,7 +149,7 @@ MonoBehaviour:
     cooldownTag: 
     abilityCooldownTag: {fileID: 0}
     effectsApplied:
-    - effectID: 48
+    - effectID: 51
       chance: 100
       effectRank: 0
       target: 0
@@ -162,7 +162,7 @@ MonoBehaviour:
     Actions: []
     VisualEffectEntries: []
     AnimationEntries:
-    - Template: {fileID: 11400000, guid: cf548e2e66f29eb4a821b2d60f7c6f79, type: 2}
+    - Template: {fileID: 11400000, guid: d9ab4ebbc0555c74bbdc3119766029b1, type: 2}
       ActivationType: 0
       Delay: 0
       ShowWeapons: 1

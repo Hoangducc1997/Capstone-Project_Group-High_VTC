@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 57399dce936f2be46ac77a4b74f31144, type: 3}
-  m_Name: R1_6_EFFECT
+  m_Name: R1_8_EFFECT
   m_EditorClassIdentifier: 
-  ID: 49
-  entryName: R1_6
-  entryFileName: R1_6_EFFECT
-  entryDisplayName: R1_6
+  ID: 51
+  entryName: R1_8
+  entryFileName: R1_8_EFFECT
+  entryDisplayName: R1_8
   entryIcon: {fileID: 21300000, guid: 2456dd2824f5ec540830760922f5bac6, type: 3}
   entryDescription: 
   _name: 
@@ -138,13 +138,13 @@ MonoBehaviour:
     showStealthActionBar: 1
     nestedEffects: []
     VisualEffectEntries:
-    - Template: {fileID: 11400000, guid: e193c5a0e3eab504cb6c4725c80bfced, type: 2}
+    - Template: {fileID: 11400000, guid: f3b2cca51205f78499015650caef26af, type: 2}
       ActivationType: 0
       UseNodeSocket: 0
       NodeSocket: {fileID: 0}
       ParentedToCaster: 0
       PositionOffset: {x: 0, y: 1, z: 0}
-      Scale: {x: 2, y: 2, z: 2}
+      Scale: {x: 1, y: 1, z: 1}
       Endless: 0
       Duration: 5
       Delay: 0

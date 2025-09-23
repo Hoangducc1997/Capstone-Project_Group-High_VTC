@@ -105,7 +105,7 @@ MonoBehaviour:
     UsedOnALly: 0
     LookAtTargetDuringCombatAction: 0
     LookAtTargetOnCombatAction: 0
-    projectileEffect: {fileID: 1288574436124150, guid: fdb991f1d76654a418397b60cd91acab, type: 3}
+    projectileEffect: {fileID: 1111292484735420, guid: 75a8b5dd0b15bb14284ccdcac1e3a283, type: 3}
     projectileSocketName: 
     projectileTargetSocketName: 
     projectileNodeSocket: {fileID: 0}
@@ -123,7 +123,7 @@ MonoBehaviour:
     colliderRadius: 100
     colliderHeight: 0
     groundVisualEffect: {fileID: 0}
-    effectPositionOffset: {x: 3, y: 0, z: 3}
+    effectPositionOffset: {x: 0, y: 1, z: 1}
     groundVisualEffectDuration: 5
     hitEffectUseSocket: 0
     hitEffect: {fileID: 0}

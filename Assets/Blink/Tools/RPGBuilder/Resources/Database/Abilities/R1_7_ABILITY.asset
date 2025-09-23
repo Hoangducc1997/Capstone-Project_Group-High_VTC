@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 943d49eb769cd944fade3a1cd7491609, type: 3}
-  m_Name: R1_5_ABILITY
+  m_Name: R1_7_ABILITY
   m_EditorClassIdentifier: 
-  ID: 35
-  entryName: R1_5
-  entryFileName: R1_5_ABILITY
-  entryDisplayName: R1_5
+  ID: 37
+  entryName: R1_7
+  entryFileName: R1_7_ABILITY
+  entryDisplayName: R1_7
   entryIcon: {fileID: 21300000, guid: 2456dd2824f5ec540830760922f5bac6, type: 3}
   entryDescription: 
   _name: 
@@ -105,7 +105,7 @@ MonoBehaviour:
     UsedOnALly: 0
     LookAtTargetDuringCombatAction: 0
     LookAtTargetOnCombatAction: 0
-    projectileEffect: {fileID: 1246638314895344, guid: fe91343b9a35bb14794086f1770004a3, type: 3}
+    projectileEffect: {fileID: 195834, guid: 88dfa986f2cbd1b49be7b927c0f51e08, type: 3}
     projectileSocketName: 
     projectileTargetSocketName: 
     projectileNodeSocket: {fileID: 0}
@@ -123,14 +123,14 @@ MonoBehaviour:
     colliderRadius: 100
     colliderHeight: 0
     groundVisualEffect: {fileID: 0}
-    effectPositionOffset: {x: 0, y: 1, z: 0}
+    effectPositionOffset: {x: 0, y: 1, z: 1}
     groundVisualEffectDuration: 5
     hitEffectUseSocket: 0
     hitEffect: {fileID: 0}
     hitEffectDuration: 6
     hitEffectSocketName: 
     hitEffectNodeSocket: {fileID: 0}
-    hitEffectPositionOffset: {x: 0, y: 0, z: 0}
+    hitEffectPositionOffset: {x: 1, y: 0, z: 1}
     hitAttachedToNode: 0
     channelTime: 0
     groundLeapDuration: 0
@@ -149,7 +149,7 @@ MonoBehaviour:
     cooldownTag: 
     abilityCooldownTag: {fileID: 0}
     effectsApplied:
-    - effectID: 48
+    - effectID: 50
       chance: 100
       effectRank: 0
       target: 0
