@@ -10,21 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1bb18b8dfb0f3be4cb9856d31baa677e, type: 3}
-  m_Name: Serpents of the Veil_QUEST
+  m_Name: The Monderaker Menace_QUEST
   m_EditorClassIdentifier: 
   ID: 9
-  entryName: Serpents of the Veil
-  entryFileName: Serpents of the Veil_QUEST
-  entryDisplayName: Serpents of the Veil
+  entryName: The Monderaker Menace
+  entryFileName: The Monderaker Menace_QUEST
+  entryDisplayName: The Monderaker Menace
   entryIcon: {fileID: 0}
-  entryDescription: Garren has tasked you to investigate the Medis, serpent-like
-    beings haunting the Sanctum of the Veil. Their venomous strikes threaten any
-    who enter. Hunt them down and uncover why they linger in this sacred ground.
+  entryDescription: Garren has tasked you to investigate the Monderakers, humanoid
+    fiends wearing horned helms with two long, twisted horns. They haunt the Sanctum
+    of the Veil, striking down intruders with savage power. Hunt them and uncover
+    why they linger in this sacred ground.
   _name: 
   displayName: 
   _fileName: 
   description: 
-  ObjectiveText: Defeat 10 Medis within the Sanctum of the Veil.
+  ObjectiveText: Defeat 10 Monderakers within the Sanctum of the Veil.
   ProgressText: 
   repeatable: 0
   canBeTurnedInWithoutNPC: 0

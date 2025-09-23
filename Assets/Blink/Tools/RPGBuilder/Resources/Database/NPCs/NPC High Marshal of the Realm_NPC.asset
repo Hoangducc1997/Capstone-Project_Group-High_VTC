@@ -41,11 +41,18 @@ MonoBehaviour:
   - questID: 1
   - questID: 4
   - questID: 5
+  - questID: 10
+  - questID: 9
   questCompleted:
   - questID: 4
   - questID: 5
   - questID: 6
   - questID: 7
+  - questID: 12
+  - questID: 11
+  - questID: 10
+  - questID: 9
+  - questID: 13
   MinRespawn: 1
   MaxRespawn: 2
   corpseDespawnTime: 1
