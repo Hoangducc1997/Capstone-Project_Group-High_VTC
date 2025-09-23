@@ -103216,6 +103216,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5310519979341041481, guid: aab26be98a01b3848929ce153a8051a3, type: 3}
+      propertyPath: m_Size.x
+      value: 1.7497406
+      objectReference: {fileID: 0}
+    - target: {fileID: 5310519979341041481, guid: aab26be98a01b3848929ce153a8051a3, type: 3}
+      propertyPath: m_Size.y
+      value: 3.1086512
+      objectReference: {fileID: 0}
+    - target: {fileID: 5310519979341041481, guid: aab26be98a01b3848929ce153a8051a3, type: 3}
+      propertyPath: m_Size.z
+      value: 1.7081242
+      objectReference: {fileID: 0}
+    - target: {fileID: 5310519979341041481, guid: aab26be98a01b3848929ce153a8051a3, type: 3}
+      propertyPath: m_Center.x
+      value: -0.045814514
+      objectReference: {fileID: 0}
+    - target: {fileID: 5310519979341041481, guid: aab26be98a01b3848929ce153a8051a3, type: 3}
+      propertyPath: m_Center.y
+      value: 0.24366522
+      objectReference: {fileID: 0}
+    - target: {fileID: 5310519979341041481, guid: aab26be98a01b3848929ce153a8051a3, type: 3}
+      propertyPath: m_Center.z
+      value: -0.14836407
+      objectReference: {fileID: 0}
     - target: {fileID: 5479987333426863066, guid: aab26be98a01b3848929ce153a8051a3, type: 3}
       propertyPath: m_Name
       value: Map1 Portal  (1)
