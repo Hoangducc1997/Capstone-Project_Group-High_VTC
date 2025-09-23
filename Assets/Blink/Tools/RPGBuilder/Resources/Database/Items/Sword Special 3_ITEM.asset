@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ada825255f0166f4c9c8124a0f1e2448, type: 3}
-  m_Name: Weak Staff_ITEM
+  m_Name: Sword Special 3_ITEM
   m_EditorClassIdentifier: 
-  ID: 33
-  entryName: Weak Staff
-  entryFileName: Weak Staff_ITEM
-  entryDisplayName: Weak Staff
-  entryIcon: {fileID: 21300000, guid: 64d22d23203fb3e4488808ac97bb494b, type: 3}
+  ID: 72
+  entryName: Sword Special 3
+  entryFileName: Sword Special 3_ITEM
+  entryDisplayName: Sword Special 3
+  entryIcon: {fileID: 21300000, guid: 4fdfab1ff3194b844ae0358666b428b8, type: 3}
   entryDescription: 
   _name: 
   _fileName: 
@@ -27,33 +27,40 @@ MonoBehaviour:
   itemType: 
   ItemType: {fileID: 11400000, guid: 7c2f681407cf6454eb8710fa80671903, type: 2}
   weaponType: 
-  WeaponType: {fileID: 11400000, guid: def3081bf8d92aa4386bce5872d69fbc, type: 2}
+  WeaponType: {fileID: 11400000, guid: bc5539388a78af742a7a5ff4b4821b7f, type: 2}
   armorType: 
   ArmorType: {fileID: 11400000, guid: b3e9dece47ba97945968b015c97df10d, type: 2}
   slotType: 
-  WeaponSlot: {fileID: 11400000, guid: 66a8c9030c91a5549a990933ab36dc21, type: 2}
+  WeaponSlot: {fileID: 11400000, guid: 193acfeeadaaf0442ac5d2fc43c179c8, type: 2}
   rarity: 
-  ItemRarity: {fileID: 11400000, guid: 9fe2887c3181d5146a74e57b1a55a22d, type: 2}
+  ItemRarity: {fileID: 11400000, guid: 1ba7c644b767724488d7890d0825afd2, type: 2}
   itemModelName: 
-  weaponModel: {fileID: 6759754029706040241, guid: 0ac02a3480fd1e74399e4bce194de9f4,
-    type: 3}
+  weaponModel: {fileID: 4417719777104776826, guid: 8a5a7e5c05bccb94f9d4cfaa5f003430, type: 3}
   modelMaterial: {fileID: 0}
   weaponPositionDatas: []
   showWeaponPositionData: 0
   WeaponTransforms: []
   UseWeaponTransformTemplate: 1
-  WeaponTransformTemplate: {fileID: 11400000, guid: 0628fd127d0ead54c980215a441fe4b4,
-    type: 2}
-  AttackSpeed: 2
-  minDamage: 8
-  maxDamage: 14
+  WeaponTransformTemplate: {fileID: 11400000, guid: 3fa2f3ac93609564b8952540a233d029, type: 2}
+  AttackSpeed: 1.25
+  minDamage: 20
+  maxDamage: 28
   autoAttackAbilityID: -1
-  stats: []
+  stats:
+  - statID: 0
+    amount: 30
+    isPercent: 0
+  - statID: 23
+    amount: 10
+    isPercent: 0
+  - statID: 43
+    amount: 10
+    isPercent: 0
   randomStats: []
   randomStatsMax: 0
-  sellPrice: 0
+  sellPrice: 50
   convertToCurrency: -1
-  sellCurrencyID: -1
+  sellCurrencyID: 0
   buyPrice: 0
   buyCurrencyID: -1
   stackLimit: 1
@@ -70,9 +77,8 @@ MonoBehaviour:
     GemSocketType: {fileID: 0}
     gemStats: []
   Requirements: []
-  UseRequirementsTemplate: 0
-  RequirementsTemplate: {fileID: 11400000, guid: 4b3f3d5f228ac3444865bbb19a18d4de,
-    type: 2}
+  UseRequirementsTemplate: 1
+  RequirementsTemplate: {fileID: 11400000, guid: 4b3f3d5f228ac3444865bbb19a18d4de, type: 2}
   actionAbilities: []
   GameActions: []
   UseGameActionsTemplate: 0

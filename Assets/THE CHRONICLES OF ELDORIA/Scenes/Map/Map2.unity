@@ -15889,7 +15889,7 @@ PrefabInstance:
     - target: {fileID: 1285361693271765765, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
       propertyPath: spawnData.Array.data[0].npc
       value: 
-      objectReference: {fileID: 11400000, guid: 886c87b16400fb9439f1c69162bdaf86, type: 2}
+      objectReference: {fileID: 11400000, guid: 9ba1bfc72e99cdc418f5ad20d6ca9c67, type: 2}
     - target: {fileID: 6676781758726972970, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 72.7
@@ -35812,7 +35812,7 @@ PrefabInstance:
     - target: {fileID: 1285361693271765765, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
       propertyPath: spawnData.Array.data[0].npc
       value: 
-      objectReference: {fileID: 11400000, guid: 886c87b16400fb9439f1c69162bdaf86, type: 2}
+      objectReference: {fileID: 11400000, guid: 1d24ff59ed3d10745a5d77d921ec8973, type: 2}
     - target: {fileID: 6676781758726972970, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 18.2

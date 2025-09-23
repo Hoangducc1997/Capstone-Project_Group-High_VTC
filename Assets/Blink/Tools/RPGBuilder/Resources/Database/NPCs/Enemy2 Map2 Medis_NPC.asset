@@ -16,7 +16,7 @@ MonoBehaviour:
   entryName: Enemy2 Map2 Medis
   entryFileName: Enemy2 Map2 Medis_NPC
   entryDisplayName: Medis
-  entryIcon: {fileID: 21300000, guid: 37295b23d27e1fc43bb0c5f6f1924ff1, type: 3}
+  entryIcon: {fileID: 21300000, guid: bad67741226f29c4dbbdb9f88c440a7e, type: 3}
   entryDescription: 
   _name: 
   _fileName: 
@@ -37,9 +37,9 @@ MonoBehaviour:
   dialogueID: -1
   questGiven: []
   questCompleted: []
-  MinRespawn: 1
-  MaxRespawn: 1
-  corpseDespawnTime: 600
+  MinRespawn: 3600
+  MaxRespawn: 3600
+  corpseDespawnTime: 1
   MinEXP: 1
   MaxEXP: 2
   LowerLevelEXPModifier: 0
