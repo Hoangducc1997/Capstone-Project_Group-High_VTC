@@ -16,7 +16,7 @@ MonoBehaviour:
   entryName: R1_5
   entryFileName: R1_5_ABILITY
   entryDisplayName: R1_5
-  entryIcon: {fileID: 21300000, guid: 2456dd2824f5ec540830760922f5bac6, type: 3}
+  entryIcon: {fileID: 21300000, guid: 549a2108945e33242aee97753c678fef, type: 3}
   entryDescription: 
   _name: 
   _fileName: 
@@ -162,7 +162,7 @@ MonoBehaviour:
     Actions: []
     VisualEffectEntries: []
     AnimationEntries:
-    - Template: {fileID: 11400000, guid: cf548e2e66f29eb4a821b2d60f7c6f79, type: 2}
+    - Template: {fileID: 11400000, guid: d9ab4ebbc0555c74bbdc3119766029b1, type: 2}
       ActivationType: 0
       Delay: 0
       ShowWeapons: 1

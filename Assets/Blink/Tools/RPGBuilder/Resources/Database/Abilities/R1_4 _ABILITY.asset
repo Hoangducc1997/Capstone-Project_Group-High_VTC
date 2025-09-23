@@ -16,7 +16,7 @@ MonoBehaviour:
   entryName: 'R1_4 '
   entryFileName: R1_4 _ABILITY
   entryDisplayName: 'R1_4 '
-  entryIcon: {fileID: 21300000, guid: 1e0f817b5d5649547ab515652b56563f, type: 3}
+  entryIcon: {fileID: 21300000, guid: 3470248b14cfc4144a1cf55ffd1af7e6, type: 3}
   entryDescription: 
   _name: 
   _fileName: 
@@ -163,7 +163,7 @@ MonoBehaviour:
     Actions: []
     VisualEffectEntries: []
     AnimationEntries:
-    - Template: {fileID: 11400000, guid: cf548e2e66f29eb4a821b2d60f7c6f79, type: 2}
+    - Template: {fileID: 11400000, guid: d9ab4ebbc0555c74bbdc3119766029b1, type: 2}
       ActivationType: 0
       Delay: 0
       ShowWeapons: 1

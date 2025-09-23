@@ -16,7 +16,7 @@ MonoBehaviour:
   entryName: R1_8
   entryFileName: R1_8_ABILITY
   entryDisplayName: R1_8
-  entryIcon: {fileID: 21300000, guid: 2456dd2824f5ec540830760922f5bac6, type: 3}
+  entryIcon: {fileID: 21300000, guid: 109bacc3a598fc949b5f41dd31e7eba2, type: 3}
   entryDescription: 
   _name: 
   _fileName: 
@@ -105,7 +105,7 @@ MonoBehaviour:
     UsedOnALly: 0
     LookAtTargetDuringCombatAction: 0
     LookAtTargetOnCombatAction: 0
-    projectileEffect: {fileID: 1929620577409710, guid: eb550bb3d0f18944ba2272872ad6e2cd, type: 3}
+    projectileEffect: {fileID: 1793853348663404, guid: 6209dfa15219d234f9737769610fffc9, type: 3}
     projectileSocketName: 
     projectileTargetSocketName: 
     projectileNodeSocket: {fileID: 0}
@@ -162,7 +162,7 @@ MonoBehaviour:
     Actions: []
     VisualEffectEntries: []
     AnimationEntries:
-    - Template: {fileID: 11400000, guid: d9ab4ebbc0555c74bbdc3119766029b1, type: 2}
+    - Template: {fileID: 11400000, guid: cf548e2e66f29eb4a821b2d60f7c6f79, type: 2}
       ActivationType: 0
       Delay: 0
       ShowWeapons: 1

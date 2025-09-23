@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 57399dce936f2be46ac77a4b74f31144, type: 3}
-  m_Name: R1_1_EFFECT
+  m_Name: R1_Stun_EFFECT
   m_EditorClassIdentifier: 
   ID: 35
-  entryName: R1_1
-  entryFileName: R1_1_EFFECT
-  entryDisplayName: 1
+  entryName: R1_Stun
+  entryFileName: R1_Stun_EFFECT
+  entryDisplayName: R1_Stun
   entryIcon: {fileID: 21300000, guid: 354c73206ef75914883ed52842a138c4, type: 3}
   entryDescription: 
   _name: 
