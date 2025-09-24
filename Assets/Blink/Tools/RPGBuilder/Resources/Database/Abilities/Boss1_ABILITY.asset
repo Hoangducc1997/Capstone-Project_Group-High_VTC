@@ -47,7 +47,7 @@ MonoBehaviour:
     isToggle: 0
     isToggleCostOnTrigger: 0
     toggledTriggerInterval: 0
-    MaxUnitHit: 5
+    MaxUnitHit: 1
     minRange: 5
     maxRange: 0
     standTimeDuration: 0
@@ -148,7 +148,7 @@ MonoBehaviour:
     cooldownTag: 
     abilityCooldownTag: {fileID: 0}
     effectsApplied:
-    - effectID: 53
+    - effectID: 56
       chance: 100
       effectRank: 0
       target: 0
@@ -161,16 +161,16 @@ MonoBehaviour:
     Actions: []
     VisualEffectEntries: []
     AnimationEntries:
-    - Template: {fileID: 11400000, guid: f8c336233ed139b4e9db8f97a76681dc, type: 2}
+    - Template: {fileID: 11400000, guid: b5e42332e22d04c41a4d0d79f881b5f4, type: 2}
       ActivationType: 0
       Delay: 0
-      ShowWeapons: 0
-      ShowWeaponsDuration: 0
+      ShowWeapons: 1
+      ShowWeaponsDuration: 3
       ModifySpeed: 1
       SpeedParameterName: AttackAnimationsSpeed
-      ModifierSpeed: 0.8
+      ModifierSpeed: 1
     SoundEntries:
-    - Template: {fileID: 11400000, guid: cd263c3a773604f439714e812f3cf5c8, type: 2}
+    - Template: {fileID: 11400000, guid: 8ceb1d9178316e9428fddc9fc6b9c407, type: 2}
       ActivationType: 0
       Delay: 0
       Parented: 0

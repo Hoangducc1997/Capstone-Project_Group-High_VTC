@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57399dce936f2be46ac77a4b74f31144, type: 3}
   m_Name: R1_4_EFFECT
   m_EditorClassIdentifier: 
-  ID: 44
+  ID: 55
   entryName: R1_4
   entryFileName: R1_4_EFFECT
   entryDisplayName: R1_4
-  entryIcon: {fileID: 21300000, guid: 1e0f817b5d5649547ab515652b56563f, type: 3}
+  entryIcon: {fileID: 21300000, guid: 2456dd2824f5ec540830760922f5bac6, type: 3}
   entryDescription: 
   _name: 
   _fileName: 
@@ -40,15 +40,15 @@ MonoBehaviour:
   - ShowedInEditor: 1
     mainDamageType: 2
     secondaryDamageType: 
-    customDamageType: {fileID: 11400000, guid: c313dc209ed403e49aa60496770f947a, type: 2}
+    customDamageType: {fileID: 11400000, guid: 5af9468d4942f7a43b53ebfe815ed1cd, type: 2}
     customHealingType: {fileID: 0}
-    Damage: 50
+    Damage: 100
     alteredStatID: 0
     FlatCalculation: 0
     CannotCrit: 0
     removeStealth: 1
     skillModifier: 0
-    weaponDamageModifier: 0
+    weaponDamageModifier: 100
     useWeapon1Damage: 1
     useWeapon2Damage: 1
     skillModifierID: -1
@@ -144,10 +144,10 @@ MonoBehaviour:
       NodeSocket: {fileID: 0}
       ParentedToCaster: 0
       PositionOffset: {x: 0, y: 0, z: 0}
-      Scale: {x: 1, y: 1, z: 1}
+      Scale: {x: 2, y: 2, z: 2}
       Endless: 0
       Duration: 5
-      Delay: 1
+      Delay: 0
     AnimationEntries: []
     SoundEntries: []
     visualEffects: []

@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 943d49eb769cd944fade3a1cd7491609, type: 3}
-  m_Name: R1_4 _ABILITY
+  m_Name: R1_4_ABILITY
   m_EditorClassIdentifier: 
-  ID: 32
-  entryName: 'R1_4 '
-  entryFileName: R1_4 _ABILITY
-  entryDisplayName: 'R1_4 '
-  entryIcon: {fileID: 21300000, guid: 3470248b14cfc4144a1cf55ffd1af7e6, type: 3}
+  ID: 42
+  entryName: R1_4
+  entryFileName: R1_4_ABILITY
+  entryDisplayName: R1_4
+  entryIcon: {fileID: 21300000, guid: 99a2865a0e99cb84785c1111f3ba062e, type: 3}
   entryDescription: 
   _name: 
   _fileName: 
@@ -27,9 +27,8 @@ MonoBehaviour:
   ranks:
   - ShowedInEditor: 1
     unlockCost: 0
-    TooltipText: Cast a frost bolt that will deal damage to the first enemy hit.
-      On hit, there is a 33% chance to freeze the target, making them unable to move
-      or attack for a duration.
+    TooltipText: Cast a fireball that will damage the first enemy hit. On hit, there
+      is a 25% to also burn the target, dealing damage over time.
     activationType: 1
     castTime: 1
     castInRun: 1
@@ -67,8 +66,8 @@ MonoBehaviour:
     linearWidth: 0
     linearHeight: 0
     linearLength: 0
-    projectileSpeed: 100
-    projectileDistance: 0
+    projectileSpeed: 50
+    projectileDistance: 10
     projectileAngleSpread: 0
     projectileCount: 1
     firstProjectileDelay: 0
@@ -83,7 +82,7 @@ MonoBehaviour:
     projectileDestroyedByEnvironment: 1
     projectileDestroyLayers:
       serializedVersion: 2
-      m_Bits: 128
+      m_Bits: 144
     projectileAffectedByGravity: 0
     projectileShootOnClickPosition: 0
     projectileDistanceMaxForNPC: 50
@@ -106,11 +105,11 @@ MonoBehaviour:
     UsedOnALly: 0
     LookAtTargetDuringCombatAction: 0
     LookAtTargetOnCombatAction: 0
-    projectileEffect: {fileID: 1590966373120196, guid: ac8a539a7136cf44eb1cadc5a92698fe, type: 3}
+    projectileEffect: {fileID: 1033462822675242, guid: 43dbb3bbd1afeb24692c1d8f8b260845, type: 3}
     projectileSocketName: 
     projectileTargetSocketName: 
     projectileNodeSocket: {fileID: 0}
-    projectileTargetNodeSocket: {fileID: 0}
+    projectileTargetNodeSocket: {fileID: 11400000, guid: ce9910f9467705446a02fec763985733, type: 2}
     projectileUseNodeSocket: 0
     projectileTargetUseNodeSocket: 0
     projectileParentedToCaster: 0
@@ -121,14 +120,14 @@ MonoBehaviour:
     projectileColliderType: 1
     colliderCenter: {x: 0, y: 0, z: 0}
     colliderSize: {x: 0, y: 0, z: 0}
-    colliderRadius: 0.4
+    colliderRadius: 100
     colliderHeight: 0
     groundVisualEffect: {fileID: 0}
-    effectPositionOffset: {x: 0, y: 1, z: 0.5}
+    effectPositionOffset: {x: 0, y: 1, z: 0}
     groundVisualEffectDuration: 5
     hitEffectUseSocket: 0
-    hitEffect: {fileID: 0}
-    hitEffectDuration: 1
+    hitEffect: {fileID: 1033462822675242, guid: 43dbb3bbd1afeb24692c1d8f8b260845, type: 3}
+    hitEffectDuration: 6
     hitEffectSocketName: 
     hitEffectNodeSocket: {fileID: 0}
     hitEffectPositionOffset: {x: 0, y: 0, z: 0}
@@ -142,7 +141,7 @@ MonoBehaviour:
       m_Bits: 0
     isAttackSpeedCooldown: 0
     isAttackSpeedGCD: 0
-    cooldown: 4
+    cooldown: 3
     isGCD: 1
     startCDOnActivate: 0
     CanUseDuringGCD: 0
@@ -150,14 +149,14 @@ MonoBehaviour:
     cooldownTag: 
     abilityCooldownTag: {fileID: 0}
     effectsApplied:
-    - effectID: 44
+    - effectID: 55
       chance: 100
       effectRank: 0
       target: 0
       isSpread: 0
       spreadDistanceMax: 0
       spreadUnitMax: 0
-      delay: 0
+      delay: 1
       tooltipText: 
     casterEffectsApplied: []
     Actions: []
@@ -167,7 +166,7 @@ MonoBehaviour:
       ActivationType: 0
       Delay: 0
       ShowWeapons: 1
-      ShowWeaponsDuration: 3
+      ShowWeaponsDuration: 4.5
       ModifySpeed: 0
       SpeedParameterName: AttackAnimationsSpeed
       ModifierSpeed: 1.25
