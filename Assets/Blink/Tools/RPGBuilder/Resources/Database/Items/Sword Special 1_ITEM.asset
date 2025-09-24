@@ -58,9 +58,9 @@ MonoBehaviour:
     isPercent: 0
   randomStats: []
   randomStatsMax: 0
-  sellPrice: 50
+  sellPrice: 1
   convertToCurrency: -1
-  sellCurrencyID: 0
+  sellCurrencyID: 2
   buyPrice: 0
   buyCurrencyID: -1
   stackLimit: 1

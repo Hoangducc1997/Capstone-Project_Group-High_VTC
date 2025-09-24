@@ -47,16 +47,17 @@ MonoBehaviour:
   maxDamage: 0
   autoAttackAbilityID: -1
   stats:
-  - statID: 28
-    amount: 2
+  - statID: 2
+    amount: 999
     isPercent: 0
-  - statID: 0
-    amount: 2
+  - statID: 1
+    amount: 10
     isPercent: 0
   randomStats: []
   randomStatsMax: 0
-  sellPrice: 0
-  sellCurrencyID: -1
+  sellPrice: 10
+  convertToCurrency: -1
+  sellCurrencyID: 2
   buyPrice: 0
   buyCurrencyID: -1
   stackLimit: 1
@@ -79,5 +80,4 @@ MonoBehaviour:
   GameActions: []
   UseGameActionsTemplate: 0
   GameActionsTemplate: {fileID: 0}
-  BodyCullingTemplate: {fileID: 11400000, guid: e85502e884f718b4b9893de29ba1eb0a,
-    type: 2}
+  BodyCullingTemplate: {fileID: 11400000, guid: e85502e884f718b4b9893de29ba1eb0a, type: 2}

@@ -339,7 +339,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1285361693271765765, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
       propertyPath: areaRadius
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1285361693271765765, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
       propertyPath: PlayerDistanceMax
@@ -1088,7 +1088,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1285361693271765765, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
       propertyPath: areaRadius
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1285361693271765765, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
       propertyPath: PlayerDistanceMax
@@ -4602,11 +4602,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1285361693271765765, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
       propertyPath: areaRadius
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1285361693271765765, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
       propertyPath: PlayerDistanceMax
-      value: 39
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 1285361693271765765, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
       propertyPath: groundLayers.m_Bits
@@ -6356,7 +6356,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1285361693271765765, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
       propertyPath: areaRadius
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1285361693271765765, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
       propertyPath: npcCountMax
@@ -46630,11 +46630,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1285361693271765765, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
       propertyPath: areaRadius
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1285361693271765765, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
       propertyPath: npcCountMax
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1285361693271765765, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
       propertyPath: PlayerDistanceMax
@@ -49309,11 +49309,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1285361693271765765, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
       propertyPath: areaRadius
-      value: 6
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1285361693271765765, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
       propertyPath: PlayerDistanceMax
-      value: 39
+      value: 52
       objectReference: {fileID: 0}
     - target: {fileID: 1285361693271765765, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
       propertyPath: groundLayers.m_Bits
@@ -51025,7 +51025,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1285361693271765765, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
       propertyPath: areaRadius
-      value: 9
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1285361693271765765, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
       propertyPath: npcCountMax
@@ -55597,11 +55597,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1285361693271765765, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
       propertyPath: areaRadius
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1285361693271765765, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
       propertyPath: npcCountMax
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1285361693271765765, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
       propertyPath: PlayerDistanceMax
@@ -56316,7 +56316,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1285361693271765765, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
       propertyPath: areaRadius
-      value: 5
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1285361693271765765, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
+      propertyPath: npcCountMax
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1285361693271765765, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
       propertyPath: PlayerDistanceMax

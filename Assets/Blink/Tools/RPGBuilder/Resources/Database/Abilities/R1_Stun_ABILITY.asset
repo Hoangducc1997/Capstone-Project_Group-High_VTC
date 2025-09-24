@@ -176,7 +176,7 @@ MonoBehaviour:
       ActivationType: 0
       Delay: 0
       ShowWeapons: 1
-      ShowWeaponsDuration: 2
+      ShowWeaponsDuration: 999
       ModifySpeed: 1
       SpeedParameterName: AttackAnimationsSpeed
       ModifierSpeed: 1
