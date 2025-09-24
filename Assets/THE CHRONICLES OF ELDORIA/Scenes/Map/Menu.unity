@@ -25241,6 +25241,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1319953998930209842, guid: 764b3fcf2b59b5543b5f7c530772a637, type: 3}
+      propertyPath: nextSceneName
+      value: Valemont
+      objectReference: {fileID: 0}
     - target: {fileID: 3490781545453675291, guid: 764b3fcf2b59b5543b5f7c530772a637, type: 3}
       propertyPath: m_Name
       value: IntroVideoPlayer
@@ -94630,7 +94634,7 @@ MonoBehaviour:
   _musicBySceneList:
   - SceneName: Menu
     AudioClip: {fileID: 8300000, guid: 908abae2a2b8c00409c2c92b43159db1, type: 3}
-  - SceneName: Castle
+  - SceneName: Valemont
     AudioClip: {fileID: 8300000, guid: 45f7d36057eff884dbde8b9cd365b702, type: 3}
   - SceneName: Map1
     AudioClip: {fileID: 8300000, guid: 5617ca9292220784c82ec9d9de1ab25c, type: 3}
@@ -107628,7 +107632,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 1984006107}
-  nextSceneName: Castle
+  nextSceneName: Valemont
 --- !u!328 &1984006107
 VideoPlayer:
   m_ObjectHideFlags: 0
