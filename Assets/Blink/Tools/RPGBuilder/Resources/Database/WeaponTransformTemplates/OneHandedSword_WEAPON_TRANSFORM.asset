@@ -18,19 +18,4 @@ MonoBehaviour:
   entryDisplayName: 
   entryIcon: {fileID: 0}
   entryDescription: 
-  WeaponTransforms:
-  - raceID: 4
-    transformValues:
-    - gender: {fileID: 11400000, guid: 6af37385c57329640bdb53dd75cf6921, type: 2}
-      CombatPosition: {x: 0, y: 0, z: 0}
-      CombatRotation: {x: -0.00004495249, y: 259.99023, z: 0.000040297855}
-      CombatScale: {x: 0.8, y: 0.8, z: 0.8}
-      RestPosition: {x: 0.05453466, y: -0.4417471, z: -0.033001594}
-      RestRotation: {x: 6.060139, y: 298.51346, z: 359.89594}
-      RestScale: {x: 0.8, y: 0.8, z: 0.8}
-      CombatPosition2: {x: 0.00000458426, y: 0.0000017697165, z: 0.00000319985}
-      CombatRotation2: {x: -0.000044952485, y: 259.99023, z: 0.000040297855}
-      CombatScale2: {x: 0.8, y: 0.8, z: 0.8}
-      RestPosition2: {x: 0, y: 0, z: 0}
-      RestRotation2: {x: 359.98282, y: 0.15777346, z: 209.86508}
-      RestScale2: {x: 0.8, y: 0.8, z: 0.8}
+  WeaponTransforms: []
