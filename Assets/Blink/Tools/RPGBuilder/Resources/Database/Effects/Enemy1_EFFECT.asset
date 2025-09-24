@@ -10,19 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 57399dce936f2be46ac77a4b74f31144, type: 3}
-  m_Name: Pet_Elara_EFFECT
+  m_Name: Enemy1_EFFECT
   m_EditorClassIdentifier: 
-  ID: 33
-  entryName: Pet_Elara
-  entryFileName: Pet_Elara_EFFECT
-  entryDisplayName: Elara
-  entryIcon: {fileID: 21300000, guid: 0daea28b70bd3d3409bc2b237aeb1c8b, type: 3}
+  ID: 54
+  entryName: Enemy1
+  entryFileName: Enemy1_EFFECT
+  entryDisplayName: Enemy1
+  entryIcon: {fileID: 21300000, guid: 3c17ecb30cfea446a96f5d18fc830bbc, type: 3}
   entryDescription: 
   _name: 
   _fileName: 
   displayName: 
   icon: {fileID: 0}
-  effectType: 14
+  effectType: 0
   effectTag: 
   EffectTag: {fileID: 0}
   isState: 0
@@ -38,12 +38,12 @@ MonoBehaviour:
   IsPersistent: 0
   ranks:
   - ShowedInEditor: 1
-    mainDamageType: 0
+    mainDamageType: 1
     secondaryDamageType: 
     customDamageType: {fileID: 0}
     customHealingType: {fileID: 0}
-    Damage: 0
-    alteredStatID: -1
+    Damage: 10
+    alteredStatID: 0
     FlatCalculation: 0
     CannotCrit: 0
     removeStealth: 1
@@ -72,10 +72,10 @@ MonoBehaviour:
       serializedVersion: 2
       m_Bits: 0
     lootTableID: -1
-    petNPCDataID: 26
-    petDuration: 300
+    petNPCDataID: -1
+    petDuration: 60
     petSPawnCount: 1
-    petScaleWithCharacter: 1
+    petScaleWithCharacter: 0
     knockbackDistance: 0
     motionDistance: 5
     motionSpeed: 0.5
@@ -138,18 +138,22 @@ MonoBehaviour:
     showStealthActionBar: 1
     nestedEffects: []
     VisualEffectEntries:
-    - Template: {fileID: 11400000, guid: 97b6526b6bf52ff4699ee81c8cb100c3, type: 2}
+    - Template: {fileID: 11400000, guid: 011e40dd5a5308a469d24cec67a93189, type: 2}
       ActivationType: 0
       UseNodeSocket: 0
       NodeSocket: {fileID: 0}
-      ParentedToCaster: 0
-      PositionOffset: {x: -2, y: 0, z: 0}
-      Scale: {x: 5, y: 5, z: 5}
+      ParentedToCaster: 1
+      PositionOffset: {x: 0, y: 1, z: 0}
+      Scale: {x: 1, y: 1, z: 1}
       Endless: 0
       Duration: 5
       Delay: 0
     AnimationEntries: []
-    SoundEntries: []
+    SoundEntries:
+    - Template: {fileID: 11400000, guid: debd44ab72554df4b91ec7a913be5483, type: 2}
+      ActivationType: 0
+      Delay: 0
+      Parented: 0
     visualEffects: []
     visualAnimations: []
     statEffectsData: []

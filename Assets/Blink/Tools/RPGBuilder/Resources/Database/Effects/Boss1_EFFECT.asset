@@ -27,10 +27,10 @@ MonoBehaviour:
   EffectTag: {fileID: 0}
   isState: 1
   isBuffOnSelf: 0
-  stackLimit: 3
+  stackLimit: 1
   allowMultiple: 0
   allowMixedCaster: 0
-  pulses: 6
+  pulses: 1
   duration: 6
   endless: 0
   canBeManuallyRemoved: 0

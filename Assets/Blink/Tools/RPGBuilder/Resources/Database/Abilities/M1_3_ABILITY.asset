@@ -16,7 +16,7 @@ MonoBehaviour:
   entryName: M1_3
   entryFileName: M1_3_ABILITY
   entryDisplayName: M1_3
-  entryIcon: {fileID: 21300000, guid: 6aa2c084e23bc8e469b947725adac0fd, type: 3}
+  entryIcon: {fileID: 21300000, guid: 2c835210e435e8645811d77e9c13e748, type: 3}
   entryDescription: 
   _name: 
   _fileName: 
@@ -165,11 +165,11 @@ MonoBehaviour:
       UseNodeSocket: 0
       NodeSocket: {fileID: 0}
       ParentedToCaster: 0
-      PositionOffset: {x: 0, y: 1, z: 1}
-      Scale: {x: 1, y: 1, z: 1}
+      PositionOffset: {x: 0, y: 1, z: 10}
+      Scale: {x: 5, y: 5, z: 5}
       Endless: 0
       Duration: 5
-      Delay: 1.2
+      Delay: 1.4
     AnimationEntries:
     - Template: {fileID: 11400000, guid: 0569bf14deb6ada4ab73d29d170c87d3, type: 2}
       ActivationType: 0

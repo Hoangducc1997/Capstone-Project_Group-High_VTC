@@ -16,7 +16,7 @@ MonoBehaviour:
   entryName: BoarAttack1
   entryFileName: BoarAttack1_EFFECT
   entryDisplayName: BoarAttack1
-  entryIcon: {fileID: 0}
+  entryIcon: {fileID: 21300000, guid: 3c17ecb30cfea446a96f5d18fc830bbc, type: 3}
   entryDescription: 
   _name: 
   _fileName: 
@@ -42,7 +42,7 @@ MonoBehaviour:
     secondaryDamageType: 
     customDamageType: {fileID: 0}
     customHealingType: {fileID: 0}
-    Damage: 5
+    Damage: 10
     alteredStatID: 0
     FlatCalculation: 0
     CannotCrit: 0

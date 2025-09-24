@@ -126,11 +126,11 @@ MonoBehaviour:
     effectPositionOffset: {x: 0, y: 1, z: 0}
     groundVisualEffectDuration: 5
     hitEffectUseSocket: 0
-    hitEffect: {fileID: 0}
+    hitEffect: {fileID: 1246638314895344, guid: fe91343b9a35bb14794086f1770004a3, type: 3}
     hitEffectDuration: 6
     hitEffectSocketName: 
     hitEffectNodeSocket: {fileID: 0}
-    hitEffectPositionOffset: {x: 0, y: 0, z: 0}
+    hitEffectPositionOffset: {x: 0, y: 1, z: 0}
     hitAttachedToNode: 0
     channelTime: 0
     groundLeapDuration: 0
