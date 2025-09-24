@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edd7a971fd9c6b2478bb39102d504de8, type: 3}
+  m_Name: 2_WEAPON_TEMPLATE
+  m_EditorClassIdentifier: 
+  ID: 0
+  entryName: 2
+  entryFileName: 2_WEAPON_TEMPLATE
+  entryDisplayName: 
+  entryIcon: {fileID: 0}
+  entryDescription: 
+  icon: {fileID: 0}
+  _name: 
+  fileName: 
+  displayName: 
+  description: 
+  levelTemplateID: -1
+  weaponList: []
+  stats: []
+  CustomStats: []
+  UseStatListTemplate: 0
+  StatListTemplate: {fileID: 0}
+  talentTrees: []
+  spellbooks: []
+  startItems: []
+  allocatedStatsEntriesGame: []
