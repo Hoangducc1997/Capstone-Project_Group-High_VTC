@@ -156,7 +156,7 @@ MonoBehaviour:
       isSpread: 0
       spreadDistanceMax: 0
       spreadUnitMax: 0
-      delay: 3.9
+      delay: 5
       tooltipText: 
     casterEffectsApplied: []
     Actions: []
@@ -166,7 +166,7 @@ MonoBehaviour:
       ActivationType: 0
       Delay: 0
       ShowWeapons: 1
-      ShowWeaponsDuration: 4.5
+      ShowWeaponsDuration: 999
       ModifySpeed: 0
       SpeedParameterName: AttackAnimationsSpeed
       ModifierSpeed: 1.25

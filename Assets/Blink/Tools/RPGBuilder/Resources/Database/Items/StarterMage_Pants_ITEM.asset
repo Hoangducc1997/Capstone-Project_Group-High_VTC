@@ -47,17 +47,14 @@ MonoBehaviour:
   maxDamage: 0
   autoAttackAbilityID: -1
   stats:
-  - statID: 28
-    amount: 2
-    isPercent: 0
-  - statID: 0
-    amount: 2
+  - statID: 20
+    amount: 999
     isPercent: 0
   randomStats: []
   randomStatsMax: 0
-  sellPrice: 0
+  sellPrice: 10
   convertToCurrency: -1
-  sellCurrencyID: -1
+  sellCurrencyID: 2
   buyPrice: 0
   buyCurrencyID: -1
   stackLimit: 1

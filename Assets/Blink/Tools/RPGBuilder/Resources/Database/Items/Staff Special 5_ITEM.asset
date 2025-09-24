@@ -49,9 +49,9 @@ MonoBehaviour:
   stats: []
   randomStats: []
   randomStatsMax: 0
-  sellPrice: 0
+  sellPrice: 5
   convertToCurrency: -1
-  sellCurrencyID: -1
+  sellCurrencyID: 2
   buyPrice: 0
   buyCurrencyID: -1
   stackLimit: 1

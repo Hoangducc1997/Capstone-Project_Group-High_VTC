@@ -164,8 +164,8 @@ MonoBehaviour:
     - Template: {fileID: 11400000, guid: cf548e2e66f29eb4a821b2d60f7c6f79, type: 2}
       ActivationType: 0
       Delay: 0
-      ShowWeapons: 0
-      ShowWeaponsDuration: 0
+      ShowWeapons: 1
+      ShowWeaponsDuration: 3600
       ModifySpeed: 1
       SpeedParameterName: AttackAnimationsSpeed
       ModifierSpeed: 0.9
