@@ -16523,19 +16523,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1285361693271765765, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
       propertyPath: areaHeight
-      value: 39
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 1285361693271765765, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
       propertyPath: areaRadius
-      value: 18
-      objectReference: {fileID: 0}
-    - target: {fileID: 1285361693271765765, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
-      propertyPath: npcCountMax
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1285361693271765765, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
+      propertyPath: npcCountMax
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1285361693271765765, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
       propertyPath: PlayerDistanceMax
-      value: 39
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 1285361693271765765, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
       propertyPath: groundLayers.m_Bits
@@ -16547,15 +16547,15 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: a5598f73b02353c4f9660b09930bcf3c, type: 2}
     - target: {fileID: 6676781758726972970, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 56.3
+      value: 10.51
       objectReference: {fileID: 0}
     - target: {fileID: 6676781758726972970, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -19.3
+      value: -4.96
       objectReference: {fileID: 0}
     - target: {fileID: 6676781758726972970, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -57.3
+      value: -69.93
       objectReference: {fileID: 0}
     - target: {fileID: 6676781758726972970, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
       propertyPath: m_LocalRotation.w
