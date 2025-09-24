@@ -49367,6 +49367,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spawn Boss (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6887305940500781054, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -58282,7 +58286,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6887305940500781054, guid: 3632ba24b4eab7a479d32e90e7a21ec9, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

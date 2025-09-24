@@ -955,7 +955,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 463471262646432715, guid: 8f0f164b1c9c4684c84d60526c76f78d, type: 3}
       propertyPath: m_Value
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 474103298968216706, guid: 8f0f164b1c9c4684c84d60526c76f78d, type: 3}
       propertyPath: m_textAlignment
@@ -1103,7 +1103,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 932253538805163945, guid: 8f0f164b1c9c4684c84d60526c76f78d, type: 3}
       propertyPath: m_Value
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1001430425144592367, guid: 8f0f164b1c9c4684c84d60526c76f78d, type: 3}
       propertyPath: m_textAlignment
@@ -1459,7 +1459,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1460452520222185570, guid: 8f0f164b1c9c4684c84d60526c76f78d, type: 3}
       propertyPath: m_Value
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1473949182978702961, guid: 8f0f164b1c9c4684c84d60526c76f78d, type: 3}
       propertyPath: m_textAlignment
@@ -1515,7 +1515,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1751121069497495535, guid: 8f0f164b1c9c4684c84d60526c76f78d, type: 3}
       propertyPath: m_Value
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1759898052332661864, guid: 8f0f164b1c9c4684c84d60526c76f78d, type: 3}
       propertyPath: showTutorial
@@ -4091,7 +4091,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5442720402174303101, guid: 8f0f164b1c9c4684c84d60526c76f78d, type: 3}
       propertyPath: m_Value
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5445162721637458162, guid: 8f0f164b1c9c4684c84d60526c76f78d, type: 3}
       propertyPath: m_AnchorMax.y
@@ -4344,6 +4344,10 @@ PrefabInstance:
     - target: {fileID: 5871551012818879042, guid: 8f0f164b1c9c4684c84d60526c76f78d, type: 3}
       propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
       value: 1801810542
+      objectReference: {fileID: 0}
+    - target: {fileID: 5894332378097414160, guid: 8f0f164b1c9c4684c84d60526c76f78d, type: 3}
+      propertyPath: m_Alpha
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5894332378116991112, guid: 8f0f164b1c9c4684c84d60526c76f78d, type: 3}
       propertyPath: m_AnchorMax.y
@@ -5415,7 +5419,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6426330849537860421, guid: 8f0f164b1c9c4684c84d60526c76f78d, type: 3}
       propertyPath: m_Value
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6473308501668425134, guid: 8f0f164b1c9c4684c84d60526c76f78d, type: 3}
       propertyPath: m_AnchorMax.y
@@ -5991,7 +5995,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7300221977918610158, guid: 8f0f164b1c9c4684c84d60526c76f78d, type: 3}
       propertyPath: m_Value
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7311565871729514265, guid: 8f0f164b1c9c4684c84d60526c76f78d, type: 3}
       propertyPath: m_IsActive
@@ -6576,6 +6580,10 @@ PrefabInstance:
     - target: {fileID: 8213745165139006502, guid: 8f0f164b1c9c4684c84d60526c76f78d, type: 3}
       propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
       value: 1801810542
+      objectReference: {fileID: 0}
+    - target: {fileID: 8218621333272755048, guid: 8f0f164b1c9c4684c84d60526c76f78d, type: 3}
+      propertyPath: m_fontSize
+      value: 37.15
       objectReference: {fileID: 0}
     - target: {fileID: 8218621333272755048, guid: 8f0f164b1c9c4684c84d60526c76f78d, type: 3}
       propertyPath: m_textAlignment
@@ -7163,7 +7171,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9179169307531815650, guid: 8f0f164b1c9c4684c84d60526c76f78d, type: 3}
       propertyPath: m_Value
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9194480316602103182, guid: 8f0f164b1c9c4684c84d60526c76f78d, type: 3}
       propertyPath: m_textAlignment
