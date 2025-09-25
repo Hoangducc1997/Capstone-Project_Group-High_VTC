@@ -41533,8 +41533,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3967991104857934185, guid: 5f6142de81684174f87f4776aa9104be, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3967991104857934185, guid: 5f6142de81684174f87f4776aa9104be, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3967991104857934185, guid: 5f6142de81684174f87f4776aa9104be, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 13.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 3967991104857934185, guid: 5f6142de81684174f87f4776aa9104be, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4976043861965071557, guid: 5f6142de81684174f87f4776aa9104be, type: 3}
       propertyPath: m_Name
@@ -41583,7 +41595,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4976043861965071557, guid: 5f6142de81684174f87f4776aa9104be, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1129660039}
   m_SourcePrefab: {fileID: 100100000, guid: 5f6142de81684174f87f4776aa9104be, type: 3}
 --- !u!1 &1129660037 stripped
 GameObject:
@@ -41595,6 +41610,18 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 181819429517944303, guid: 5f6142de81684174f87f4776aa9104be, type: 3}
   m_PrefabInstance: {fileID: 1129660036}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1129660039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1129660037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31aaa6e544cb59b4bbb6eab9b73ccf7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1129896027
 PrefabInstance:
   m_ObjectHideFlags: 0

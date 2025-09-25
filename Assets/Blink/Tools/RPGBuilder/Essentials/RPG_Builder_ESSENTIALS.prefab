@@ -1009,6 +1009,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 609806077443625140, guid: 8f0f164b1c9c4684c84d60526c76f78d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 674338278812841919, guid: 8f0f164b1c9c4684c84d60526c76f78d, type: 3}
       propertyPath: m_textAlignment
       value: 65535
@@ -1048,6 +1052,10 @@ PrefabInstance:
     - target: {fileID: 679749987398537893, guid: 8f0f164b1c9c4684c84d60526c76f78d, type: 3}
       propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
       value: 1801810542
+      objectReference: {fileID: 0}
+    - target: {fileID: 704363533119998414, guid: 8f0f164b1c9c4684c84d60526c76f78d, type: 3}
+      propertyPath: m_Alpha
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 721810301239113504, guid: 8f0f164b1c9c4684c84d60526c76f78d, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -4485,6 +4493,10 @@ PrefabInstance:
       propertyPath: ArmorSlot
       value: 
       objectReference: {fileID: 11400000, guid: 91ff754311382dd41a15cf5dc8e48362, type: 2}
+    - target: {fileID: 5894332378585230231, guid: 8f0f164b1c9c4684c84d60526c76f78d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5894332378587418684, guid: 8f0f164b1c9c4684c84d60526c76f78d, type: 3}
       propertyPath: m_textAlignment
       value: 65535
@@ -6644,6 +6656,10 @@ PrefabInstance:
     - target: {fileID: 8369717794052824732, guid: 8f0f164b1c9c4684c84d60526c76f78d, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -65.93
+      objectReference: {fileID: 0}
+    - target: {fileID: 8383011466847927272, guid: 8f0f164b1c9c4684c84d60526c76f78d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8426405856270338242, guid: 8f0f164b1c9c4684c84d60526c76f78d, type: 3}
       propertyPath: m_fontSize
