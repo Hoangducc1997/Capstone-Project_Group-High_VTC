@@ -16,7 +16,7 @@ MonoBehaviour:
   entryName: Enemy2 Map2 Monderaker
   entryFileName: Enemy2 Map2 Monderaker_NPC
   entryDisplayName: Monderaker
-  entryIcon: {fileID: 21300000, guid: bad67741226f29c4dbbdb9f88c440a7e, type: 3}
+  entryIcon: {fileID: 21300000, guid: 2636fbfb964e3af4fb09da6842c48816, type: 3}
   entryDescription: 
   _name: 
   _fileName: 
@@ -25,7 +25,7 @@ MonoBehaviour:
   npcType: 0
   AILogicTemplate: {fileID: 262611205548413635, guid: 42a8b97728201df44ba95376d46032e3, type: 3}
   Phases:
-  - PhaseTemplate: {fileID: 11400000, guid: aa6c830d684b9774dbaa08c083c6c13a, type: 2}
+  - PhaseTemplate: {fileID: 11400000, guid: 8f3556c5ff5b1474d8c5518658d9f2ce, type: 2}
     Preset: {fileID: 11400000, guid: 02556a14608688a47a1cde7068ce8e7e, type: 2}
   ResetPhaseAfterCombat: 1
   InstantlyHealAfterCombat: 1

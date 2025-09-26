@@ -22,108 +22,48 @@ MonoBehaviour:
   _fileName: 
   displayName: 
   onSaleItems:
-  - itemID: 37
+  - itemID: 88
     currencyID: 1
-    cost: 1
-  - itemID: 38
+    cost: 10
+  - itemID: 89
     currencyID: 1
-    cost: 2
-  - itemID: 39
+    cost: 20
+  - itemID: 90
     currencyID: 1
-    cost: 3
-  - itemID: 41
+    cost: 30
+  - itemID: 91
     currencyID: 1
-    cost: 4
-  - itemID: 42
+    cost: 40
+  - itemID: 92
     currencyID: 1
-    cost: 5
-  - itemID: 43
-    currencyID: 1
-    cost: 6
-  - itemID: 44
-    currencyID: 1
-    cost: 7
-  - itemID: 45
-    currencyID: 1
-    cost: 8
-  - itemID: 46
-    currencyID: 1
-    cost: 9
-  - itemID: 47
-    currencyID: 1
-    cost: 11
-  - itemID: 48
-    currencyID: 1
-    cost: 12
-  - itemID: 49
-    currencyID: 1
-    cost: 13
-  - itemID: 50
-    currencyID: 1
-    cost: 14
-  - itemID: 51
-    currencyID: 1
-    cost: 15
-  - itemID: 52
-    currencyID: 1
-    cost: 16
-  - itemID: 53
-    currencyID: 1
-    cost: 17
-  - itemID: 54
-    currencyID: 1
-    cost: 18
+    cost: 50
   - itemID: 76
     currencyID: 1
     cost: 10
-  - itemID: 59
+  - itemID: 84
     currencyID: 1
     cost: 20
-  - itemID: 34
+  - itemID: 85
     currencyID: 1
     cost: 30
-  - itemID: 66
+  - itemID: 86
     currencyID: 1
     cost: 40
-  - itemID: 65
+  - itemID: 87
     currencyID: 1
     cost: 50
-  - itemID: 64
-    currencyID: 1
-    cost: 60
-  - itemID: 63
-    currencyID: 1
-    cost: 70
-  - itemID: 62
-    currencyID: 1
-    cost: 80
-  - itemID: 61
-    currencyID: 1
-    cost: 90
-  - itemID: 58
-    currencyID: 1
-    cost: 100
   - itemID: 67
     currencyID: 2
     cost: 1
-  - itemID: 68
-    currencyID: 2
-    cost: 2
   - itemID: 69
     currencyID: 2
     cost: 3
-  - itemID: 33
-    currencyID: 2
-    cost: 4
-  - itemID: 70
-    currencyID: 2
-    cost: 5
-  - itemID: 31
+  - itemID: 88
     currencyID: 2
     cost: 1
-  - itemID: 71
+  - itemID: 89
     currencyID: 2
     cost: 2
-  - itemID: 72
+  - itemID: 83
     currencyID: 2
-    cost: 3
+    cost: 10

@@ -42,7 +42,7 @@ MonoBehaviour:
     secondaryDamageType: 
     customDamageType: {fileID: 11400000, guid: fb09aee37ff90b64b8035153f509a59e, type: 2}
     customHealingType: {fileID: 0}
-    Damage: 30
+    Damage: 50
     alteredStatID: 0
     FlatCalculation: 0
     CannotCrit: 0

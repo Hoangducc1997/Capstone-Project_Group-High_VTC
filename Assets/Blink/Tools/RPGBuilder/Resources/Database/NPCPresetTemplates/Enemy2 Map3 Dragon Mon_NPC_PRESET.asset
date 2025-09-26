@@ -19,8 +19,8 @@ MonoBehaviour:
   entryIcon: {fileID: 21300000, guid: 20b171c6ea652ac43b6f185fef3de5fd, type: 3}
   entryDescription: 
   Prefab: {fileID: 1134332420552193122, guid: 74e4f6a9a4f34e719a2cff02ca666eda, type: 3}
-  Position: {x: 0, y: 0, z: 0}
-  Scale: {x: 2, y: 2, z: 2}
+  Position: {x: 0, y: 1, z: 0}
+  Scale: {x: 1.6, y: 1.6, z: 1.6}
   NameplateYOffset: 3.9
   NameplateDistance: 45
   RendererName: Body

@@ -42,9 +42,9 @@ MonoBehaviour:
   WeaponTransforms: []
   UseWeaponTransformTemplate: 1
   WeaponTransformTemplate: {fileID: 11400000, guid: 3f6c7dc7e7f066843a91db65ddf55f23, type: 2}
-  AttackSpeed: 52
-  minDamage: 124
-  maxDamage: 124
+  AttackSpeed: 68
+  minDamage: 129
+  maxDamage: 139
   autoAttackAbilityID: -1
   stats: []
   randomStats: []

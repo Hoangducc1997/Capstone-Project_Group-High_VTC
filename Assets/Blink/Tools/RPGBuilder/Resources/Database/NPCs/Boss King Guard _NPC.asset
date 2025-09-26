@@ -57,7 +57,7 @@ MonoBehaviour:
     overrideMinValue: 0
     minValue: 0
     overrideMaxValue: 1
-    maxValue: 10000
+    maxValue: 7900
     overrideStartPercentage: 0
     startPercentage: 100
     addedValue: 0
@@ -72,10 +72,6 @@ MonoBehaviour:
   UseStatListTemplate: 0
   StatListTemplate: {fileID: 0}
   lootTables:
-  - lootTableID: 4
-    dropRate: 100
-  - lootTableID: 5
-    dropRate: 100
   - lootTableID: 6
     dropRate: 100
   - lootTableID: 7
@@ -117,7 +113,7 @@ MonoBehaviour:
   - type: 0
     npcID: 17
     npcFamily: {fileID: 0}
-    maxDistance: 5
+    maxDistance: 3
   SetLayer: 0
   SetTag: 0
   GameObjectLayer: 0

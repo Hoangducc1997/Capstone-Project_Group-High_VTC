@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2eaea086ce51ea9419be768c6237eedb, type: 3}
-  m_Name: Enemy2 Map2 Medis_NPC
+  m_Name: Boss Medis_NPC
   m_EditorClassIdentifier: 
   ID: 36
-  entryName: Enemy2 Map2 Medis
-  entryFileName: Enemy2 Map2 Medis_NPC
+  entryName: Boss Medis
+  entryFileName: Boss Medis_NPC
   entryDisplayName: Medis
   entryIcon: {fileID: 21300000, guid: bad67741226f29c4dbbdb9f88c440a7e, type: 3}
   entryDescription: 
@@ -25,7 +25,7 @@ MonoBehaviour:
   npcType: 0
   AILogicTemplate: {fileID: 262611205548413635, guid: 42a8b97728201df44ba95376d46032e3, type: 3}
   Phases:
-  - PhaseTemplate: {fileID: 11400000, guid: aa6c830d684b9774dbaa08c083c6c13a, type: 2}
+  - PhaseTemplate: {fileID: 11400000, guid: 5bf6ff94979f14a4a98682d58eccf1c6, type: 2}
     Preset: {fileID: 11400000, guid: ca98a18861782b3469a86df851398401, type: 2}
   ResetPhaseAfterCombat: 1
   InstantlyHealAfterCombat: 1
@@ -69,7 +69,7 @@ MonoBehaviour:
   StatListTemplate: {fileID: 0}
   lootTables:
   - lootTableID: 4
-    dropRate: 80.57
+    dropRate: 55.57
   - lootTableID: 5
     dropRate: 70.689995
   - lootTableID: 6

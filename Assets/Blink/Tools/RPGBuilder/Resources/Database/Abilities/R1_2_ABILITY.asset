@@ -161,15 +161,7 @@ MonoBehaviour:
     casterEffectsApplied: []
     Actions: []
     VisualEffectEntries: []
-    AnimationEntries:
-    - Template: {fileID: 11400000, guid: cf548e2e66f29eb4a821b2d60f7c6f79, type: 2}
-      ActivationType: 0
-      Delay: 0
-      ShowWeapons: 1
-      ShowWeaponsDuration: 999
-      ModifySpeed: 0
-      SpeedParameterName: AttackAnimationsSpeed
-      ModifierSpeed: 1.25
+    AnimationEntries: []
     SoundEntries: []
     visualEffects: []
     visualAnimations: []

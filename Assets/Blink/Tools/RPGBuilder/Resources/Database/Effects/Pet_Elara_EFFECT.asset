@@ -138,13 +138,13 @@ MonoBehaviour:
     showStealthActionBar: 1
     nestedEffects: []
     VisualEffectEntries:
-    - Template: {fileID: 11400000, guid: 97b6526b6bf52ff4699ee81c8cb100c3, type: 2}
+    - Template: {fileID: 11400000, guid: 3b13e38ce40d8de4585b96e17baba9cd, type: 2}
       ActivationType: 0
       UseNodeSocket: 0
       NodeSocket: {fileID: 0}
       ParentedToCaster: 0
       PositionOffset: {x: -2, y: 0, z: 0}
-      Scale: {x: 5, y: 5, z: 5}
+      Scale: {x: 1, y: 1, z: 1}
       Endless: 0
       Duration: 5
       Delay: 0
